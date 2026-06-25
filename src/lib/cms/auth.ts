@@ -15,12 +15,10 @@ export async function verifySessionToken(token: string | undefined): Promise<boo
 }
 
 export function verifyPassword(password: string): boolean {
-  const expected = process.env.CMS_PASSWORD || "bojleri2026";
-  try {
-    return crypto.timingSafeEqual(Buffer.from(password), Buffer.from(expected));
-  } catch {
-    return false;
-  }
+  const expected = (process.env.CMS_PASSWORD || "bojleri2026").trim();
+  const input = password.trim();
+  if (input.length !== expected.length) return false;
+  return crypto.timingSafeEqual(Buffer.from(input), Buffer.from(expected));
 }
 
 export async function isAuthenticated(): Promise<boolean> {

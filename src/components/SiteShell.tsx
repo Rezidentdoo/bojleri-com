@@ -6,7 +6,7 @@ export default async function SiteShell({ children }: { children: React.ReactNod
   const headersList = await headers();
   const pathname = headersList.get("x-pathname") ?? "";
 
-  if (pathname.startsWith("/admin")) {
+  if (pathname.startsWith("/admin") || pathname === "/login") {
     return <>{children}</>;
   }
 

@@ -10,7 +10,7 @@ function withPathname(response: NextResponse, pathname: string) {
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  if (pathname === "/admin/login" || pathname === "/api/admin/login") {
+  if (pathname === "/login" || pathname === "/admin/login" || pathname === "/api/admin/login") {
     return withPathname(NextResponse.next(), pathname);
   }
 
@@ -21,7 +21,7 @@ export async function middleware(request: NextRequest) {
       if (pathname.startsWith("/api/admin")) {
         return NextResponse.json({ error: "Neautorizovan pristup" }, { status: 401 });
       }
-      const loginUrl = new URL("/admin/login", request.url);
+      const loginUrl = new URL("/login", request.url);
       loginUrl.searchParams.set("next", pathname);
       return withPathname(NextResponse.redirect(loginUrl), pathname);
     }
