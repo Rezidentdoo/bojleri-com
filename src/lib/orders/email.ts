@@ -91,6 +91,39 @@ async function sendResendEmail(to: string | string[], subject: string, html: str
   return true;
 }
 
+async function sendWeb3FormsNotification(order: Order): Promise<boolean> {
+  const key = process.env.WEB3FORMS_ACCESS_KEY;
+  if (!key) return false;
+
+  const items = order.items.map((i) => `${i.name} × ${i.quantity} — ${i.price_formatted}`).join("\n");
+  const res = await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      access_key: key,
+      subject: `Nova porudžbina ${order.id} — bojleri.com`,
+      from_name: order.customer.name,
+      email: order.customer.email,
+      phone: order.customer.phone,
+      message: [
+        `Porudžbina: ${order.id}`,
+        `Kupac: ${order.customer.name}`,
+        `Telefon: ${order.customer.phone}`,
+        `Email: ${order.customer.email}`,
+        `Adresa: ${order.customer.address}, ${order.customer.city}`,
+        `Plaćanje: ${PAYMENT_LABELS[order.payment] || order.payment}`,
+        `Ukupno: ${order.total_formatted}`,
+        "",
+        "Artikli:",
+        items,
+        order.customer.note ? `\nNapomena: ${order.customer.note}` : "",
+      ].join("\n"),
+    }),
+  });
+
+  return res.ok;
+}
+
 export async function sendOrderEmails(order: Order): Promise<{ customer: boolean; shop: boolean }> {
   const notifyEmail = process.env.ORDER_NOTIFY_EMAIL || "prodaja@bojleri.com";
 
@@ -107,5 +140,8 @@ export async function sendOrderEmails(order: Order): Promise<{ customer: boolean
     ),
   ]);
 
-  return { customer, shop };
+  if (customer || shop) return { customer, shop };
+
+  const web3 = await sendWeb3FormsNotification(order);
+  return { customer: false, shop: web3 };
 }
