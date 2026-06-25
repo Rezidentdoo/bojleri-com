@@ -39,13 +39,11 @@ export default async function ProductPage({
   const product = await getProductById(id);
   if (!product) notFound();
 
-  const galleryImages = product.images?.length >= 5
-    ? product.images.slice(0, 5)
-    : product.images?.length
-      ? product.images
-      : product.image_url
-        ? [product.image_url]
-        : [];
+  const galleryImages = product.images?.length
+    ? product.images.slice(0, 3)
+    : product.image_url
+      ? [product.image_url]
+      : [];
 
   const jsonLd = {
     "@context": "https://schema.org",

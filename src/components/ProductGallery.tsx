@@ -10,7 +10,7 @@ export default function ProductGallery({
   images: string[];
   name: string;
 }) {
-  const gallery = images.length ? images.slice(0, 5) : [];
+  const gallery = images.length ? images.slice(0, 3) : [];
   const [active, setActive] = useState(0);
 
   if (!gallery.length) {
@@ -37,7 +37,7 @@ export default function ProductGallery({
         </span>
       </div>
 
-      <div className="grid grid-cols-5 gap-2">
+      <div className="grid grid-cols-3 gap-2">
         {gallery.map((img, i) => (
           <button
             key={`${img}-${i}`}

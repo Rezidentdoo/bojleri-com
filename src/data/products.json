@@ -1,29 +1,5 @@
 [
   {
-    "id": "elektrolux-gld-100l-eec",
-    "name": "ELEKTROLUX GLD 100L EEC",
-    "brand": "Electrolux",
-    "category": "Bojleri",
-    "price": 0,
-    "price_formatted": "Pozovite za cenu",
-    "availability": "Na lageru",
-    "url": "https://www.aqualand.rs/product/elektrolux-gld-100l-eec/6970/",
-    "description": "- Dimenzija - 35 &times; 55,5 &times; 107,5 cm- X-Heat &ndash; sistem &ldquo;suvih&rdquo; grejnih elemenata- Sistem profesionalnog antibakterijskog preči&scaron;ćavanja vode Bacteria Stop System- Režim rada &ldquo;protiv smrzavanja&rdquo;- Super ravno kući&scaron;te od 25 cm s mogućno&scaron;ću postavljanja vertikalno ili horizontalno- Moderni grejači vode GLD imaju jedinstven ravni oblik, elektronsko upravljanje i LED displej- Uređaji serije lako se postavljaju u skučeni prostor, prikladni su za rad, pouzdano su&nbsp;&nbsp; &nbsp;za&scaron;tićeni vi&scaron;estepenim sigurnosnim sistemom- GLD može raditi u eko-režimu rada: voda će se zagrejati na temperaturu od 50-55 stepeni,&nbsp;&nbsp; &nbsp;pri ovoj temperaturi počinje toplotna obrada vode i nema stvaranja kamenca- Zahvaljujući režimu rada &ldquo;protiv smrzavanja&rdquo;, on se može za&scaron;tititi od hladnoće: inteligentni&nbsp; &nbsp; sistem upravljanja grejačem vode trenutno će povećati temperaturu vode u rezervoaru ako&nbsp;&nbsp; &nbsp; &nbsp;padne na kritičnu vrednost od +4 &deg;C- Težina - 32,4kg",
-    "sku": "8371",
-    "capacity_liters": 100,
-    "specifications": {},
-    "images": [
-      "https://www.aqualand.rs/images/11039/1300/elektrolux-gld-100l-eec-0.jpg",
-      "https://www.aqualand.rs/images/11040/1300/elektrolux-gld-100l-eec-1.jpg",
-      "https://www.aqualand.rs/images/11041/1300/elektrolux-gld-100l-eec-2.jpg",
-      "https://www.aqualand.rs/images/11042/1300/elektrolux-gld-100l-eec-3.jpg",
-      "https://www.aqualand.rs/images/11043/1300/elektrolux-gld-100l-eec-4.jpg"
-    ],
-    "image_url": "https://www.aqualand.rs/images/11039/1300/elektrolux-gld-100l-eec-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:37:27.446Z"
-  },
-  {
     "id": "elit-prohrom-talas-m-50l-kombinovani",
     "name": "ELIT PROHROM TALAS M 50L KOMBINOVANI",
     "brand": "Ostalo",
@@ -37,15 +13,11 @@
     "capacity_liters": 50,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/2763/1300/elit-prohrom-talas-m-50l-kombinovani-0.jpg",
-      "https://www.aqualand.rs/images/2763/1300/elit-prohrom-talas-m-50l-kombinovani-0.jpg",
-      "https://www.aqualand.rs/images/2763/1300/elit-prohrom-talas-m-50l-kombinovani-0.jpg",
-      "https://www.aqualand.rs/images/2763/1300/elit-prohrom-talas-m-50l-kombinovani-0.jpg",
       "https://www.aqualand.rs/images/2763/1300/elit-prohrom-talas-m-50l-kombinovani-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2763/1300/elit-prohrom-talas-m-50l-kombinovani-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:37:46.626Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:01.468Z"
   },
   {
     "id": "elit-prohrom-talas-m-60l-kombinovani",
@@ -62,14 +34,11 @@
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/9113/1300/elit-prohrom-talas-m-60l-kombinovani-0.jpg",
-      "https://www.aqualand.rs/images/9114/1300/elit-prohrom-talas-m-60l-kombinovani-1.jpg",
-      "https://www.aqualand.rs/images/9113/1300/elit-prohrom-talas-m-60l-kombinovani-0.jpg",
-      "https://www.aqualand.rs/images/9114/1300/elit-prohrom-talas-m-60l-kombinovani-1.jpg",
-      "https://www.aqualand.rs/images/9113/1300/elit-prohrom-talas-m-60l-kombinovani-0.jpg"
+      "https://www.aqualand.rs/images/9114/1300/elit-prohrom-talas-m-60l-kombinovani-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/9113/1300/elit-prohrom-talas-m-60l-kombinovani-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:37:47.636Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:05.784Z"
   },
   {
     "id": "elit-prohrom-talas-x-100l-kombinovani",
@@ -80,20 +49,17 @@
     "price_formatted": "41.100 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/elit-prohrom-talas-x-100l-komb/2408/",
-    "description": "- Zapremina - 100L- Visina - 1050mm- &Scaron;irina - 450mm-&nbsp;",
+    "description": "- Zapremina - 100L- Visina - 1050mm- Širina - 450mm-",
     "sku": "6192",
     "capacity_liters": 100,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/9118/1300/elit-prohrom-talas-x-100l-kombinovani-0.jpg",
-      "https://www.aqualand.rs/images/9119/1300/elit-prohrom-talas-x-100l-kombinovani-1.jpg",
-      "https://www.aqualand.rs/images/9118/1300/elit-prohrom-talas-x-100l-kombinovani-0.jpg",
-      "https://www.aqualand.rs/images/9119/1300/elit-prohrom-talas-x-100l-kombinovani-1.jpg",
-      "https://www.aqualand.rs/images/9118/1300/elit-prohrom-talas-x-100l-kombinovani-0.jpg"
+      "https://www.aqualand.rs/images/9119/1300/elit-prohrom-talas-x-100l-kombinovani-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/9118/1300/elit-prohrom-talas-x-100l-kombinovani-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:37:48.633Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:20.561Z"
   },
   {
     "id": "elit-prohrom-talas-x-80l-kombi",
@@ -109,15 +75,11 @@
     "capacity_liters": 80,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/2745/1300/elit-prohrom-talas-x-80l-kombi-0.jpg",
-      "https://www.aqualand.rs/images/2745/1300/elit-prohrom-talas-x-80l-kombi-0.jpg",
-      "https://www.aqualand.rs/images/2745/1300/elit-prohrom-talas-x-80l-kombi-0.jpg",
-      "https://www.aqualand.rs/images/2745/1300/elit-prohrom-talas-x-80l-kombi-0.jpg",
       "https://www.aqualand.rs/images/2745/1300/elit-prohrom-talas-x-80l-kombi-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2745/1300/elit-prohrom-talas-x-80l-kombi-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:37:49.663Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:25.282Z"
   },
   {
     "id": "elit-prohrom-talas-xx-100l-kom",
@@ -133,15 +95,11 @@
     "capacity_liters": 100,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/2741/1300/elit-prohrom-talas-xx-100l-kom-0.jpg",
-      "https://www.aqualand.rs/images/2741/1300/elit-prohrom-talas-xx-100l-kom-0.jpg",
-      "https://www.aqualand.rs/images/2741/1300/elit-prohrom-talas-xx-100l-kom-0.jpg",
-      "https://www.aqualand.rs/images/2741/1300/elit-prohrom-talas-xx-100l-kom-0.jpg",
       "https://www.aqualand.rs/images/2741/1300/elit-prohrom-talas-xx-100l-kom-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2741/1300/elit-prohrom-talas-xx-100l-kom-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:37:50.732Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:29.652Z"
   },
   {
     "id": "elit-prohrom-talas-xx-120l-kom",
@@ -157,15 +115,11 @@
     "capacity_liters": 120,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/2738/1300/elit-prohrom-talas-xx-120l-kom-0.jpg",
-      "https://www.aqualand.rs/images/2738/1300/elit-prohrom-talas-xx-120l-kom-0.jpg",
-      "https://www.aqualand.rs/images/2738/1300/elit-prohrom-talas-xx-120l-kom-0.jpg",
-      "https://www.aqualand.rs/images/2738/1300/elit-prohrom-talas-xx-120l-kom-0.jpg",
       "https://www.aqualand.rs/images/2738/1300/elit-prohrom-talas-xx-120l-kom-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2738/1300/elit-prohrom-talas-xx-120l-kom-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:37:51.723Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:33.937Z"
   },
   {
     "id": "elit-prohrom-talas-xx-150l-kom",
@@ -181,39 +135,11 @@
     "capacity_liters": 150,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/2736/1300/elit-prohrom-talas-xx-150l-kom-0.jpg",
-      "https://www.aqualand.rs/images/2736/1300/elit-prohrom-talas-xx-150l-kom-0.jpg",
-      "https://www.aqualand.rs/images/2736/1300/elit-prohrom-talas-xx-150l-kom-0.jpg",
-      "https://www.aqualand.rs/images/2736/1300/elit-prohrom-talas-xx-150l-kom-0.jpg",
       "https://www.aqualand.rs/images/2736/1300/elit-prohrom-talas-xx-150l-kom-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2736/1300/elit-prohrom-talas-xx-150l-kom-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:37:52.749Z"
-  },
-  {
-    "id": "grejac-ta-833w-230v-mk",
-    "name": "GREJAČ TA-833W/230V MK",
-    "brand": "Test Brend",
-    "category": "Bojleri za centralno grejanje",
-    "price": 955,
-    "price_formatted": "955 RSD",
-    "availability": "Na lageru",
-    "url": "https://www.aqualand.rs/product/grejac-ta-833w-230v-mk/6864/",
-    "description": "- Grejač za termoakumulacione peći &nbsp;- Magnohrom- Snaga: 833 W- Napon: 230 V- Dimenzije: 477 x 53 mm- Materijal: Nerđajući čelik, AiSi 309- Prečnik cevi: 8.1 mm- Natični kontakt: Niklovani/male-ravne buksne&nbsp;",
-    "sku": "8326",
-    "capacity_liters": null,
-    "specifications": {},
-    "images": [
-      "https://www.aqualand.rs/images/10729/1300/greja-ta-833w-230v-mk-0.jpg",
-      "https://www.aqualand.rs/images/10729/1300/greja-ta-833w-230v-mk-0.jpg",
-      "https://www.aqualand.rs/images/10729/1300/greja-ta-833w-230v-mk-0.jpg",
-      "https://www.aqualand.rs/images/10729/1300/greja-ta-833w-230v-mk-0.jpg",
-      "https://www.aqualand.rs/images/10729/1300/greja-ta-833w-230v-mk-0.jpg"
-    ],
-    "image_url": "https://www.aqualand.rs/images/10729/1300/greja-ta-833w-230v-mk-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:37:53.770Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:37.189Z"
   },
   {
     "id": "termorad-prohrom-kombinovani-120l-ib-l",
@@ -224,20 +150,16 @@
     "price_formatted": "42.389 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/termorad-proh-komb-120l-ib-l/3859/",
-    "description": "- Zapremina 120L - Visina&nbsp; 110,8cm - Prečnik bojlera 45cm - Prohromski bojler - Montaža - Vertikalna / Levi - Garancija na električne delove 25 meseci - Garancija na prohromski kazan 10 godina",
+    "description": "- Zapremina 120L - Visina 110,8cm - Prečnik bojlera 45cm - Prohromski bojler - Montaža - Vertikalna / Levi - Garancija na električne delove 25 meseci - Garancija na prohromski kazan 10 godina",
     "sku": "4902",
     "capacity_liters": 120,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/1062/1300/termorad-prohrom-kombinovani-120l-ib-l-0.jpg",
-      "https://www.aqualand.rs/images/1062/1300/termorad-prohrom-kombinovani-120l-ib-l-0.jpg",
-      "https://www.aqualand.rs/images/1062/1300/termorad-prohrom-kombinovani-120l-ib-l-0.jpg",
-      "https://www.aqualand.rs/images/1062/1300/termorad-prohrom-kombinovani-120l-ib-l-0.jpg",
       "https://www.aqualand.rs/images/1062/1300/termorad-prohrom-kombinovani-120l-ib-l-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1062/1300/termorad-prohrom-kombinovani-120l-ib-l-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:37:59.010Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:29.002Z"
   },
   {
     "id": "termorad-prohrom-s-160-ib-80",
@@ -253,15 +175,11 @@
     "capacity_liters": 160,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/2502/1300/termorad-prohrom-s-160-ib-80-0.jpg",
-      "https://www.aqualand.rs/images/2502/1300/termorad-prohrom-s-160-ib-80-0.jpg",
-      "https://www.aqualand.rs/images/2502/1300/termorad-prohrom-s-160-ib-80-0.jpg",
-      "https://www.aqualand.rs/images/2502/1300/termorad-prohrom-s-160-ib-80-0.jpg",
       "https://www.aqualand.rs/images/2502/1300/termorad-prohrom-s-160-ib-80-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2502/1300/termorad-prohrom-s-160-ib-80-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:00.062Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:54.529Z"
   },
   {
     "id": "termorad-prohrom-s-200l-ib-80",
@@ -277,15 +195,11 @@
     "capacity_liters": 200,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/1083/1300/termorad-prohrom-s-200l-ib-80-0.jpg",
-      "https://www.aqualand.rs/images/1083/1300/termorad-prohrom-s-200l-ib-80-0.jpg",
-      "https://www.aqualand.rs/images/1083/1300/termorad-prohrom-s-200l-ib-80-0.jpg",
-      "https://www.aqualand.rs/images/1083/1300/termorad-prohrom-s-200l-ib-80-0.jpg",
       "https://www.aqualand.rs/images/1083/1300/termorad-prohrom-s-200l-ib-80-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1083/1300/termorad-prohrom-s-200l-ib-80-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:01.063Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:57.450Z"
   },
   {
     "id": "termorad-prohrom-s-280l",
@@ -301,15 +215,11 @@
     "capacity_liters": 280,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/1084/1300/termorad-prohrom-s-280l-0.jpg",
-      "https://www.aqualand.rs/images/1084/1300/termorad-prohrom-s-280l-0.jpg",
-      "https://www.aqualand.rs/images/1084/1300/termorad-prohrom-s-280l-0.jpg",
-      "https://www.aqualand.rs/images/1084/1300/termorad-prohrom-s-280l-0.jpg",
       "https://www.aqualand.rs/images/1084/1300/termorad-prohrom-s-280l-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1084/1300/termorad-prohrom-s-280l-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:02.101Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:35:01.891Z"
   },
   {
     "id": "termorad-prohromski-kombinovani-120l-ib-d",
@@ -320,20 +230,16 @@
     "price_formatted": "42.389 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/termorad-proh-komb-120l-ib-d/3858/",
-    "description": "- Zapremina 120L - Visina&nbsp; 110,8cm - Prečnik bojlera 45cm - Prohromski bojler - Montaža - Vertikalna / Desni - Garancija na električne delove 25 meseci - Garancija na prohromski kazan 10 godina",
+    "description": "- Zapremina 120L - Visina 110,8cm - Prečnik bojlera 45cm - Prohromski bojler - Montaža - Vertikalna / Desni - Garancija na električne delove 25 meseci - Garancija na prohromski kazan 10 godina",
     "sku": "4903",
     "capacity_liters": 120,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/1061/1300/termorad-prohromski-kombinovani-120l-ib-d-0.jpg",
-      "https://www.aqualand.rs/images/1061/1300/termorad-prohromski-kombinovani-120l-ib-d-0.jpg",
-      "https://www.aqualand.rs/images/1061/1300/termorad-prohromski-kombinovani-120l-ib-d-0.jpg",
-      "https://www.aqualand.rs/images/1061/1300/termorad-prohromski-kombinovani-120l-ib-d-0.jpg",
       "https://www.aqualand.rs/images/1061/1300/termorad-prohromski-kombinovani-120l-ib-d-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1061/1300/termorad-prohromski-kombinovani-120l-ib-d-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:03.161Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:27.385Z"
   },
   {
     "id": "termorad-prohromski-kombinovani-50l-ib-d",
@@ -349,15 +255,11 @@
     "capacity_liters": 50,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/1063/1300/termorad-prohromski-kombinovani-50l-ib-d-0.jpg",
-      "https://www.aqualand.rs/images/1063/1300/termorad-prohromski-kombinovani-50l-ib-d-0.jpg",
-      "https://www.aqualand.rs/images/1063/1300/termorad-prohromski-kombinovani-50l-ib-d-0.jpg",
-      "https://www.aqualand.rs/images/1063/1300/termorad-prohromski-kombinovani-50l-ib-d-0.jpg",
       "https://www.aqualand.rs/images/1063/1300/termorad-prohromski-kombinovani-50l-ib-d-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1063/1300/termorad-prohromski-kombinovani-50l-ib-d-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:04.244Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:30.457Z"
   },
   {
     "id": "termorad-prohromski-kombinovani-50l-ib-l",
@@ -368,20 +270,16 @@
     "price_formatted": "26.845 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/termorad-proh-komb-50l-ib-l/3861/",
-    "description": "- Zapremina&nbsp; - Visina 62cm - Prečnik 42cm - Prohromski kazan - Montaža - Vertikalna / Levi - Garancija na električne delove 25 meseci - Garancija na prohromski kazan 10 godina",
+    "description": "- Zapremina - Visina 62cm - Prečnik 42cm - Prohromski kazan - Montaža - Vertikalna / Levi - Garancija na električne delove 25 meseci - Garancija na prohromski kazan 10 godina",
     "sku": "4808",
     "capacity_liters": 50,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/1064/1300/termorad-prohromski-kombinovani-50l-ib-l-0.jpg",
-      "https://www.aqualand.rs/images/1064/1300/termorad-prohromski-kombinovani-50l-ib-l-0.jpg",
-      "https://www.aqualand.rs/images/1064/1300/termorad-prohromski-kombinovani-50l-ib-l-0.jpg",
-      "https://www.aqualand.rs/images/1064/1300/termorad-prohromski-kombinovani-50l-ib-l-0.jpg",
       "https://www.aqualand.rs/images/1064/1300/termorad-prohromski-kombinovani-50l-ib-l-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1064/1300/termorad-prohromski-kombinovani-50l-ib-l-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:05.300Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:31.948Z"
   },
   {
     "id": "termorad-prohromski-kombinovani-80l-ib-d",
@@ -392,20 +290,16 @@
     "price_formatted": "29.117 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/termorad-proh-komb-80l-ib-d/3862/",
-    "description": "- Zapremina 80L - Visina 90cm&nbsp; - Prečnik bojlera 42cm - Prohromski kazan - Snaga elektrogrejača 200W - Montaža - Vertikalna / Desni - Garancija na električne delove 25 meseci - Garancija na prohromski kazan 10 godina&nbsp; &nbsp; &nbsp;",
+    "description": "- Zapremina 80L - Visina 90cm - Prečnik bojlera 42cm - Prohromski kazan - Snaga elektrogrejača 200W - Montaža - Vertikalna / Desni - Garancija na električne delove 25 meseci - Garancija na prohromski kazan 10 godina",
     "sku": "4901",
     "capacity_liters": 80,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/1065/1300/termorad-prohromski-kombinovani-80l-ib-d-0.jpg",
-      "https://www.aqualand.rs/images/1065/1300/termorad-prohromski-kombinovani-80l-ib-d-0.jpg",
-      "https://www.aqualand.rs/images/1065/1300/termorad-prohromski-kombinovani-80l-ib-d-0.jpg",
-      "https://www.aqualand.rs/images/1065/1300/termorad-prohromski-kombinovani-80l-ib-d-0.jpg",
       "https://www.aqualand.rs/images/1065/1300/termorad-prohromski-kombinovani-80l-ib-d-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1065/1300/termorad-prohromski-kombinovani-80l-ib-d-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:06.349Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:33.442Z"
   },
   {
     "id": "termorad-prohromski-kombinovani-80l-ib-l",
@@ -421,15 +315,11 @@
     "capacity_liters": 80,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/1066/1300/termorad-prohromski-kombinovani-80l-ib-l-0.jpg",
-      "https://www.aqualand.rs/images/1066/1300/termorad-prohromski-kombinovani-80l-ib-l-0.jpg",
-      "https://www.aqualand.rs/images/1066/1300/termorad-prohromski-kombinovani-80l-ib-l-0.jpg",
-      "https://www.aqualand.rs/images/1066/1300/termorad-prohromski-kombinovani-80l-ib-l-0.jpg",
       "https://www.aqualand.rs/images/1066/1300/termorad-prohromski-kombinovani-80l-ib-l-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1066/1300/termorad-prohromski-kombinovani-80l-ib-l-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:07.369Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:34.992Z"
   },
   {
     "id": "ariston-10l-nm-pod-pritiskom",
@@ -440,20 +330,16 @@
     "price_formatted": "10.990 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/ariston-10l-nm-pod-pritiskom/2179/",
-    "description": "TEHNIČKE KARAKTERISTIKE- Mogućnost montaže ispod pulta- Emajliran kazan- Magnezijumska anoda- Precizno pode&scaron;avanje- Veoma osetljiv termostat",
+    "description": "TEHNIČKE KARAKTERISTIKE- Mogućnost montaže ispod pulta- Emajliran kazan- Magnezijumska anoda- Precizno podešavanje- Veoma osetljiv termostat",
     "sku": "1401",
     "capacity_liters": 10,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/1293/1300/ariston-10l-nm-pod-pritiskom-0.jpg",
-      "https://www.aqualand.rs/images/1293/1300/ariston-10l-nm-pod-pritiskom-0.jpg",
-      "https://www.aqualand.rs/images/1293/1300/ariston-10l-nm-pod-pritiskom-0.jpg",
-      "https://www.aqualand.rs/images/1293/1300/ariston-10l-nm-pod-pritiskom-0.jpg",
       "https://www.aqualand.rs/images/1293/1300/ariston-10l-nm-pod-pritiskom-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1293/1300/ariston-10l-nm-pod-pritiskom-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:10.454Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:17.394Z"
   },
   {
     "id": "ariston-10l-vm-pod-pritiskom",
@@ -464,20 +350,16 @@
     "price_formatted": "12.211 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/ariston-10l-vm-pod-pritiskom/2180/",
-    "description": "TEHNIČKE KARAKTERISTIKE&nbsp;- Emajliran kazan- Magnezijumska anoda- Precizno pode&scaron;avanje- Veoma osetljiv termostat- Snaga 1200W- Dimenzije (Dubina&times;&Scaron;irina&times;Visina) 27,6 &times; 36 &times; 36 cm",
+    "description": "TEHNIČKE KARAKTERISTIKE - Emajliran kazan- Magnezijumska anoda- Precizno podešavanje- Veoma osetljiv termostat- Snaga 1200W- Dimenzije (Dubina×Širina×Visina) 27,6 × 36 × 36 cm",
     "sku": "945",
     "capacity_liters": 10,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/1294/1300/ariston-10l-vm-pod-pritiskom-0.jpg",
-      "https://www.aqualand.rs/images/1294/1300/ariston-10l-vm-pod-pritiskom-0.jpg",
-      "https://www.aqualand.rs/images/1294/1300/ariston-10l-vm-pod-pritiskom-0.jpg",
-      "https://www.aqualand.rs/images/1294/1300/ariston-10l-vm-pod-pritiskom-0.jpg",
       "https://www.aqualand.rs/images/1294/1300/ariston-10l-vm-pod-pritiskom-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1294/1300/ariston-10l-vm-pod-pritiskom-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:11.494Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:19.136Z"
   },
   {
     "id": "ariston-30l-andris",
@@ -488,20 +370,16 @@
     "price_formatted": "14.574 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/ariston-30l-andris/2181/",
-    "description": "TEHNIČKE KARAKTERISTIKE- Zidni električni grejač vode- Emajliran kazan- Magnezijumska anoda- Precizno pode&scaron;avanje- Veoma osetljiv thermostat- Vreme yagrevanja - 1:10h/min- Visina - 44,7cm- &Scaron;irina - 44,7cm- Dubina - 41cm- Težina - 12,8kg",
+    "description": "TEHNIČKE KARAKTERISTIKE- Zidni električni grejač vode- Emajliran kazan- Magnezijumska anoda- Precizno podešavanje- Veoma osetljiv thermostat- Vreme yagrevanja - 1:10h/min- Visina - 44,7cm- Širina - 44,7cm- Dubina - 41cm- Težina - 12,8kg",
     "sku": "2399",
     "capacity_liters": 30,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/1295/1300/ariston-30l-andris-0.jpg",
-      "https://www.aqualand.rs/images/1295/1300/ariston-30l-andris-0.jpg",
-      "https://www.aqualand.rs/images/1295/1300/ariston-30l-andris-0.jpg",
-      "https://www.aqualand.rs/images/1295/1300/ariston-30l-andris-0.jpg",
       "https://www.aqualand.rs/images/1295/1300/ariston-30l-andris-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1295/1300/ariston-30l-andris-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:12.550Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:20.549Z"
   },
   {
     "id": "ariston-6l-nm",
@@ -512,44 +390,18 @@
     "price_formatted": "12.429 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/ariston-5l-nm/2187/",
-    "description": "TEHNIČKE KARAKTERISTIKE- Kapacitet: 6 l- Materijal kazana:Emajl- Snaga: 1,5 kW- Napon : 220/240 V- Visina:75cm- &Scaron;irina:40cm- Dubina:40cm- Magnezijumska anoda&nbsp;",
+    "description": "TEHNIČKE KARAKTERISTIKE- Kapacitet: 6 l- Materijal kazana:Emajl- Snaga: 1,5 kW- Napon : 220/240 V- Visina:75cm- Širina:40cm- Dubina:40cm- Magnezijumska anoda",
     "sku": "1639",
     "capacity_liters": 6,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/5209/1300/ariston-6l-nm-0.jpg",
       "https://www.aqualand.rs/images/5210/1300/ariston-6l-nm-1.jpg",
-      "https://www.aqualand.rs/images/5211/1300/ariston-6l-nm-2.jpg",
-      "https://www.aqualand.rs/images/5209/1300/ariston-6l-nm-0.jpg",
-      "https://www.aqualand.rs/images/5210/1300/ariston-6l-nm-1.jpg"
+      "https://www.aqualand.rs/images/5211/1300/ariston-6l-nm-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/5209/1300/ariston-6l-nm-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:13.615Z"
-  },
-  {
-    "id": "drzac-bade-mantila-c1111",
-    "name": "DRŽAČ BADE MANTILA C1111",
-    "brand": "Concept",
-    "category": "Bojleri za kuhinju",
-    "price": 1426,
-    "price_formatted": "1.426 RSD",
-    "availability": "Na lageru",
-    "url": "https://www.aqualand.rs/product/drzac-bade-mantila-c1111/2327/",
-    "description": "",
-    "sku": "4963",
-    "capacity_liters": null,
-    "specifications": {},
-    "images": [
-      "https://www.aqualand.rs/images/2547/1300/dr-a-bade-mantila-c1111-0.jpg",
-      "https://www.aqualand.rs/images/2547/1300/dr-a-bade-mantila-c1111-0.jpg",
-      "https://www.aqualand.rs/images/2547/1300/dr-a-bade-mantila-c1111-0.jpg",
-      "https://www.aqualand.rs/images/2547/1300/dr-a-bade-mantila-c1111-0.jpg",
-      "https://www.aqualand.rs/images/2547/1300/dr-a-bade-mantila-c1111-0.jpg"
-    ],
-    "image_url": "https://www.aqualand.rs/images/2547/1300/dr-a-bade-mantila-c1111-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:18.821Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:28.182Z"
   },
   {
     "id": "elektrolux-q-o-10l-p-vm",
@@ -567,13 +419,11 @@
     "images": [
       "https://www.aqualand.rs/images/11011/1300/elektrolux-q-o-10l-p-vm-0.jpg",
       "https://www.aqualand.rs/images/11012/1300/elektrolux-q-o-10l-p-vm-1.jpg",
-      "https://www.aqualand.rs/images/11013/1300/elektrolux-q-o-10l-p-vm-2.jpg",
-      "https://www.aqualand.rs/images/11014/1300/elektrolux-q-o-10l-p-vm-3.jpg",
-      "https://www.aqualand.rs/images/11011/1300/elektrolux-q-o-10l-p-vm-0.jpg"
+      "https://www.aqualand.rs/images/11013/1300/elektrolux-q-o-10l-p-vm-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/11011/1300/elektrolux-q-o-10l-p-vm-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:20.351Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:40.562Z"
   },
   {
     "id": "elektrolux-q-o-15l-p-vm",
@@ -584,20 +434,18 @@
     "price_formatted": "12.920 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/elektrolux-q-o-15l-p-vm/6977/",
-    "description": "- Visina - 34cm- &Scaron;irina &nbsp;- 36,8cm- Dubina - 34cm- Niskomontažni bojler sa pritiskom- Boja: bela- Zapremina 15 l- Zagrevanje do maksimalne temperature za 19 min- Mehaničko pode&scaron;avanje temperature- Maksimalna temperature vode: 75 &deg;C- Snaga grejanja :1 KW- Maksimalna potro&scaron;nja energije: 2,5 kw- Priključak vode odozgo (U)- Sistem za za&scaron;titu od korozije Protect Tank: fino raspr&scaron;ena emajlirana&nbsp;&nbsp; &nbsp;prevlaka unutra&scaron;njeg rezervoara i grejnog elementa, sigurnosni sistem i&nbsp;&nbsp; &nbsp;magnezijumska anoda povećane težine- Ekonomičan režim rada: povećani resurs grejnog elementa i za&scaron;tita od kamenca- Emajlirani kazan- Cevasti električni grejač (TEN)- Mehanicki regulator temperature- Min. temperatura vode: 30 &deg;C- Klasa otpornosti na pra&scaron;inu i vlagu: IPX4- Sgurnosni ventil za pritisak: da- Težina &nbsp;- 9,6 kg",
+    "description": "- Visina - 34cm- Širina - 36,8cm- Dubina - 34cm- Niskomontažni bojler sa pritiskom- Boja: bela- Zapremina 15 l- Zagrevanje do maksimalne temperature za 19 min- Mehaničko podešavanje temperature- Maksimalna temperature vode: 75 °C- Snaga grejanja :1 KW- Maksimalna potrošnja energije: 2,5 kw- Priključak vode odozgo (U)- Sistem za zaštitu od korozije Protect Tank: fino raspršena emajlirana prevlaka unutrašnjeg rezervoara i grejnog elementa, sigurnosni sistem i magnezijumska anoda povećane težine- Ekonomičan režim rada: povećani resurs grejnog elementa i zaštita od kamenca- Emajlirani kazan- Cevasti električni grejač (TEN)- Mehanicki regulator temperature- Min. temperatura vode: 30 °C- Klasa otpornosti na prašinu i vlagu: IPX4- Sgurnosni ventil za pritisak: da- Težina - 9,6 kg",
     "sku": "8381",
     "capacity_liters": 15,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/11008/1300/elektrolux-q-o-15l-p-vm-0.jpg",
       "https://www.aqualand.rs/images/11009/1300/elektrolux-q-o-15l-p-vm-1.jpg",
-      "https://www.aqualand.rs/images/11010/1300/elektrolux-q-o-15l-p-vm-2.jpg",
-      "https://www.aqualand.rs/images/11008/1300/elektrolux-q-o-15l-p-vm-0.jpg",
-      "https://www.aqualand.rs/images/11009/1300/elektrolux-q-o-15l-p-vm-1.jpg"
+      "https://www.aqualand.rs/images/11010/1300/elektrolux-q-o-15l-p-vm-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/11008/1300/elektrolux-q-o-15l-p-vm-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:21.449Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:41.993Z"
   },
   {
     "id": "elektrolux-q-u-10l-p-nm",
@@ -608,20 +456,18 @@
     "price_formatted": "11.980 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/elektrolux-q-u-10l-p-nm/6978/",
-    "description": "- Dimenzija - 31,5 &times; 32,4 &times; 31,5cm- Kompaktni model 10 litara- Priključak vode odozgo (U)- Indikacija uključivanja- Mehanički termostat- Brzo zagrevanje do maksimalne temperature za 19 minuta- Sistem za za&scaron;titu od korozije Protect Tank: fino raspr&scaron;ena emajlirana prevlaka&nbsp;&nbsp; &nbsp;unutra&scaron;njeg rezervoara i grejnog elementa, sigurnosni sistem i&nbsp;&nbsp; &nbsp;magnezijumska anoda povećane težine- Ekonomičan režim rada: povećani resurs grejnog elementa i za&scaron;tita od kamenca- Maksimalna potro&scaron;nja energije: 2kW- Klasa otpornosti na pra&scaron;inu i vlagu: IPX4- Sigurnosni ventil za pritisak- Za&scaron;tita od pregrevanja- Maks. temperatura vode: 65 &deg;С- Težina - 8,8kg",
+    "description": "- Dimenzija - 31,5 × 32,4 × 31,5cm- Kompaktni model 10 litara- Priključak vode odozgo (U)- Indikacija uključivanja- Mehanički termostat- Brzo zagrevanje do maksimalne temperature za 19 minuta- Sistem za zaštitu od korozije Protect Tank: fino raspršena emajlirana prevlaka unutrašnjeg rezervoara i grejnog elementa, sigurnosni sistem i magnezijumska anoda povećane težine- Ekonomičan režim rada: povećani resurs grejnog elementa i zaštita od kamenca- Maksimalna potrošnja energije: 2kW- Klasa otpornosti na prašinu i vlagu: IPX4- Sigurnosni ventil za pritisak- Zaštita od pregrevanja- Maks. temperatura vode: 65 °С- Težina - 8,8kg",
     "sku": "8380",
     "capacity_liters": 10,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/11001/1300/elektrolux-q-u-10l-p-nm-0.jpg",
       "https://www.aqualand.rs/images/11002/1300/elektrolux-q-u-10l-p-nm-1.jpg",
-      "https://www.aqualand.rs/images/11003/1300/elektrolux-q-u-10l-p-nm-2.jpg",
-      "https://www.aqualand.rs/images/11004/1300/elektrolux-q-u-10l-p-nm-3.jpg",
-      "https://www.aqualand.rs/images/11006/1300/elektrolux-q-u-10l-p-nm-4.jpg"
+      "https://www.aqualand.rs/images/11003/1300/elektrolux-q-u-10l-p-nm-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/11001/1300/elektrolux-q-u-10l-p-nm-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:22.720Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:43.444Z"
   },
   {
     "id": "elektrolux-q-u-15l-p-nm",
@@ -632,20 +478,18 @@
     "price_formatted": "12.920 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/elektrolux-q-u-15l-p-nm/6979/",
-    "description": "- Dimenzije (V/D/&Scaron;) - 34 x 34 x 36,8 cm- Niskomontažni bojler sa pritiskom- Boja - bela- Zapremina 15 l- Zagrevanje do maksimalne temperature za 19 min- Mehaničko pode&scaron;avanje temperature- Maksimalna temperature vode: 75 &deg;C- Snaga grejanja :1 KW- Maksimalna potro&scaron;nja energije: 2,5 kw- Priključak vode odozgo (U)- Sistem za za&scaron;titu od korozije Protect Tank - &nbsp;fino raspr&scaron;ena emajlirana prevlaka&nbsp;unutra&scaron;njeg rezervoara i grejnog elementa, sigurnosni sistem i magnezijumska anoda&nbsp;povećane težine- Ekonomičan režim rada: povećani resurs grejnog elementa i za&scaron;tita od kamenca- Emajlirani kazan- Cevasti električni grejač (TEN)- Mehanicki regulator temperature- Min. temperatura vode: 30 &deg;C- Klasa otpornosti na pra&scaron;inu i vlagu: IPX4- Sgurnosni ventil za pritisak: da- Težina 9,6 kg",
+    "description": "- Dimenzije (V/D/Š) - 34 x 34 x 36,8 cm- Niskomontažni bojler sa pritiskom- Boja - bela- Zapremina 15 l- Zagrevanje do maksimalne temperature za 19 min- Mehaničko podešavanje temperature- Maksimalna temperature vode: 75 °C- Snaga grejanja :1 KW- Maksimalna potrošnja energije: 2,5 kw- Priključak vode odozgo (U)- Sistem za zaštitu od korozije Protect Tank - fino raspršena emajlirana prevlaka unutrašnjeg rezervoara i grejnog elementa, sigurnosni sistem i magnezijumska anoda povećane težine- Ekonomičan režim rada: povećani resurs grejnog elementa i zaštita od kamenca- Emajlirani kazan- Cevasti električni grejač (TEN)- Mehanicki regulator temperature- Min. temperatura vode: 30 °C- Klasa otpornosti na prašinu i vlagu: IPX4- Sgurnosni ventil za pritisak: da- Težina 9,6 kg",
     "sku": "8382",
     "capacity_liters": 15,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/10996/1300/elektrolux-q-u-15l-p-nm-0.jpg",
       "https://www.aqualand.rs/images/10997/1300/elektrolux-q-u-15l-p-nm-1.jpg",
-      "https://www.aqualand.rs/images/10998/1300/elektrolux-q-u-15l-p-nm-2.jpg",
-      "https://www.aqualand.rs/images/10999/1300/elektrolux-q-u-15l-p-nm-3.jpg",
-      "https://www.aqualand.rs/images/11000/1300/elektrolux-q-u-15l-p-nm-4.jpg"
+      "https://www.aqualand.rs/images/10998/1300/elektrolux-q-u-15l-p-nm-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/10996/1300/elektrolux-q-u-15l-p-nm-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:26.569Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:45.037Z"
   },
   {
     "id": "elit-prohrom-talas-10l-p-nm",
@@ -656,20 +500,17 @@
     "price_formatted": "16.000 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/elit-prohrom-talas-10l-p-nm/2385/",
-    "description": "TEHNIČKE KARAKTERISTIKE - Zapremina &ndash; 10L - Nazivni pritisak (MPa) &ndash; 0.6 &nbsp; - Minimalni pritisak (MPa) &ndash; 0.1 - Masa / napunjen vodom (kg) &ndash; 16.3 - Priključak za vodu - 1/2' - Snaga električnog grejča (W) &ndash; 1500 - Napon napajanja (V~) - 230V~50Hz - Struja (A) &ndash; 6.5 - Klasa izolacija &ndash; I - Stepen za&scaron;tite &ndash; IP 24&nbsp;&nbsp; - Vreme zagrevanja od 15&deg;C / 75 &deg;C (min) &ndash; 25 - Kazan &ndash; INOX &nbsp; - Kući&scaron;te bojlera &ndash; ABS &nbsp; - Izolacija stiropor (mm) &ndash; 30mm - Termostat - regulacioni+za&scaron;titni&nbsp; Sigurnosni ventil - DA",
+    "description": "TEHNIČKE KARAKTERISTIKE - Zapremina – 10L - Nazivni pritisak (MPa) – 0.6 - Minimalni pritisak (MPa) – 0.1 - Masa / napunjen vodom (kg) – 16.3 - Priključak za vodu - 1/2' - Snaga električnog grejča (W) – 1500 - Napon napajanja (V~) - 230V~50Hz - Struja (A) – 6.5 - Klasa izolacija – I - Stepen zaštite – IP 24 - Vreme zagrevanja od 15°C / 75 °C (min) – 25 - Kazan – INOX - Kućište bojlera – ABS - Izolacija stiropor (mm) – 30mm - Termostat - regulacioni+zaštitni Sigurnosni ventil - DA",
     "sku": "6176",
     "capacity_liters": 10,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/5212/1300/elit-prohrom-talas-10l-p-nm-0.jpg",
-      "https://www.aqualand.rs/images/5213/1300/elit-prohrom-talas-10l-p-nm-1.jpg",
-      "https://www.aqualand.rs/images/5212/1300/elit-prohrom-talas-10l-p-nm-0.jpg",
-      "https://www.aqualand.rs/images/5213/1300/elit-prohrom-talas-10l-p-nm-1.jpg",
-      "https://www.aqualand.rs/images/5212/1300/elit-prohrom-talas-10l-p-nm-0.jpg"
+      "https://www.aqualand.rs/images/5213/1300/elit-prohrom-talas-10l-p-nm-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/5212/1300/elit-prohrom-talas-10l-p-nm-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:27.652Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:52.667Z"
   },
   {
     "id": "elit-prohrom-talas-10l-p-vm",
@@ -680,20 +521,17 @@
     "price_formatted": "16.000 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/elit-prohrom-talas-10l-p-vm/2386/",
-    "description": "TEHNIČKE KARAKTERISTIKE - Zapremina &ndash; 10L - Nazivni pritisak (MPa) &ndash; 0.6 &nbsp; - Minimalni pritisak (MPa) &ndash; 0.1 - Masa / napunjen vodom (kg) &ndash; 16.3 - Priključak za vodu - 1/2' - Snaga električnog grejča (W) &ndash; 1500 - Napon napajanja (V~) - 230V~50Hz - Struja (A) &ndash; 6.5 - Klasa izolacija &ndash; I - Stepen za&scaron;tite &ndash; IP 24&nbsp;&nbsp; - Vreme zagrevanja od 15&deg;C / 75 &deg;C (min) &ndash; 25 - Kazan &ndash; INOX &nbsp; - Kući&scaron;te bojlera &ndash; ABS &nbsp; - Izolacija stiropor (mm) &ndash; 30mm - Termostat - regulacioni+za&scaron;titni&nbsp; Sigurnosni ventil - DA",
+    "description": "TEHNIČKE KARAKTERISTIKE - Zapremina – 10L - Nazivni pritisak (MPa) – 0.6 - Minimalni pritisak (MPa) – 0.1 - Masa / napunjen vodom (kg) – 16.3 - Priključak za vodu - 1/2' - Snaga električnog grejča (W) – 1500 - Napon napajanja (V~) - 230V~50Hz - Struja (A) – 6.5 - Klasa izolacija – I - Stepen zaštite – IP 24 - Vreme zagrevanja od 15°C / 75 °C (min) – 25 - Kazan – INOX - Kućište bojlera – ABS - Izolacija stiropor (mm) – 30mm - Termostat - regulacioni+zaštitni Sigurnosni ventil - DA",
     "sku": "6175",
     "capacity_liters": 10,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/2647/1300/elit-prohrom-talas-10l-p-vm-0.jpg",
-      "https://www.aqualand.rs/images/2716/1300/elit-prohrom-talas-10l-p-vm-1.jpg",
-      "https://www.aqualand.rs/images/2647/1300/elit-prohrom-talas-10l-p-vm-0.jpg",
-      "https://www.aqualand.rs/images/2716/1300/elit-prohrom-talas-10l-p-vm-1.jpg",
-      "https://www.aqualand.rs/images/2647/1300/elit-prohrom-talas-10l-p-vm-0.jpg"
+      "https://www.aqualand.rs/images/2716/1300/elit-prohrom-talas-10l-p-vm-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2647/1300/elit-prohrom-talas-10l-p-vm-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:28.712Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:54.118Z"
   },
   {
     "id": "elit-prohrom-talas-8l-nm",
@@ -709,15 +547,11 @@
     "capacity_liters": 8,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/2646/1300/elit-prohrom-talas-8l-nm-0.jpg",
-      "https://www.aqualand.rs/images/2646/1300/elit-prohrom-talas-8l-nm-0.jpg",
-      "https://www.aqualand.rs/images/2646/1300/elit-prohrom-talas-8l-nm-0.jpg",
-      "https://www.aqualand.rs/images/2646/1300/elit-prohrom-talas-8l-nm-0.jpg",
       "https://www.aqualand.rs/images/2646/1300/elit-prohrom-talas-8l-nm-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2646/1300/elit-prohrom-talas-8l-nm-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:29.792Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:55.633Z"
   },
   {
     "id": "elit-prohrom-talas-8l-vm",
@@ -733,39 +567,11 @@
     "capacity_liters": 8,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/2645/1300/elit-prohrom-talas-8l-vm-0.jpg",
-      "https://www.aqualand.rs/images/2645/1300/elit-prohrom-talas-8l-vm-0.jpg",
-      "https://www.aqualand.rs/images/2645/1300/elit-prohrom-talas-8l-vm-0.jpg",
-      "https://www.aqualand.rs/images/2645/1300/elit-prohrom-talas-8l-vm-0.jpg",
       "https://www.aqualand.rs/images/2645/1300/elit-prohrom-talas-8l-vm-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2645/1300/elit-prohrom-talas-8l-vm-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:30.856Z"
-  },
-  {
-    "id": "hansgrohe-crometta-termostat-s240-1f",
-    "name": "Hansgrohe CROMETTA TERMOSTAT S240 1F",
-    "brand": "Hansgrohe",
-    "category": "Bojleri za kuhinju",
-    "price": 46775,
-    "price_formatted": "46.775 RSD",
-    "availability": "Na lageru",
-    "url": "https://www.aqualand.rs/product/hg-crometa-termostat-s240-1f/5548/",
-    "description": "Sastoji se od:&nbsp;- Nadglavnog tu&scaron;a- Ručnog tu&scaron;a&nbsp;- Termostata za tu&scaron;iranje- Creva za tu&scaron;iranje- Klizača- &Scaron;ipke za tu&scaron;iranje- Veličina glave tu&scaron;a Nadglavni tu&scaron; - 240 m- Protok Rain sprai na 3 bara: 16 l/min- Ručni tu&scaron; sa sprejom: Rain, IntenseRain- Maksimalni protok za Shoverpipe na 3 bara: 16 l/min- Minimalni pritisak protoka: 1,2 bara- Mak. radni pritisak: 10 bar- Kuglični zglob: podesiv ugao nadzemnog tu&scaron;a- Ugao nagiba držača ručnog tu&scaron;a može se podesiti za 45&deg;- Držač ručnog tu&scaron;a podesiv po visini- Dužina ruke tu&scaron;a nadglavni tu&scaron;: 350 mm- Termostat Ecostat 1001 CL- Sigurnosno zaustavljanje na 40&deg;C- Priključna dimenzija: DN15- Priključni navoj: G &frac12;- Centralno rastojanje: 150 &plusmn; 12 mm- Cev se može skratiti po visini- Prečnik tu&scaron; &scaron;ipke: 22 mm",
-    "sku": "7925",
-    "capacity_liters": 16,
-    "specifications": {},
-    "images": [
-      "https://www.aqualand.rs/images/7824/1300/hansgrohe-crometta-termostat-s240-1f-0.jpg",
-      "https://www.aqualand.rs/images/7825/1300/hansgrohe-crometta-termostat-s240-1f-1.jpg",
-      "https://www.aqualand.rs/images/7824/1300/hansgrohe-crometta-termostat-s240-1f-0.jpg",
-      "https://www.aqualand.rs/images/7825/1300/hansgrohe-crometta-termostat-s240-1f-1.jpg",
-      "https://www.aqualand.rs/images/7824/1300/hansgrohe-crometta-termostat-s240-1f-0.jpg"
-    ],
-    "image_url": "https://www.aqualand.rs/images/7824/1300/hansgrohe-crometta-termostat-s240-1f-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:31.890Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:57.112Z"
   },
   {
     "id": "metalac-mini-bojler-5l-nm-pvc",
@@ -776,20 +582,16 @@
     "price_formatted": "8.145 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/metalac-mini-bojler-5l-nm-pvc/2989/",
-    "description": "- Kapacitet - 5 L &nbsp; &nbsp; - Dimenzije (&Scaron;xVxD): 27,4cm x 40,6cm x 21,4cm &nbsp; &nbsp; - Nosač / kačenje - Raspon rupa 14cm &nbsp; &nbsp; &nbsp; &nbsp; - Montaža - Niskamontažni (podgradni) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- Kazan - Polipropilen &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Prirubnica (flan&scaron;na) - Okrugla ﬁ 90mm &nbsp; &nbsp; &nbsp; &nbsp;- Izolacija: Polistirenska (stiropor) debljine 1,5cm &nbsp; &nbsp; &nbsp; &nbsp;- Snaga elektro grejača - 2kw (bakarni) &nbsp; &nbsp; &nbsp; &nbsp;- Radni pritisak: 0 Mpa - bez prritiska &nbsp; &nbsp; - Energetski razred: A &nbsp; &nbsp; &nbsp; &nbsp;- Garancija: Bezuslovna (na kazan 3 god, na rezervne delove 25 meseci) &nbsp; &nbsp;&nbsp;",
+    "description": "- Kapacitet - 5 L - Dimenzije (ŠxVxD): 27,4cm x 40,6cm x 21,4cm - Nosač / kačenje - Raspon rupa 14cm - Montaža - Niskamontažni (podgradni) - Kazan - Polipropilen - Prirubnica (flanšna) - Okrugla ﬁ 90mm - Izolacija: Polistirenska (stiropor) debljine 1,5cm - Snaga elektro grejača - 2kw (bakarni) - Radni pritisak: 0 Mpa - bez prritiska - Energetski razred: A - Garancija: Bezuslovna (na kazan 3 god, na rezervne delove 25 meseci)",
     "sku": "1798",
     "capacity_liters": 5,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/4049/1300/metalac-mini-bojler-5l-nm-pvc-0.jpg",
-      "https://www.aqualand.rs/images/4049/1300/metalac-mini-bojler-5l-nm-pvc-0.jpg",
-      "https://www.aqualand.rs/images/4049/1300/metalac-mini-bojler-5l-nm-pvc-0.jpg",
-      "https://www.aqualand.rs/images/4049/1300/metalac-mini-bojler-5l-nm-pvc-0.jpg",
       "https://www.aqualand.rs/images/4049/1300/metalac-mini-bojler-5l-nm-pvc-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/4049/1300/metalac-mini-bojler-5l-nm-pvc-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:32.971Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:32:52.568Z"
   },
   {
     "id": "metalac-mini-bojler-5l-vm-pvc",
@@ -800,20 +602,16 @@
     "price_formatted": "8.145 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/metalac-mini-bojler-5l-vm-pvc/2990/",
-    "description": "TEHNIČKE KARAKTERISTIKE - Vrsta bojlera: bez pritiska- Dimenzije (&Scaron;xVxD): 27,4cm x 40,6cm x 21,4cm- Nosač / kačenje - Raspon rupa 14cm- Prirubnica (flan&scaron;na) - Okrugla ﬁ 90mm&nbsp; &nbsp; &nbsp;- Izolacija: Polistirenska (stiropor) debljine 1,5cm- Montaža - Visokomontažna (nadgradna)&nbsp;- Kazan - Polipropilen- Pritisak (Mpa): 0 - bez pritiska- Priključak za vodu: G3/8- Pritisak (Mpa): 0 - bez pritiska- Priključak za vodu: G3/8- Snaga električnog grejača : 2kw- Garancija: Bezuslovna (na kazan 3 god, na rezervne delove 25 meseci)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+    "description": "TEHNIČKE KARAKTERISTIKE - Vrsta bojlera: bez pritiska- Dimenzije (ŠxVxD): 27,4cm x 40,6cm x 21,4cm- Nosač / kačenje - Raspon rupa 14cm- Prirubnica (flanšna) - Okrugla ﬁ 90mm - Izolacija: Polistirenska (stiropor) debljine 1,5cm- Montaža - Visokomontažna (nadgradna) - Kazan - Polipropilen- Pritisak (Mpa): 0 - bez pritiska- Priključak za vodu: G3/8- Pritisak (Mpa): 0 - bez pritiska- Priključak za vodu: G3/8- Snaga električnog grejača : 2kw- Garancija: Bezuslovna (na kazan 3 god, na rezervne delove 25 meseci)",
     "sku": "2019",
     "capacity_liters": 5,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/4048/1300/metalac-mini-bojler-5l-vm-pvc-0.jpg",
-      "https://www.aqualand.rs/images/4048/1300/metalac-mini-bojler-5l-vm-pvc-0.jpg",
-      "https://www.aqualand.rs/images/4048/1300/metalac-mini-bojler-5l-vm-pvc-0.jpg",
-      "https://www.aqualand.rs/images/4048/1300/metalac-mini-bojler-5l-vm-pvc-0.jpg",
       "https://www.aqualand.rs/images/4048/1300/metalac-mini-bojler-5l-vm-pvc-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/4048/1300/metalac-mini-bojler-5l-vm-pvc-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:34.037Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:32:54.048Z"
   },
   {
     "id": "metalac-prohrom-mini-bojer-8l-vm",
@@ -824,20 +622,16 @@
     "price_formatted": "10.229 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/metalac-prohrom-mini-boj-8l-vm/2994/",
-    "description": "- Montaža - Visokomontažni (nadgradni)&nbsp; - Dimenzije (&Scaron;xVxD): 27,4cm x 39,6cm x 26,6cm&nbsp; &nbsp;&nbsp; - Nosač / kačenje - Raspon rupa 14cm&nbsp; - Kazan - Inox&nbsp; - Garancija: Bezuslovna (na kazan 10 god, na rezervne delove 25 meseci) - MG anoda: da&nbsp; - Kapacitet: 8 L&nbsp; - Snaga elektro grejača - 1,5 kw (niklovani)&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;",
+    "description": "- Montaža - Visokomontažni (nadgradni) - Dimenzije (ŠxVxD): 27,4cm x 39,6cm x 26,6cm - Nosač / kačenje - Raspon rupa 14cm - Kazan - Inox - Garancija: Bezuslovna (na kazan 10 god, na rezervne delove 25 meseci) - MG anoda: da - Kapacitet: 8 L - Snaga elektro grejača - 1,5 kw (niklovani)",
     "sku": "3382",
     "capacity_liters": 8,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/4044/1300/metalac-prohrom-mini-bojer-8l-vm-0.jpg",
-      "https://www.aqualand.rs/images/4044/1300/metalac-prohrom-mini-bojer-8l-vm-0.jpg",
-      "https://www.aqualand.rs/images/4044/1300/metalac-prohrom-mini-bojer-8l-vm-0.jpg",
-      "https://www.aqualand.rs/images/4044/1300/metalac-prohrom-mini-bojer-8l-vm-0.jpg",
       "https://www.aqualand.rs/images/4044/1300/metalac-prohrom-mini-bojer-8l-vm-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/4044/1300/metalac-prohrom-mini-bojer-8l-vm-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:35.088Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:33:00.070Z"
   },
   {
     "id": "metalac-prohrom-mini-bojler-8l-nm",
@@ -848,20 +642,16 @@
     "price_formatted": "10.229 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/metalac-prohrom-mini-boj-8l-nm/2993/",
-    "description": "- Montaža - Niskomontažni (podgradni)&nbsp; - Dimenzije (&Scaron;xVxD): 27,4cm x 39,6cm x 26,6cm&nbsp; &nbsp;&nbsp; - Nosač / kačenje - Raspon rupa 14cm&nbsp; &nbsp;&nbsp;- Kazan - Inox&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;- Garancija: Bezuslovna (na kazan 10 god, na rezervne delove 25 meseci)&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;- MG anoda: da&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;- Kapacitet: 8 L&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;- Snaga elektro grejača - 1,5 kw (niklovani)&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;",
+    "description": "- Montaža - Niskomontažni (podgradni) - Dimenzije (ŠxVxD): 27,4cm x 39,6cm x 26,6cm - Nosač / kačenje - Raspon rupa 14cm - Kazan - Inox - Garancija: Bezuslovna (na kazan 10 god, na rezervne delove 25 meseci) - MG anoda: da - Kapacitet: 8 L - Snaga elektro grejača - 1,5 kw (niklovani)",
     "sku": "3381",
     "capacity_liters": 8,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/4045/1300/metalac-prohrom-mini-bojler-8l-nm-0.jpg",
-      "https://www.aqualand.rs/images/4045/1300/metalac-prohrom-mini-bojler-8l-nm-0.jpg",
-      "https://www.aqualand.rs/images/4045/1300/metalac-prohrom-mini-bojler-8l-nm-0.jpg",
-      "https://www.aqualand.rs/images/4045/1300/metalac-prohrom-mini-bojler-8l-nm-0.jpg",
       "https://www.aqualand.rs/images/4045/1300/metalac-prohrom-mini-bojler-8l-nm-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/4045/1300/metalac-prohrom-mini-bojler-8l-nm-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:36.067Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:32:58.515Z"
   },
   {
     "id": "termorad-prohrom-10l-nm",
@@ -877,15 +667,11 @@
     "capacity_liters": 10,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/3597/1300/termorad-prohrom-10l-nm-0.jpg",
-      "https://www.aqualand.rs/images/3597/1300/termorad-prohrom-10l-nm-0.jpg",
-      "https://www.aqualand.rs/images/3597/1300/termorad-prohrom-10l-nm-0.jpg",
-      "https://www.aqualand.rs/images/3597/1300/termorad-prohrom-10l-nm-0.jpg",
       "https://www.aqualand.rs/images/3597/1300/termorad-prohrom-10l-nm-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/3597/1300/termorad-prohrom-10l-nm-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:37.100Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:36.418Z"
   },
   {
     "id": "termorad-prohrom-10l-potocni-vm",
@@ -901,15 +687,11 @@
     "capacity_liters": 10,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/3596/1300/termorad-prohrom-10l-poto-ni-vm-0.jpg",
-      "https://www.aqualand.rs/images/3596/1300/termorad-prohrom-10l-poto-ni-vm-0.jpg",
-      "https://www.aqualand.rs/images/3596/1300/termorad-prohrom-10l-poto-ni-vm-0.jpg",
-      "https://www.aqualand.rs/images/3596/1300/termorad-prohrom-10l-poto-ni-vm-0.jpg",
       "https://www.aqualand.rs/images/3596/1300/termorad-prohrom-10l-poto-ni-vm-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/3596/1300/termorad-prohrom-10l-poto-ni-vm-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:38.088Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:39.360Z"
   },
   {
     "id": "termorad-prohrom-10l-protocni-nm",
@@ -925,15 +707,11 @@
     "capacity_liters": 10,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/8037/1300/termorad-prohrom-10l-proto-ni-nm-0.jpg",
-      "https://www.aqualand.rs/images/8037/1300/termorad-prohrom-10l-proto-ni-nm-0.jpg",
-      "https://www.aqualand.rs/images/8037/1300/termorad-prohrom-10l-proto-ni-nm-0.jpg",
-      "https://www.aqualand.rs/images/8037/1300/termorad-prohrom-10l-proto-ni-nm-0.jpg",
       "https://www.aqualand.rs/images/8037/1300/termorad-prohrom-10l-proto-ni-nm-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/8037/1300/termorad-prohrom-10l-proto-ni-nm-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:39.105Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:37.918Z"
   },
   {
     "id": "termorad-prohrom-10l-vm",
@@ -949,15 +727,33 @@
     "capacity_liters": 10,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/1070/1300/termorad-prohrom-10l-vm-0.jpg",
-      "https://www.aqualand.rs/images/1070/1300/termorad-prohrom-10l-vm-0.jpg",
-      "https://www.aqualand.rs/images/1070/1300/termorad-prohrom-10l-vm-0.jpg",
-      "https://www.aqualand.rs/images/1070/1300/termorad-prohrom-10l-vm-0.jpg",
       "https://www.aqualand.rs/images/1070/1300/termorad-prohrom-10l-vm-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1070/1300/termorad-prohrom-10l-vm-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:40.103Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:40.918Z"
+  },
+  {
+    "id": "ariston-velis-evo-100l-inox",
+    "name": "-ARISTON VELIS EVO 100L INOX",
+    "brand": "Ariston",
+    "category": "Horizontalni bojleri",
+    "price": 74500,
+    "price_formatted": "74.500 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/ariston-velis-100l-inox/6957/",
+    "description": "- Zapremina 100L- Kazan - od INOXA- Ddebljine samo 27 cm- Visina - 125,1cm- Širina - 50,6cm- Dubina 27,5cm- Težina - 32,2kg- Boja - bela- Montaža- HVertikalna i horizontalna - Garancija - 10godina",
+    "sku": "0.907",
+    "capacity_liters": 100,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/10949/1300/ariston-velis-evo-100l-inox-0.jpg",
+      "https://www.aqualand.rs/images/10950/1300/ariston-velis-evo-100l-inox-1.jpg",
+      "https://www.aqualand.rs/images/10951/1300/ariston-velis-evo-100l-inox-2.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/10949/1300/ariston-velis-evo-100l-inox-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:38.346Z"
   },
   {
     "id": "ariston-80l-velis-pro",
@@ -968,20 +764,40 @@
     "price_formatted": "41.633 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/ariston-80l-velis-pro/5544/",
-    "description": "- Displej - Soft Touch- Montaža - Vertikalna i horizontalna- Nazivni kapacitet - 80L- Stvarni kapacitet - 68L- Anoda - Magnezijumska- Grejni elementi - Emajlirani legurom Incoloy- Broj grejnih tela &nbsp;- 2- Vrsta izolacije - Poliuretan- Vreme zagrevanja (&Delta;T=45&deg;C) - 2:16 h:min- Vreme zagrevanja (&Delta;T=50&deg;C) - 2:31 h:min- rvo tu&scaron;iranje spremno za - 0:46 h:min- Snaga - 1.5/1.5 kW- Voltaža - 220-240 V- Maksimalan radni pritisak - 8 bara- Maksimalna temperatura &nbsp;- 80&deg;C- Neto masa - 31 kg- Dimenzije bojlera &nbsp;VxDx&Scaron;: &nbsp;- 1071 x 275 x 511 mm",
+    "description": "- Displej - Soft Touch- Montaža - Vertikalna i horizontalna- Nazivni kapacitet - 80L- Stvarni kapacitet - 68L- Anoda - Magnezijumska- Grejni elementi - Emajlirani legurom Incoloy- Broj grejnih tela - 2- Vrsta izolacije - Poliuretan- Vreme zagrevanja (ΔT=45°C) - 2:16 h:min- Vreme zagrevanja (ΔT=50°C) - 2:31 h:min- rvo tuširanje spremno za - 0:46 h:min- Snaga - 1.5/1.5 kW- Voltaža - 220-240 V- Maksimalan radni pritisak - 8 bara- Maksimalna temperatura - 80°C- Neto masa - 31 kg- Dimenzije bojlera VxDxŠ: - 1071 x 275 x 511 mm",
     "sku": "1365",
     "capacity_liters": 80,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/7572/1300/ariston-80l-velis-pro-0.jpg",
       "https://www.aqualand.rs/images/7573/1300/ariston-80l-velis-pro-1.jpg",
-      "https://www.aqualand.rs/images/7574/1300/ariston-80l-velis-pro-2.jpg",
-      "https://www.aqualand.rs/images/7572/1300/ariston-80l-velis-pro-0.jpg",
-      "https://www.aqualand.rs/images/7573/1300/ariston-80l-velis-pro-1.jpg"
+      "https://www.aqualand.rs/images/7574/1300/ariston-80l-velis-pro-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/7572/1300/ariston-80l-velis-pro-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:43.075Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:35.380Z"
+  },
+  {
+    "id": "ariston-80l-velis-pro-wifi",
+    "name": "ARISTON 80L VELIS PRO WIFI",
+    "brand": "Ariston",
+    "category": "Horizontalni bojleri",
+    "price": 42175,
+    "price_formatted": "42.175 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/ariston-80l-velis-pro-wifi/5545/",
+    "description": "- Displej - Soft Touch- Montaža - Vertikalna i horizontalna- Nazivni kapacitet - 80L- Stvarni kapacitet - 68L- Anoda - Magnezijumska- Grejni elementi - Emajlirani legurom Incoloy- Broj grejnih tela - 2- Vrsta izolacije - Poliuretan- Vreme zagrevanja (ΔT=45°C) - 2:16 h:min- Vreme zagrevanja (ΔT=50°C) - 2:31 h:min- rvo tuširanje spremno za - 0:46 h:min- Snaga - 1.5/1.5 kW- Voltaža - 220-240 V- Maksimalan radni pritisak - 8 bara- Maksimalna temperatura - 80°C- Neto masa - 31 kg- Dimenzije bojlera VxDxŠ: - 1071 x 275 x 511 mm- Integrisan Wi - Fi za daljinsko upravljanje zahvaljujući Ariston NET aplikaciji",
+    "sku": "8051",
+    "capacity_liters": 80,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/7575/1300/ariston-80l-velis-pro-wifi-0.jpg",
+      "https://www.aqualand.rs/images/7576/1300/ariston-80l-velis-pro-wifi-1.jpg",
+      "https://www.aqualand.rs/images/7577/1300/ariston-80l-velis-pro-wifi-2.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/7575/1300/ariston-80l-velis-pro-wifi-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:33.930Z"
   },
   {
     "id": "ariston-80l-velis-tech-wifi",
@@ -992,20 +808,18 @@
     "price_formatted": "40.264 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/ariston-80l-velis-tech-wifi/5566/",
-    "description": "- Dimenzije (Dubina&times;&Scaron;irina&times;Visina) 27,5 &times; 51,1 &times; 108,7 cm- Režim rada BOOST- Indikator nivoa tople vode- Snaga: 1,5/1,5 kW- Potpuna elektronska kontrola- Zidna montaža u vi&scaron;e položaja V/H- Grejni element emajliran legurom Incoloy- Integrisan Wi-Fi za povezivanje sa Ariston NET aplikacijom- ECO EVO funkcija- Dnevno programiranje- Težina: 31 kg- Zapremina: 80L- Materijal: Emajl- Energetski razred: B- Montiranje-- Način ugradnje - Horizontalno, Vertikalno- Boja - Siva- Smart: Da",
+    "description": "- Dimenzije (Dubina×Širina×Visina) 27,5 × 51,1 × 108,7 cm- Režim rada BOOST- Indikator nivoa tople vode- Snaga: 1,5/1,5 kW- Potpuna elektronska kontrola- Zidna montaža u više položaja V/H- Grejni element emajliran legurom Incoloy- Integrisan Wi-Fi za povezivanje sa Ariston NET aplikacijom- ECO EVO funkcija- Dnevno programiranje- Težina: 31 kg- Zapremina: 80L- Materijal: Emajl- Energetski razred: B- Montiranje-- Način ugradnje - Horizontalno, Vertikalno- Boja - Siva- Smart: Da",
     "sku": "7938",
     "capacity_liters": 80,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/7883/1300/ariston-80l-velis-tech-wifi-0.jpg",
       "https://www.aqualand.rs/images/7884/1300/ariston-80l-velis-tech-wifi-1.jpg",
-      "https://www.aqualand.rs/images/7885/1300/ariston-80l-velis-tech-wifi-2.jpg",
-      "https://www.aqualand.rs/images/7886/1300/ariston-80l-velis-tech-wifi-3.jpg",
-      "https://www.aqualand.rs/images/7887/1300/ariston-80l-velis-tech-wifi-4.jpg"
+      "https://www.aqualand.rs/images/7885/1300/ariston-80l-velis-tech-wifi-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/7883/1300/ariston-80l-velis-tech-wifi-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:44.111Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:36.909Z"
   },
   {
     "id": "elektrolux-azr-80l-eec",
@@ -1016,20 +830,62 @@
     "price_formatted": "29.990 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/elektrolux-azr-80l-eec/6969/",
-    "description": "- Dimenzija - 33,3 &times; 55,5 &times; 92cm- Sistem &ldquo;suvih&rdquo; grejnih elemenata (TEN)- Emajlirani kazan- Vreme zagrevanja vode od 10&deg;С do 75&deg;C: 148 min- Regulisanje temperature: Da (mehanički regulator)- Vrsta grejnog elementa: X-Heat &ndash; sistem &ldquo;suvih&rdquo; grejnih elemenata- Ekonomičan režim rada ECO: za&scaron;tita od kamenca i povećani resurs grejnog elementa- Montaža - Vertikalna , Horizontalna- Maks. potro&scaron;nja energije: 2 kw- Težina - 32kg",
+    "description": "- Dimenzija - 33,3 × 55,5 × 92cm- Sistem “suvih” grejnih elemenata (TEN)- Emajlirani kazan- Vreme zagrevanja vode od 10°С do 75°C: 148 min- Regulisanje temperature: Da (mehanički regulator)- Vrsta grejnog elementa: X-Heat – sistem “suvih” grejnih elemenata- Ekonomičan režim rada ECO: zaštita od kamenca i povećani resurs grejnog elementa- Montaža - Vertikalna , Horizontalna- Maks. potrošnja energije: 2 kw- Težina - 32kg",
     "sku": "8374",
     "capacity_liters": 80,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/10969/1300/elektrolux-azr-80l-eec-0.jpg",
       "https://www.aqualand.rs/images/10970/1300/elektrolux-azr-80l-eec-1.jpg",
-      "https://www.aqualand.rs/images/10971/1300/elektrolux-azr-80l-eec-2.jpg",
-      "https://www.aqualand.rs/images/10972/1300/elektrolux-azr-80l-eec-3.jpg",
-      "https://www.aqualand.rs/images/10973/1300/elektrolux-azr-80l-eec-4.jpg"
+      "https://www.aqualand.rs/images/10971/1300/elektrolux-azr-80l-eec-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/10969/1300/elektrolux-azr-80l-eec-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:51.464Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:30.175Z"
+  },
+  {
+    "id": "elektrolux-gld-100l-eec",
+    "name": "ELEKTROLUX GLD 100L EEC",
+    "brand": "Electrolux",
+    "category": "Horizontalni bojleri",
+    "price": 0,
+    "price_formatted": "Pozovite za cenu",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/elektrolux-gld-100l-eec/6970/",
+    "description": "- Dimenzija - 35 × 55,5 × 107,5 cm- X-Heat – sistem “suvih” grejnih elemenata- Sistem profesionalnog antibakterijskog prečišćavanja vode Bacteria Stop System- Režim rada “protiv smrzavanja”- Super ravno kućište od 25 cm s mogućnošću postavljanja vertikalno ili horizontalno- Moderni grejači vode GLD imaju jedinstven ravni oblik, elektronsko upravljanje i LED displej- Uređaji serije lako se postavljaju u skučeni prostor, prikladni su za rad, pouzdano su zaštićeni višestepenim sigurnosnim sistemom- GLD može raditi u eko-režimu rada: voda će se zagrejati na temperaturu od 50-55 stepeni, pri ovoj temperaturi počinje toplotna obrada vode i nema stvaranja kamenca- Zahvaljujući režimu rada “protiv smrzavanja”, on se može zaštititi od hladnoće: inteligentni sistem upravljanja grejačem vode trenutno će povećati temperaturu vode u rezervoaru ako padne na kritičnu vrednost od +4 °C- Težina - 32,4kg",
+    "sku": "8371",
+    "capacity_liters": 100,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/11039/1300/elektrolux-gld-100l-eec-0.jpg",
+      "https://www.aqualand.rs/images/11040/1300/elektrolux-gld-100l-eec-1.jpg",
+      "https://www.aqualand.rs/images/11041/1300/elektrolux-gld-100l-eec-2.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/11039/1300/elektrolux-gld-100l-eec-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:31.642Z"
+  },
+  {
+    "id": "elektrolux-gld-30l-eec",
+    "name": "ELEKTROLUX GLD 30L EEC",
+    "brand": "Electrolux",
+    "category": "Horizontalni bojleri",
+    "price": 22140,
+    "price_formatted": "22.140 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/elektrolux-gld-30l-eec/6971/",
+    "description": "- Dimenzija - 26 × 43,5 × 63,5 cm- Zapremina - 30L- Upotrebljiv kapacitet vode - 25L- X-Heat – sistem “suvih” grejnih elemenata- Sistem profesionalnog antibakterijskog prečišćavanja vode Bacteria Stop System- Režim rada “protiv smrzavanja”- Super ravno kućište od 25 cm s mogućnošću postavljanja vertikalno ili horizontalno- Moderni grejači vode GLD imaju jedinstven ravni oblik, elektronsko upravljanje i LED displej- Uređaji serije lako se postavljaju u skučeni prostor, prikladni su za rad, pouzdano su zaštićeni višestepenim sigurnosnim sistemom- GLD može raditi u eko-režimu rada: voda će se zagrejati na temperaturu od 50-55 stepeni, pri ovoj temperaturi počinje toplotna obrada vode i nema stvaranja kamenca- Zahvaljujući režimu rada “protiv smrzavanja”, on se može zaštititi od hladnoće: inteligentni sistem upravljanja grejačem vode trenutno će povećati temperaturu vode u rezervoaru ako padne na kritičnu vrednost od +4 °C- Težina - 17kg",
+    "sku": "8368",
+    "capacity_liters": 30,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/11034/1300/elektrolux-gld-30l-eec-0.jpg",
+      "https://www.aqualand.rs/images/11035/1300/elektrolux-gld-30l-eec-1.jpg",
+      "https://www.aqualand.rs/images/11036/1300/elektrolux-gld-30l-eec-2.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/11034/1300/elektrolux-gld-30l-eec-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:33.217Z"
   },
   {
     "id": "elektrolux-gld-50l-eec",
@@ -1040,20 +896,18 @@
     "price_formatted": "25.190 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/elektrolux-gld-50l-eec/6972/",
-    "description": "- Dimenzija - 26 &times; 43,5 &times; 97 cm- X-Heat &ndash; sistem &ldquo;suvih&rdquo; grejnih elemenata- Sistem profesionalnog antibakterijskog preči&scaron;ćavanja vode Bacteria Stop System- Režim rada &ldquo;protiv smrzavanja&rdquo;- Super ravno kući&scaron;te od 25 cm s mogućno&scaron;ću postavljanja vertikalno ili horizontalno- Moderni grejači vode GLD imaju jedinstven ravni oblik, elektronsko upravljanje i LED displej- Uređaji serije lako se postavljaju u skučeni prostor, prikladni su za rad, pouzdano su&nbsp;&nbsp; &nbsp;za&scaron;tićeni vi&scaron;estepenim sigurnosnim sistemom- GLD može raditi u eko-režimu rada: voda će se zagrejati na temperaturu od 50-55 stepeni,&nbsp;&nbsp; &nbsp;pri ovoj temperaturi počinje toplotna obrada vode i nema stvaranja kamenca- Zahvaljujući režimu rada &ldquo;protiv smrzavanja&rdquo;, on se može za&scaron;tititi od hladnoće: inteligentni&nbsp; &nbsp; sistem upravljanja grejačem vode trenutno će povećati temperaturu vode u rezervoaru ako&nbsp;&nbsp; &nbsp; &nbsp;padne na kritičnu vrednost od +4 &deg;C- Težina - 22,65kg",
+    "description": "- Dimenzija - 26 × 43,5 × 97 cm- X-Heat – sistem “suvih” grejnih elemenata- Sistem profesionalnog antibakterijskog prečišćavanja vode Bacteria Stop System- Režim rada “protiv smrzavanja”- Super ravno kućište od 25 cm s mogućnošću postavljanja vertikalno ili horizontalno- Moderni grejači vode GLD imaju jedinstven ravni oblik, elektronsko upravljanje i LED displej- Uređaji serije lako se postavljaju u skučeni prostor, prikladni su za rad, pouzdano su zaštićeni višestepenim sigurnosnim sistemom- GLD može raditi u eko-režimu rada: voda će se zagrejati na temperaturu od 50-55 stepeni, pri ovoj temperaturi počinje toplotna obrada vode i nema stvaranja kamenca- Zahvaljujući režimu rada “protiv smrzavanja”, on se može zaštititi od hladnoće: inteligentni sistem upravljanja grejačem vode trenutno će povećati temperaturu vode u rezervoaru ako padne na kritičnu vrednost od +4 °C- Težina - 22,65kg",
     "sku": "8369",
     "capacity_liters": 50,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/11029/1300/elektrolux-gld-50l-eec-0.jpg",
       "https://www.aqualand.rs/images/11030/1300/elektrolux-gld-50l-eec-1.jpg",
-      "https://www.aqualand.rs/images/11031/1300/elektrolux-gld-50l-eec-2.jpg",
-      "https://www.aqualand.rs/images/11032/1300/elektrolux-gld-50l-eec-3.jpg",
-      "https://www.aqualand.rs/images/11033/1300/elektrolux-gld-50l-eec-4.jpg"
+      "https://www.aqualand.rs/images/11031/1300/elektrolux-gld-50l-eec-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/11029/1300/elektrolux-gld-50l-eec-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:52.719Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:34.656Z"
   },
   {
     "id": "elektrolux-gld-80l-eco-eec",
@@ -1064,20 +918,18 @@
     "price_formatted": "28.791 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/elektrolux-gld-80l-eco-eec/6973/",
-    "description": "- Dimenzija - 35 x 55,5 x 89cm- Montaža - Vertikalna i horizontalna- Za&scaron;remina 80L- Upotrebljiv kapacitet robe - 65L- Težina -29kg",
+    "description": "- Dimenzija - 35 x 55,5 x 89cm- Montaža - Vertikalna i horizontalna- Zašremina 80L- Upotrebljiv kapacitet robe - 65L- Težina -29kg",
     "sku": "8372",
     "capacity_liters": 80,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/11024/1300/elektrolux-gld-80l-eco-eec-0.jpg",
       "https://www.aqualand.rs/images/11025/1300/elektrolux-gld-80l-eco-eec-1.jpg",
-      "https://www.aqualand.rs/images/11026/1300/elektrolux-gld-80l-eco-eec-2.jpg",
-      "https://www.aqualand.rs/images/11027/1300/elektrolux-gld-80l-eco-eec-3.jpg",
-      "https://www.aqualand.rs/images/11028/1300/elektrolux-gld-80l-eco-eec-4.jpg"
+      "https://www.aqualand.rs/images/11026/1300/elektrolux-gld-80l-eco-eec-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/11024/1300/elektrolux-gld-80l-eco-eec-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:53.819Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:36.084Z"
   },
   {
     "id": "elektrolux-gld-80l-eec",
@@ -1088,20 +940,18 @@
     "price_formatted": "31.491 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/elektrolux-gld-80l-eec/6974/",
-    "description": "- Dimenzija - 55 &times; 92 &times; 35 cm- Montaža - Vertikalna i horizontalna- X-Heat suvi grejni element smanjuje stvaranje kamenca i produžava vek trajanja.- ECO režim rada omogućava manju potro&scaron;nju energije.- Bacteria Stop sistem doprinosi higijeni vode u rezervoaru.- Mogućnost vertikalne ili horizontalne montaže za lak&scaron;e uklapanje u prostor.- Težina - 28,9kg",
+    "description": "- Dimenzija - 55 × 92 × 35 cm- Montaža - Vertikalna i horizontalna- X-Heat suvi grejni element smanjuje stvaranje kamenca i produžava vek trajanja.- ECO režim rada omogućava manju potrošnju energije.- Bacteria Stop sistem doprinosi higijeni vode u rezervoaru.- Mogućnost vertikalne ili horizontalne montaže za lakše uklapanje u prostor.- Težina - 28,9kg",
     "sku": "8370",
     "capacity_liters": 80,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/11019/1300/elektrolux-gld-80l-eec-0.jpg",
       "https://www.aqualand.rs/images/11020/1300/elektrolux-gld-80l-eec-1.jpg",
-      "https://www.aqualand.rs/images/11021/1300/elektrolux-gld-80l-eec-2.jpg",
-      "https://www.aqualand.rs/images/11022/1300/elektrolux-gld-80l-eec-3.jpg",
-      "https://www.aqualand.rs/images/11023/1300/elektrolux-gld-80l-eec-4.jpg"
+      "https://www.aqualand.rs/images/11021/1300/elektrolux-gld-80l-eec-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/11019/1300/elektrolux-gld-80l-eec-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:38:54.832Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:37.498Z"
   },
   {
     "id": "elektrolux-gld-80l-grafit-eec",
@@ -1112,20 +962,40 @@
     "price_formatted": "33.120 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/elektrolux-gld-80l-grafit-eec/6975/",
-    "description": "- Dimenzija - 35 &times; 55,5 &times; 92&nbsp;cm- Montaža - Vertikalna i horizontalna- X-Heat &ndash; sistem &ldquo;suvih&rdquo; grejnih elemenata- Sistem profesionalnog antibakterijskog preči&scaron;ćavanja vode Bacteria Stop System- Režim rada &ldquo;protiv smrzavanja&rdquo;- Super ravno kući&scaron;te od 25 cm s mogućno&scaron;ću postavljanja vertikalno ili horizontalno- Moderni grejači vode GLD imaju jedinstven ravni oblik, elektronsko upravljanje i LED displej- Uređaji serije lako se postavljaju u skučeni prostor, prikladni su za rad, pouzdano&nbsp;&nbsp; &nbsp;su za&scaron;tićeni vi&scaron;estepenim sigurnosnim sistemom- GLD može raditi u eko-režimu rada: voda će se zagrejati na temperaturu od 50-55 stepeni,&nbsp;&nbsp; &nbsp;pri ovoj temperaturi počinje toplotna obrada vode i nema stvaranja kamenca- Zahvaljujući režimu rada &ldquo;protiv smrzavanja&rdquo;, on se može za&scaron;tititi od hladnoće: inteligentni&nbsp;&nbsp; &nbsp;sistem upravljanja grejačem vode trenutno će povećati temperaturu vode u rezervoaru&nbsp;&nbsp; &nbsp;ako padne na kritičnu vrednost od +4 &deg;C- Težina - 28,9kg",
+    "description": "- Dimenzija - 35 × 55,5 × 92 cm- Montaža - Vertikalna i horizontalna- X-Heat – sistem “suvih” grejnih elemenata- Sistem profesionalnog antibakterijskog prečišćavanja vode Bacteria Stop System- Režim rada “protiv smrzavanja”- Super ravno kućište od 25 cm s mogućnošću postavljanja vertikalno ili horizontalno- Moderni grejači vode GLD imaju jedinstven ravni oblik, elektronsko upravljanje i LED displej- Uređaji serije lako se postavljaju u skučeni prostor, prikladni su za rad, pouzdano su zaštićeni višestepenim sigurnosnim sistemom- GLD može raditi u eko-režimu rada: voda će se zagrejati na temperaturu od 50-55 stepeni, pri ovoj temperaturi počinje toplotna obrada vode i nema stvaranja kamenca- Zahvaljujući režimu rada “protiv smrzavanja”, on se može zaštititi od hladnoće: inteligentni sistem upravljanja grejačem vode trenutno će povećati temperaturu vode u rezervoaru ako padne na kritičnu vrednost od +4 °C- Težina - 28,9kg",
     "sku": "8373",
     "capacity_liters": 80,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/11015/1300/elektrolux-gld-80l-grafit-eec-0.jpg",
       "https://www.aqualand.rs/images/11016/1300/elektrolux-gld-80l-grafit-eec-1.jpg",
-      "https://www.aqualand.rs/images/11017/1300/elektrolux-gld-80l-grafit-eec-2.jpg",
-      "https://www.aqualand.rs/images/11018/1300/elektrolux-gld-80l-grafit-eec-3.jpg",
-      "https://www.aqualand.rs/images/11015/1300/elektrolux-gld-80l-grafit-eec-0.jpg"
+      "https://www.aqualand.rs/images/11017/1300/elektrolux-gld-80l-grafit-eec-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/11015/1300/elektrolux-gld-80l-grafit-eec-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:00.353Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:39.044Z"
+  },
+  {
+    "id": "elektrolux-si-100l-eec-wifi",
+    "name": "ELEKTROLUX SI 100L EEC WIFI",
+    "brand": "Electrolux",
+    "category": "Horizontalni bojleri",
+    "price": 44991,
+    "price_formatted": "44.991 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/elektrolux-si-100l-eec-wifi/6980/",
+    "description": "- Dimenzija - 35 × 55,5 × 113,5cm- Tehnologija glatkog menjanja snage digital INVERTER- Elektronska (titanijumska) anoda- Mogucnost vertikalne i horizontalne ugradnje- Dva emajlirana kazana- Bakarni grejač- Sistem „suvih“ grejnih elemenata (TEN)- Upravljanje putem mobilne aplikacije putem Wi-Fi-ja- Brzo zagrevanje, Child lock- Zaštita od uključivanja bez vode- Zaštita od pregrevanja- Prikaz trenutne temperature- Indikacija temperature grejanja- Okretanje ekrana- Podesivo pozadinsko osvjetljenje ekrana- Tip Displeya: Multi-color- ECO režim, Režim protiv smrzavanja- Tajmer, Demo režim- Broj režima grejanja: 3- Tip termostata: Elektronski- Sigurnosni ventil za pritisak- Zapremina 100L- Energetski razred: C- Debljina toplotne izolacije: 35 mm- Max. radni pritisak: 6 bara- Vreme zagrevanja vode od 10°С do 75°C: 316 min- Maks. temperature vode: 75 °C- Min.temperatura vode 30 °C- Težina - 37kg",
+    "sku": "8378",
+    "capacity_liters": 100,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/10990/1300/elektrolux-si-100l-eec-wifi-0.jpg",
+      "https://www.aqualand.rs/images/10991/1300/elektrolux-si-100l-eec-wifi-1.jpg",
+      "https://www.aqualand.rs/images/10992/1300/elektrolux-si-100l-eec-wifi-2.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/10990/1300/elektrolux-si-100l-eec-wifi-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:46.516Z"
   },
   {
     "id": "elektrolux-si-30l-eec-wifi",
@@ -1136,20 +1006,62 @@
     "price_formatted": "38.691 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/elektrolux-si-30l-eec-wifi/6981/",
-    "description": "- Dimenzija - 26 &times; 43,5 &times; 63,5cm- Elektronska (titanijumska) anoda- Montaža - &nbsp;Vertikalne i horizontalna- Sistem &ldquo;suvih&rdquo; grejnih elemenata (TEN)- Emajlirani kazan- Upravljanje putem mobilne aplikacije putem Wi-Fi-ja- Brzo zagrevanje, Child lock- Za&scaron;tita od uključivanja bez vode- Za&scaron;tita od pregrevanja- Prikaz trenutne temperature- Indikacija temperature grejanja- Okretanje ekrana- Podesivo pozadinsko osvjetljenje ekrana- Tip Displeya: Multi-color- ECO režim, Režim protiv smrzavanja- Tajmer, Demo režim- Broj režima grejanja: 3- Tip termostata: Elektronski- Sigurnosni ventil za pritisak- Zapremina 30L- Energetski razred: B- Debljina toplotne izolacije: 35 mm- Max. radni pritisak: 6 bara- Klasa otpornosti na pra&scaron;inu i vlagu: IPX4- Vreme zagrevanja vode od 10&deg;С do 75&deg;C: 99 min- Maks. temperatura vode: 75 &deg;C- Min. temperatura vode: 30 &deg;C- Težina - 17kg",
+    "description": "- Dimenzija - 26 × 43,5 × 63,5cm- Elektronska (titanijumska) anoda- Montaža - Vertikalne i horizontalna- Sistem “suvih” grejnih elemenata (TEN)- Emajlirani kazan- Upravljanje putem mobilne aplikacije putem Wi-Fi-ja- Brzo zagrevanje, Child lock- Zaštita od uključivanja bez vode- Zaštita od pregrevanja- Prikaz trenutne temperature- Indikacija temperature grejanja- Okretanje ekrana- Podesivo pozadinsko osvjetljenje ekrana- Tip Displeya: Multi-color- ECO režim, Režim protiv smrzavanja- Tajmer, Demo režim- Broj režima grejanja: 3- Tip termostata: Elektronski- Sigurnosni ventil za pritisak- Zapremina 30L- Energetski razred: B- Debljina toplotne izolacije: 35 mm- Max. radni pritisak: 6 bara- Klasa otpornosti na prašinu i vlagu: IPX4- Vreme zagrevanja vode od 10°С do 75°C: 99 min- Maks. temperatura vode: 75 °C- Min. temperatura vode: 30 °C- Težina - 17kg",
     "sku": "8375",
     "capacity_liters": 30,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/10985/1300/elektrolux-si-30l-eec-wifi-0.jpg",
       "https://www.aqualand.rs/images/10986/1300/elektrolux-si-30l-eec-wifi-1.jpg",
-      "https://www.aqualand.rs/images/10987/1300/elektrolux-si-30l-eec-wifi-2.jpg",
-      "https://www.aqualand.rs/images/10988/1300/elektrolux-si-30l-eec-wifi-3.jpg",
-      "https://www.aqualand.rs/images/10989/1300/elektrolux-si-30l-eec-wifi-4.jpg"
+      "https://www.aqualand.rs/images/10987/1300/elektrolux-si-30l-eec-wifi-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/10985/1300/elektrolux-si-30l-eec-wifi-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:01.447Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:47.982Z"
+  },
+  {
+    "id": "elektrolux-si-50l-eec-wifi",
+    "name": "ELEKTROLUX SI 50L EEC WIFI",
+    "brand": "Electrolux",
+    "category": "Horizontalni bojleri",
+    "price": 42291,
+    "price_formatted": "42.291 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/elektrolux-si-50l-eec-wifi/6982/",
+    "description": "- Dimenzija - 26 × 43,5 × 97 cm- Elektronska (titanijumska) anoda- Montaža - Vertikalne i horizontalna- Sistem „suvih“ grejnih elemenata (TEN)- Emajlirani kazan- Upravljanje putem mobilne aplikacije putem Wi-Fi-ja- Brzo zagrevanje, Child lock- Zaštita od uključivanja bez vode- Zaštita od pregrevanja- Prikaz trenutne temperature- Indikacija temperature grejanja- Okretanje ekrana- Podesivo pozadinsko osvjetljenje ekrana- Tip Displeya: Multi-color- ECO režim, Režim protiv smrzavanja- Tajmer, Demo režim- Broj režima grejanja: 3- Tip termostata: Elektronski- Sigurnosni ventil za pritisak- Zapremina 50L- Energetski razred: B- Debljina toplotne izolacije: 35 mm- Max. radni pritisak: 6 bara- Klasa otpornosti na prašinu i vlagu: IPX4- Vreme zagrevanja vode od 10°С do 75°C: 162 min- Maks. temperatura vode: 75 °C- Min. temperatura vode: 30 °C- Težina - 25kg",
+    "sku": "8376",
+    "capacity_liters": 50,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/10978/1300/elektrolux-si-50l-eec-wifi-0.jpg",
+      "https://www.aqualand.rs/images/10979/1300/elektrolux-si-50l-eec-wifi-1.jpg",
+      "https://www.aqualand.rs/images/10980/1300/elektrolux-si-50l-eec-wifi-2.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/10978/1300/elektrolux-si-50l-eec-wifi-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:49.471Z"
+  },
+  {
+    "id": "elektrolux-si-80l-eec-wifi",
+    "name": "ELEKTROLUX SI 80L EEC WIFI",
+    "brand": "Electrolux",
+    "category": "Horizontalni bojleri",
+    "price": 43191,
+    "price_formatted": "43.191 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/elektrolux-si-80l-eec-wifi/6983/",
+    "description": "- Dimenzija - 35 × 55,5 × 92cm- Tehnologija glatkog menjanja snage digital INVERTER- Elektronska (titanijumska) anoda- Montaža - Vertikalne i horizontalne - Dva emajlirana kazana- Bakarni grejač- Sistem „suvih“ grejnih elemenata (TEN)- Upravljanje putem mobilne aplikacije putem Wi-Fi-ja- Brzo zagrevanje, Child lock- Zaštita od uključivanja bez vode- Zaštita od pregrevanja- Prikaz trenutne temperature- Indikacija temperature grejanja- Okretanje ekrana- Podesivo pozadinsko osvjetljenje ekrana- Tip Displeya: Multi-color- ECO režim, Režim protiv smrzavanja- Tajmer, Demo režim- Broj režima grejanja: 3- Tip termostata: Elektronski- Sigurnosni ventil za pritisak- Zapremina 80L- Energetski razred: B- Debljina toplotne izolacije: 35 mm- Max. radni pritisak: 6 bara- Vreme zagrevanja vode od 10°С do 75°C: 256 min- Maks. temperature vode: 75 °C- Min.temperatura vode 30 °C- Težina - 32,6kg",
+    "sku": "8377",
+    "capacity_liters": 80,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/10974/1300/elektrolux-si-80l-eec-wifi-0.jpg",
+      "https://www.aqualand.rs/images/10975/1300/elektrolux-si-80l-eec-wifi-1.jpg",
+      "https://www.aqualand.rs/images/10976/1300/elektrolux-si-80l-eec-wifi-2.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/10974/1300/elektrolux-si-80l-eec-wifi-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:51.062Z"
   },
   {
     "id": "elit-prohrom-talas-m-50l-horizontalni",
@@ -1160,20 +1072,17 @@
     "price_formatted": "25.000 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/elit-prohrom-talas-m-50l-horiz/2391/",
-    "description": "- Zapremina - &nbsp;50L- Prohromski kazan- Dužina 750mm- &Scaron;irina 420mm- Snaga - 2kW- Montaža - Horizontalna- Garancija na kazan 15 g",
+    "description": "- Zapremina - 50L- Prohromski kazan- Dužina 750mm- Širina 420mm- Snaga - 2kW- Montaža - Horizontalna- Garancija na kazan 15 g",
     "sku": "6180",
     "capacity_liters": 50,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/2643/1300/elit-prohrom-talas-m-50l-horizontalni-0.jpg",
-      "https://www.aqualand.rs/images/9109/1300/elit-prohrom-talas-m-50l-horizontalni-1.jpg",
-      "https://www.aqualand.rs/images/2643/1300/elit-prohrom-talas-m-50l-horizontalni-0.jpg",
-      "https://www.aqualand.rs/images/9109/1300/elit-prohrom-talas-m-50l-horizontalni-1.jpg",
-      "https://www.aqualand.rs/images/2643/1300/elit-prohrom-talas-m-50l-horizontalni-0.jpg"
+      "https://www.aqualand.rs/images/9109/1300/elit-prohrom-talas-m-50l-horizontalni-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2643/1300/elit-prohrom-talas-m-50l-horizontalni-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:02.536Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:59.999Z"
   },
   {
     "id": "elit-prohrom-talas-m-60l-horiz",
@@ -1189,15 +1098,11 @@
     "capacity_liters": 60,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/2760/1300/elit-prohrom-talas-m-60l-horiz-0.jpg",
-      "https://www.aqualand.rs/images/2760/1300/elit-prohrom-talas-m-60l-horiz-0.jpg",
-      "https://www.aqualand.rs/images/2760/1300/elit-prohrom-talas-m-60l-horiz-0.jpg",
-      "https://www.aqualand.rs/images/2760/1300/elit-prohrom-talas-m-60l-horiz-0.jpg",
       "https://www.aqualand.rs/images/2760/1300/elit-prohrom-talas-m-60l-horiz-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2760/1300/elit-prohrom-talas-m-60l-horiz-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:03.550Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:04.375Z"
   },
   {
     "id": "elit-prohrom-talas-s-50l-horizontalni",
@@ -1214,14 +1119,11 @@
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/2751/1300/elit-prohrom-talas-s-50l-horizontalni-0.jpg",
-      "https://www.aqualand.rs/images/12329/1300/elit-prohrom-talas-s-50l-horizontalni-1.jpg",
-      "https://www.aqualand.rs/images/2751/1300/elit-prohrom-talas-s-50l-horizontalni-0.jpg",
-      "https://www.aqualand.rs/images/12329/1300/elit-prohrom-talas-s-50l-horizontalni-1.jpg",
-      "https://www.aqualand.rs/images/2751/1300/elit-prohrom-talas-s-50l-horizontalni-0.jpg"
+      "https://www.aqualand.rs/images/12329/1300/elit-prohrom-talas-s-50l-horizontalni-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2751/1300/elit-prohrom-talas-s-50l-horizontalni-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:04.565Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:11.645Z"
   },
   {
     "id": "elit-prohrom-talas-s-60l-horiz",
@@ -1237,15 +1139,11 @@
     "capacity_liters": 60,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/2750/1300/elit-prohrom-talas-s-60l-horiz-0.jpg",
-      "https://www.aqualand.rs/images/2750/1300/elit-prohrom-talas-s-60l-horiz-0.jpg",
-      "https://www.aqualand.rs/images/2750/1300/elit-prohrom-talas-s-60l-horiz-0.jpg",
-      "https://www.aqualand.rs/images/2750/1300/elit-prohrom-talas-s-60l-horiz-0.jpg",
       "https://www.aqualand.rs/images/2750/1300/elit-prohrom-talas-s-60l-horiz-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2750/1300/elit-prohrom-talas-s-60l-horiz-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:05.574Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:14.564Z"
   },
   {
     "id": "elit-prohrom-talas-s-80l-horiz",
@@ -1261,15 +1159,11 @@
     "capacity_liters": 80,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/2749/1300/elit-prohrom-talas-s-80l-horiz-0.jpg",
-      "https://www.aqualand.rs/images/2749/1300/elit-prohrom-talas-s-80l-horiz-0.jpg",
-      "https://www.aqualand.rs/images/2749/1300/elit-prohrom-talas-s-80l-horiz-0.jpg",
-      "https://www.aqualand.rs/images/2749/1300/elit-prohrom-talas-s-80l-horiz-0.jpg",
       "https://www.aqualand.rs/images/2749/1300/elit-prohrom-talas-s-80l-horiz-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2749/1300/elit-prohrom-talas-s-80l-horiz-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:06.595Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:17.464Z"
   },
   {
     "id": "elit-prohrom-talas-x-80l-horizontalni",
@@ -1280,20 +1174,17 @@
     "price_formatted": "27.500 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/elit-prohrom-talas-x-80l-horiz/2411/",
-    "description": "Dimenzija bojlera- A-88cm- B- 110cm- C-120cm- D-450cm- E-120cm- Orjentacija priključka - levo / desno / dole- Radni pritisak (MPa) - 06- Max. temperatura (&deg;C)- 85- INOX- Materijal kazana- Izolacija m. vuna (mm)- 35- Vreme yagrev. 10-75 &deg;C (min)- 181- Termostat - regulacioni + za&scaron;titni- Sigurnosni ventil - 9 bar- Mg za&scaron;titna anoda- Stepen za&scaron;tite - IP24- Snaga grejača (W) - 2000- Napon (V) - 230V ~ 50 Hz- Struja (A) - 8,7Težina 28,5kg",
+    "description": "Dimenzija bojlera- A-88cm- B- 110cm- C-120cm- D-450cm- E-120cm- Orjentacija priključka - levo / desno / dole- Radni pritisak (MPa) - 06- Max. temperatura (°C)- 85- INOX- Materijal kazana- Izolacija m. vuna (mm)- 35- Vreme yagrev. 10-75 °C (min)- 181- Termostat - regulacioni + zaštitni- Sigurnosni ventil - 9 bar- Mg zaštitna anoda- Stepen zaštite - IP24- Snaga grejača (W) - 2000- Napon (V) - 230V ~ 50 Hz- Struja (A) - 8,7Težina 28,5kg",
     "sku": "6183",
     "capacity_liters": 80,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/2744/1300/elit-prohrom-talas-x-80l-horizontalni-0.jpg",
-      "https://www.aqualand.rs/images/10188/1300/elit-prohrom-talas-x-80l-horizontalni-1.jpg",
-      "https://www.aqualand.rs/images/2744/1300/elit-prohrom-talas-x-80l-horizontalni-0.jpg",
-      "https://www.aqualand.rs/images/10188/1300/elit-prohrom-talas-x-80l-horizontalni-1.jpg",
-      "https://www.aqualand.rs/images/2744/1300/elit-prohrom-talas-x-80l-horizontalni-0.jpg"
+      "https://www.aqualand.rs/images/10188/1300/elit-prohrom-talas-x-80l-horizontalni-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2744/1300/elit-prohrom-talas-x-80l-horizontalni-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:07.599Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:23.595Z"
   },
   {
     "id": "elit-prohrom-talas-xx-100l-hor",
@@ -1309,15 +1200,11 @@
     "capacity_liters": 100,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/2743/1300/elit-prohrom-talas-xx-100l-hor-0.jpg",
-      "https://www.aqualand.rs/images/2743/1300/elit-prohrom-talas-xx-100l-hor-0.jpg",
-      "https://www.aqualand.rs/images/2743/1300/elit-prohrom-talas-xx-100l-hor-0.jpg",
-      "https://www.aqualand.rs/images/2743/1300/elit-prohrom-talas-xx-100l-hor-0.jpg",
       "https://www.aqualand.rs/images/2743/1300/elit-prohrom-talas-xx-100l-hor-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2743/1300/elit-prohrom-talas-xx-100l-hor-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:08.602Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:28.222Z"
   },
   {
     "id": "elit-prohrom-talas-xx-120l-hor",
@@ -1333,15 +1220,11 @@
     "capacity_liters": 120,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/2739/1300/elit-prohrom-talas-xx-120l-hor-0.jpg",
-      "https://www.aqualand.rs/images/2739/1300/elit-prohrom-talas-xx-120l-hor-0.jpg",
-      "https://www.aqualand.rs/images/2739/1300/elit-prohrom-talas-xx-120l-hor-0.jpg",
-      "https://www.aqualand.rs/images/2739/1300/elit-prohrom-talas-xx-120l-hor-0.jpg",
       "https://www.aqualand.rs/images/2739/1300/elit-prohrom-talas-xx-120l-hor-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2739/1300/elit-prohrom-talas-xx-120l-hor-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:09.683Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:32.489Z"
   },
   {
     "id": "elit-prohrom-talas-xx-80l-hori",
@@ -1358,14 +1241,11 @@
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/2732/1300/elit-prohrom-talas-xx-80l-hori-0.jpg",
-      "https://www.aqualand.rs/images/2733/1300/elit-prohrom-talas-xx-80l-hori-1.jpg",
-      "https://www.aqualand.rs/images/2732/1300/elit-prohrom-talas-xx-80l-hori-0.jpg",
-      "https://www.aqualand.rs/images/2733/1300/elit-prohrom-talas-xx-80l-hori-1.jpg",
-      "https://www.aqualand.rs/images/2732/1300/elit-prohrom-talas-xx-80l-hori-0.jpg"
+      "https://www.aqualand.rs/images/2733/1300/elit-prohrom-talas-xx-80l-hori-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2732/1300/elit-prohrom-talas-xx-80l-hori-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:10.709Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:40.076Z"
   },
   {
     "id": "termorad-klasik-50l-horizontalni",
@@ -1376,20 +1256,17 @@
     "price_formatted": "16.728 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/termorad-klasik-50l-horizontal/3853/",
-    "description": "- Zapremina 50L- &Scaron;irina 62cm- Prečnik bojlera 42cm- Garancija na električne delove 25meseci- Garancija na kazan 5 godina",
+    "description": "- Zapremina 50L- Širina 62cm- Prečnik bojlera 42cm- Garancija na električne delove 25meseci- Garancija na kazan 5 godina",
     "sku": "3674",
     "capacity_liters": 50,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/1056/1300/termorad-klasik-50l-horizontalni-0.jpg",
-      "https://www.aqualand.rs/images/7695/1300/termorad-klasik-50l-horizontalni-1.jpg",
-      "https://www.aqualand.rs/images/1056/1300/termorad-klasik-50l-horizontalni-0.jpg",
-      "https://www.aqualand.rs/images/7695/1300/termorad-klasik-50l-horizontalni-1.jpg",
-      "https://www.aqualand.rs/images/1056/1300/termorad-klasik-50l-horizontalni-0.jpg"
+      "https://www.aqualand.rs/images/7695/1300/termorad-klasik-50l-horizontalni-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1056/1300/termorad-klasik-50l-horizontalni-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:16.826Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:20.014Z"
   },
   {
     "id": "termorad-klasik-80l-horizontal",
@@ -1406,14 +1283,11 @@
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/7876/1300/termorad-klasik-80l-horizontal-0.jpg",
-      "https://www.aqualand.rs/images/7877/1300/termorad-klasik-80l-horizontal-1.jpg",
-      "https://www.aqualand.rs/images/7876/1300/termorad-klasik-80l-horizontal-0.jpg",
-      "https://www.aqualand.rs/images/7877/1300/termorad-klasik-80l-horizontal-1.jpg",
-      "https://www.aqualand.rs/images/7876/1300/termorad-klasik-80l-horizontal-0.jpg"
+      "https://www.aqualand.rs/images/7877/1300/termorad-klasik-80l-horizontal-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/7876/1300/termorad-klasik-80l-horizontal-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:17.855Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:24.464Z"
   },
   {
     "id": "termorad-prohrom-50l-horizontalni",
@@ -1424,20 +1298,17 @@
     "price_formatted": "22.731 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/termorad-prohrom-50l-horizonta/3873/",
-    "description": "- Zapremina - 50L- Dimenzije - 42 &times; 62 &times; 42 cm- Materijal kazana -&nbsp;Prohrom- Montaža - Horizontalna/zidna- Garancija na kazan&nbsp;-&nbsp;10 godina&nbsp;- Garancija &nbsp;- 2g &nbsp;na električne delove-&nbsp;Snaga grejača - 2KW-&nbsp;Težina: - 17,3 kg- Priključci -&nbsp;Voda na sredini, električni sa desne strane.",
+    "description": "- Zapremina - 50L- Dimenzije - 42 × 62 × 42 cm- Materijal kazana - Prohrom- Montaža - Horizontalna/zidna- Garancija na kazan - 10 godina - Garancija - 2g na električne delove- Snaga grejača - 2KW- Težina: - 17,3 kg- Priključci - Voda na sredini, električni sa desne strane.",
     "sku": "1589",
     "capacity_liters": 50,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/1076/1300/termorad-prohrom-50l-horizontalni-0.jpg",
-      "https://www.aqualand.rs/images/9106/1300/termorad-prohrom-50l-horizontalni-1.jpg",
-      "https://www.aqualand.rs/images/1076/1300/termorad-prohrom-50l-horizontalni-0.jpg",
-      "https://www.aqualand.rs/images/9106/1300/termorad-prohrom-50l-horizontalni-1.jpg",
-      "https://www.aqualand.rs/images/1076/1300/termorad-prohrom-50l-horizontalni-0.jpg"
+      "https://www.aqualand.rs/images/9106/1300/termorad-prohrom-50l-horizontalni-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1076/1300/termorad-prohrom-50l-horizontalni-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:18.859Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:45.313Z"
   },
   {
     "id": "termorad-prohrom-60l-horizonta",
@@ -1454,14 +1325,11 @@
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/1078/1300/termorad-prohrom-60l-horizonta-0.jpg",
-      "https://www.aqualand.rs/images/7696/1300/termorad-prohrom-60l-horizonta-1.jpg",
-      "https://www.aqualand.rs/images/1078/1300/termorad-prohrom-60l-horizonta-0.jpg",
-      "https://www.aqualand.rs/images/7696/1300/termorad-prohrom-60l-horizonta-1.jpg",
-      "https://www.aqualand.rs/images/1078/1300/termorad-prohrom-60l-horizonta-0.jpg"
+      "https://www.aqualand.rs/images/7696/1300/termorad-prohrom-60l-horizonta-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1078/1300/termorad-prohrom-60l-horizonta-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:19.876Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:48.178Z"
   },
   {
     "id": "termorad-prohrom-80l-horizontalni-desni",
@@ -1472,20 +1340,17 @@
     "price_formatted": "25.372 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/termorad-prohrom-80l-horizonta/3877/",
-    "description": "- Zapremina 120L- Visina 110,8cm- Prečnik bojlera 45cm- Montaža - Horizontalna&nbsp;- Garancija na električne delove 25meseci- Garancija na kazan 10 godina",
+    "description": "- Zapremina 120L- Visina 110,8cm- Prečnik bojlera 45cm- Montaža - Horizontalna - Garancija na električne delove 25meseci- Garancija na kazan 10 godina",
     "sku": "1319",
     "capacity_liters": 80,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/1079/1300/termorad-prohrom-80l-horizontalni-desni-0.jpg",
-      "https://www.aqualand.rs/images/9112/1300/termorad-prohrom-80l-horizontalni-desni-1.jpg",
-      "https://www.aqualand.rs/images/1079/1300/termorad-prohrom-80l-horizontalni-desni-0.jpg",
-      "https://www.aqualand.rs/images/9112/1300/termorad-prohrom-80l-horizontalni-desni-1.jpg",
-      "https://www.aqualand.rs/images/1079/1300/termorad-prohrom-80l-horizontalni-desni-0.jpg"
+      "https://www.aqualand.rs/images/9112/1300/termorad-prohrom-80l-horizontalni-desni-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1079/1300/termorad-prohrom-80l-horizontalni-desni-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:20.878Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:51.564Z"
   },
   {
     "id": "bosch-bojler-15-18-21-tr7001",
@@ -1496,20 +1361,17 @@
     "price_formatted": "42.277 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/bosch-bojler-15-18-21-tr7001/4910/",
-    "description": "&nbsp;* Izloženo u salonu - Ivićeva 1- Snaga: 15/18/21 kW- Električni priključak: 400 V- Osigurač: 32 A- Maksimalna ulazna temperatura: 55 stepeni C- Klasa za&scaron;tite : IP25- Protočni pritisak uključivanja : 0,4 bara- Količina vode za pokretanje: 2,5 l/min- Maksimalni radni pritisak: 10 bara- Maksimalni protok: 10 l/min- Klasa energetske efikasnosti grejanja vode: A- Spektar klase energetske efikasnosti: A+ -&gt; F- Energetska efikasnost grejanja vode: 39%- Godi&scaron;nja potro&scaron;nja električne energije: 476 kWh- Nivo unutra&scaron;nje zvučne snage: 15 dB (A)&nbsp;",
+    "description": "* Izloženo u salonu - Ivićeva 1- Snaga: 15/18/21 kW- Električni priključak: 400 V- Osigurač: 32 A- Maksimalna ulazna temperatura: 55 stepeni C- Klasa zaštite : IP25- Protočni pritisak uključivanja : 0,4 bara- Količina vode za pokretanje: 2,5 l/min- Maksimalni radni pritisak: 10 bara- Maksimalni protok: 10 l/min- Klasa energetske efikasnosti grejanja vode: A- Spektar klase energetske efikasnosti: A+ -> F- Energetska efikasnost grejanja vode: 39%- Godišnja potrošnja električne energije: 476 kWh- Nivo unutrašnje zvučne snage: 15 dB (A)",
     "sku": "7589",
     "capacity_liters": 5,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/5610/1300/bosch-bojler-15-18-21-tr7001-0.jpg",
-      "https://www.aqualand.rs/images/5611/1300/bosch-bojler-15-18-21-tr7001-1.jpg",
-      "https://www.aqualand.rs/images/5610/1300/bosch-bojler-15-18-21-tr7001-0.jpg",
-      "https://www.aqualand.rs/images/5611/1300/bosch-bojler-15-18-21-tr7001-1.jpg",
-      "https://www.aqualand.rs/images/5610/1300/bosch-bojler-15-18-21-tr7001-0.jpg"
+      "https://www.aqualand.rs/images/5611/1300/bosch-bojler-15-18-21-tr7001-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/5610/1300/bosch-bojler-15-18-21-tr7001-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:28.023Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:44.153Z"
   },
   {
     "id": "bosch-bojler-21-24-27-tr7001",
@@ -1520,20 +1382,17 @@
     "price_formatted": "45.074 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/bosch-bojler-21-24-27-tr7001/4911/",
-    "description": "&nbsp;* Izloženo u salonu - Ivićeva 1- Snaga: 21/24/27 kW- neto težina - 3,42 kg- Energetska efikasnost grejanja vode: 39%- Električni priključak: 400 V- Osigurač: 32/40/40 A- Maksimalna ulazna temperatura: 55 stepeni C- Klasa za&scaron;tite : IP25- Protočni pritisak uključivanja : 0,4 bara- Količina vode za pokretanje: 2,5 l/min- Maksimalni radni pritisak: 10 bara- Maksimalni protok: 10 l/min- Klasa energetske efikasnosti grejanja vode: A- Spektar klase energetske efikasnosti: A+ -&gt; F- Energetska efikasnost grejanja vode: 39%- Godi&scaron;nja potro&scaron;nja električne energije: 476 kWh&nbsp;",
+    "description": "* Izloženo u salonu - Ivićeva 1- Snaga: 21/24/27 kW- neto težina - 3,42 kg- Energetska efikasnost grejanja vode: 39%- Električni priključak: 400 V- Osigurač: 32/40/40 A- Maksimalna ulazna temperatura: 55 stepeni C- Klasa zaštite : IP25- Protočni pritisak uključivanja : 0,4 bara- Količina vode za pokretanje: 2,5 l/min- Maksimalni radni pritisak: 10 bara- Maksimalni protok: 10 l/min- Klasa energetske efikasnosti grejanja vode: A- Spektar klase energetske efikasnosti: A+ -> F- Energetska efikasnost grejanja vode: 39%- Godišnja potrošnja električne energije: 476 kWh",
     "sku": "7590",
     "capacity_liters": 5,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/5607/1300/bosch-bojler-21-24-27-tr7001-0.jpg",
-      "https://www.aqualand.rs/images/5608/1300/bosch-bojler-21-24-27-tr7001-1.jpg",
-      "https://www.aqualand.rs/images/5607/1300/bosch-bojler-21-24-27-tr7001-0.jpg",
-      "https://www.aqualand.rs/images/5608/1300/bosch-bojler-21-24-27-tr7001-1.jpg",
-      "https://www.aqualand.rs/images/5607/1300/bosch-bojler-21-24-27-tr7001-0.jpg"
+      "https://www.aqualand.rs/images/5608/1300/bosch-bojler-21-24-27-tr7001-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/5607/1300/bosch-bojler-21-24-27-tr7001-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:29.070Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:45.586Z"
   },
   {
     "id": "bosch-bojler-4-5kw-tr4000-5set",
@@ -1544,20 +1403,18 @@
     "price_formatted": "19.597 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/bosch-bojler-4-5kw-tr4000-5set/4912/",
-    "description": "Bosch protočni bojler TR4000 5 ET - Mali protočni bojler sa elektronskom regulacijom - Snage: 5 kW - Dimenzije: 140 x185 x 88 mm - Monofazni 230V. - Moguća gornja ili donja montaža - Konstantan dotok vode; za jedno potro&scaron;no mest - 20% u&scaron;tede energije u poređenju sa bojlerima sa hidrauličnom regulacijom - Eco režim - Manja potro&scaron;nja struje (preko 30%) - Jednostavna montaža zahvaljujući dvodelnom nosaču - Nivo standardne za&scaron;tite IP 25 - Maksimalnu sigurnost garantuju sertifikati izdati od strane VDE instituta. - &Delta;T = 30 ℃ za protok do 3l/mi - Min. temperatura ulazne vode (&ordm;C): 12 - Max. temperatura izlazne vode pri ulazu vode od 18 ℃ i dozvoljenom max.protoku (℃): 45 - Max. temperatura izlazne vode (℃): 45 - Preporučen presek kabla mm&sup2;: 3 x 2,5 - Energetska efikasnost pripreme tople vode: 39 % - Neto težina: 1,17 kg - Nominalna snaga: 4,5 kW - Električni osigurač: 20 A - Maksimalni dozvoljeni radni pritisak: 10 bar - Klasa za&scaron;tite: I &nbsp;- Klasa IP za&scaron;tite (EN 60529): IP24D",
+    "description": "Bosch protočni bojler TR4000 5 ET - Mali protočni bojler sa elektronskom regulacijom - Snage: 5 kW - Dimenzije: 140 x185 x 88 mm - Monofazni 230V. - Moguća gornja ili donja montaža - Konstantan dotok vode; za jedno potrošno mest - 20% uštede energije u poređenju sa bojlerima sa hidrauličnom regulacijom - Eco režim - Manja potrošnja struje (preko 30%) - Jednostavna montaža zahvaljujući dvodelnom nosaču - Nivo standardne zaštite IP 25 - Maksimalnu sigurnost garantuju sertifikati izdati od strane VDE instituta. - ΔT = 30 ℃ za protok do 3l/mi - Min. temperatura ulazne vode (ºC): 12 - Max. temperatura izlazne vode pri ulazu vode od 18 ℃ i dozvoljenom max.protoku (℃): 45 - Max. temperatura izlazne vode (℃): 45 - Preporučen presek kabla mm²: 3 x 2,5 - Energetska efikasnost pripreme tople vode: 39 % - Neto težina: 1,17 kg - Nominalna snaga: 4,5 kW - Električni osigurač: 20 A - Maksimalni dozvoljeni radni pritisak: 10 bar - Klasa zaštite: I - Klasa IP zaštite (EN 60529): IP24D",
     "sku": "7591",
     "capacity_liters": 3,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/5762/1300/bosch-bojler-4-5kw-tr4000-5set-0.jpg",
       "https://www.aqualand.rs/images/5763/1300/bosch-bojler-4-5kw-tr4000-5set-1.jpg",
-      "https://www.aqualand.rs/images/5767/1300/bosch-bojler-4-5kw-tr4000-5set-2.jpg",
-      "https://www.aqualand.rs/images/5762/1300/bosch-bojler-4-5kw-tr4000-5set-0.jpg",
-      "https://www.aqualand.rs/images/5763/1300/bosch-bojler-4-5kw-tr4000-5set-1.jpg"
+      "https://www.aqualand.rs/images/5767/1300/bosch-bojler-4-5kw-tr4000-5set-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/5762/1300/bosch-bojler-4-5kw-tr4000-5set-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:30.122Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:47.231Z"
   },
   {
     "id": "bosch-bojler-6kw-tr4000-6set",
@@ -1575,18 +1432,16 @@
     "images": [
       "https://www.aqualand.rs/images/5764/1300/bosch-bojler-6kw-tr4000-6set-0.jpg",
       "https://www.aqualand.rs/images/5765/1300/bosch-bojler-6kw-tr4000-6set-1.jpg",
-      "https://www.aqualand.rs/images/5766/1300/bosch-bojler-6kw-tr4000-6set-2.jpg",
-      "https://www.aqualand.rs/images/5764/1300/bosch-bojler-6kw-tr4000-6set-0.jpg",
-      "https://www.aqualand.rs/images/5765/1300/bosch-bojler-6kw-tr4000-6set-1.jpg"
+      "https://www.aqualand.rs/images/5766/1300/bosch-bojler-6kw-tr4000-6set-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/5764/1300/bosch-bojler-6kw-tr4000-6set-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:31.175Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:48.683Z"
   },
   {
     "id": "clage-cex-11-13kw",
     "name": "CLAGE CEX 11-13KW",
-    "brand": "Ostalo",
+    "brand": "Clage",
     "category": "Protočni bojleri",
     "price": 41190,
     "price_formatted": "41.190 RSD",
@@ -1598,14 +1453,11 @@
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/3133/1300/clage-cex-11-13kw-0.jpg",
-      "https://www.aqualand.rs/images/3134/1300/clage-cex-11-13kw-1.jpg",
-      "https://www.aqualand.rs/images/3133/1300/clage-cex-11-13kw-0.jpg",
-      "https://www.aqualand.rs/images/3134/1300/clage-cex-11-13kw-1.jpg",
-      "https://www.aqualand.rs/images/3133/1300/clage-cex-11-13kw-0.jpg"
+      "https://www.aqualand.rs/images/3134/1300/clage-cex-11-13kw-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/3133/1300/clage-cex-11-13kw-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:32.190Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:53.528Z"
   },
   {
     "id": "clage-dbx-electron-18kw",
@@ -1616,20 +1468,16 @@
     "price_formatted": "43.518 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/clage-dbx-electron-18kw/2286/",
-    "description": "- Fabrički prepode&scaron;ena temperatura rada na 50&deg;C, može se promeniti na temperaturu između 30&deg;C i 60&deg;C- Detekcija kvara i nestanka vode.- Jednostavna instalacija- Protok na kome se grejanje vode aktivira (1.5 L/min)- Protok vode (7 L/min)- Nominalni napon 400 V (provodnik 5&times;4)- Maksimalni radni pritisak 1MPA (10 BAR)- Klasa zastite IP25- Dubina - 9,7cm- &Scaron;irina - 23cm- Visina - 46,6cm- Težina - 4,2kg- Garancija - 30 meseci",
+    "description": "- Fabrički prepodešena temperatura rada na 50°C, može se promeniti na temperaturu između 30°C i 60°C- Detekcija kvara i nestanka vode.- Jednostavna instalacija- Protok na kome se grejanje vode aktivira (1.5 L/min)- Protok vode (7 L/min)- Nominalni napon 400 V (provodnik 5×4)- Maksimalni radni pritisak 1MPA (10 BAR)- Klasa zastite IP25- Dubina - 9,7cm- Širina - 23cm- Visina - 46,6cm- Težina - 4,2kg- Garancija - 30 meseci",
     "sku": "2304",
     "capacity_liters": 5,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/2791/1300/clage-dbx-electron-18kw-0.jpg",
-      "https://www.aqualand.rs/images/2791/1300/clage-dbx-electron-18kw-0.jpg",
-      "https://www.aqualand.rs/images/2791/1300/clage-dbx-electron-18kw-0.jpg",
-      "https://www.aqualand.rs/images/2791/1300/clage-dbx-electron-18kw-0.jpg",
       "https://www.aqualand.rs/images/2791/1300/clage-dbx-electron-18kw-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2791/1300/clage-dbx-electron-18kw-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:33.221Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:55.075Z"
   },
   {
     "id": "clage-dcx-next-18-27kw",
@@ -1640,20 +1488,16 @@
     "price_formatted": "52.519 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/clage-dcx-next-18-27kw/2287/",
-    "description": "TEHNIČKE KARAKTERISTIKE&nbsp;- Broj proizvođača: 3200-36300- Maksimalni radni pritisak [MPa (bar)]: 1 (10)1)- Navojni priključak: G &frac12;&rdquo;- Pode&scaron;avanje temperature [&deg;C]: 35 &ndash; 38 &ndash; 42 &ndash; 48 &ndash; 55- Izlaz tople vode na &Delta;t = 28 K 2) 3) 4) [l/min]: 9.2 | 10.7 | 12.3 | 13.8- Protok pri uključivanju/maksimalni protok [l/min]: 1.5 / 5.05)- Izlaz tople vode na &Delta;t = 28 K 2) 3) 4) [l/min]: | 9.2 | 10.7 | 12.3 | 13.8- Maksimalni protok [l/min]: 1.5 / 8.05)- Nazivna snaga [kW]: | 18 | 21 | 24 | 27- Napon [3~ / PE 380 &ndash; 415 V 6) AC]: Trajna veza- Potrebna jačina osigurača [A]: | 26 | 30 | 35 | 39- Potreban kabal za montažu [mm2]: | 4.0 | 4.0 | 6.0 | 6.0- Sistem grejanja žica IES&reg;: ✓- Klasa za&scaron;tite: IP25- Specifična vodootpornost pri 15&deg;C [&Omega;cm] &ge; : 1100- Nazivna zapremina [litara]: 0.4- Težina napunjenog bojlera [kg]: ca.4.2- Dimenzije (visina &times; &scaron;irina &times; dubina) [cm]: 46.8 &times; 23.9 &times; 9.6- Garancija 30 meseci",
+    "description": "TEHNIČKE KARAKTERISTIKE - Broj proizvođača: 3200-36300- Maksimalni radni pritisak [MPa (bar)]: 1 (10)1)- Navojni priključak: G ½”- Podešavanje temperature [°C]: 35 – 38 – 42 – 48 – 55- Izlaz tople vode na Δt = 28 K 2) 3) 4) [l/min]: 9.2 | 10.7 | 12.3 | 13.8- Protok pri uključivanju/maksimalni protok [l/min]: 1.5 / 5.05)- Izlaz tople vode na Δt = 28 K 2) 3) 4) [l/min]: | 9.2 | 10.7 | 12.3 | 13.8- Maksimalni protok [l/min]: 1.5 / 8.05)- Nazivna snaga [kW]: | 18 | 21 | 24 | 27- Napon [3~ / PE 380 – 415 V 6) AC]: Trajna veza- Potrebna jačina osigurača [A]: | 26 | 30 | 35 | 39- Potreban kabal za montažu [mm2]: | 4.0 | 4.0 | 6.0 | 6.0- Sistem grejanja žica IES®: ✓- Klasa zaštite: IP25- Specifična vodootpornost pri 15°C [Ωcm] ≥ : 1100- Nazivna zapremina [litara]: 0.4- Težina napunjenog bojlera [kg]: ca.4.2- Dimenzije (visina × širina × dubina) [cm]: 46.8 × 23.9 × 9.6- Garancija 30 meseci",
     "sku": "2302",
     "capacity_liters": null,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/9122/1300/clage-dcx-next-18-27kw-0.jpg",
-      "https://www.aqualand.rs/images/9122/1300/clage-dcx-next-18-27kw-0.jpg",
-      "https://www.aqualand.rs/images/9122/1300/clage-dcx-next-18-27kw-0.jpg",
-      "https://www.aqualand.rs/images/9122/1300/clage-dcx-next-18-27kw-0.jpg",
       "https://www.aqualand.rs/images/9122/1300/clage-dcx-next-18-27kw-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/9122/1300/clage-dcx-next-18-27kw-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:34.230Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:56.673Z"
   },
   {
     "id": "clage-dex-next-18-27kw",
@@ -1664,20 +1508,16 @@
     "price_formatted": "67.620 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/clage-dex-next-18-27kw/2288/",
-    "description": "- MPS &ndash; Multiple Power System &ndash; automatski kontrolisana regulacija potro&scaron;nje od 18kW-27kW- TTC &ndash; Twin Temperature Control &ndash; omogućava precizno pode&scaron;avanje temperature od 20&deg;C &ndash; 60&deg;C- Između komforne zone (35&deg;C &ndash; 40&deg;C) pode&scaron;avanje temperature je sa 0,5&deg;C preciznosti- Sigurnosni sistem isključivanja u slučaju detektovanja gre&scaron;aka u pritisku i nestanka dovoda vode- Mogućnost dodavanja daljinske kontrole- Protok na kome se grejanje vode aktivira (1.5 L/min)- Protok vode (8L/min)- Maksimalni radni pritisak 1MPA (10BAR)- Nominalni napon 400 V- Klasa zastite IP25- Snaga podesiva prema tehnickim mogucnostima- Dubina - 9,6cm- &Scaron;irina - 23,9cm- Visina - 46,8cm- Težina - 4,2kg- Garancija 30 meseci",
+    "description": "- MPS – Multiple Power System – automatski kontrolisana regulacija potrošnje od 18kW-27kW- TTC – Twin Temperature Control – omogućava precizno podešavanje temperature od 20°C – 60°C- Između komforne zone (35°C – 40°C) podešavanje temperature je sa 0,5°C preciznosti- Sigurnosni sistem isključivanja u slučaju detektovanja grešaka u pritisku i nestanka dovoda vode- Mogućnost dodavanja daljinske kontrole- Protok na kome se grejanje vode aktivira (1.5 L/min)- Protok vode (8L/min)- Maksimalni radni pritisak 1MPA (10BAR)- Nominalni napon 400 V- Klasa zastite IP25- Snaga podesiva prema tehnickim mogucnostima- Dubina - 9,6cm- Širina - 23,9cm- Visina - 46,8cm- Težina - 4,2kg- Garancija 30 meseci",
     "sku": "1280",
     "capacity_liters": 5,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/1357/1300/clage-dex-next-18-27kw-0.jpg",
-      "https://www.aqualand.rs/images/1357/1300/clage-dex-next-18-27kw-0.jpg",
-      "https://www.aqualand.rs/images/1357/1300/clage-dex-next-18-27kw-0.jpg",
-      "https://www.aqualand.rs/images/1357/1300/clage-dex-next-18-27kw-0.jpg",
       "https://www.aqualand.rs/images/1357/1300/clage-dex-next-18-27kw-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1357/1300/clage-dex-next-18-27kw-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:35.239Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:58.148Z"
   },
   {
     "id": "clage-dsx-touch-18-27kw",
@@ -1688,20 +1528,18 @@
     "price_formatted": "108.139 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/clage-dsx-touch-18-27kw/2289/",
-    "description": "TEHNIČKE KARAKTERISTIKE:&nbsp;- Nominalna snaga (kW): 18kW | 21kW | 24kW | 27kW- Elektronski protočni bojler DSX Touch, specifikacije- Namena: umivaonik, sudopera, tu&scaron;, kada- Klasa energetske efikasnosti: A- Katalo&scaron;ki broj: 3200-36600- Tip: zatvoreni izlaz- Maskimalni radni pritisak (MPa; bar): 1; 10- Konekcija za vodu: G1/2&quot;- Pode&scaron;avanje temperature na izlazu (&deg;C), po izboru korisnika: 20-60- Protok tople vode na izlazu, pri razlici temperatura od 28K (28&deg;C) (l/min):&nbsp;&nbsp; &nbsp;9,2 | 10,7 | 12,3 | 13,8- Protok na kome se grejanje vode aktivira / maksimalan protok (l/min):&nbsp; &nbsp;1,5/automatski (zavisno od pritiska vode, izabrane temperature i&nbsp;&nbsp; &nbsp;temperature ulazne vode)- Nominalna snaga (kW): 18kW | 21kW | 24kW | 27kW- Napajanje: 3 ~/PE 400 V AC- Nominalna struja (A): 26 | 30 | 35 | 39- Zahtevani prečnik kabla (mm2): 4 | 4 | 6 | 6- Sistem grejanja golom žicom, IES: da- Uređaj poseduje atest: da- Spreman za kontrolu preko &quot;pametnih&quot; uređaja: da- Spreman za FX3 upravljanje putem Bluetooth veze: da- Kompatibilan sa izvorom solarne energije (temperatura ulazne vode &le;70&deg;C): da- Za&scaron;titna klasa: IP25- Specifični otpor vode na 15&deg;C (&Omega;cm): 1100- Nominalna zapremina (l): 0,4- Masa kada je pun vode (kg): približno 4,2- Dimenzije (V x &Scaron; X D) (cm): 46,8 x 23,9 x 9,6Garancija 30 meseci",
+    "description": "TEHNIČKE KARAKTERISTIKE: - Nominalna snaga (kW): 18kW | 21kW | 24kW | 27kW- Elektronski protočni bojler DSX Touch, specifikacije- Namena: umivaonik, sudopera, tuš, kada- Klasa energetske efikasnosti: A- Kataloški broj: 3200-36600- Tip: zatvoreni izlaz- Maskimalni radni pritisak (MPa; bar): 1; 10- Konekcija za vodu: G1/2\"- Podešavanje temperature na izlazu (°C), po izboru korisnika: 20-60- Protok tople vode na izlazu, pri razlici temperatura od 28K (28°C) (l/min): 9,2 | 10,7 | 12,3 | 13,8- Protok na kome se grejanje vode aktivira / maksimalan protok (l/min): 1,5/automatski (zavisno od pritiska vode, izabrane temperature i temperature ulazne vode)- Nominalna snaga (kW): 18kW | 21kW | 24kW | 27kW- Napajanje: 3 ~/PE 400 V AC- Nominalna struja (A): 26 | 30 | 35 | 39- Zahtevani prečnik kabla (mm2): 4 | 4 | 6 | 6- Sistem grejanja golom žicom, IES: da- Uređaj poseduje atest: da- Spreman za kontrolu preko \"pametnih\" uređaja: da- Spreman za FX3 upravljanje putem Bluetooth veze: da- Kompatibilan sa izvorom solarne energije (temperatura ulazne vode ≤70°C): da- Zaštitna klasa: IP25- Specifični otpor vode na 15°C (Ωcm): 1100- Nominalna zapremina (l): 0,4- Masa kada je pun vode (kg): približno 4,2- Dimenzije (V x Š X D) (cm): 46,8 x 23,9 x 9,6Garancija 30 meseci",
     "sku": "2597",
     "capacity_liters": null,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/1646/1300/clage-dsx-touch-18-27kw-0.jpg",
       "https://www.aqualand.rs/images/1647/1300/clage-dsx-touch-18-27kw-1.jpg",
-      "https://www.aqualand.rs/images/1648/1300/clage-dsx-touch-18-27kw-2.jpg",
-      "https://www.aqualand.rs/images/1646/1300/clage-dsx-touch-18-27kw-0.jpg",
-      "https://www.aqualand.rs/images/1647/1300/clage-dsx-touch-18-27kw-1.jpg"
+      "https://www.aqualand.rs/images/1648/1300/clage-dsx-touch-18-27kw-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1646/1300/clage-dsx-touch-18-27kw-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:36.262Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:59.567Z"
   },
   {
     "id": "clage-m4-4-4kw-230v-nm",
@@ -1712,44 +1550,39 @@
     "price_formatted": "22.918 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/clage-m4-4-4kw-230v-nm/2290/",
-    "description": "TEHNIČKE KARAKTERISTIKE&nbsp;- Broj proizvođača: 1500-17004- Maksimalni radni pritisak [MPa (bar)]: 1(10)- Navojni priključak: G &frac12;&rdquo;- Pode&scaron;avanje temperature [&deg;C]: Od 15&deg;C do 40&deg;C- Izlaz tople vode na &Delta;t=25K1)2)&nbsp;[l/min]: 2.5- Protok pri uključivanju/maksimalni protok [l/min]: 1.8 / 2.5- Nazivna snaga [kW]: 4.4- Napon [1~ / N / PE 230 V AC]:: Trajna veza- Potrebna jačina osigurača [A]: 19- Potreban kabal za montažu [mm2]: 2.5- Sistem grejanja žica IES&reg;: ✓- Klasa za&scaron;tite: IP25- Specifična vodootpornost pri 15&deg;C [&Omega;cm] &ge; : 11000- Nazivna zapremina [litara]: 0.2- Težina napunjenog bojlera [kg]: ca.1.5- Dimenzije (visina &times; &scaron;irina &times; dubina) [cm]: 13.5 &times; 18.6 &times; 8.7- Garancija 30 meseci",
+    "description": "TEHNIČKE KARAKTERISTIKE - Broj proizvođača: 1500-17004- Maksimalni radni pritisak [MPa (bar)]: 1(10)- Navojni priključak: G ½”- Podešavanje temperature [°C]: Od 15°C do 40°C- Izlaz tople vode na Δt=25K1)2) [l/min]: 2.5- Protok pri uključivanju/maksimalni protok [l/min]: 1.8 / 2.5- Nazivna snaga [kW]: 4.4- Napon [1~ / N / PE 230 V AC]:: Trajna veza- Potrebna jačina osigurača [A]: 19- Potreban kabal za montažu [mm2]: 2.5- Sistem grejanja žica IES®: ✓- Klasa zaštite: IP25- Specifična vodootpornost pri 15°C [Ωcm] ≥ : 11000- Nazivna zapremina [litara]: 0.2- Težina napunjenog bojlera [kg]: ca.1.5- Dimenzije (visina × širina × dubina) [cm]: 13.5 × 18.6 × 8.7- Garancija 30 meseci",
     "sku": "2306",
     "capacity_liters": null,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/37/1300/clage-m4-4-4kw-230v-nm-0.jpg",
-      "https://www.aqualand.rs/images/3131/1300/clage-m4-4-4kw-230v-nm-1.jpg",
-      "https://www.aqualand.rs/images/37/1300/clage-m4-4-4kw-230v-nm-0.jpg",
-      "https://www.aqualand.rs/images/3131/1300/clage-m4-4-4kw-230v-nm-1.jpg",
-      "https://www.aqualand.rs/images/37/1300/clage-m4-4-4kw-230v-nm-0.jpg"
+      "https://www.aqualand.rs/images/3131/1300/clage-m4-4-4kw-230v-nm-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/37/1300/clage-m4-4-4kw-230v-nm-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:37.306Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:01.136Z"
   },
   {
     "id": "clage-m4-o-4-4kw-230v-vm",
     "name": "CLAGE M4-O 4.4KW/230V VM",
-    "brand": "Ostalo",
+    "brand": "Clage",
     "category": "Protočni bojleri",
     "price": 22918,
     "price_formatted": "22.918 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/clage-m4-o-4-4kw-230v-vm/2291/",
-    "description": "TEHNIČKE KARAKTERISTIKE&nbsp;- Broj proizvođača: 500-17114- Maksimalni radni pritisak [MPa (bar)]: 1(10)- Navojni priključak: G &frac12;&rdquo;- Pode&scaron;avanje temperature [&deg;C]: Od 15&deg;C do 40&deg;C- Izlaz tople vode na &Delta;t=25K1)2) [l/min]: 2.5- Protok pri uključivanju/maksimalni protok [l/min]: 1.8 / 2.5- Nazivna snaga [kW]: 4.4- Napon [1~ / N / PE 230 V AC]:: Trajna veza- Potrebna jačina osigurača [A]: 19- Potreban kabal za montažu [mm2]: 2.5- Sistem grejanja žica IES&reg;: ✓- Klasa za&scaron;tite: IP25- Specifična vodootpornost pri 15&deg;C [&Omega;cm] &ge; : 11000- Nazivna zapremina [litara]: 0.2- Težina napunjenog bojlera [kg]: ca.1.5- Dimenzije (visina &times; &scaron;irina &times; dubina) [cm]: 13.5 &times; 18.6 &times; 8.7",
+    "description": "TEHNIČKE KARAKTERISTIKE - Broj proizvođača: 500-17114- Maksimalni radni pritisak [MPa (bar)]: 1(10)- Navojni priključak: G ½”- Podešavanje temperature [°C]: Od 15°C do 40°C- Izlaz tople vode na Δt=25K1)2) [l/min]: 2.5- Protok pri uključivanju/maksimalni protok [l/min]: 1.8 / 2.5- Nazivna snaga [kW]: 4.4- Napon [1~ / N / PE 230 V AC]:: Trajna veza- Potrebna jačina osigurača [A]: 19- Potreban kabal za montažu [mm2]: 2.5- Sistem grejanja žica IES®: ✓- Klasa zaštite: IP25- Specifična vodootpornost pri 15°C [Ωcm] ≥ : 11000- Nazivna zapremina [litara]: 0.2- Težina napunjenog bojlera [kg]: ca.1.5- Dimenzije (visina × širina × dubina) [cm]: 13.5 × 18.6 × 8.7",
     "sku": "2305",
     "capacity_liters": null,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/2710/1300/clage-m4-o-4-4kw-230v-vm-0.jpg",
       "https://www.aqualand.rs/images/2711/1300/clage-m4-o-4-4kw-230v-vm-1.jpg",
-      "https://www.aqualand.rs/images/2712/1300/clage-m4-o-4-4kw-230v-vm-2.jpg",
-      "https://www.aqualand.rs/images/2713/1300/clage-m4-o-4-4kw-230v-vm-3.jpg",
-      "https://www.aqualand.rs/images/2714/1300/clage-m4-o-4-4kw-230v-vm-4.jpg"
+      "https://www.aqualand.rs/images/2712/1300/clage-m4-o-4-4kw-230v-vm-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2710/1300/clage-m4-o-4-4kw-230v-vm-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:38.301Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:02.565Z"
   },
   {
     "id": "clage-mbh4-4-4kw-230v",
@@ -1760,20 +1593,16 @@
     "price_formatted": "22.918 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/clage-mbh4-4-4kw-230v/2292/",
-    "description": "- Maksimalna temperatura i protok zavise od uslova na mestu instalacije.&nbsp;- Da bi se postigla prijatna temperatura, moguce je povecati ili smanjiti protok vode unutar bojlera- Grejni element je zamenljiv- Izlaz tople vode 2.5L/min. (MBH-4)- Izlaz tople vode 3.7L/min. (MBH-7)- Maksimalni radni pritisak 1 MPA (10BAR)- Nominalni napon MBH 4-230 V (provodnik 3&times;2.5)- Nominalni napon MBH 7-400V (provodnik 3&times;2.5)-L1,L2,uzemljenje- Klasa zastite IP25- Dubina - 8,7cm- &Scaron;irina - 18.6cm- Visina - 13,5cm- Težina - 1,5kg",
+    "description": "- Maksimalna temperatura i protok zavise od uslova na mestu instalacije. - Da bi se postigla prijatna temperatura, moguce je povecati ili smanjiti protok vode unutar bojlera- Grejni element je zamenljiv- Izlaz tople vode 2.5L/min. (MBH-4)- Izlaz tople vode 3.7L/min. (MBH-7)- Maksimalni radni pritisak 1 MPA (10BAR)- Nominalni napon MBH 4-230 V (provodnik 3×2.5)- Nominalni napon MBH 7-400V (provodnik 3×2.5)-L1,L2,uzemljenje- Klasa zastite IP25- Dubina - 8,7cm- Širina - 18.6cm- Visina - 13,5cm- Težina - 1,5kg",
     "sku": "2512",
     "capacity_liters": 5,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/2627/1300/clage-mbh4-4-4kw-230v-0.jpg",
-      "https://www.aqualand.rs/images/2627/1300/clage-mbh4-4-4kw-230v-0.jpg",
-      "https://www.aqualand.rs/images/2627/1300/clage-mbh4-4-4kw-230v-0.jpg",
-      "https://www.aqualand.rs/images/2627/1300/clage-mbh4-4-4kw-230v-0.jpg",
       "https://www.aqualand.rs/images/2627/1300/clage-mbh4-4-4kw-230v-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2627/1300/clage-mbh4-4-4kw-230v-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:39.337Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:04.031Z"
   },
   {
     "id": "clage-mbh7-6-5kw-400v",
@@ -1784,20 +1613,16 @@
     "price_formatted": "24.050 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/clage-mbh7-6-5kw-400v/2293/",
-    "description": "- Maksimalna temperatura i protok zavise od uslova na mestu instalacije.&nbsp;- Da bi se postigla prijatna temperatura, moguce je povecati ili smanjiti protok vode unutar bojlera- Grejni element je zamenljiv- Izlaz tople vode 2.5L/min. (MBH-4)- Izlaz tople vode 3.7L/min. (MBH-7)- Maksimalni radni pritisak 1 MPA (10BAR)- Nominalni napon MBH 4-230 V (provodnik 3&times;2.5)- Nominalni napon MBH 7-400V (provodnik 3&times;2.5)-L1,L2,uzemljenje- Klasa zastite IP25- Dubina - 8,7cm- &Scaron;irina - 18,6cm- Visina - 13,5cm- Težina - 1,5kg- Garancija 30 meseci",
+    "description": "- Maksimalna temperatura i protok zavise od uslova na mestu instalacije. - Da bi se postigla prijatna temperatura, moguce je povecati ili smanjiti protok vode unutar bojlera- Grejni element je zamenljiv- Izlaz tople vode 2.5L/min. (MBH-4)- Izlaz tople vode 3.7L/min. (MBH-7)- Maksimalni radni pritisak 1 MPA (10BAR)- Nominalni napon MBH 4-230 V (provodnik 3×2.5)- Nominalni napon MBH 7-400V (provodnik 3×2.5)-L1,L2,uzemljenje- Klasa zastite IP25- Dubina - 8,7cm- Širina - 18,6cm- Visina - 13,5cm- Težina - 1,5kg- Garancija 30 meseci",
     "sku": "5083",
     "capacity_liters": 5,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/1615/1300/clage-mbh7-6-5kw-400v-0.jpg",
-      "https://www.aqualand.rs/images/1615/1300/clage-mbh7-6-5kw-400v-0.jpg",
-      "https://www.aqualand.rs/images/1615/1300/clage-mbh7-6-5kw-400v-0.jpg",
-      "https://www.aqualand.rs/images/1615/1300/clage-mbh7-6-5kw-400v-0.jpg",
       "https://www.aqualand.rs/images/1615/1300/clage-mbh7-6-5kw-400v-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1615/1300/clage-mbh7-6-5kw-400v-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:40.355Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:05.453Z"
   },
   {
     "id": "clage-mcx4-4-4kw-230v",
@@ -1808,20 +1633,17 @@
     "price_formatted": "31.817 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/clage-mcx4-4-4kw-230v/2294/",
-    "description": "TEHNIČKE KARAKTERISTIKE- Pritisak vode Min 200kPa-Maks 1000kPa&nbsp;&nbsp;- Priključak za vodu 12,7 mm BSP &nbsp;&nbsp;- Nazivna snaga 4,4kV 220-240V 50/60 Hz &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;- Dimenzije V135 mm x &Scaron;186 mm x D87 mm- Nazivna snaga 4,4 kW- Garancija 30 meseci&nbsp;",
+    "description": "TEHNIČKE KARAKTERISTIKE- Pritisak vode Min 200kPa-Maks 1000kPa - Priključak za vodu 12,7 mm BSP - Nazivna snaga 4,4kV 220-240V 50/60 Hz - Dimenzije V135 mm x Š186 mm x D87 mm- Nazivna snaga 4,4 kW- Garancija 30 meseci",
     "sku": "2738",
     "capacity_liters": null,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/39/1300/clage-mcx4-4-4kw-230v-0.jpg",
-      "https://www.aqualand.rs/images/3132/1300/clage-mcx4-4-4kw-230v-1.jpg",
-      "https://www.aqualand.rs/images/39/1300/clage-mcx4-4-4kw-230v-0.jpg",
-      "https://www.aqualand.rs/images/3132/1300/clage-mcx4-4-4kw-230v-1.jpg",
-      "https://www.aqualand.rs/images/39/1300/clage-mcx4-4-4kw-230v-0.jpg"
+      "https://www.aqualand.rs/images/3132/1300/clage-mcx4-4-4kw-230v-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/39/1300/clage-mcx4-4-4kw-230v-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:41.361Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:07.101Z"
   },
   {
     "id": "clage-mcx7-6-5kw-400",
@@ -1832,20 +1654,36 @@
     "price_formatted": "33.217 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/clage-mcx7-6-5kw-400/2295/",
-    "description": "- Elegantna kontrola - Putem dugmeta osetljivog na dodir na brzo biranje temperature: 35&deg;C, 38&deg;C i 45&deg;C.- Nije neophodno dodavanje hladne vode- Mogućnost nadogradnje - Bežične daljinske kontrole- Izlaz tople vode 3.7L/min- Grejni element je zamenljiv- Maksimalni radni pritisak 1 MPA (10BAR)- Nominalni napon 400 V (provodnik 3&times;2.5)-L1,L2,uzemljenje- Klasa zastite IP25- Dubina - 8,7cm- &Scaron;irina - 18.6cm- Visina - 13,5cm- Težina - 1,5kg- Garancija 30 meseci",
+    "description": "- Elegantna kontrola - Putem dugmeta osetljivog na dodir na brzo biranje temperature: 35°C, 38°C i 45°C.- Nije neophodno dodavanje hladne vode- Mogućnost nadogradnje - Bežične daljinske kontrole- Izlaz tople vode 3.7L/min- Grejni element je zamenljiv- Maksimalni radni pritisak 1 MPA (10BAR)- Nominalni napon 400 V (provodnik 3×2.5)-L1,L2,uzemljenje- Klasa zastite IP25- Dubina - 8,7cm- Širina - 18.6cm- Visina - 13,5cm- Težina - 1,5kg- Garancija 30 meseci",
     "sku": "2598",
     "capacity_liters": 7,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/2626/1300/clage-mcx7-6-5kw-400-0.jpg",
-      "https://www.aqualand.rs/images/2626/1300/clage-mcx7-6-5kw-400-0.jpg",
-      "https://www.aqualand.rs/images/2626/1300/clage-mcx7-6-5kw-400-0.jpg",
-      "https://www.aqualand.rs/images/2626/1300/clage-mcx7-6-5kw-400-0.jpg",
       "https://www.aqualand.rs/images/2626/1300/clage-mcx7-6-5kw-400-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2626/1300/clage-mcx7-6-5kw-400-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:42.381Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:08.596Z"
+  },
+  {
+    "id": "obloga-prednja-120l-aquastil",
+    "name": "OBLOGA PREDNJA 120L AQUASTIL",
+    "brand": "Ostalo",
+    "category": "Protočni bojleri",
+    "price": 10700,
+    "price_formatted": "10.700 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/obloga-prednja-120l-aquastil/3104/",
+    "description": "",
+    "sku": "4025",
+    "capacity_liters": 120,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/649/1300/obloga-prednja-120l-aquastil-0.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/649/1300/obloga-prednja-120l-aquastil-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:33:05.948Z"
   },
   {
     "id": "ariston-100l-pro-r1",
@@ -1856,20 +1694,61 @@
     "price_formatted": "17.719 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/ariston-100l-pro-r1/2176/",
-    "description": "TEHNIČKE KARAKTERISTIKE- Visoko montažni- Instalacija: Vertikalno- Kapacitet: 100L- Snaga: 2000 W- Vreme zagrevanja (&Delta;T = 45&deg;C): 2h:29min.- Maks. radna temperatura: 75 &deg;C- Maksimalni radni pritisak: 6 bar",
+    "description": "TEHNIČKE KARAKTERISTIKE- Visoko montažni- Instalacija: Vertikalno- Kapacitet: 100L- Snaga: 2000 W- Vreme zagrevanja (ΔT = 45°C): 2h:29min.- Maks. radna temperatura: 75 °C- Maksimalni radni pritisak: 6 bar",
     "sku": "1883",
     "capacity_liters": 100,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/1290/1300/ariston-100l-pro-r1-0.jpg",
-      "https://www.aqualand.rs/images/9098/1300/ariston-100l-pro-r1-1.jpg",
-      "https://www.aqualand.rs/images/1290/1300/ariston-100l-pro-r1-0.jpg",
-      "https://www.aqualand.rs/images/9098/1300/ariston-100l-pro-r1-1.jpg",
-      "https://www.aqualand.rs/images/1290/1300/ariston-100l-pro-r1-0.jpg"
+      "https://www.aqualand.rs/images/9098/1300/ariston-100l-pro-r1-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1290/1300/ariston-100l-pro-r1-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:50.492Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:13.074Z"
+  },
+  {
+    "id": "ariston-100l-velis-pro",
+    "name": "ARISTON 100L VELIS PRO",
+    "brand": "Ariston",
+    "category": "Vertikalni bojleri",
+    "price": 48195,
+    "price_formatted": "48.195 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/ariston-100l-velis-pro/6352/",
+    "description": "- Dimenzija - 1271 x 27,5 x 51,1cm- Kazan - Emajlirani od legure Inocoloy- Magnezijumska anoda - ECO EVO - funkcija za uštedu energije- Displej osetljiv na dodir i elektronska kontrola- Montaža - Horizontalna ili vertikalno- Radni pritisak - 8 bara- Snaga grejača - 1500+1500W",
+    "sku": "8174",
+    "capacity_liters": 100,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/9271/1300/ariston-100l-velis-pro-0.jpg",
+      "https://www.aqualand.rs/images/9272/1300/ariston-100l-velis-pro-1.jpg",
+      "https://www.aqualand.rs/images/9273/1300/ariston-100l-velis-pro-2.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/9271/1300/ariston-100l-velis-pro-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:15.973Z"
+  },
+  {
+    "id": "ariston-100l-velis-pro-wifi",
+    "name": "ARISTON 100L VELIS PRO WIFI",
+    "brand": "Ariston",
+    "category": "Vertikalni bojleri",
+    "price": 57682,
+    "price_formatted": "57.682 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/ariston-100l-velis-pro-wifi/5543/",
+    "description": "- Displej - Soft Touch- Montaža - Vertikalna i horizontalna- Nazivni kapacitet - 100L- Stvarni kapacitet - 80L- Anoda - Magnezijumska- Grejni elementi - Emajlirani legurom Incoloy- Broj grejnih tela - 2- Vrsta izolacije - Poliuretan- Vreme zagrevanja (ΔT=45°C) - 2:47 h:min- Vreme zagrevanja (ΔT=50°C) - 2:06 h:min- rvo tuširanje spremno za - 0:46 h:min- Snaga - 1.5/1.5 kW- Voltaža - 220-240 V- Maksimalan radni pritisak - 8 bara- Maksimalna temperatura - 80°C- Neto masa - 3,5 kg- Dimenzije bojlera VxDxŠ: - 1272 x 275 x 511 mm- Integrisan Wi - Fi za daljinsko upravljanje zahvaljujući Ariston NET aplikaciji",
+    "sku": "8050",
+    "capacity_liters": 100,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/7578/1300/ariston-100l-velis-pro-wifi-0.jpg",
+      "https://www.aqualand.rs/images/7579/1300/ariston-100l-velis-pro-wifi-1.jpg",
+      "https://www.aqualand.rs/images/7581/1300/ariston-100l-velis-pro-wifi-2.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/7578/1300/ariston-100l-velis-pro-wifi-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:14.528Z"
   },
   {
     "id": "ariston-50l-lydos",
@@ -1880,20 +1759,17 @@
     "price_formatted": "15.350 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/ariston-50l-lydos/2182/",
-    "description": "- &Scaron;irina - 48cm- Dubina - 45cm- Visina - 56,8cm- Težina - 16kg- Velika magnezijumska anoda- Termostat za dvostruku sigurnost- Unutra&scaron;njost kazana emajlirana titanijumom testiran na 16 bara",
+    "description": "- Širina - 48cm- Dubina - 45cm- Visina - 56,8cm- Težina - 16kg- Velika magnezijumska anoda- Termostat za dvostruku sigurnost- Unutrašnjost kazana emajlirana titanijumom testiran na 16 bara",
     "sku": "176",
     "capacity_liters": 50,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/5840/1300/ariston-50l-lydos-0.jpg",
-      "https://www.aqualand.rs/images/5842/1300/ariston-50l-lydos-1.jpg",
-      "https://www.aqualand.rs/images/5840/1300/ariston-50l-lydos-0.jpg",
-      "https://www.aqualand.rs/images/5842/1300/ariston-50l-lydos-1.jpg",
-      "https://www.aqualand.rs/images/5840/1300/ariston-50l-lydos-0.jpg"
+      "https://www.aqualand.rs/images/5842/1300/ariston-50l-lydos-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/5840/1300/ariston-50l-lydos-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:51.480Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:21.980Z"
   },
   {
     "id": "ariston-50l-pro-r1",
@@ -1904,20 +1780,61 @@
     "price_formatted": "15.879 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/ariston-50l-pro-r1/2183/",
-    "description": "TEHNIČKE KARAKTERISTIKE -&nbsp;Dimenzija 543mm x 450mm - Water plus tehnologija: dostupno i do 16% vi&scaron;e tople vode za tu&scaron;iranje - izolacijski materijal - Velika magnezijumska anoda - Jednostavan korisnički interfejs sa povratnom informacijom o grejanju vode - Termostat za dvostruku sigurnost - Moderan dizajn",
+    "description": "TEHNIČKE KARAKTERISTIKE - Dimenzija 543mm x 450mm - Water plus tehnologija: dostupno i do 16% više tople vode za tuširanje - izolacijski materijal - Velika magnezijumska anoda - Jednostavan korisnički interfejs sa povratnom informacijom o grejanju vode - Termostat za dvostruku sigurnost - Moderan dizajn",
     "sku": "177",
     "capacity_liters": 50,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/1297/1300/ariston-50l-pro-r1-0.jpg",
-      "https://www.aqualand.rs/images/10964/1300/ariston-50l-pro-r1-1.jpg",
-      "https://www.aqualand.rs/images/1297/1300/ariston-50l-pro-r1-0.jpg",
-      "https://www.aqualand.rs/images/10964/1300/ariston-50l-pro-r1-1.jpg",
-      "https://www.aqualand.rs/images/1297/1300/ariston-50l-pro-r1-0.jpg"
+      "https://www.aqualand.rs/images/10964/1300/ariston-50l-pro-r1-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1297/1300/ariston-50l-pro-r1-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:52.513Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:23.449Z"
+  },
+  {
+    "id": "ariston-50l-velis-pro-wifi",
+    "name": "ARISTON 50L VELIS PRO WIFI",
+    "brand": "Ariston",
+    "category": "Vertikalni bojleri",
+    "price": 41538,
+    "price_formatted": "41.538 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/ariston-50l-velis-pro-wifi/6353/",
+    "description": "- Dimenzija - 79, 7x 27,5 x 51,1cm- Kazan - emajliran- Radni pritisak - 8 bara- Snaga grejača - 1500+1500W- Wi-fi",
+    "sku": "8052",
+    "capacity_liters": 50,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/9268/1300/ariston-50l-velis-pro-wifi-0.jpg",
+      "https://www.aqualand.rs/images/9269/1300/ariston-50l-velis-pro-wifi-1.jpg",
+      "https://www.aqualand.rs/images/9270/1300/ariston-50l-velis-pro-wifi-2.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/9268/1300/ariston-50l-velis-pro-wifi-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:25.245Z"
+  },
+  {
+    "id": "ariston-50l-velis-tech-wifi",
+    "name": "ARISTON 50L VELIS TECH WIFI",
+    "brand": "Ariston",
+    "category": "Vertikalni bojleri",
+    "price": 43878,
+    "price_formatted": "43.878 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/ariston-50l-velis-tech-wifi/5565/",
+    "description": "Dimenzije (Dubina×Širina×Visina) 27,5 × 51,1 × 79,7 cm- Režim rada BOOST- Indikator nivoa tople vode- Snaga: 1,5/1,5 kW- Potpuna elektronska kontrola- Zidna montaža u više položaja V/H- Grejni element emajliran legurom Incoloy- Integrisan Wi-Fi za povezivanje sa Ariston NET aplikacijom- ECO EVO funkcija- Dnevno programiranje- Težina: 23,5 kg- Zapremina: 50L- Snaga: 1.5 kW- Materijal: Emajl- Energetski razred: B- Montiranje-- Način ugradnje - Horizontalno, Vertikalno- Boja - Siva- Smart: Da",
+    "sku": "7937",
+    "capacity_liters": 50,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/7888/1300/ariston-50l-velis-tech-wifi-0.jpg",
+      "https://www.aqualand.rs/images/7899/1300/ariston-50l-velis-tech-wifi-1.jpg",
+      "https://www.aqualand.rs/images/7900/1300/ariston-50l-velis-tech-wifi-2.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/7888/1300/ariston-50l-velis-tech-wifi-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:26.701Z"
   },
   {
     "id": "ariston-80l-lydos",
@@ -1928,20 +1845,38 @@
     "price_formatted": "15.147 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/ariston-80l-lydos/2188/",
-    "description": "TEHNIČKI KARAKTERISTIKE- Instalacija: Vertikalno- Kapacitet: 80 l- Snaga: 2 kW- Vreme zagrevanja(∆T = 45&deg;C): 1h:58min.- Maksimalna radna temperatura: 75 &deg;C- Toplotni gubici na 65&deg;C: 1,35 kWh/24h- Maksimalni radni pritisak: 6 bar- Težina: 20,5 kg- IP za&scaron;tita: IPX3- Visina/&Scaron;irina/Dubina: 773/450/480 mm- Energetski razred: C",
+    "description": "TEHNIČKI KARAKTERISTIKE- Instalacija: Vertikalno- Kapacitet: 80 l- Snaga: 2 kW- Vreme zagrevanja(∆T = 45°C): 1h:58min.- Maksimalna radna temperatura: 75 °C- Toplotni gubici na 65°C: 1,35 kWh/24h- Maksimalni radni pritisak: 6 bar- Težina: 20,5 kg- IP zaštita: IPX3- Visina/Širina/Dubina: 773/450/480 mm- Energetski razred: C",
     "sku": "175",
     "capacity_liters": 80,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/7879/1300/ariston-80l-lydos-0.jpg",
       "https://www.aqualand.rs/images/7880/1300/ariston-80l-lydos-1.jpg",
-      "https://www.aqualand.rs/images/9094/1300/ariston-80l-lydos-2.jpg",
-      "https://www.aqualand.rs/images/7879/1300/ariston-80l-lydos-0.jpg",
-      "https://www.aqualand.rs/images/7880/1300/ariston-80l-lydos-1.jpg"
+      "https://www.aqualand.rs/images/9094/1300/ariston-80l-lydos-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/7879/1300/ariston-80l-lydos-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:53.531Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:31.049Z"
+  },
+  {
+    "id": "ariston-80l-lydos-wifi",
+    "name": "ARISTON 80L LYDOS WIFI",
+    "brand": "Ariston",
+    "category": "Vertikalni bojleri",
+    "price": 27932,
+    "price_formatted": "27.932 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/ariston-80l-lydos-wifi/2189/",
+    "description": "TEHNIČKE KARAKTERISTIKE:- Visina: 73.3cm- Širina: 45cm- Dubina: 47cm- Zapremina: 80L- Energetski razred: B- Materijal: Emajl- Snaga: 1.8 kW- Napon: 230 V- Vreme zagrevanja na 45°C: 2h 11min- Maksimalna radna temperatura od 80°C- Toplotni gubici na 65°C: 0.99 kWh na 24h- Maksimalni radni pritisak: 6 bar- Težina: 16kg- Zaštita: X3 IP- Zidna vertikalna montaža- Zidni nosač raspona 31cm",
+    "sku": "1840",
+    "capacity_liters": 80,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/1302/1300/ariston-80l-lydos-wifi-0.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/1302/1300/ariston-80l-lydos-wifi-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:29.612Z"
   },
   {
     "id": "ariston-80l-pro-r1",
@@ -1952,44 +1887,17 @@
     "price_formatted": "17.933 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/ariston-80l-pro-r1/2190/",
-    "description": "TEHNIČKE KARAKTERISTIKE - Instalacija: Vertikalno- Kapacitet: 80 l- Snaga: 2 kW- Vreme zagrevanja(∆T = 45&deg;C): 1h:58min.- Maksimalna radna temperatura: 75 &deg;C- Toplotni gubici na 65&deg;C: 1,35 kWh/24h- Maksimalni radni pritisak: 6 bar- Težina: 20,5 kg- IP za&scaron;tita: IPX3- Visina/&Scaron;irina/Dubina: 748/450/480 mm- Energetski razred: C",
+    "description": "TEHNIČKE KARAKTERISTIKE - Instalacija: Vertikalno- Kapacitet: 80 l- Snaga: 2 kW- Vreme zagrevanja(∆T = 45°C): 1h:58min.- Maksimalna radna temperatura: 75 °C- Toplotni gubici na 65°C: 1,35 kWh/24h- Maksimalni radni pritisak: 6 bar- Težina: 20,5 kg- IP zaštita: IPX3- Visina/Širina/Dubina: 748/450/480 mm- Energetski razred: C",
     "sku": "178",
     "capacity_liters": 80,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/1303/1300/ariston-80l-pro-r1-0.jpg",
-      "https://www.aqualand.rs/images/1637/1300/ariston-80l-pro-r1-1.jpg",
-      "https://www.aqualand.rs/images/1303/1300/ariston-80l-pro-r1-0.jpg",
-      "https://www.aqualand.rs/images/1637/1300/ariston-80l-pro-r1-1.jpg",
-      "https://www.aqualand.rs/images/1303/1300/ariston-80l-pro-r1-0.jpg"
+      "https://www.aqualand.rs/images/1637/1300/ariston-80l-pro-r1-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1303/1300/ariston-80l-pro-r1-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:54.621Z"
-  },
-  {
-    "id": "elektrolux-gld-30l-eec",
-    "name": "ELEKTROLUX GLD 30L EEC",
-    "brand": "Electrolux",
-    "category": "Vertikalni bojleri",
-    "price": 22140,
-    "price_formatted": "22.140 RSD",
-    "availability": "Na lageru",
-    "url": "https://www.aqualand.rs/product/elektrolux-gld-30l-eec/6971/",
-    "description": "- Dimenzija - 26 &times; 43,5 &times; 63,5 cm- Zapremina - 30L- Upotrebljiv kapacitet vode - 25L- X-Heat &ndash; sistem &ldquo;suvih&rdquo; grejnih elemenata- Sistem profesionalnog antibakterijskog preči&scaron;ćavanja vode Bacteria Stop System- Režim rada &ldquo;protiv smrzavanja&rdquo;- Super ravno kući&scaron;te od 25 cm s mogućno&scaron;ću postavljanja vertikalno ili horizontalno- Moderni grejači vode GLD imaju jedinstven ravni oblik, elektronsko upravljanje i LED displej- Uređaji serije lako se postavljaju u skučeni prostor, prikladni su za rad, pouzdano su&nbsp;&nbsp; &nbsp;za&scaron;tićeni vi&scaron;estepenim sigurnosnim sistemom- GLD može raditi u eko-režimu rada: voda će se zagrejati na temperaturu od 50-55 stepeni,&nbsp;&nbsp; &nbsp;pri ovoj temperaturi počinje toplotna obrada vode i nema stvaranja kamenca- Zahvaljujući režimu rada &ldquo;protiv smrzavanja&rdquo;, on se može za&scaron;tititi od hladnoće: inteligentni&nbsp; &nbsp; sistem upravljanja grejačem vode trenutno će povećati temperaturu vode u rezervoaru ako&nbsp;&nbsp; &nbsp; &nbsp;padne na kritičnu vrednost od +4 &deg;C- Težina - 17kg",
-    "sku": "8368",
-    "capacity_liters": 30,
-    "specifications": {},
-    "images": [
-      "https://www.aqualand.rs/images/11034/1300/elektrolux-gld-30l-eec-0.jpg",
-      "https://www.aqualand.rs/images/11035/1300/elektrolux-gld-30l-eec-1.jpg",
-      "https://www.aqualand.rs/images/11036/1300/elektrolux-gld-30l-eec-2.jpg",
-      "https://www.aqualand.rs/images/11037/1300/elektrolux-gld-30l-eec-3.jpg",
-      "https://www.aqualand.rs/images/11038/1300/elektrolux-gld-30l-eec-4.jpg"
-    ],
-    "image_url": "https://www.aqualand.rs/images/11034/1300/elektrolux-gld-30l-eec-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:56.815Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:29:32.534Z"
   },
   {
     "id": "elit-prohrom-talas-m-30l",
@@ -2000,20 +1908,17 @@
     "price_formatted": "18.500 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/elit-prohrom-talas-m-30l/2389/",
-    "description": "&nbsp;- Zapremina - 30L- Dimenzija - 42x42x48cm- Materijal kazana - Prohrom- Snaga - 2kW- Garancija na kazan - 15g- Težina - 15,2kg",
+    "description": "- Zapremina - 30L- Dimenzija - 42x42x48cm- Materijal kazana - Prohrom- Snaga - 2kW- Garancija na kazan - 15g- Težina - 15,2kg",
     "sku": "6169",
     "capacity_liters": 30,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/2644/1300/elit-prohrom-talas-m-30l-0.jpg",
-      "https://www.aqualand.rs/images/9095/1300/elit-prohrom-talas-m-30l-1.jpg",
-      "https://www.aqualand.rs/images/2644/1300/elit-prohrom-talas-m-30l-0.jpg",
-      "https://www.aqualand.rs/images/9095/1300/elit-prohrom-talas-m-30l-1.jpg",
-      "https://www.aqualand.rs/images/2644/1300/elit-prohrom-talas-m-30l-0.jpg"
+      "https://www.aqualand.rs/images/9095/1300/elit-prohrom-talas-m-30l-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/2644/1300/elit-prohrom-talas-m-30l-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:57.823Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:30:58.555Z"
   },
   {
     "id": "elit-prohrom-talas-m-50l",
@@ -2024,20 +1929,59 @@
     "price_formatted": "23.000 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/elit-prohrom-talas-m-50l/2390/",
-    "description": "TEHNIČKE KARAKTERISTIKE- Zapremina (l) 50- Radni pritisak (MPa) 0,6- Max. temperatura (&deg;C) 85- Materijal kazana INOX- Izolacija m. vuna (mm) 35- Vreme zagrev. 10-75 &deg;C (min) 112- Termostat regulacioni + za&scaron;titni- Sigurnosni ventil&nbsp;- Mg za&scaron;titna anoga&nbsp;- Stepen za&scaron;tite IP 24- Snaga grejača (W) 2000",
+    "description": "TEHNIČKE KARAKTERISTIKE- Zapremina (l) 50- Radni pritisak (MPa) 0,6- Max. temperatura (°C) 85- Materijal kazana INOX- Izolacija m. vuna (mm) 35- Vreme zagrev. 10-75 °C (min) 112- Termostat regulacioni + zaštitni- Sigurnosni ventil - Mg zaštitna anoga - Stepen zaštite IP 24- Snaga grejača (W) 2000",
     "sku": "2736",
     "capacity_liters": 50,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/85/1300/elit-prohrom-talas-m-50l-0.jpg",
-      "https://www.aqualand.rs/images/9102/1300/elit-prohrom-talas-m-50l-1.jpg",
-      "https://www.aqualand.rs/images/85/1300/elit-prohrom-talas-m-50l-0.jpg",
-      "https://www.aqualand.rs/images/9102/1300/elit-prohrom-talas-m-50l-1.jpg",
-      "https://www.aqualand.rs/images/85/1300/elit-prohrom-talas-m-50l-0.jpg"
+      "https://www.aqualand.rs/images/9102/1300/elit-prohrom-talas-m-50l-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/85/1300/elit-prohrom-talas-m-50l-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:58.883Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:02.926Z"
+  },
+  {
+    "id": "elit-prohrom-talas-m-60l",
+    "name": "ELIT PROHROM TALAS M 60L",
+    "brand": "Elit",
+    "category": "Vertikalni bojleri",
+    "price": 24000,
+    "price_formatted": "24.000 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/elit-prohrom-talas-m-60l/2393/",
+    "description": "",
+    "sku": "6167",
+    "capacity_liters": 60,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/3270/1300/elit-prohrom-talas-m-60l-0.jpg",
+      "https://www.aqualand.rs/images/9107/1300/elit-prohrom-talas-m-60l-1.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/3270/1300/elit-prohrom-talas-m-60l-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:07.286Z"
+  },
+  {
+    "id": "elit-prohrom-talas-m-80l",
+    "name": "ELIT PROHROM TALAS M 80L",
+    "brand": "Elit",
+    "category": "Vertikalni bojleri",
+    "price": 25000,
+    "price_formatted": "25.000 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/elit-prohrom-talas-m-80l/2396/",
+    "description": "- Zapremina: - 80 L- Materijal kazana - Prohrom- Maksimalna temperatura: 85°C- Snaga grejača: 2kW",
+    "sku": "2661",
+    "capacity_liters": 80,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/82/1300/elit-prohrom-talas-m-80l-0.jpg",
+      "https://www.aqualand.rs/images/9110/1300/elit-prohrom-talas-m-80l-1.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/82/1300/elit-prohrom-talas-m-80l-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:08.723Z"
   },
   {
     "id": "elit-prohrom-talas-s-30l",
@@ -2048,20 +1992,17 @@
     "price_formatted": "18.500 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/elit-prohrom-talas-s-30l/2399/",
-    "description": "- Zapremina - 30L- Materijal kazana - Prohrom- Visina - 750mm- &Scaron;irina - 400mm- Dubina - 400mm- Snaga - 2kW",
+    "description": "- Zapremina - 30L- Materijal kazana - Prohrom- Visina - 750mm- Širina - 400mm- Dubina - 400mm- Snaga - 2kW",
     "sku": "6168",
     "capacity_liters": 30,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/3114/1300/elit-prohrom-talas-s-30l-0.jpg",
-      "https://www.aqualand.rs/images/9096/1300/elit-prohrom-talas-s-30l-1.jpg",
-      "https://www.aqualand.rs/images/3114/1300/elit-prohrom-talas-s-30l-0.jpg",
-      "https://www.aqualand.rs/images/9096/1300/elit-prohrom-talas-s-30l-1.jpg",
-      "https://www.aqualand.rs/images/3114/1300/elit-prohrom-talas-s-30l-0.jpg"
+      "https://www.aqualand.rs/images/9096/1300/elit-prohrom-talas-s-30l-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/3114/1300/elit-prohrom-talas-s-30l-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:39:59.891Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:10.192Z"
   },
   {
     "id": "elit-prohrom-talas-s-50l",
@@ -2078,14 +2019,81 @@
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/3117/1300/elit-prohrom-talas-s-50l-0.jpg",
-      "https://www.aqualand.rs/images/9103/1300/elit-prohrom-talas-s-50l-1.jpg",
-      "https://www.aqualand.rs/images/3117/1300/elit-prohrom-talas-s-50l-0.jpg",
-      "https://www.aqualand.rs/images/9103/1300/elit-prohrom-talas-s-50l-1.jpg",
-      "https://www.aqualand.rs/images/3117/1300/elit-prohrom-talas-s-50l-0.jpg"
+      "https://www.aqualand.rs/images/9103/1300/elit-prohrom-talas-s-50l-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/3117/1300/elit-prohrom-talas-s-50l-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:40:00.945Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:13.138Z"
+  },
+  {
+    "id": "elit-prohrom-talas-s-60l",
+    "name": "ELIT PROHROM TALAS S 60L",
+    "brand": "Ostalo",
+    "category": "Vertikalni bojleri",
+    "price": 24500,
+    "price_formatted": "24.500 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/elit-prohrom-talas-s-60l/2402/",
+    "description": "",
+    "sku": "6171",
+    "capacity_liters": 60,
+    "specifications": {
+      "Zapremina": "50 l",
+      "Materijal kazana": "Prohrom",
+      "Visina": "Do 750 mm",
+      "Širina": "401 - 500 mm",
+      "Dubina": "401 - 500 mm",
+      "Montaža": "Horizontalna",
+      "Snaga": "2000 W"
+    },
+    "images": [
+      "https://www.aqualand.rs/images/3119/1300/elit-prohrom-talas-s-60l-0.jpg",
+      "https://www.aqualand.rs/images/9108/1300/elit-prohrom-talas-s-60l-1.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/3119/1300/elit-prohrom-talas-s-60l-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:16.022Z"
+  },
+  {
+    "id": "elit-prohrom-talas-s-80l",
+    "name": "ELIT PROHROM TALAS S 80L",
+    "brand": "Ostalo",
+    "category": "Vertikalni bojleri",
+    "price": 26000,
+    "price_formatted": "26.000 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/elit-prohrom-talas-s-80l/2404/",
+    "description": "",
+    "sku": "6172",
+    "capacity_liters": 80,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/3121/1300/elit-prohrom-talas-s-80l-0.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/3121/1300/elit-prohrom-talas-s-80l-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:19.101Z"
+  },
+  {
+    "id": "elit-prohrom-talas-x-50l",
+    "name": "ELIT PROHROM TALAS X 50L",
+    "brand": "Elit",
+    "category": "Vertikalni bojleri",
+    "price": 23000,
+    "price_formatted": "23.000 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/elit-prohrom-talas-x-50l/2409/",
+    "description": "ELIT PROHROM TALAS X 50L- Zapremina - : 50L- Prohromski kazan- Dužina 620mm- Obim 450mm- Radni pritisak : 0,60Mpa (6 - bar-a)- Garancija na kazan 15 g",
+    "sku": "3268",
+    "capacity_liters": 50,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/83/1300/elit-prohrom-talas-x-50l-0.jpg",
+      "https://www.aqualand.rs/images/9104/1300/elit-prohrom-talas-x-50l-1.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/83/1300/elit-prohrom-talas-x-50l-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:22.044Z"
   },
   {
     "id": "elit-prohrom-talas-x-80l",
@@ -2096,20 +2104,98 @@
     "price_formatted": "22.500 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/elit-prohrom-talas-x-80l/2410/",
-    "description": "- Zapremina - 80 L- Visina - 880 mm- &Scaron;irina - 450 mm- Snaga grejača - &nbsp;2kW- Garancija na kazan - 15g",
+    "description": "- Zapremina - 80 L- Visina - 880 mm- Širina - 450 mm- Snaga grejača - 2kW- Garancija na kazan - 15g",
     "sku": "1135",
     "capacity_liters": 80,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/84/1300/elit-prohrom-talas-x-80l-0.jpg",
-      "https://www.aqualand.rs/images/84/1300/elit-prohrom-talas-x-80l-0.jpg",
-      "https://www.aqualand.rs/images/84/1300/elit-prohrom-talas-x-80l-0.jpg",
-      "https://www.aqualand.rs/images/84/1300/elit-prohrom-talas-x-80l-0.jpg",
       "https://www.aqualand.rs/images/84/1300/elit-prohrom-talas-x-80l-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/84/1300/elit-prohrom-talas-x-80l-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:40:01.954Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:26.723Z"
+  },
+  {
+    "id": "elit-prohrom-talas-xx-100l",
+    "name": "ELIT PROHROM TALAS XX 100L",
+    "brand": "Elit",
+    "category": "Vertikalni bojleri",
+    "price": 33000,
+    "price_formatted": "33.000 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/elit-prohrom-talas-xx-100l/2413/",
+    "description": "- Zapremina - 100L- Materijal kazana - Prohrom- Visina - 860mm- Širina 48mm- Dubina -48mm- Snaga - 2kW- Garancija na kazan - 15g",
+    "sku": "6163",
+    "capacity_liters": 100,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/9120/1300/elit-prohrom-talas-xx-100l-0.jpg",
+      "https://www.aqualand.rs/images/9121/1300/elit-prohrom-talas-xx-100l-1.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/9120/1300/elit-prohrom-talas-xx-100l-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:31.075Z"
+  },
+  {
+    "id": "elit-prohrom-talas-xx-120l",
+    "name": "ELIT PROHROM TALAS XX 120L",
+    "brand": "Ostalo",
+    "category": "Vertikalni bojleri",
+    "price": 39000,
+    "price_formatted": "39.000 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/elit-prohrom-talas-xx-120l/2416/",
+    "description": "",
+    "sku": "6164",
+    "capacity_liters": 120,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/3130/1300/elit-prohrom-talas-xx-120l-0.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/3130/1300/elit-prohrom-talas-xx-120l-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:35.370Z"
+  },
+  {
+    "id": "elit-prohrom-talas-xx-150l",
+    "name": "ELIT PROHROM TALAS XX 150L",
+    "brand": "Ostalo",
+    "category": "Vertikalni bojleri",
+    "price": 50000,
+    "price_formatted": "50.000 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/elit-prohrom-talas-xx-150l/2419/",
+    "description": "",
+    "sku": "6165",
+    "capacity_liters": 150,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/2737/1300/elit-prohrom-talas-xx-150l-0.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/2737/1300/elit-prohrom-talas-xx-150l-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:38.663Z"
+  },
+  {
+    "id": "elit-prohrom-talas-xx-80l",
+    "name": "ELIT PROHROM TALAS XX 80L",
+    "brand": "Ostalo",
+    "category": "Vertikalni bojleri",
+    "price": 26000,
+    "price_formatted": "26.000 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/elit-prohrom-talas-xx-80l/2421/",
+    "description": "",
+    "sku": "6162",
+    "capacity_liters": 80,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/2734/1300/elit-prohrom-talas-xx-80l-0.jpg",
+      "https://www.aqualand.rs/images/2735/1300/elit-prohrom-talas-xx-80l-1.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/2734/1300/elit-prohrom-talas-xx-80l-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:31:41.509Z"
   },
   {
     "id": "metalac-prohrom-50l-hydra-mb-e2i",
@@ -2120,20 +2206,16 @@
     "price_formatted": "20.993 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/metalac-proh-50l-hydra-mb-e2i/2991/",
-    "description": "- Kapacitet: 50 L &nbsp; &nbsp; &nbsp; &nbsp;- Dimenzije (&Scaron;xV) - ﬁ 45,4cm x 60,5cm&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;- Nosač / kačenje - Univerzalni raspon rupa od 12,5cm do 34cm&nbsp; &nbsp; &nbsp; &nbsp;- Montaža - Vertikalni &nbsp; &nbsp; &nbsp;&nbsp;- Kazan - Inox &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- Sigurnosni ventil - da&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;- MG anoda - da &nbsp; &nbsp; &nbsp; &nbsp;- Prirubnica (flan&scaron;na): Elipsasta&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;- Izolacija- Poliuretanska (purpena) od 1,7cm do 4cm&nbsp; &nbsp; &nbsp; &nbsp;- Snaga elektro grejača: 2 kw (niklovani)&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;- Garancija: Bezuslovna (na kazan 10 god, na rezervne delove 25 meseci)&nbsp; &nbsp;&nbsp;",
+    "description": "- Kapacitet: 50 L - Dimenzije (ŠxV) - ﬁ 45,4cm x 60,5cm - Nosač / kačenje - Univerzalni raspon rupa od 12,5cm do 34cm - Montaža - Vertikalni - Kazan - Inox - Sigurnosni ventil - da - MG anoda - da - Prirubnica (flanšna): Elipsasta - Izolacija- Poliuretanska (purpena) od 1,7cm do 4cm - Snaga elektro grejača: 2 kw (niklovani) - Garancija: Bezuslovna (na kazan 10 god, na rezervne delove 25 meseci)",
     "sku": "1415",
     "capacity_liters": 50,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/4047/1300/metalac-prohrom-50l-hydra-mb-e2i-0.jpg",
-      "https://www.aqualand.rs/images/4047/1300/metalac-prohrom-50l-hydra-mb-e2i-0.jpg",
-      "https://www.aqualand.rs/images/4047/1300/metalac-prohrom-50l-hydra-mb-e2i-0.jpg",
-      "https://www.aqualand.rs/images/4047/1300/metalac-prohrom-50l-hydra-mb-e2i-0.jpg",
       "https://www.aqualand.rs/images/4047/1300/metalac-prohrom-50l-hydra-mb-e2i-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/4047/1300/metalac-prohrom-50l-hydra-mb-e2i-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:40:03.036Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:32:55.533Z"
   },
   {
     "id": "metalac-prohrom-80l-hydra-mb-e2i",
@@ -2144,20 +2226,39 @@
     "price_formatted": "22.934 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/metalac-proh-80l-hydra-mb-e2i/2992/",
-    "description": "- Kapacitet - 80 L &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- Dimenzije (&Scaron;xV): ﬁ 45,4cm x 82,cm &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Nosač / kačenje - Univerzalni raspon rupa od 12,5cm do 34cm &nbsp; &nbsp; &nbsp;- Montaža - Vertikalni &nbsp; &nbsp; &nbsp; &nbsp; - Kazan - Inox &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Sigurnosni ventil - da &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- MG anoda - da &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- Prirubnica (flan&scaron;na) - Elipsasta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- Izolacija: Poliuretanska (purpena) od 1,7cm do 4cm &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Snaga elektro grejača: 2 kw (niklovani) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- Garancija: Bezuslovna (na kazan 10 god, na rezervne delove 25 meseci) &nbsp; &nbsp;&nbsp;",
+    "description": "- Kapacitet - 80 L - Dimenzije (ŠxV): ﬁ 45,4cm x 82,cm - Nosač / kačenje - Univerzalni raspon rupa od 12,5cm do 34cm - Montaža - Vertikalni - Kazan - Inox - Sigurnosni ventil - da - MG anoda - da - Prirubnica (flanšna) - Elipsasta - Izolacija: Poliuretanska (purpena) od 1,7cm do 4cm - Snaga elektro grejača: 2 kw (niklovani) - Garancija: Bezuslovna (na kazan 10 god, na rezervne delove 25 meseci)",
     "sku": "3383",
     "capacity_liters": 80,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/4046/1300/metalac-prohrom-80l-hydra-mb-e2i-0.jpg",
       "https://www.aqualand.rs/images/8589/1300/metalac-prohrom-80l-hydra-mb-e2i-1.jpg",
-      "https://www.aqualand.rs/images/8590/1300/metalac-prohrom-80l-hydra-mb-e2i-2.jpg",
-      "https://www.aqualand.rs/images/4046/1300/metalac-prohrom-80l-hydra-mb-e2i-0.jpg",
-      "https://www.aqualand.rs/images/8589/1300/metalac-prohrom-80l-hydra-mb-e2i-1.jpg"
+      "https://www.aqualand.rs/images/8590/1300/metalac-prohrom-80l-hydra-mb-e2i-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/4046/1300/metalac-prohrom-80l-hydra-mb-e2i-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:40:04.231Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:32:57.113Z"
+  },
+  {
+    "id": "termorad-klasik-120l-btcr",
+    "name": "TERMORAD KLASIK 120L BTCR",
+    "brand": "Termorad",
+    "category": "Vertikalni bojleri",
+    "price": 25321,
+    "price_formatted": "25.321 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/termorad-klasik-120l-btcr/3850/",
+    "description": "- Zapremina 120L- Visina 110,8cm- Prečnik bojlera 45cm- Montaža - Vertikalna - Garancija na električne delove 25meseci- Garancija na kazan 5 godina",
+    "sku": "3673",
+    "capacity_liters": 120,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/1053/1300/termorad-klasik-120l-btcr-0.jpg",
+      "https://www.aqualand.rs/images/9111/1300/termorad-klasik-120l-btcr-1.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/1053/1300/termorad-klasik-120l-btcr-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:15.606Z"
   },
   {
     "id": "termorad-klasik-30l-btcr",
@@ -2173,15 +2274,11 @@
     "capacity_liters": 30,
     "specifications": {},
     "images": [
-      "https://www.aqualand.rs/images/1054/1300/termorad-klasik-30l-btcr-0.jpg",
-      "https://www.aqualand.rs/images/1054/1300/termorad-klasik-30l-btcr-0.jpg",
-      "https://www.aqualand.rs/images/1054/1300/termorad-klasik-30l-btcr-0.jpg",
-      "https://www.aqualand.rs/images/1054/1300/termorad-klasik-30l-btcr-0.jpg",
       "https://www.aqualand.rs/images/1054/1300/termorad-klasik-30l-btcr-0.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1054/1300/termorad-klasik-30l-btcr-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:40:07.421Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:17.142Z"
   },
   {
     "id": "termorad-klasik-50l-btcr",
@@ -2198,14 +2295,11 @@
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/1055/1300/termorad-klasik-50l-btcr-0.jpg",
-      "https://www.aqualand.rs/images/9089/1300/termorad-klasik-50l-btcr-1.jpg",
-      "https://www.aqualand.rs/images/1055/1300/termorad-klasik-50l-btcr-0.jpg",
-      "https://www.aqualand.rs/images/9089/1300/termorad-klasik-50l-btcr-1.jpg",
-      "https://www.aqualand.rs/images/1055/1300/termorad-klasik-50l-btcr-0.jpg"
+      "https://www.aqualand.rs/images/9089/1300/termorad-klasik-50l-btcr-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1055/1300/termorad-klasik-50l-btcr-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:40:08.469Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:18.605Z"
   },
   {
     "id": "termorad-klasik-60l-btcr",
@@ -2216,20 +2310,17 @@
     "price_formatted": "15.396 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/termorad-klasik-60l-btcr/3854/",
-    "description": "- Snaga grejača: 2000 W- Zapremina: 60 litara- Radni pritisak: 0,6 MPa- Ugrađena magnezijumska anoda za dodatnu za&scaron;titu- Poliuretanska izolacija bez freona- Garancija na kazan: 5 godina- Dimenzije: 42&times;42&times;70 cm- Težina: 22 kg",
+    "description": "- Snaga grejača: 2000 W- Zapremina: 60 litara- Radni pritisak: 0,6 MPa- Ugrađena magnezijumska anoda za dodatnu zaštitu- Poliuretanska izolacija bez freona- Garancija na kazan: 5 godina- Dimenzije: 42×42×70 cm- Težina: 22 kg",
     "sku": "3677",
     "capacity_liters": 60,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/1057/1300/termorad-klasik-60l-btcr-0.jpg",
-      "https://www.aqualand.rs/images/9090/1300/termorad-klasik-60l-btcr-1.jpg",
-      "https://www.aqualand.rs/images/1057/1300/termorad-klasik-60l-btcr-0.jpg",
-      "https://www.aqualand.rs/images/9090/1300/termorad-klasik-60l-btcr-1.jpg",
-      "https://www.aqualand.rs/images/1057/1300/termorad-klasik-60l-btcr-0.jpg"
+      "https://www.aqualand.rs/images/9090/1300/termorad-klasik-60l-btcr-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1057/1300/termorad-klasik-60l-btcr-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:40:09.487Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:21.501Z"
   },
   {
     "id": "termorad-klasik-80l-btcr",
@@ -2240,20 +2331,17 @@
     "price_formatted": "14.720 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/termorad-klasik-80l-btcr/3855/",
-    "description": "- Zapremina 80L- Visina 90cm- Prečnik bojlera 42cm- Montaža - Vertikalna&nbsp;- Garancija na električne delove 25meseci- Garancija na kazan 5 godina",
+    "description": "- Zapremina 80L- Visina 90cm- Prečnik bojlera 42cm- Montaža - Vertikalna - Garancija na električne delove 25meseci- Garancija na kazan 5 godina",
     "sku": "1822",
     "capacity_liters": 80,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/1058/1300/termorad-klasik-80l-btcr-0.jpg",
-      "https://www.aqualand.rs/images/9093/1300/termorad-klasik-80l-btcr-1.jpg",
-      "https://www.aqualand.rs/images/1058/1300/termorad-klasik-80l-btcr-0.jpg",
-      "https://www.aqualand.rs/images/9093/1300/termorad-klasik-80l-btcr-1.jpg",
-      "https://www.aqualand.rs/images/1058/1300/termorad-klasik-80l-btcr-0.jpg"
+      "https://www.aqualand.rs/images/9093/1300/termorad-klasik-80l-btcr-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1058/1300/termorad-klasik-80l-btcr-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:40:10.555Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:22.969Z"
   },
   {
     "id": "termorad-klasik-slim-50l-btcr",
@@ -2270,14 +2358,31 @@
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/1060/1300/termorad-klasik-slim-50l-btcr-0.jpg",
-      "https://www.aqualand.rs/images/9091/1300/termorad-klasik-slim-50l-btcr-1.jpg",
-      "https://www.aqualand.rs/images/1060/1300/termorad-klasik-slim-50l-btcr-0.jpg",
-      "https://www.aqualand.rs/images/9091/1300/termorad-klasik-slim-50l-btcr-1.jpg",
-      "https://www.aqualand.rs/images/1060/1300/termorad-klasik-slim-50l-btcr-0.jpg"
+      "https://www.aqualand.rs/images/9091/1300/termorad-klasik-slim-50l-btcr-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1060/1300/termorad-klasik-slim-50l-btcr-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:40:11.627Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:25.936Z"
+  },
+  {
+    "id": "termorad-prohrom-120l",
+    "name": "TERMORAD PROHROM 120L",
+    "brand": "Termorad",
+    "category": "Vertikalni bojleri",
+    "price": 35492,
+    "price_formatted": "35.492 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/termorad-prohrom-120l/3868/",
+    "description": "",
+    "sku": "1039",
+    "capacity_liters": 120,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/1071/1300/termorad-prohrom-120l-0.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/1071/1300/termorad-prohrom-120l-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:42.338Z"
   },
   {
     "id": "termorad-prohrom-30l",
@@ -2288,20 +2393,17 @@
     "price_formatted": "16.228 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/termorad-prohrom-30l/3871/",
-    "description": "- Zapremina - 30L- Kazan - Prohromski&nbsp;- Visina - 750mm- &Scaron;irina - 400mm- Dubina - 400mm- Snaga - 2000kW",
+    "description": "- Zapremina - 30L- Kazan - Prohromski - Visina - 750mm- Širina - 400mm- Dubina - 400mm- Snaga - 2000kW",
     "sku": "1120",
     "capacity_liters": 30,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/1074/1300/termorad-prohrom-30l-0.jpg",
-      "https://www.aqualand.rs/images/9092/1300/termorad-prohrom-30l-1.jpg",
-      "https://www.aqualand.rs/images/1074/1300/termorad-prohrom-30l-0.jpg",
-      "https://www.aqualand.rs/images/9092/1300/termorad-prohrom-30l-1.jpg",
-      "https://www.aqualand.rs/images/1074/1300/termorad-prohrom-30l-0.jpg"
+      "https://www.aqualand.rs/images/9092/1300/termorad-prohrom-30l-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1074/1300/termorad-prohrom-30l-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:40:12.677Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:43.813Z"
   },
   {
     "id": "termorad-prohrom-50l",
@@ -2318,14 +2420,11 @@
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/1075/1300/termorad-prohrom-50l-0.jpg",
-      "https://www.aqualand.rs/images/9099/1300/termorad-prohrom-50l-1.jpg",
-      "https://www.aqualand.rs/images/1075/1300/termorad-prohrom-50l-0.jpg",
-      "https://www.aqualand.rs/images/9099/1300/termorad-prohrom-50l-1.jpg",
-      "https://www.aqualand.rs/images/1075/1300/termorad-prohrom-50l-0.jpg"
+      "https://www.aqualand.rs/images/9099/1300/termorad-prohrom-50l-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1075/1300/termorad-prohrom-50l-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:40:13.747Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:46.726Z"
   },
   {
     "id": "termorad-prohrom-60l",
@@ -2336,20 +2435,17 @@
     "price_formatted": "21.676 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/termorad-prohrom-60l/3874/",
-    "description": "- Zapremina - 50L- Materijal kazana - Prohrom- Visina - 750mm- &Scaron;irina - 420mm- Dubina - 420mm- Snaga - 2kW",
+    "description": "- Zapremina - 50L- Materijal kazana - Prohrom- Visina - 750mm- Širina - 420mm- Dubina - 420mm- Snaga - 2kW",
     "sku": "1882",
     "capacity_liters": 60,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/1077/1300/termorad-prohrom-60l-0.jpg",
-      "https://www.aqualand.rs/images/9101/1300/termorad-prohrom-60l-1.jpg",
-      "https://www.aqualand.rs/images/1077/1300/termorad-prohrom-60l-0.jpg",
-      "https://www.aqualand.rs/images/9101/1300/termorad-prohrom-60l-1.jpg",
-      "https://www.aqualand.rs/images/1077/1300/termorad-prohrom-60l-0.jpg"
+      "https://www.aqualand.rs/images/9101/1300/termorad-prohrom-60l-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1077/1300/termorad-prohrom-60l-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:40:14.792Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:49.929Z"
   },
   {
     "id": "termorad-prohrom-80l",
@@ -2360,20 +2456,78 @@
     "price_formatted": "20.739 RSD",
     "availability": "Na lageru",
     "url": "https://www.aqualand.rs/product/termorad-prohrom-80l/3876/",
-    "description": "- Prohromski kazan- Izolacija - Poliuretan CFC bez freona- Dvostruko obezbeđenje od pregrevanja vode u kazanu &ndash; kapilarni radni i za&scaron;titni termostat- Gratis sigurnosni ventil- Dostupni modeli u zapreminama 30, 50, 60, 80 i 120 litara",
+    "description": "- Prohromski kazan- Izolacija - Poliuretan CFC bez freona- Dvostruko obezbeđenje od pregrevanja vode u kazanu – kapilarni radni i zaštitni termostat- Gratis sigurnosni ventil- Dostupni modeli u zapreminama 30, 50, 60, 80 i 120 litara",
     "sku": "1038",
     "capacity_liters": 80,
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/8585/1300/termorad-prohrom-80l-0.jpg",
       "https://www.aqualand.rs/images/8586/1300/termorad-prohrom-80l-1.jpg",
-      "https://www.aqualand.rs/images/8588/1300/termorad-prohrom-80l-2.jpg",
-      "https://www.aqualand.rs/images/8585/1300/termorad-prohrom-80l-0.jpg",
-      "https://www.aqualand.rs/images/8586/1300/termorad-prohrom-80l-1.jpg"
+      "https://www.aqualand.rs/images/8588/1300/termorad-prohrom-80l-2.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/8585/1300/termorad-prohrom-80l-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:40:15.800Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:53.086Z"
+  },
+  {
+    "id": "termorad-prohrom-s-160l",
+    "name": "TERMORAD PROHROM S-160L",
+    "brand": "Termorad",
+    "category": "Vertikalni bojleri",
+    "price": 61318,
+    "price_formatted": "61.318 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/termorad-prohrom-s-160l/3879/",
+    "description": "",
+    "sku": "3329",
+    "capacity_liters": 160,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/1081/1300/termorad-prohrom-s-160l-0.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/1081/1300/termorad-prohrom-s-160l-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:55.995Z"
+  },
+  {
+    "id": "termorad-prohrom-s-200l",
+    "name": "TERMORAD PROHROM S-200L",
+    "brand": "Termorad",
+    "category": "Vertikalni bojleri",
+    "price": 95222,
+    "price_formatted": "95.222 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/termorad-prohrom-s-200l/3880/",
+    "description": "- Zapremina 200L - Prohromski kazan - Snaga el.grejača - 600w - Montaža - Samostojeća",
+    "sku": "4802",
+    "capacity_liters": 200,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/1082/1300/termorad-prohrom-s-200l-0.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/1082/1300/termorad-prohrom-s-200l-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:34:58.978Z"
+  },
+  {
+    "id": "termorad-prohrom-s-280l-ib-80",
+    "name": "TERMORAD PROHROM S-280L IB-80",
+    "brand": "Termorad",
+    "category": "Vertikalni bojleri",
+    "price": 133647,
+    "price_formatted": "133.647 RSD",
+    "availability": "Na lageru",
+    "url": "https://www.aqualand.rs/product/termorad-prohrom-s-280l-ib-80/3883/",
+    "description": "",
+    "sku": "4806",
+    "capacity_liters": 280,
+    "specifications": {},
+    "images": [
+      "https://www.aqualand.rs/images/1085/1300/termorad-prohrom-s-280l-ib-80-0.jpg"
+    ],
+    "image_url": "https://www.aqualand.rs/images/1085/1300/termorad-prohrom-s-280l-ib-80-0.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:35:00.382Z"
   },
   {
     "id": "termorad-prohrom-slim-50l",
@@ -2390,13 +2544,10 @@
     "specifications": {},
     "images": [
       "https://www.aqualand.rs/images/1086/1300/termorad-prohrom-slim-50l-0.jpg",
-      "https://www.aqualand.rs/images/9100/1300/termorad-prohrom-slim-50l-1.jpg",
-      "https://www.aqualand.rs/images/1086/1300/termorad-prohrom-slim-50l-0.jpg",
-      "https://www.aqualand.rs/images/9100/1300/termorad-prohrom-slim-50l-1.jpg",
-      "https://www.aqualand.rs/images/1086/1300/termorad-prohrom-slim-50l-0.jpg"
+      "https://www.aqualand.rs/images/9100/1300/termorad-prohrom-slim-50l-1.jpg"
     ],
     "image_url": "https://www.aqualand.rs/images/1086/1300/termorad-prohrom-slim-50l-0.jpg",
-    "scraped_at": "2026-06-24",
-    "price_updated_at": "2026-06-24T15:40:16.867Z"
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-06-25T22:35:03.391Z"
   }
 ]
