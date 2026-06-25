@@ -8,6 +8,10 @@ import { formatRsd } from "@/lib/product-utils";
 export default function CheckoutPage() {
   const { items, total, clearCart } = useCart();
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState("");
+  const [orderId, setOrderId] = useState("");
+  const [emailSent, setEmailSent] = useState(false);
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -34,9 +38,23 @@ export default function CheckoutPage() {
       <div className="mx-auto max-w-2xl px-4 py-20 text-center">
         <div className="rounded-2xl border border-green-200 bg-green-50 p-8">
           <h1 className="text-2xl font-bold text-green-800">Porudžbina primljena!</h1>
+          {orderId && (
+            <p className="mt-2 text-sm text-green-700">Broj porudžbine: <strong>{orderId}</strong></p>
+          )}
           <p className="mt-4 text-green-700">
-            Hvala {form.name}! Kontaktiraćemo vas uskoro na {form.phone} za potvrdu porudžbine.
+            Hvala {form.name}! Kontaktiraćemo vas na {form.phone} za potvrdu porudžbine.
           </p>
+          {emailSent ? (
+            <p className="mt-2 text-sm text-green-700">
+              Potvrda je poslata na <strong>{form.email}</strong> (proverite i spam folder).
+            </p>
+          ) : (
+            <p className="mt-2 text-sm text-amber-800">
+              Ako ne dobijete email, javite se na{" "}
+              <a href="mailto:prodaja@bojleri.com" className="underline">prodaja@bojleri.com</a>{" "}
+              ili <a href="tel:+381648279855" className="underline">+381 64 827 9855</a>.
+            </p>
+          )}
           <Link href="/katalog" className="mt-8 inline-block rounded-sm bg-[#ff9900] px-6 py-3 font-bold text-[#0f1111]">
             Nastavi kupovinu
           </Link>
@@ -45,15 +63,50 @@ export default function CheckoutPage() {
     );
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    clearCart();
-    setSubmitted(true);
+    setSubmitting(true);
+    setError("");
+
+    try {
+      const res = await fetch("/api/orders", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          customer: form,
+          payment: form.payment,
+          items: items.map(({ product, quantity }) => ({
+            id: product.id,
+            name: product.name,
+            quantity,
+            price: product.price,
+            price_formatted: product.price_formatted,
+          })),
+          total,
+        }),
+      });
+
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Greška pri slanju");
+
+      setOrderId(data.orderId || "");
+      setEmailSent(Boolean(data.emailSent));
+      clearCart();
+      setSubmitted(true);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Greška pri slanju porudžbine");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6">
       <h1 className="text-3xl font-bold text-slate-900">Plaćanje</h1>
+
+      {error && (
+        <p className="mt-4 rounded-sm border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">{error}</p>
+      )}
 
       <form onSubmit={handleSubmit} className="mt-8 grid gap-8 lg:grid-cols-2">
         <div className="space-y-4">
@@ -126,9 +179,10 @@ export default function CheckoutPage() {
 
           <button
             type="submit"
-            className="mt-6 w-full rounded-sm bg-[#ff9900] py-3 font-bold text-[#0f1111] hover:bg-[#e88b00]"
+            disabled={submitting}
+            className="mt-6 w-full rounded-sm bg-[#ff9900] py-3 font-bold text-[#0f1111] hover:bg-[#e88b00] disabled:opacity-60"
           >
-            Potvrdi porudžbinu
+            {submitting ? "Slanje porudžbine..." : "Potvrdi porudžbinu"}
           </button>
         </div>
       </form>
