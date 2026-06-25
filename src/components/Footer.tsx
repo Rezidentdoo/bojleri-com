@@ -1,0 +1,40 @@
+import Link from "next/link";
+import { getSiteSettings } from "@/lib/cms/settings";
+
+export default async function Footer() {
+  const settings = await getSiteSettings();
+
+  return (
+    <footer className="mt-auto bg-[#232f3e] text-[#ddd]">
+      <div className="bg-[#37475a] py-4 text-center">
+        <Link href="/" className="text-sm hover:underline">
+          Nazad na početnu
+        </Link>
+      </div>
+      <div className="mx-auto grid max-w-[1500px] gap-8 px-4 py-10 sm:px-6 md:grid-cols-3">
+        <div>
+          <h3 className="text-lg font-bold text-white">
+            <span className="text-[#ff9900]">B</span> bojleri.com
+          </h3>
+          <p className="mt-2 text-sm leading-relaxed">{settings.footer.description}</p>
+        </div>
+        <div>
+          <h4 className="font-semibold text-white">Navigacija</h4>
+          <ul className="mt-3 space-y-2 text-sm">
+            <li><Link href="/katalog" className="hover:text-[#ff9900]">Katalog</Link></li>
+            <li><Link href="/kako-izabrati" className="hover:text-[#ff9900]">Kako izabrati bojler</Link></li>
+            <li><Link href="/korpa" className="hover:text-[#ff9900]">Korpa</Link></li>
+            <li><Link href="/kontakt" className="hover:text-[#ff9900]">Kontakt</Link></li>
+          </ul>
+        </div>
+        <div>
+          <h4 className="font-semibold text-white">Napomena</h4>
+          <p className="mt-3 text-sm leading-relaxed">{settings.footer.disclaimer}</p>
+        </div>
+      </div>
+      <div className="bg-[#131921] py-6 text-center text-xs text-[#999]">
+        © {new Date().getFullYear()} bojleri.com — Sva prava zadržana
+      </div>
+    </footer>
+  );
+}

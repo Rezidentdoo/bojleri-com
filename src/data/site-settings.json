@@ -1,0 +1,44 @@
+{
+  "homepage": {
+    "title": "Najbolji bojleri po najpovoljnijim cenama u Srbiji",
+    "subtitle": "Preko 160 modela — Electrolux, Gorenje, Ariston, Metalac, Bosch i Termorad.",
+    "featuredProductIds": []
+  },
+  "heroSlides": [
+    {
+      "image": "https://www.aqualand.rs/images/11039/1300/elektrolux-gld-100l-eec-0.jpg",
+      "title": "Electrolux GLD serija",
+      "subtitle": "Moderni bojleri sa LED displejem i eko režimom",
+      "link": "/proizvod/elektrolux-gld-100l-eec",
+      "cta": "Pogledaj model"
+    },
+    {
+      "image": "https://www.aqualand.rs/images/1290/1300/ariston-100l-pro-r1-0.jpg",
+      "title": "Ariston 100L Pro R1",
+      "subtitle": "Pouzdan vertikalni bojler za celu porodicu",
+      "link": "/proizvod/ariston-100l-pro-r1",
+      "cta": "Detalji proizvoda"
+    },
+    {
+      "image": "https://www.aqualand.rs/images/7572/1300/ariston-80l-velis-pro-0.jpg",
+      "title": "Ariston Velis Pro",
+      "subtitle": "Tanki horizontalni dizajn — idealan za mali prostor",
+      "link": "/proizvod/ariston-80l-velis-pro",
+      "cta": "Kupi sada"
+    }
+  ],
+  "contact": {
+    "phone": "+381 64 000 0000",
+    "email": "info@bojleri.com",
+    "workingHours": "Ponedeljak – Petak: 09:00 – 17:00"
+  },
+  "footer": {
+    "description": "Specijalizovana online prodavnica bojlera i prateće opreme. Najbolji brendovi po povoljnim cenama u Srbiji.",
+    "disclaimer": "Cene i dostupnost proizvoda su informativnog karaktera i mogu se menjati bez prethodne najave."
+  },
+  "seo": {
+    "title": "bojleri.com — Bojleri po najboljim cenama u Srbiji",
+    "description": "Online prodavnica bojlera — Electrolux, Gorenje, Ariston, Metalac i drugi brendovi. Vertikalni, horizontalni i protočni bojleri po povoljnim cenama.",
+    "keywords": ["bojleri", "bojler", "electrolux", "gorenje", "ariston", "metalac", "srbija"]
+  }
+}
