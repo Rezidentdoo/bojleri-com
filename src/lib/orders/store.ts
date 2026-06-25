@@ -1,6 +1,6 @@
 import "server-only";
 
-import { get, head, put } from "@vercel/blob";
+import { head, put } from "@vercel/blob";
 import { readFile, writeFile } from "fs/promises";
 import path from "path";
 import type { Order } from "@/types/order";
@@ -15,14 +15,9 @@ function useBlob(): boolean {
 async function readOrders(): Promise<Order[]> {
   if (useBlob()) {
     try {
-      const result = await get(ORDERS_BLOB, {
-        access: "private",
-        token: process.env.BLOB_READ_WRITE_TOKEN,
-      });
-      if (result?.statusCode === 200 && result.stream) {
-        const text = await new Response(result.stream).text();
-        return JSON.parse(text) as Order[];
-      }
+      const meta = await head(ORDERS_BLOB);
+      const res = await fetch(meta.url, { cache: "no-store" });
+      if (res.ok) return (await res.json()) as Order[];
     } catch {}
   }
   try {
@@ -37,7 +32,7 @@ async function writeOrders(orders: Order[]): Promise<void> {
   const data = JSON.stringify(orders, null, 2);
   if (useBlob()) {
     await put(ORDERS_BLOB, data, {
-      access: "private",
+      access: "public",
       addRandomSuffix: false,
       allowOverwrite: true,
       contentType: "application/json",
