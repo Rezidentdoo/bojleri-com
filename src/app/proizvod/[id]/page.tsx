@@ -124,6 +124,15 @@ export default async function ProductPage({
           </div>
         </div>
       </div>
+
+      <p className="mt-10 border-t border-slate-200 pt-6 text-xs leading-relaxed text-slate-500">
+        U cenu je uračunat PDV. Cene možemo menjati bez prethodne najave. Svi artikli koji su
+        prikazani na sajtu su informativnog karaktera. Za više informacija o artiklu, molimo da{" "}
+        <Link href="/kontakt" className="text-[#007185] hover:text-[#c7511f] hover:underline">
+          nas kontaktirate
+        </Link>
+        .
+      </p>
     </div>
   );
 }
