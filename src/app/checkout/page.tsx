@@ -11,7 +11,7 @@ export default function CheckoutPage() {
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
   const [orderId, setOrderId] = useState("");
-  const [emailSent, setEmailSent] = useState(false);
+  const [emailStatus, setEmailStatus] = useState({ customer: false, shop: false });
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -44,15 +44,20 @@ export default function CheckoutPage() {
           <p className="mt-4 text-green-700">
             Hvala {form.name}! Kontaktiraćemo vas na {form.phone} za potvrdu porudžbine.
           </p>
-          {emailSent ? (
+          {emailStatus.customer ? (
             <p className="mt-2 text-sm text-green-700">
               Potvrda je poslata na <strong>{form.email}</strong> (proverite i spam folder).
             </p>
           ) : (
             <p className="mt-2 text-sm text-amber-800">
-              Ako ne dobijete email, javite se na{" "}
+              Ako ne dobijete email potvrde, javite se na{" "}
               <a href="mailto:prodaja@bojleri.com" className="underline">prodaja@bojleri.com</a>{" "}
               ili <a href="tel:+381648279855" className="underline">+381 64 827 9855</a>.
+            </p>
+          )}
+          {emailStatus.shop && (
+            <p className="mt-1 text-sm text-green-700">
+              Obaveštenje o porudžbini poslato je i na <strong>prodaja@bojleri.com</strong>.
             </p>
           )}
           <Link href="/katalog" className="mt-8 inline-block rounded-sm bg-[#ff9900] px-6 py-3 font-bold text-[#0f1111]">
@@ -90,7 +95,10 @@ export default function CheckoutPage() {
       if (!res.ok) throw new Error(data.error || "Greška pri slanju");
 
       setOrderId(data.orderId || "");
-      setEmailSent(Boolean(data.emailSent));
+      setEmailStatus({
+        customer: Boolean(data.emailToCustomer),
+        shop: Boolean(data.emailToShop),
+      });
       clearCart();
       setSubmitted(true);
     } catch (err) {

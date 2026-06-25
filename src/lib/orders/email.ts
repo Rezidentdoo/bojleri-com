@@ -98,6 +98,7 @@ async function sendSmtpEmail(to: string | string[], subject: string, html: strin
   try {
     await transport.sendMail({
       from: orderFromAddress(),
+      replyTo: process.env.ORDER_NOTIFY_EMAIL || "prodaja@bojleri.com",
       to: Array.isArray(to) ? to.join(", ") : to,
       subject,
       html,
