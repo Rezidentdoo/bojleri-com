@@ -1,11 +1,14 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { formatRsd } from "@/lib/product-utils";
+import PriceDisplay from "@/components/PriceDisplay";
 
 interface PriceData {
   price: number;
   price_formatted: string;
+  original_price?: number | null;
+  original_price_formatted?: string | null;
+  on_sale?: boolean;
   availability: string;
   updated_at: string;
 }
@@ -14,12 +17,18 @@ export default function LivePrice({
   productId,
   fallbackPrice,
   fallbackFormatted,
+  fallbackOriginalPrice,
+  fallbackOriginalFormatted,
+  fallbackOnSale,
   fallbackAvailability,
   className = "",
 }: {
   productId: string;
   fallbackPrice: number;
   fallbackFormatted: string;
+  fallbackOriginalPrice?: number | null;
+  fallbackOriginalFormatted?: string | null;
+  fallbackOnSale?: boolean;
   fallbackAvailability: string;
   className?: string;
 }) {
@@ -42,17 +51,25 @@ export default function LivePrice({
 
   const price = data?.price ?? fallbackPrice;
   const formatted = data?.price_formatted ?? fallbackFormatted;
+  const originalPrice = data?.original_price ?? fallbackOriginalPrice;
+  const originalFormatted = data?.original_price_formatted ?? fallbackOriginalFormatted;
+  const onSale = data?.on_sale ?? fallbackOnSale;
   const availability = data?.availability ?? fallbackAvailability;
   const updatedAt = data?.updated_at;
 
   return (
     <div className={className}>
-      <p className="text-3xl font-bold text-slate-900">
-        {price > 0 ? formatRsd(price) : formatted}
-        {loading && (
-          <span className="ml-2 text-sm font-normal text-slate-400">osvežavanje...</span>
-        )}
-      </p>
+      <PriceDisplay
+        price={price}
+        priceFormatted={formatted}
+        originalPrice={originalPrice}
+        originalPriceFormatted={originalFormatted}
+        onSale={onSale}
+        size="lg"
+      />
+      {loading && (
+        <p className="mt-1 text-sm font-normal text-slate-400">Osvežavanje cene...</p>
+      )}
       <p className={`mt-2 text-sm font-medium ${
         availability === "Na lageru" ? "text-green-600" : "text-amber-600"
       }`}>

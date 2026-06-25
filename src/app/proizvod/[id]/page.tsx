@@ -91,6 +91,9 @@ export default async function ProductPage({
             productId={product.id}
             fallbackPrice={product.price}
             fallbackFormatted={product.price_formatted}
+            fallbackOriginalPrice={product.original_price}
+            fallbackOriginalFormatted={product.original_price_formatted}
+            fallbackOnSale={product.on_sale}
             fallbackAvailability={product.availability}
             className="mt-6"
           />

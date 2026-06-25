@@ -5,6 +5,9 @@ export interface Product {
   category: string;
   price: number;
   price_formatted: string;
+  original_price?: number | null;
+  original_price_formatted?: string | null;
+  on_sale?: boolean;
   availability: string;
   url: string;
   description: string;

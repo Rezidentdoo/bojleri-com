@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Product } from "@/types/product";
-import { formatRsd } from "@/lib/product-utils";
+import PriceDisplay from "@/components/PriceDisplay";
 
 export default function ProductCard({ product }: { product: Product }) {
   const inStock = product.availability === "Na lageru";
@@ -20,8 +20,13 @@ export default function ProductCard({ product }: { product: Product }) {
         ) : (
           <div className="flex h-full items-center justify-center text-slate-400">Nema slike</div>
         )}
+        {product.on_sale && (
+          <span className="absolute left-3 top-3 rounded-sm bg-[#cc0c39] px-2 py-1 text-xs font-bold uppercase text-white">
+            Akcija
+          </span>
+        )}
         {!inStock && (
-          <span className="absolute left-3 top-3 rounded-full bg-amber-500 px-2 py-1 text-xs font-medium text-white">
+          <span className={`absolute ${product.on_sale ? "left-3 top-10" : "left-3 top-3"} rounded-full bg-amber-500 px-2 py-1 text-xs font-medium text-white`}>
             Proverite dostupnost
           </span>
         )}
@@ -35,9 +40,14 @@ export default function ProductCard({ product }: { product: Product }) {
         </Link>
         <p className="mt-1 text-xs text-slate-500">{product.category}</p>
         <div className="mt-auto flex items-end justify-between pt-4">
-          <p className="text-lg font-bold text-slate-900">
-            {product.price > 0 ? formatRsd(product.price) : product.price_formatted}
-          </p>
+          <PriceDisplay
+            price={product.price}
+            priceFormatted={product.price_formatted}
+            originalPrice={product.original_price}
+            originalPriceFormatted={product.original_price_formatted}
+            onSale={product.on_sale}
+            size="sm"
+          />
           <Link
             href={`/proizvod/${product.id}`}
             className="rounded-sm bg-[#ffd814] px-3 py-1.5 text-xs font-bold text-[#0f1111] hover:bg-[#f7ca00]"

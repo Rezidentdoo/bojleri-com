@@ -35,18 +35,43 @@ export function extractJsonLd(html: string): Record<string, unknown> | null {
 export interface LivePriceData {
   price: number;
   price_formatted: string;
+  original_price?: number | null;
+  original_price_formatted?: string | null;
+  on_sale?: boolean;
   availability: string;
   updated_at: string;
+}
+
+export function extractSalePrices(html: string, jsonLdPrice: unknown = 0) {
+  const currentFromLd = parsePrice(jsonLdPrice);
+  const boxMatch = html.match(
+    /class="product__details--info__price[^"]*"[^>]*>[\s\S]*?class="current__price"[^>]*>([^<]+)</i
+  );
+  const oldMatch = html.match(
+    /class="product__details--info__price[^"]*"[\s\S]*?class="old__price"[^>]*>([^<]+)</i
+  );
+
+  let current = parsePrice(boxMatch?.[1]);
+  const original = parsePrice(oldMatch?.[1]);
+  if (!current) current = currentFromLd;
+
+  const onSale = original > 0 && current > 0 && original > current;
+  return {
+    price: current,
+    price_formatted: formatRsd(current),
+    original_price: onSale ? original : null,
+    original_price_formatted: onSale ? formatRsd(original) : null,
+    on_sale: onSale,
+  };
 }
 
 export function extractLivePrice(html: string): LivePriceData | null {
   const ld = extractJsonLd(html);
   if (!ld) return null;
   const offers = (ld.offers as Record<string, unknown>) || {};
-  const price = parsePrice(offers.price);
+  const pricing = extractSalePrices(html, offers.price);
   return {
-    price,
-    price_formatted: formatRsd(price),
+    ...pricing,
     availability: parseAvailability(offers.availability),
     updated_at: new Date().toISOString(),
   };
