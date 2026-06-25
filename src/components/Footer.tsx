@@ -12,7 +12,7 @@ export default async function Footer() {
           Nazad na početnu
         </Link>
       </div>
-      <div className="mx-auto grid max-w-[1500px] gap-8 px-4 py-10 sm:px-6 md:grid-cols-3">
+      <div className="mx-auto grid max-w-[1500px] gap-8 px-4 py-10 sm:px-6 md:grid-cols-4">
         <div>
           <h3 className="text-lg font-bold text-white">
             <span className="text-[#ff9900]">B</span> bojleri.com
@@ -26,6 +26,22 @@ export default async function Footer() {
             <li><Link href="/kako-izabrati" className="hover:text-[#ff9900]">Kako izabrati bojler</Link></li>
             <li><Link href="/korpa" className="hover:text-[#ff9900]">Korpa</Link></li>
             <li><Link href="/kontakt" className="hover:text-[#ff9900]">Kontakt</Link></li>
+          </ul>
+        </div>
+        <div>
+          <h4 className="font-semibold text-white">Kontakt</h4>
+          <ul className="mt-3 space-y-2 text-sm">
+            <li>
+              <a href={`tel:${settings.contact.phone.replace(/\s/g, "")}`} className="hover:text-[#ff9900]">
+                {settings.contact.phone}
+              </a>
+            </li>
+            <li>
+              <a href={`mailto:${settings.contact.email}`} className="hover:text-[#ff9900]">
+                {settings.contact.email}
+              </a>
+            </li>
+            <li className="whitespace-pre-line text-[#bbb]">{settings.contact.workingHours}</li>
           </ul>
         </div>
         <div>
