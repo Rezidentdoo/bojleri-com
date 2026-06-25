@@ -2,6 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getProductById, getProducts } from "@/lib/products";
+
+export const dynamic = "force-dynamic";
 import AddToCartButton from "@/components/AddToCartButton";
 import ProductGallery from "@/components/ProductGallery";
 import LivePrice from "@/components/LivePrice";

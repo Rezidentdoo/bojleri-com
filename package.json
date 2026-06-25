@@ -7,7 +7,7 @@
     "sync-products": "node scripts/sync-products.mjs",
     "refresh-prices": "node ../scraper/refresh-prices.mjs",
     "fix-images": "node ../scraper/fix-images.mjs",
-    "prebuild": "node scripts/sync-products.mjs",
+    "prebuild": "node scripts/sync-products.mjs && node scripts/sync-blob-products.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
