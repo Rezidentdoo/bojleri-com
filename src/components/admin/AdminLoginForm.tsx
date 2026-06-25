@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 
@@ -34,7 +35,7 @@ export default function AdminLoginForm() {
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-[#eaeded] px-4">
+    <div className="flex min-h-screen flex-col items-center justify-center bg-[#eaeded] px-4 py-8">
       <form onSubmit={handleSubmit} className="admin-card w-full max-w-md p-8">
         <h1 className="text-2xl font-bold text-[#131921]">CMS prijava</h1>
         <p className="mt-2 text-sm text-gray-600">Upravljanje sadržajem bojleri.com</p>
@@ -64,6 +65,26 @@ export default function AdminLoginForm() {
           {loading ? "Prijava..." : "Prijavi se"}
         </button>
       </form>
+      <p className="mt-6 text-center text-xs text-gray-500">
+        CMS izradio{" "}
+        <Link
+          href="https://www.rezident.rs"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-[#131921] hover:text-[#ff9900]"
+        >
+          Rezident
+        </Link>
+        {" · "}
+        <Link
+          href="https://www.rezident.rs"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-[#ff9900] hover:underline"
+        >
+          www.rezident.rs
+        </Link>
+      </p>
     </div>
   );
 }

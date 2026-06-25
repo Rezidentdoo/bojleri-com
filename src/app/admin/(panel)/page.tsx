@@ -1,4 +1,5 @@
 import Link from "next/link";
+import RezidentPromo from "@/components/admin/RezidentPromo";
 import { getAllProductsCached } from "@/lib/products";
 import { readSiteSettings } from "@/lib/cms/store";
 
@@ -59,6 +60,10 @@ export default async function AdminDashboardPage() {
             <li>Email: {settings.contact.email}</li>
           </ul>
         </div>
+      </div>
+
+      <div className="mt-8">
+        <RezidentPromo />
       </div>
     </div>
   );

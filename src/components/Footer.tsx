@@ -1,4 +1,5 @@
 import Link from "next/link";
+import RezidentCredit from "@/components/RezidentCredit";
 import { getSiteSettings } from "@/lib/cms/settings";
 
 export default async function Footer() {
@@ -32,8 +33,9 @@ export default async function Footer() {
           <p className="mt-3 text-sm leading-relaxed">{settings.footer.disclaimer}</p>
         </div>
       </div>
-      <div className="bg-[#131921] py-6 text-center text-xs text-[#999]">
-        © {new Date().getFullYear()} bojleri.com — Sva prava zadržana
+      <div className="space-y-2 bg-[#131921] py-6 text-center text-xs">
+        <p className="text-[#999]">© {new Date().getFullYear()} bojleri.com — Sva prava zadržana</p>
+        <RezidentCredit variant="footer" />
       </div>
     </footer>
   );
