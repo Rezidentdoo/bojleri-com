@@ -69,13 +69,53 @@ function shopEmailHtml(order: Order): string {
     </div>`;
 }
 
+function orderFromAddress(): string {
+  return process.env.ORDER_FROM_EMAIL || "bojleri.com <prodaja@bojleri.com>";
+}
+
+function isSmtpConfigured(): boolean {
+  return Boolean(process.env.SMTP_HOST && process.env.SMTP_PASS);
+}
+
+async function sendSmtpEmail(to: string | string[], subject: string, html: string): Promise<boolean> {
+  if (!isSmtpConfigured()) return false;
+
+  const port = Number(process.env.SMTP_PORT || 587);
+  const secure =
+    process.env.SMTP_SECURE === "true" || (process.env.SMTP_SECURE !== "false" && port === 465);
+
+  const nodemailer = await import("nodemailer");
+  const transport = nodemailer.createTransport({
+    host: process.env.SMTP_HOST,
+    port,
+    secure,
+    auth: {
+      user: process.env.SMTP_USER || "prodaja@bojleri.com",
+      pass: process.env.SMTP_PASS,
+    },
+  });
+
+  try {
+    await transport.sendMail({
+      from: orderFromAddress(),
+      to: Array.isArray(to) ? to.join(", ") : to,
+      subject,
+      html,
+    });
+    return true;
+  } catch (error) {
+    console.error("SMTP error:", error);
+    return false;
+  }
+}
+
 async function sendResendEmail(to: string | string[], subject: string, html: string): Promise<boolean> {
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) return false;
 
   const { Resend } = await import("resend");
   const resend = new Resend(apiKey);
-  const from = process.env.ORDER_FROM_EMAIL || "bojleri.com <onboarding@resend.dev>";
+  const from = orderFromAddress();
 
   const { error } = await resend.emails.send({
     from,
@@ -124,16 +164,22 @@ async function sendWeb3FormsNotification(order: Order): Promise<boolean> {
   return res.ok;
 }
 
+async function sendEmail(to: string | string[], subject: string, html: string): Promise<boolean> {
+  if (isSmtpConfigured()) return sendSmtpEmail(to, subject, html);
+  if (process.env.RESEND_API_KEY) return sendResendEmail(to, subject, html);
+  return false;
+}
+
 export async function sendOrderEmails(order: Order): Promise<{ customer: boolean; shop: boolean }> {
   const notifyEmail = process.env.ORDER_NOTIFY_EMAIL || "prodaja@bojleri.com";
 
   const [customer, shop] = await Promise.all([
-    sendResendEmail(
+    sendEmail(
       order.customer.email,
       `Potvrda porudžbine ${order.id} — bojleri.com`,
       customerEmailHtml(order)
     ),
-    sendResendEmail(
+    sendEmail(
       notifyEmail,
       `Nova porudžbina ${order.id} — ${order.customer.name}`,
       shopEmailHtml(order)
