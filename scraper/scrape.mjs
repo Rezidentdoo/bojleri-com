@@ -158,6 +158,7 @@ async function scrapeProduct(url, category) {
   let availability = parseAvailability(ld?.offers?.availability);
 
   if (!name) name = $("h1").first().text().trim();
+  name = name.replace(/^[-–—\s]+/, "").trim();
   if (!name) return null;
 
   const slug = slugify(name);
