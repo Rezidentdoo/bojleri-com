@@ -12,13 +12,30 @@ function useBlob(): boolean {
   return Boolean(process.env.BLOB_READ_WRITE_TOKEN);
 }
 
+function blobToken(): string | undefined {
+  return process.env.BLOB_READ_WRITE_TOKEN;
+}
+
+async function readOrdersFromBlob(): Promise<Order[] | null> {
+  try {
+    const meta = await head(ORDERS_BLOB, { token: blobToken() });
+    const version = `${meta.uploadedAt.getTime()}-${meta.etag}`;
+    const url = `${meta.url}${meta.url.includes("?") ? "&" : "?"}v=${encodeURIComponent(version)}`;
+    const res = await fetch(url, {
+      cache: "no-store",
+      headers: { "Cache-Control": "no-cache", Pragma: "no-cache" },
+    });
+    if (!res.ok) return null;
+    return (await res.json()) as Order[];
+  } catch {
+    return null;
+  }
+}
+
 async function readOrders(): Promise<Order[]> {
   if (useBlob()) {
-    try {
-      const meta = await head(ORDERS_BLOB);
-      const res = await fetch(meta.url, { cache: "no-store" });
-      if (res.ok) return (await res.json()) as Order[];
-    } catch {}
+    const blob = await readOrdersFromBlob();
+    if (blob) return blob;
   }
   try {
     const raw = await readFile(ordersPath, "utf-8");
@@ -36,7 +53,8 @@ async function writeOrders(orders: Order[]): Promise<void> {
       addRandomSuffix: false,
       allowOverwrite: true,
       contentType: "application/json",
-      token: process.env.BLOB_READ_WRITE_TOKEN,
+      cacheControlMaxAge: 60,
+      token: blobToken(),
     });
     return;
   }

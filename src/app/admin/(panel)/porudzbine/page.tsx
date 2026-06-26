@@ -23,7 +23,7 @@ export default function AdminOrdersPage() {
 
   const loadOrders = useCallback(() => {
     setLoading(true);
-    fetch("/api/admin/orders")
+    fetch("/api/admin/orders", { cache: "no-store" })
       .then((r) => r.json())
       .then((data) => setOrders(data.orders || []))
       .finally(() => setLoading(false));
