@@ -77,13 +77,17 @@ export function extractLivePrice(html: string): LivePriceData | null {
   };
 }
 
-export async function fetchLivePrice(sourceUrl: string): Promise<LivePriceData | null> {
+export async function fetchLivePrice(
+  sourceUrl: string,
+  options?: { noCache?: boolean }
+): Promise<LivePriceData | null> {
   const res = await fetch(sourceUrl, {
     headers: {
       "User-Agent": "Mozilla/5.0 (compatible; BojleriBot/1.0)",
       "Accept-Language": "sr-RS,sr;q=0.9",
     },
-    next: { revalidate: 3600 },
+    cache: options?.noCache ? "no-store" : undefined,
+    next: options?.noCache ? undefined : { revalidate: 3600 },
   });
   if (!res.ok) return null;
   const html = await res.text();
