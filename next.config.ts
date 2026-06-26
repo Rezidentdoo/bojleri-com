@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
         hostname: "www.aqualand.rs",
         pathname: "/images/**",
       },
+      {
+        protocol: "https",
+        hostname: "*.public.blob.vercel-storage.com",
+        pathname: "/**",
+      },
     ],
   },
 };

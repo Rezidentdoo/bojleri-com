@@ -41,6 +41,9 @@ yarn-error.log*
 /scraper/products.json
 /scraper/images
 
+# local CMS uploads (production uses Vercel Blob)
+/public/uploads
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

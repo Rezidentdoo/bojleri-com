@@ -1,14 +1,17 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import {
   PRODUCT_BRANDS,
   PRODUCT_CATEGORIES,
+  slugifyProductId,
   specificationsToText,
   textToSpecifications,
 } from "@/lib/cms/product-admin";
 import type { Product } from "@/types/product";
+
+const MAX_GALLERY_IMAGES = 3;
 
 type ProductFormProps = {
   product: Product;
@@ -23,7 +26,11 @@ export default function ProductForm({ product, mode, onSave, onDelete }: Product
   const [specsText, setSpecsText] = useState(specificationsToText(product.specifications ?? {}));
   const [saving, setSaving] = useState(false);
   const [deleting, setDeleting] = useState(false);
+  const [uploading, setUploading] = useState(false);
+  const [dragOver, setDragOver] = useState(false);
+  const [manualUrl, setManualUrl] = useState("");
   const [message, setMessage] = useState("");
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const previewImages = useMemo(
     () =>
@@ -33,6 +40,84 @@ export default function ProductForm({ product, mode, onSave, onDelete }: Product
         .filter(Boolean),
     [imagesText]
   );
+
+  const uploadProductId = useMemo(() => {
+    if (mode === "edit" && draft.id) return draft.id;
+    if (draft.id.trim()) return slugifyProductId(draft.id);
+    if (draft.name.trim()) return slugifyProductId(draft.name);
+    return "temp";
+  }, [draft.id, draft.name, mode]);
+
+  const setImages = (urls: string[]) => {
+    setImagesText(urls.join("\n"));
+  };
+
+  const addImageUrl = (url: string) => {
+    const trimmed = url.trim();
+    if (!trimmed || previewImages.includes(trimmed)) return;
+    setImages([...previewImages, trimmed]);
+    if (!draft.image_url) {
+      setDraft((current) => ({ ...current, image_url: trimmed }));
+    }
+  };
+
+  const removeImage = (url: string) => {
+    const next = previewImages.filter((item) => item !== url);
+    setImages(next);
+    if (draft.image_url === url) {
+      setDraft((current) => ({ ...current, image_url: next[0] ?? "" }));
+    }
+  };
+
+  const uploadFiles = async (files: FileList | File[]) => {
+    const imageFiles = Array.from(files).filter((file) => file.type.startsWith("image/"));
+    if (!imageFiles.length) {
+      setMessage("Izaberite sliku (JPG, PNG, WebP ili GIF)");
+      return;
+    }
+
+    if (previewImages.length >= MAX_GALLERY_IMAGES) {
+      setMessage(`Maksimum ${MAX_GALLERY_IMAGES} slike za prikaz na sajtu`);
+      return;
+    }
+
+    setUploading(true);
+    setMessage("");
+
+    const uploaded: string[] = [];
+    for (const file of imageFiles) {
+      if (previewImages.length + uploaded.length >= MAX_GALLERY_IMAGES) break;
+
+      const formData = new FormData();
+      formData.append("file", file);
+      formData.append("productId", uploadProductId);
+
+      const res = await fetch("/api/admin/upload", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        setMessage(data.error ?? "Greška pri uploadu slike");
+        break;
+      }
+
+      const data = await res.json();
+      if (data.url) uploaded.push(data.url);
+    }
+
+    if (uploaded.length) {
+      const next = [...previewImages, ...uploaded];
+      setImages(next);
+      if (!draft.image_url) {
+        setDraft((current) => ({ ...current, image_url: next[0] }));
+      }
+      setMessage(`${uploaded.length} slika uploadovano`);
+    }
+
+    setUploading(false);
+  };
 
   const buildPayload = (): Product => {
     const images = previewImages;
@@ -217,36 +302,122 @@ export default function ProductForm({ product, mode, onSave, onDelete }: Product
 
       <section className="space-y-4">
         <h2 className="text-lg font-semibold text-[#131921]">Slike</h2>
+        <p className="text-sm text-gray-500">
+          Uploadujte slike direktno ili dodajte URL. Na sajtu se prikazuju najviše{" "}
+          {MAX_GALLERY_IMAGES} slike.
+        </p>
 
-        <div>
-          <label className="admin-label">URL-ovi slika (jedan po liniji, max 3 na sajtu)</label>
-          <textarea
-            className="admin-input min-h-28 font-mono text-xs"
-            value={imagesText}
-            onChange={(e) => setImagesText(e.target.value)}
-            placeholder={"https://...\nhttps://..."}
+        <div
+          onDragOver={(e) => {
+            e.preventDefault();
+            setDragOver(true);
+          }}
+          onDragLeave={() => setDragOver(false)}
+          onDrop={(e) => {
+            e.preventDefault();
+            setDragOver(false);
+            if (!uploading) uploadFiles(e.dataTransfer.files);
+          }}
+          className={`rounded-lg border-2 border-dashed p-8 text-center transition ${
+            dragOver
+              ? "border-[#ff9900] bg-orange-50"
+              : "border-gray-300 bg-gray-50 hover:border-gray-400"
+          }`}
+        >
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept="image/jpeg,image/png,image/webp,image/gif"
+            multiple
+            className="hidden"
+            onChange={(e) => {
+              if (e.target.files) uploadFiles(e.target.files);
+              e.target.value = "";
+            }}
           />
+          <p className="text-sm font-medium text-gray-700">
+            {uploading ? "Upload u toku..." : "Prevuci slike ovde"}
+          </p>
+          <p className="mt-1 text-xs text-gray-500">JPG, PNG, WebP ili GIF · max 5 MB</p>
+          <button
+            type="button"
+            disabled={uploading || previewImages.length >= MAX_GALLERY_IMAGES}
+            onClick={() => fileInputRef.current?.click()}
+            className="admin-btn admin-btn-secondary mt-4 disabled:opacity-60"
+          >
+            {uploading ? "Upload..." : "Izaberi slike"}
+          </button>
+          {mode === "create" && !draft.name.trim() && (
+            <p className="mt-3 text-xs text-amber-700">
+              Unesite naziv pre uploada da bi se slike lepše organizovale.
+            </p>
+          )}
         </div>
 
-        <div>
-          <label className="admin-label">Glavna slika (opciono, inače prva iz liste)</label>
+        <div className="flex gap-2">
           <input
             className="admin-input"
-            value={draft.image_url}
-            onChange={(e) => setDraft({ ...draft, image_url: e.target.value })}
+            value={manualUrl}
+            onChange={(e) => setManualUrl(e.target.value)}
+            placeholder="Ili nalepite URL slike..."
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                e.preventDefault();
+                addImageUrl(manualUrl);
+                setManualUrl("");
+              }
+            }}
           />
+          <button
+            type="button"
+            className="admin-btn admin-btn-secondary shrink-0"
+            onClick={() => {
+              addImageUrl(manualUrl);
+              setManualUrl("");
+            }}
+          >
+            Dodaj URL
+          </button>
         </div>
 
         {previewImages.length > 0 && (
-          <div className="flex flex-wrap gap-3">
-            {previewImages.map((url) => (
-              <img
-                key={url}
-                src={url}
-                alt=""
-                className="h-20 w-20 rounded border border-gray-200 object-contain bg-white"
-              />
-            ))}
+          <div className="grid gap-3 sm:grid-cols-3">
+            {previewImages.map((url) => {
+              const isPrimary = draft.image_url === url || (!draft.image_url && url === previewImages[0]);
+              return (
+                <div
+                  key={url}
+                  className={`relative overflow-hidden rounded-lg border bg-white ${
+                    isPrimary ? "border-[#ff9900] ring-2 ring-[#ff9900]/30" : "border-gray-200"
+                  }`}
+                >
+                  <img src={url} alt="" className="aspect-square w-full object-contain p-2" />
+                  <div className="flex flex-wrap gap-1 border-t border-gray-100 p-2">
+                    {!isPrimary && (
+                      <button
+                        type="button"
+                        className="rounded bg-gray-100 px-2 py-1 text-xs hover:bg-gray-200"
+                        onClick={() => setDraft({ ...draft, image_url: url })}
+                      >
+                        Glavna
+                      </button>
+                    )}
+                    {isPrimary && (
+                      <span className="rounded bg-orange-100 px-2 py-1 text-xs text-orange-800">
+                        Glavna
+                      </span>
+                    )}
+                    <button
+                      type="button"
+                      className="rounded bg-red-50 px-2 py-1 text-xs text-red-700 hover:bg-red-100"
+                      onClick={() => removeImage(url)}
+                    >
+                      Ukloni
+                    </button>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         )}
       </section>
