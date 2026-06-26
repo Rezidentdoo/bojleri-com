@@ -52,3 +52,12 @@ export async function appendOrder(order: Order): Promise<void> {
 export async function getAllOrders(): Promise<Order[]> {
   return readOrders();
 }
+
+export async function deleteOrder(id: string): Promise<boolean> {
+  const orders = await readOrders();
+  const index = orders.findIndex((o) => o.id === id);
+  if (index === -1) return false;
+  orders.splice(index, 1);
+  await writeOrders(orders);
+  return true;
+}
