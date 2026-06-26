@@ -45,6 +45,11 @@ export default async function ProductPage({
       ? [product.image_url]
       : [];
 
+  const specEntries = Object.entries(product.specifications ?? {}).filter(
+    ([, value]) => value.trim()
+  );
+  const priceSource = product.url?.includes("aqualand.rs") ? "aqualand" : "manual";
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -105,12 +110,21 @@ export default async function ProductPage({
             <p className="text-sm text-slate-500">Kapacitet: {product.capacity_liters} L</p>
           )}
 
-          <p className="mt-2 text-xs text-slate-400">
-            Izvor cene:{" "}
-            <a href={product.url} target="_blank" rel="noopener noreferrer" className="text-[#007185] hover:text-[#c7511f] hover:underline">
-              aqualand.rs
-            </a>
-          </p>
+          {priceSource === "aqualand" ? (
+            <p className="mt-2 text-xs text-slate-400">
+              Izvor cene:{" "}
+              <a
+                href={product.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#007185] hover:text-[#c7511f] hover:underline"
+              >
+                aqualand.rs
+              </a>
+            </p>
+          ) : (
+            <p className="mt-2 text-xs text-slate-400">Cena iz naše ponude</p>
+          )}
 
           <div className="mt-8">
             <AddToCartButton product={product} />
@@ -122,6 +136,22 @@ export default async function ProductPage({
               {product.description || "Opis nije dostupan."}
             </div>
           </div>
+
+          {specEntries.length > 0 && (
+            <div className="mt-10">
+              <h2 className="text-lg font-semibold text-slate-900">Specifikacije</h2>
+              <dl className="mt-4 divide-y divide-slate-200 rounded-lg border border-slate-200">
+                {specEntries.map(([key, value]) => (
+                  <div key={key} className="grid gap-2 px-4 py-3 sm:grid-cols-2">
+                    <dt className="text-sm font-medium text-slate-700">
+                      {key.endsWith(":") ? key.slice(0, -1) : key}
+                    </dt>
+                    <dd className="text-sm text-slate-600">{value}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          )}
         </div>
       </div>
 

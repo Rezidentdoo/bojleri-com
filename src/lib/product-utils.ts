@@ -36,8 +36,30 @@ export function formatRsd(price: number): string {
 }
 
 export function syncPriceFormatted(product: Product): Product {
+  const onSale = Boolean(product.on_sale);
+  const originalPrice =
+    onSale && typeof product.original_price === "number" && product.original_price > 0
+      ? product.original_price
+      : null;
+
+  const images = Array.isArray(product.images)
+    ? product.images.filter((url) => typeof url === "string" && url.trim())
+    : [];
+  const imageUrl = product.image_url?.trim() || images[0] || "";
+
   return {
     ...product,
     price_formatted: formatRsd(product.price),
+    on_sale: onSale,
+    original_price: originalPrice,
+    original_price_formatted: originalPrice ? formatRsd(originalPrice) : null,
+    images,
+    image_url: imageUrl,
+    specifications:
+      product.specifications && typeof product.specifications === "object"
+        ? product.specifications
+        : {},
+    capacity_liters:
+      typeof product.capacity_liters === "number" ? product.capacity_liters : null,
   };
 }

@@ -35,6 +35,10 @@ export default function AdminProductsPage() {
           <h1 className="text-2xl font-bold text-[#131921]">Proizvodi</h1>
           <p className="mt-1 text-sm text-gray-600">{total} proizvoda ukupno</p>
         </div>
+        <div className="flex flex-wrap items-end gap-3">
+          <Link href="/admin/proizvodi/novi" className="admin-btn admin-btn-primary">
+            + Dodaj proizvod
+          </Link>
         <form
           className="flex gap-2"
           onSubmit={(e) => {
@@ -54,6 +58,7 @@ export default function AdminProductsPage() {
             Traži
           </button>
         </form>
+        </div>
       </div>
 
       <div className="admin-card mt-6 overflow-hidden">
@@ -101,7 +106,12 @@ export default function AdminProductsPage() {
                           Izdvojeno
                         </span>
                       )}
-                      {!p.hidden && !p.featured && (
+                      {p.on_sale && (
+                        <span className="rounded bg-red-100 px-2 py-0.5 text-xs text-red-800">
+                          Akcija
+                        </span>
+                      )}
+                      {!p.hidden && !p.featured && !p.on_sale && (
                         <span className="rounded bg-green-100 px-2 py-0.5 text-xs text-green-800">
                           Aktivno
                         </span>

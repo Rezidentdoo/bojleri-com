@@ -1,11 +1,13 @@
 import { NextResponse } from "next/server";
-import { readAllProducts } from "@/lib/cms/store";
+import { createManualProduct } from "@/lib/cms/product-admin";
+import { readAllProducts, writeAllProducts } from "@/lib/cms/store";
+import { revalidateProducts } from "@/lib/cms/revalidate";
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const q = searchParams.get("q")?.toLowerCase() ?? "";
   const page = Math.max(1, Number(searchParams.get("page") ?? "1"));
-  const limit = Math.min(50, Math.max(1, Number(searchParams.get("limit") ?? "20")));
+  const limit = Math.min(500, Math.max(1, Number(searchParams.get("limit") ?? "20")));
 
   let products = await readAllProducts();
 
@@ -26,4 +28,19 @@ export async function GET(req: Request) {
     page,
     pages: Math.ceil(total / limit),
   });
+}
+
+export async function POST(req: Request) {
+  try {
+    const body = await req.json();
+    const products = await readAllProducts();
+    const product = createManualProduct(body, products.map((p) => p.id));
+    products.push(product);
+    await writeAllProducts(products);
+    revalidateProducts();
+    return NextResponse.json(product, { status: 201 });
+  } catch (error) {
+    const message = error instanceof Error ? error.message : "Greška pri kreiranju";
+    return NextResponse.json({ error: message }, { status: 400 });
+  }
 }
