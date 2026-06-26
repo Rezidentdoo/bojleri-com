@@ -85,6 +85,7 @@ async function sendSmtpEmail(to: string | string[], subject: string, html: strin
     process.env.SMTP_SECURE === "true" || (process.env.SMTP_SECURE !== "false" && port === 465);
 
   const nodemailer = await import("nodemailer");
+  const tlsServername = process.env.SMTP_TLS_SERVERNAME || "mail.bojleri.com";
   const transport = nodemailer.createTransport({
     host: process.env.SMTP_HOST,
     port,
@@ -93,6 +94,7 @@ async function sendSmtpEmail(to: string | string[], subject: string, html: strin
       user: process.env.SMTP_USER || "prodaja@bojleri.com",
       pass: process.env.SMTP_PASS,
     },
+    tls: { servername: tlsServername },
   });
 
   try {
