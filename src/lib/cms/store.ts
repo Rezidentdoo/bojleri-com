@@ -3,6 +3,7 @@ import "server-only";
 import { head, put } from "@vercel/blob";
 import { readFile, writeFile } from "fs/promises";
 import path from "path";
+import { normalizeSiteSettings } from "@/lib/cms/guide-page";
 import productsSeed from "@/data/products.json";
 import siteSettingsSeed from "@/data/site-settings.json";
 import type { Product } from "@/types/product";
@@ -81,9 +82,11 @@ export async function writeAllProducts(products: Product[]): Promise<void> {
 export async function readSiteSettings(): Promise<SiteSettings> {
   if (useBlob()) {
     const blob = await readBlobJson<SiteSettings>(SETTINGS_BLOB);
-    if (blob) return blob;
+    if (blob) return normalizeSiteSettings(blob);
   }
-  return readLocalJson<SiteSettings>(settingsPath, siteSettingsSeed as SiteSettings);
+  return normalizeSiteSettings(
+    await readLocalJson<SiteSettings>(settingsPath, siteSettingsSeed as SiteSettings)
+  );
 }
 
 export async function writeSiteSettings(settings: SiteSettings): Promise<void> {

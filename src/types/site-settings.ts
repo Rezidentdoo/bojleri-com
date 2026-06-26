@@ -24,6 +24,22 @@ export interface SeoSettings {
   keywords: string[];
 }
 
+export interface GuideSection {
+  title: string;
+  format: "list" | "text";
+  content: string;
+}
+
+export interface GuidePageSettings {
+  title: string;
+  intro: string;
+  sections: GuideSection[];
+  ctaLabel: string;
+  ctaLink: string;
+  seoTitle: string;
+  seoDescription: string;
+}
+
 export interface SiteSettings {
   homepage: HomepageSettings;
   heroSlides: HeroSlide[];
@@ -33,4 +49,5 @@ export interface SiteSettings {
     disclaimer: string;
   };
   seo: SeoSettings;
+  guidePage?: GuidePageSettings;
 }
