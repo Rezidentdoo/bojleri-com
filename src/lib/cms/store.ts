@@ -18,10 +18,19 @@ function useBlob(): boolean {
   return Boolean(process.env.BLOB_READ_WRITE_TOKEN);
 }
 
+function blobToken(): string | undefined {
+  return process.env.BLOB_READ_WRITE_TOKEN;
+}
+
 async function readBlobJson<T>(blobPath: string): Promise<T | null> {
   try {
-    const meta = await head(blobPath);
-    const res = await fetch(meta.url, { cache: "no-store" });
+    const meta = await head(blobPath, { token: blobToken() });
+    const version = `${meta.uploadedAt.getTime()}-${meta.etag}`;
+    const url = `${meta.url}${meta.url.includes("?") ? "&" : "?"}v=${encodeURIComponent(version)}`;
+    const res = await fetch(url, {
+      cache: "no-store",
+      headers: { "Cache-Control": "no-cache", Pragma: "no-cache" },
+    });
     if (!res.ok) return null;
     return (await res.json()) as T;
   } catch {
@@ -35,6 +44,8 @@ async function writeBlobJson<T>(blobPath: string, data: T): Promise<void> {
     addRandomSuffix: false,
     allowOverwrite: true,
     contentType: "application/json",
+    cacheControlMaxAge: 60,
+    token: blobToken(),
   });
 }
 
