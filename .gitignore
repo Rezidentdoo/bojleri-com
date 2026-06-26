@@ -36,6 +36,11 @@ yarn-error.log*
 # vercel
 .vercel
 
+# scraper output
+/scraper/node_modules
+/scraper/products.json
+/scraper/images
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

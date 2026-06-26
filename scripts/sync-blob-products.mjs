@@ -23,6 +23,7 @@ await put(BLOB_PATH, JSON.stringify(products, null, 2), {
   addRandomSuffix: false,
   allowOverwrite: true,
   contentType: "application/json",
+  cacheControlMaxAge: 60,
   token: process.env.BLOB_READ_WRITE_TOKEN,
 });
 
