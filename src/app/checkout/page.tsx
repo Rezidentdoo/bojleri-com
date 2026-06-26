@@ -46,7 +46,8 @@ export default function CheckoutPage() {
           </p>
           {emailStatus.customer ? (
             <p className="mt-2 text-sm text-green-700">
-              Potvrda je poslata na <strong>{form.email}</strong> (proverite i spam folder).
+              Potvrda je poslata na <strong>{form.email}</strong>. Ako koristite Gmail ili Yahoo,
+              proverite i <strong>spam/promocije</strong> folder — ponekad tamo završi prvih par minuta.
             </p>
           ) : (
             <p className="mt-2 text-sm text-amber-800">

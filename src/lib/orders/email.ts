@@ -73,6 +73,25 @@ function orderFromAddress(): string {
   return process.env.ORDER_FROM_EMAIL || "bojleri.com <prodaja@bojleri.com>";
 }
 
+function smtpFromAddress(): string {
+  return process.env.SMTP_USER || "prodaja@bojleri.com";
+}
+
+function htmlToText(html: string): string {
+  return html
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<\/p>/gi, "\n\n")
+    .replace(/<\/tr>/gi, "\n")
+    .replace(/<\/t[dh][^>]*>/gi, " ")
+    .replace(/<[^>]+>/g, "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
 function isSmtpConfigured(): boolean {
   return Boolean(process.env.SMTP_HOST && process.env.SMTP_PASS);
 }
@@ -97,14 +116,32 @@ async function sendSmtpEmail(to: string | string[], subject: string, html: strin
     tls: { servername: tlsServername },
   });
 
+  const recipients = Array.isArray(to) ? to : [to];
+
   try {
-    await transport.sendMail({
+    const info = await transport.sendMail({
       from: orderFromAddress(),
+      sender: smtpFromAddress(),
       replyTo: process.env.ORDER_NOTIFY_EMAIL || "prodaja@bojleri.com",
-      to: Array.isArray(to) ? to.join(", ") : to,
+      to: recipients.join(", "),
       subject,
+      text: htmlToText(html),
       html,
+      envelope: {
+        from: smtpFromAddress(),
+        to: recipients,
+      },
+      headers: {
+        "Auto-Submitted": "auto-generated",
+        "X-Auto-Response-Suppress": "All",
+      },
     });
+
+    if (info.rejected?.length) {
+      console.error("SMTP rejected recipients:", info.rejected);
+      return false;
+    }
+
     return true;
   } catch (error) {
     console.error("SMTP error:", error);
