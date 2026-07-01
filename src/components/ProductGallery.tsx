@@ -55,6 +55,7 @@ export default function ProductGallery({
               fill
               className="object-contain p-1"
               sizes="80px"
+              loading="lazy"
             />
           </button>
         ))}

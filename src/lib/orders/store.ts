@@ -1,6 +1,6 @@
 import "server-only";
 
-import { head, put } from "@vercel/blob";
+import { hashContent, readBlobJson, stableJson, writeBlobJsonIfChanged } from "@/lib/cms/blob-client";
 import { readFile, writeFile } from "fs/promises";
 import path from "path";
 import type { Order } from "@/types/order";
@@ -8,57 +8,44 @@ import type { Order } from "@/types/order";
 const ORDERS_BLOB = "cms/orders.json";
 const ordersPath = path.join(process.cwd(), "src/data/orders.json");
 
+let localHash = "";
+
 function useBlob(): boolean {
   return Boolean(process.env.BLOB_READ_WRITE_TOKEN);
 }
 
-function blobToken(): string | undefined {
-  return process.env.BLOB_READ_WRITE_TOKEN;
-}
-
-async function readOrdersFromBlob(): Promise<Order[] | null> {
-  try {
-    const meta = await head(ORDERS_BLOB, { token: blobToken() });
-    const version = `${meta.uploadedAt.getTime()}-${meta.etag}`;
-    const url = `${meta.url}${meta.url.includes("?") ? "&" : "?"}v=${encodeURIComponent(version)}`;
-    const res = await fetch(url, {
-      cache: "no-store",
-      headers: { "Cache-Control": "no-cache", Pragma: "no-cache" },
-    });
-    if (!res.ok) return null;
-    return (await res.json()) as Order[];
-  } catch {
-    return null;
-  }
-}
-
-async function readOrders(): Promise<Order[]> {
-  if (useBlob()) {
-    const blob = await readOrdersFromBlob();
-    if (blob) return blob;
-  }
+async function readOrdersLocal(): Promise<Order[]> {
   try {
     const raw = await readFile(ordersPath, "utf-8");
+    localHash = hashContent(raw);
     return JSON.parse(raw) as Order[];
   } catch {
     return [];
   }
 }
 
-async function writeOrders(orders: Order[]): Promise<void> {
-  const data = JSON.stringify(orders, null, 2);
+async function writeOrdersLocal(orders: Order[]): Promise<boolean> {
+  const content = stableJson(orders);
+  const contentHash = hashContent(content);
+  if (localHash === contentHash) return false;
+  await writeFile(ordersPath, JSON.stringify(orders, null, 2), "utf-8");
+  localHash = contentHash;
+  return true;
+}
+
+async function readOrders(): Promise<Order[]> {
   if (useBlob()) {
-    await put(ORDERS_BLOB, data, {
-      access: "public",
-      addRandomSuffix: false,
-      allowOverwrite: true,
-      contentType: "application/json",
-      cacheControlMaxAge: 60,
-      token: blobToken(),
-    });
-    return;
+    const blob = await readBlobJson<Order[]>(ORDERS_BLOB);
+    if (blob.data) return blob.data;
   }
-  await writeFile(ordersPath, data, "utf-8");
+  return readOrdersLocal();
+}
+
+async function writeOrders(orders: Order[]): Promise<boolean> {
+  if (useBlob()) {
+    return writeBlobJsonIfChanged(ORDERS_BLOB, orders, { cacheControlMaxAge: 300 });
+  }
+  return writeOrdersLocal(orders);
 }
 
 export async function appendOrder(order: Order): Promise<void> {

@@ -1,6 +1,6 @@
 import "server-only";
 
-import { put } from "@vercel/blob";
+import { hashContent, writeBlobBinaryIfMissing } from "@/lib/cms/blob-client";
 import { mkdir, writeFile } from "fs/promises";
 import path from "path";
 import { slugifyProductId } from "@/lib/cms/product-admin";
@@ -19,32 +19,16 @@ function useBlob(): boolean {
 function extensionForMime(mime: string): string {
   switch (mime) {
     case "image/jpeg":
-      return "jpg";
+      return ".jpg";
     case "image/png":
-      return "png";
+      return ".png";
     case "image/webp":
-      return "webp";
+      return ".webp";
     case "image/gif":
-      return "gif";
+      return ".gif";
     default:
-      return "jpg";
+      return ".jpg";
   }
-}
-
-function safeFilename(originalName: string, mime: string): string {
-  const ext = extensionForMime(mime);
-  const base =
-    originalName
-      .replace(/\.[^.]+$/, "")
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .replace(/đ/gi, "dj")
-      .replace(/[^a-zA-Z0-9]+/g, "-")
-      .toLowerCase()
-      .replace(/^-|-$/g, "")
-      .slice(0, 48) || "slika";
-
-  return `${base}-${Date.now()}.${ext}`;
 }
 
 export function normalizeUploadProductId(productId: string | null | undefined): string {
@@ -55,8 +39,8 @@ export function normalizeUploadProductId(productId: string | null | undefined): 
 
 export async function uploadProductImage(
   file: File,
-  productId: string
-): Promise<{ url: string; path: string }> {
+  productId: string,
+): Promise<{ url: string; path: string; deduplicated: boolean }> {
   if (!ALLOWED_TYPES.has(file.type)) {
     throw new Error("Dozvoljeni formati: JPG, PNG, WebP, GIF");
   }
@@ -65,24 +49,18 @@ export async function uploadProductImage(
     throw new Error("Slika je prevelika (maksimum 5 MB)");
   }
 
-  const folderId = normalizeUploadProductId(productId);
-  const filename = safeFilename(file.name, file.type);
-  const storagePath = `cms/product-images/${folderId}/${filename}`;
   const bytes = Buffer.from(await file.arrayBuffer());
+  const sha256 = hashContent(bytes);
+  const ext = extensionForMime(file.type);
 
   if (useBlob()) {
-    const blob = await put(storagePath, bytes, {
-      access: "public",
-      addRandomSuffix: false,
-      allowOverwrite: true,
-      contentType: file.type,
-      cacheControlMaxAge: 31536000,
-      token: blobToken(),
-    });
-
-    return { url: blob.url, path: storagePath };
+    const contentPath = `cms/media/${sha256}${ext}`;
+    const { url, wrote } = await writeBlobBinaryIfMissing(contentPath, bytes, file.type);
+    return { url, path: contentPath, deduplicated: !wrote };
   }
 
+  const folderId = normalizeUploadProductId(productId);
+  const filename = `${sha256.slice(0, 16)}${ext}`;
   const uploadDir = path.join(process.cwd(), "public/uploads/products", folderId);
   await mkdir(uploadDir, { recursive: true });
   const diskPath = path.join(uploadDir, filename);
@@ -90,6 +68,7 @@ export async function uploadProductImage(
 
   return {
     url: `/uploads/products/${folderId}/${filename}`,
-    path: storagePath,
+    path: `cms/product-images/${folderId}/${filename}`,
+    deduplicated: false,
   };
 }

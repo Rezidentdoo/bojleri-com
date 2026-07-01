@@ -1,3 +1,11 @@
+export interface ImageMirrorEntry {
+  source_url: string;
+  blob_url: string;
+  sha256: string;
+  etag?: string;
+  last_modified?: string;
+}
+
 export interface Product {
   id: string;
   name: string;
@@ -20,6 +28,13 @@ export interface Product {
   price_updated_at?: string;
   hidden?: boolean;
   featured?: boolean;
+  source_images?: string[];
+  image_cache?: ImageMirrorEntry[];
+  image_fingerprint?: string;
+  price_fingerprint?: string;
+  content_hash?: string;
+  page_etag?: string;
+  page_last_modified?: string;
 }
 
 export interface CartItem {

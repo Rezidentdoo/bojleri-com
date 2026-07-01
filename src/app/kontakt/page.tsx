@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+export const revalidate = 300;
+
 import { getSiteSettings } from "@/lib/cms/settings";
 
 export const metadata: Metadata = {

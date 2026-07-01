@@ -1,3 +1,5 @@
+import { fetchWithConditionals, type RemoteCacheHeaders } from "@/lib/conditional-fetch";
+
 export function parsePrice(value: unknown): number {
   if (value == null) return 0;
   const n = parseFloat(String(value).replace(/\./g, "").replace(",", "."));
@@ -40,15 +42,18 @@ export interface LivePriceData {
   on_sale?: boolean;
   availability: string;
   updated_at: string;
+  unchanged?: boolean;
+  etag?: string;
+  lastModified?: string;
 }
 
 export function extractSalePrices(html: string, jsonLdPrice: unknown = 0) {
   const currentFromLd = parsePrice(jsonLdPrice);
   const boxMatch = html.match(
-    /class="product__details--info__price[^"]*"[^>]*>[\s\S]*?class="current__price"[^>]*>([^<]+)</i
+    /class="product__details--info__price[^"]*"[^>]*>[\s\S]*?class="current__price"[^>]*>([^<]+)</i,
   );
   const oldMatch = html.match(
-    /class="product__details--info__price[^"]*"[\s\S]*?class="old__price"[^>]*>([^<]+)</i
+    /class="product__details--info__price[^"]*"[\s\S]*?class="old__price"[^>]*>([^<]+)</i,
   );
 
   let current = parsePrice(boxMatch?.[1]);
@@ -77,19 +82,56 @@ export function extractLivePrice(html: string): LivePriceData | null {
   };
 }
 
+const FETCH_HEADERS = {
+  "User-Agent": "Mozilla/5.0 (compatible; BojleriBot/1.0)",
+  "Accept-Language": "sr-RS,sr;q=0.9",
+};
+
 export async function fetchLivePrice(
   sourceUrl: string,
-  options?: { noCache?: boolean }
+  options?: { noCache?: boolean; remoteCache?: RemoteCacheHeaders },
 ): Promise<LivePriceData | null> {
-  const res = await fetch(sourceUrl, {
-    headers: {
-      "User-Agent": "Mozilla/5.0 (compatible; BojleriBot/1.0)",
-      "Accept-Language": "sr-RS,sr;q=0.9",
-    },
-    cache: options?.noCache ? "no-store" : undefined,
-    next: options?.noCache ? undefined : { revalidate: 3600 },
+  if (options?.noCache) {
+    const res = await fetch(sourceUrl, {
+      headers: FETCH_HEADERS,
+      cache: "no-store",
+    });
+    if (!res.ok) return null;
+    const html = await res.text();
+    const live = extractLivePrice(html);
+    if (!live) return null;
+    return {
+      ...live,
+      etag: res.headers.get("etag") || undefined,
+      lastModified: res.headers.get("last-modified") || undefined,
+    };
+  }
+
+  const page = await fetchWithConditionals(sourceUrl, {
+    headers: FETCH_HEADERS,
+    remoteCache: options?.remoteCache,
+    next: { revalidate: 3600 },
   });
-  if (!res.ok) return null;
-  const html = await res.text();
-  return extractLivePrice(html);
+
+  if (page.unchanged) {
+    return {
+      price: 0,
+      price_formatted: "",
+      availability: "",
+      updated_at: new Date().toISOString(),
+      unchanged: true,
+      etag: page.etag,
+      lastModified: page.lastModified,
+    };
+  }
+
+  if (!page.body) return null;
+  const live = extractLivePrice(page.body);
+  if (!live) return null;
+
+  return {
+    ...live,
+    etag: page.etag,
+    lastModified: page.lastModified,
+  };
 }

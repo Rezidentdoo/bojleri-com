@@ -84,28 +84,28 @@ export default function ProductForm({ product, mode, onSave, onDelete }: Product
     setUploading(true);
     setMessage("");
 
-    const uploaded: string[] = [];
-    for (const file of imageFiles) {
-      if (previewImages.length + uploaded.length >= MAX_GALLERY_IMAGES) break;
+    const slotsLeft = MAX_GALLERY_IMAGES - previewImages.length;
+    const batch = imageFiles.slice(0, slotsLeft);
 
-      const formData = new FormData();
-      formData.append("file", file);
-      formData.append("productId", uploadProductId);
+    const results = await Promise.all(
+      batch.map(async (file) => {
+        const formData = new FormData();
+        formData.append("file", file);
+        formData.append("productId", uploadProductId);
+        const res = await fetch("/api/admin/upload", { method: "POST", body: formData });
+        if (!res.ok) {
+          const data = await res.json().catch(() => ({}));
+          throw new Error(data.error ?? "Greška pri uploadu slike");
+        }
+        const data = await res.json();
+        return data.url as string | undefined;
+      }),
+    ).catch((error: Error) => {
+      setMessage(error.message);
+      return [] as (string | undefined)[];
+    });
 
-      const res = await fetch("/api/admin/upload", {
-        method: "POST",
-        body: formData,
-      });
-
-      if (!res.ok) {
-        const data = await res.json().catch(() => ({}));
-        setMessage(data.error ?? "Greška pri uploadu slike");
-        break;
-      }
-
-      const data = await res.json();
-      if (data.url) uploaded.push(data.url);
-    }
+    const uploaded = results.filter((url): url is string => Boolean(url));
 
     if (uploaded.length) {
       const next = [...previewImages, ...uploaded];

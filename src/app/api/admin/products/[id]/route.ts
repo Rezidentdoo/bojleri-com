@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { applyProductUpdate } from "@/lib/cms/product-admin";
 import { readAllProducts, writeAllProducts } from "@/lib/cms/store";
+import { getProductByIdAdmin } from "@/lib/products";
 import { revalidateProducts } from "@/lib/cms/revalidate";
 
 export async function GET(
@@ -8,8 +9,7 @@ export async function GET(
   { params }: { params: Promise<{ id: string }> }
 ) {
   const { id } = await params;
-  const products = await readAllProducts();
-  const product = products.find((p) => p.id === id);
+  const product = await getProductByIdAdmin(id);
   if (!product) {
     return NextResponse.json({ error: "Proizvod nije pronađen" }, { status: 404 });
   }

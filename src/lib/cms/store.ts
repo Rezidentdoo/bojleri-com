@@ -1,6 +1,6 @@
 import "server-only";
 
-import { head, put } from "@vercel/blob";
+import { readBlobJson, writeBlobJsonIfChanged } from "@/lib/cms/blob-client";
 import { readFile, writeFile } from "fs/promises";
 import path from "path";
 import { normalizeSiteSettings } from "@/lib/cms/guide-page";
@@ -19,37 +19,6 @@ function useBlob(): boolean {
   return Boolean(process.env.BLOB_READ_WRITE_TOKEN);
 }
 
-function blobToken(): string | undefined {
-  return process.env.BLOB_READ_WRITE_TOKEN;
-}
-
-async function readBlobJson<T>(blobPath: string): Promise<T | null> {
-  try {
-    const meta = await head(blobPath, { token: blobToken() });
-    const version = `${meta.uploadedAt.getTime()}-${meta.etag}`;
-    const url = `${meta.url}${meta.url.includes("?") ? "&" : "?"}v=${encodeURIComponent(version)}`;
-    const res = await fetch(url, {
-      cache: "no-store",
-      headers: { "Cache-Control": "no-cache", Pragma: "no-cache" },
-    });
-    if (!res.ok) return null;
-    return (await res.json()) as T;
-  } catch {
-    return null;
-  }
-}
-
-async function writeBlobJson<T>(blobPath: string, data: T): Promise<void> {
-  await put(blobPath, JSON.stringify(data, null, 2), {
-    access: "public",
-    addRandomSuffix: false,
-    allowOverwrite: true,
-    contentType: "application/json",
-    cacheControlMaxAge: 60,
-    token: blobToken(),
-  });
-}
-
 async function readLocalJson<T>(filePath: string, fallback: T): Promise<T> {
   try {
     const raw = await readFile(filePath, "utf-8");
@@ -59,42 +28,48 @@ async function readLocalJson<T>(filePath: string, fallback: T): Promise<T> {
   }
 }
 
-async function writeLocalJson<T>(filePath: string, data: T): Promise<void> {
-  await writeFile(filePath, JSON.stringify(data, null, 2), "utf-8");
+async function writeLocalJsonIfChanged<T>(filePath: string, data: T): Promise<boolean> {
+  const next = JSON.stringify(data, null, 2);
+  try {
+    const current = await readFile(filePath, "utf-8");
+    if (current === next) return false;
+  } catch {
+    // new file
+  }
+  await writeFile(filePath, next, "utf-8");
+  return true;
 }
 
 export async function readAllProducts(): Promise<Product[]> {
   if (useBlob()) {
     const blob = await readBlobJson<Product[]>(PRODUCTS_BLOB);
-    if (blob) return blob;
+    if (blob.data) return blob.data;
   }
   return readLocalJson<Product[]>(productsPath, productsSeed as Product[]);
 }
 
-export async function writeAllProducts(products: Product[]): Promise<void> {
+export async function writeAllProducts(products: Product[]): Promise<boolean> {
   if (useBlob()) {
-    await writeBlobJson(PRODUCTS_BLOB, products);
-    return;
+    return writeBlobJsonIfChanged(PRODUCTS_BLOB, products, { cacheControlMaxAge: 300 });
   }
-  await writeLocalJson(productsPath, products);
+  return writeLocalJsonIfChanged(productsPath, products);
 }
 
 export async function readSiteSettings(): Promise<SiteSettings> {
   if (useBlob()) {
     const blob = await readBlobJson<SiteSettings>(SETTINGS_BLOB);
-    if (blob) return normalizeSiteSettings(blob);
+    if (blob.data) return normalizeSiteSettings(blob.data);
   }
   return normalizeSiteSettings(
-    await readLocalJson<SiteSettings>(settingsPath, siteSettingsSeed as SiteSettings)
+    await readLocalJson<SiteSettings>(settingsPath, siteSettingsSeed as SiteSettings),
   );
 }
 
-export async function writeSiteSettings(settings: SiteSettings): Promise<void> {
+export async function writeSiteSettings(settings: SiteSettings): Promise<boolean> {
   if (useBlob()) {
-    await writeBlobJson(SETTINGS_BLOB, settings);
-    return;
+    return writeBlobJsonIfChanged(SETTINGS_BLOB, settings, { cacheControlMaxAge: 300 });
   }
-  await writeLocalJson(settingsPath, settings);
+  return writeLocalJsonIfChanged(settingsPath, settings);
 }
 
 export async function seedBlobIfNeeded(): Promise<{ products: boolean; settings: boolean }> {
@@ -102,15 +77,17 @@ export async function seedBlobIfNeeded(): Promise<{ products: boolean; settings:
 
   const result = { products: false, settings: false };
   const existingProducts = await readBlobJson<Product[]>(PRODUCTS_BLOB);
-  if (!existingProducts) {
-    await writeBlobJson(PRODUCTS_BLOB, productsSeed as Product[]);
-    result.products = true;
+  if (!existingProducts.data) {
+    result.products = await writeBlobJsonIfChanged(PRODUCTS_BLOB, productsSeed as Product[], {
+      cacheControlMaxAge: 300,
+    });
   }
 
   const existingSettings = await readBlobJson<SiteSettings>(SETTINGS_BLOB);
-  if (!existingSettings) {
-    await writeBlobJson(SETTINGS_BLOB, siteSettingsSeed as SiteSettings);
-    result.settings = true;
+  if (!existingSettings.data) {
+    result.settings = await writeBlobJsonIfChanged(SETTINGS_BLOB, siteSettingsSeed as SiteSettings, {
+      cacheControlMaxAge: 300,
+    });
   }
 
   return result;

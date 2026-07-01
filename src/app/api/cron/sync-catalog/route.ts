@@ -1,9 +1,6 @@
 import { NextResponse } from "next/server";
-import { readAllProducts, writeAllProducts } from "@/lib/cms/store";
-import { revalidateProducts } from "@/lib/cms/revalidate";
-import { syncPriceFormatted } from "@/lib/product-utils";
-import { fetchLivePrice } from "@/lib/scraper";
-import type { Product } from "@/types/product";
+import { revalidateIfChanged } from "@/lib/cms/revalidate";
+import { syncCatalogPrices } from "@/lib/catalog-sync";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 300;
@@ -19,49 +16,19 @@ export async function GET(req: Request) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const products = await readAllProducts();
-  let updated = 0;
-  let failed = 0;
-
-  const nextProducts: Product[] = [];
-
-  for (const product of products) {
-    try {
-      const live = await fetchLivePrice(product.url, { noCache: true });
-      if (!live) {
-        nextProducts.push(product);
-        failed++;
-        continue;
-      }
-
-      nextProducts.push(
-        syncPriceFormatted({
-          ...product,
-          price: live.price,
-          original_price: live.original_price ?? null,
-          original_price_formatted: live.original_price_formatted ?? null,
-          on_sale: live.on_sale ?? false,
-          availability: live.availability,
-          price_updated_at: live.updated_at,
-        })
-      );
-      updated++;
-      await new Promise((r) => setTimeout(r, 400));
-    } catch {
-      nextProducts.push(product);
-      failed++;
-    }
-  }
-
-  await writeAllProducts(nextProducts);
-  revalidateProducts();
+  const result = await syncCatalogPrices();
+  revalidateIfChanged(result.changed);
 
   return NextResponse.json({
-    ok: true,
-    message: `Katalog osvežen: ${updated}/${products.length}`,
-    updated,
-    failed,
-    total: products.length,
-    synced_at: new Date().toISOString(),
+    ok: result.ok,
+    message: `Katalog: ${result.updated} ažurirano, ${result.skipped} preskočeno, ${result.mirrored} slika na CDN`,
+    updated: result.updated,
+    skipped: result.skipped,
+    failed: result.failed,
+    mirrored: result.mirrored,
+    image_downloads: result.imageDownloads,
+    total: result.total,
+    changed: result.changed,
+    synced_at: result.synced_at,
   });
 }

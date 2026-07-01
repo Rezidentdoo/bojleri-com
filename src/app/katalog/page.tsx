@@ -1,3 +1,5 @@
+export const revalidate = 300;
+
 import { Suspense } from "react";
 import type { Metadata } from "next";
 import { getProducts } from "@/lib/products";

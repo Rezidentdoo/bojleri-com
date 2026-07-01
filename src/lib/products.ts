@@ -23,13 +23,13 @@ export const getProducts = unstable_cache(
     return all.filter((p) => !p.hidden);
   },
   ["cms-products-visible"],
-  { revalidate: 30, tags: ["products"] }
+  { revalidate: 300, tags: ["products"] }
 );
 
 export const getAllProductsCached = unstable_cache(
   async () => loadProducts(),
   ["cms-products-all"],
-  { revalidate: 30, tags: ["products"] }
+  { revalidate: 300, tags: ["products"] }
 );
 
 export async function getProductById(id: string): Promise<Product | undefined> {

@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+export const revalidate = 300;
+
 import { getSiteSettings } from "@/lib/cms/settings";
 import { resolveGuidePage } from "@/lib/cms/guide-page";
 

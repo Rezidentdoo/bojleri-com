@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { createManualProduct } from "@/lib/cms/product-admin";
-import { readAllProducts, writeAllProducts } from "@/lib/cms/store";
+import { writeAllProducts } from "@/lib/cms/store";
+import { getAllProductsCached } from "@/lib/products";
 import { revalidateProducts } from "@/lib/cms/revalidate";
 
 export async function GET(req: Request) {
@@ -9,7 +10,7 @@ export async function GET(req: Request) {
   const page = Math.max(1, Number(searchParams.get("page") ?? "1"));
   const limit = Math.min(500, Math.max(1, Number(searchParams.get("limit") ?? "20")));
 
-  let products = await readAllProducts();
+  let products = await getAllProductsCached();
 
   if (q) {
     products = products.filter((p) => {
@@ -33,7 +34,7 @@ export async function GET(req: Request) {
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const products = await readAllProducts();
+    const products = await getAllProductsCached();
     const product = createManualProduct(body, products.map((p) => p.id));
     products.push(product);
     await writeAllProducts(products);

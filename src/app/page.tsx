@@ -1,3 +1,5 @@
+export const revalidate = 300;
+
 import Link from "next/link";
 import { getProducts } from "@/lib/products";
 import { getSiteSettings } from "@/lib/cms/settings";
