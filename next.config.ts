@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Self-hosted: public/uploads se servira automatski; remotePatterns su za spoljne/CDN slike.
   images: {
     remotePatterns: [
       {

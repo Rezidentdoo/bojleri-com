@@ -1,20 +1,11 @@
 import "server-only";
 
 import { hashContent, writeBlobBinaryIfMissing } from "@/lib/cms/blob-client";
-import { mkdir, writeFile } from "fs/promises";
-import path from "path";
+import { isBlobStorageEnabled, writeLocalMediaIfMissing } from "@/lib/cms/local-storage";
 import { slugifyProductId } from "@/lib/cms/product-admin";
 
 const MAX_BYTES = 5 * 1024 * 1024;
 const ALLOWED_TYPES = new Set(["image/jpeg", "image/png", "image/webp", "image/gif"]);
-
-function blobToken(): string | undefined {
-  return process.env.BLOB_READ_WRITE_TOKEN;
-}
-
-function useBlob(): boolean {
-  return Boolean(blobToken());
-}
 
 function extensionForMime(mime: string): string {
   switch (mime) {
@@ -39,7 +30,7 @@ export function normalizeUploadProductId(productId: string | null | undefined): 
 
 export async function uploadProductImage(
   file: File,
-  productId: string,
+  _productId: string,
 ): Promise<{ url: string; path: string; deduplicated: boolean }> {
   if (!ALLOWED_TYPES.has(file.type)) {
     throw new Error("Dozvoljeni formati: JPG, PNG, WebP, GIF");
@@ -53,22 +44,13 @@ export async function uploadProductImage(
   const sha256 = hashContent(bytes);
   const ext = extensionForMime(file.type);
 
-  if (useBlob()) {
+  if (isBlobStorageEnabled()) {
     const contentPath = `cms/media/${sha256}${ext}`;
     const { url, wrote } = await writeBlobBinaryIfMissing(contentPath, bytes, file.type);
     return { url, path: contentPath, deduplicated: !wrote };
   }
 
-  const folderId = normalizeUploadProductId(productId);
-  const filename = `${sha256.slice(0, 16)}${ext}`;
-  const uploadDir = path.join(process.cwd(), "public/uploads/products", folderId);
-  await mkdir(uploadDir, { recursive: true });
-  const diskPath = path.join(uploadDir, filename);
-  await writeFile(diskPath, bytes);
-
-  return {
-    url: `/uploads/products/${folderId}/${filename}`,
-    path: `cms/product-images/${folderId}/${filename}`,
-    deduplicated: false,
-  };
+  const sharedFilename = `${sha256}${ext}`;
+  const shared = await writeLocalMediaIfMissing(sharedFilename, bytes);
+  return { url: shared.url, path: shared.path, deduplicated: !shared.wrote };
 }

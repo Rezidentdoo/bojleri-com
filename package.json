@@ -10,9 +10,11 @@
     "scrape": "node scraper/scrape.mjs && node scripts/sync-products.mjs",
     "export-blob": "node scripts/export-vercel-blob.mjs",
     "verify-production": "node scripts/verify-local-vs-production.mjs",
+    "test:selfhosted": "node scripts/test-selfhosted.mjs",
     "prebuild": "node scripts/sync-products.mjs && node scripts/sync-blob-products.mjs",
     "build": "next build",
     "start": "next start",
+    "start:cpanel": "NODE_ENV=production node server.js",
     "lint": "eslint"
   },
   "dependencies": {

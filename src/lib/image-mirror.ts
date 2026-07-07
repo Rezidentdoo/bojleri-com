@@ -1,6 +1,7 @@
 import "server-only";
 
 import { hashContent, writeBlobBinaryIfMissing } from "@/lib/cms/blob-client";
+import { isBlobStorageEnabled, writeLocalMediaIfMissing } from "@/lib/cms/local-storage";
 import {
   extensionFromUrl,
   fetchWithConditionals,
@@ -66,13 +67,13 @@ export async function mirrorImageToCdn(
   const bytes = Buffer.from(await response.arrayBuffer());
   const sha256 = hashContent(bytes);
   const ext = extensionFromUrl(sourceUrl);
-  const blobPath = `cms/media/${sha256}${ext}`;
+  const filename = `${sha256}${ext}`;
 
-  const { url: blobUrl } = await writeBlobBinaryIfMissing(
-    blobPath,
-    bytes,
-    mimeFromExtension(ext),
-  );
+  const blobUrl = isBlobStorageEnabled()
+    ? (
+        await writeBlobBinaryIfMissing(`cms/media/${filename}`, bytes, mimeFromExtension(ext))
+      ).url
+    : (await writeLocalMediaIfMissing(filename, bytes)).url;
 
   return {
     source_url: sourceUrl,
