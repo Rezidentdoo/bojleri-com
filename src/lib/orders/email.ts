@@ -1,4 +1,10 @@
 import type { Order } from "@/types/order";
+import {
+  getSmtpPort,
+  isSmtpSecure,
+  resolveSmtpHost,
+  resolveTlsServername,
+} from "@/lib/orders/smtp-config";
 
 const PAYMENT_LABELS: Record<string, string> = {
   pouzece: "Plaćanje pouzećem",
@@ -93,24 +99,25 @@ function htmlToText(html: string): string {
 }
 
 function isSmtpConfigured(): boolean {
-  return Boolean(process.env.SMTP_HOST && process.env.SMTP_PASS);
+  return Boolean(process.env.SMTP_PASS && (process.env.SMTP_USER || process.env.SMTP_HOST));
 }
 
 async function sendSmtpEmail(to: string | string[], subject: string, html: string): Promise<boolean> {
   if (!isSmtpConfigured()) return false;
 
-  const port = Number(process.env.SMTP_PORT || 587);
-  const secure =
-    process.env.SMTP_SECURE === "true" || (process.env.SMTP_SECURE !== "false" && port === 465);
+  const smtpUser = process.env.SMTP_USER || "prodaja@bojleri.com";
+  const port = getSmtpPort();
+  const secure = isSmtpSecure(port);
+  const host = resolveSmtpHost(process.env.SMTP_HOST, smtpUser);
+  const tlsServername = resolveTlsServername(host, smtpUser);
 
   const nodemailer = await import("nodemailer");
-  const tlsServername = process.env.SMTP_TLS_SERVERNAME || "mail.bojleri.com";
   const transport = nodemailer.createTransport({
-    host: process.env.SMTP_HOST,
+    host,
     port,
     secure,
     auth: {
-      user: process.env.SMTP_USER || "prodaja@bojleri.com",
+      user: smtpUser,
       pass: process.env.SMTP_PASS,
     },
     tls: { servername: tlsServername },

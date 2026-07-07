@@ -11,6 +11,7 @@
     "export-blob": "node scripts/export-vercel-blob.mjs",
     "verify-production": "node scripts/verify-local-vs-production.mjs",
     "test:selfhosted": "node scripts/test-selfhosted.mjs",
+    "test:smtp": "node scripts/test-smtp.mjs",
     "prebuild": "node scripts/sync-products.mjs && node scripts/sync-blob-products.mjs",
     "build": "next build",
     "start": "next start",

@@ -16,11 +16,24 @@
     "capacity_liters": 50,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/1647281419e92367ab0dda7df0bc66a7cbf98d5ffffe4fe1cf273c4d019f822e.jpg"
+    ],
+    "image_url": "/uploads/cms-media/1647281419e92367ab0dda7df0bc66a7cbf98d5ffffe4fe1cf273c4d019f822e.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:24:16.208Z",
+    "price_fingerprint": "aeb4625c4cb8489fe535c7dae10bbb0dd77dcc615b7d9024b9b36161732000c0",
+    "source_images": [
       "https://www.aqualand.rs/images/2763/1300/elit-prohrom-talas-m-50l-kombinovani-0.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/2763/1300/elit-prohrom-talas-m-50l-kombinovani-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:40.901Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/2763/1300/elit-prohrom-talas-m-50l-kombinovani-0.jpg",
+        "blob_url": "/uploads/cms-media/1647281419e92367ab0dda7df0bc66a7cbf98d5ffffe4fe1cf273c4d019f822e.jpg",
+        "sha256": "1647281419e92367ab0dda7df0bc66a7cbf98d5ffffe4fe1cf273c4d019f822e"
+      }
+    ],
+    "image_fingerprint": "e4eae1d2b2be9d1d1ed9afb5eae891bb39802b5b3039b91d60220302fb6e7ba6",
+    "content_hash": "03320d3343007a03f446e13701c539ca2ccaeea79cd6cac57f387e1b733447b0"
   },
   {
     "id": "elit-prohrom-talas-m-60l-kombinovani",
@@ -39,12 +52,31 @@
     "capacity_liters": 60,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/095c124292c7affafdbd2257c3f92ab733b54c8d6e414baeb2f40b9d527595f5.jpg",
+      "/uploads/cms-media/e799cf6d7d2667db02bd544a82eb7e2f7de945e10218ec89d9986fb61cfc88e1.jpg"
+    ],
+    "image_url": "/uploads/cms-media/095c124292c7affafdbd2257c3f92ab733b54c8d6e414baeb2f40b9d527595f5.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:45.351Z",
+    "price_fingerprint": "3b1b3bbb346a5bb8f9ecff8c728c1516ea2ba0d0a778b8ef9618ad01cf0e4c4d",
+    "source_images": [
       "https://www.aqualand.rs/images/9113/1300/elit-prohrom-talas-m-60l-kombinovani-0.jpg",
       "https://www.aqualand.rs/images/9114/1300/elit-prohrom-talas-m-60l-kombinovani-1.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/9113/1300/elit-prohrom-talas-m-60l-kombinovani-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:47.118Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/9113/1300/elit-prohrom-talas-m-60l-kombinovani-0.jpg",
+        "blob_url": "/uploads/cms-media/095c124292c7affafdbd2257c3f92ab733b54c8d6e414baeb2f40b9d527595f5.jpg",
+        "sha256": "095c124292c7affafdbd2257c3f92ab733b54c8d6e414baeb2f40b9d527595f5"
+      },
+      {
+        "source_url": "https://www.aqualand.rs/images/9114/1300/elit-prohrom-talas-m-60l-kombinovani-1.jpg",
+        "blob_url": "/uploads/cms-media/e799cf6d7d2667db02bd544a82eb7e2f7de945e10218ec89d9986fb61cfc88e1.jpg",
+        "sha256": "e799cf6d7d2667db02bd544a82eb7e2f7de945e10218ec89d9986fb61cfc88e1"
+      }
+    ],
+    "image_fingerprint": "dfef7233c4c816c6f9b26d651908d6e48a1d3b4898a02fe8c0bd7b96b61cf846",
+    "content_hash": "5fa881071e8a3327596982e634d7adf9281e3e53af583af947070d6817f9b785"
   },
   {
     "id": "elit-prohrom-talas-x-100l-kombinovani",
@@ -63,12 +95,31 @@
     "capacity_liters": 100,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/5ad6c87e1383fb025d797d86ff9395f6a9679265ab824274ae04a9846caf432b.jpg",
+      "/uploads/cms-media/fcc74872bbfff4b8ad07dacb76b59b4a6ba1e7d4e0365244b982fb3df9c502a1.jpg"
+    ],
+    "image_url": "/uploads/cms-media/5ad6c87e1383fb025d797d86ff9395f6a9679265ab824274ae04a9846caf432b.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:45.946Z",
+    "price_fingerprint": "c464f70409e8513283ec8f9413194ffcc3d960ce528a13968ae2bb06e49dce8c",
+    "source_images": [
       "https://www.aqualand.rs/images/9118/1300/elit-prohrom-talas-x-100l-kombinovani-0.jpg",
       "https://www.aqualand.rs/images/9119/1300/elit-prohrom-talas-x-100l-kombinovani-1.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/9118/1300/elit-prohrom-talas-x-100l-kombinovani-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:08.861Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/9118/1300/elit-prohrom-talas-x-100l-kombinovani-0.jpg",
+        "blob_url": "/uploads/cms-media/5ad6c87e1383fb025d797d86ff9395f6a9679265ab824274ae04a9846caf432b.jpg",
+        "sha256": "5ad6c87e1383fb025d797d86ff9395f6a9679265ab824274ae04a9846caf432b"
+      },
+      {
+        "source_url": "https://www.aqualand.rs/images/9119/1300/elit-prohrom-talas-x-100l-kombinovani-1.jpg",
+        "blob_url": "/uploads/cms-media/fcc74872bbfff4b8ad07dacb76b59b4a6ba1e7d4e0365244b982fb3df9c502a1.jpg",
+        "sha256": "fcc74872bbfff4b8ad07dacb76b59b4a6ba1e7d4e0365244b982fb3df9c502a1"
+      }
+    ],
+    "image_fingerprint": "328da26d2433b9978d39473453606bab02dc0b40a9b1e95bec60c45d82622e70",
+    "content_hash": "4e545a7dd1526f7e9acda1ba07f440de9a5a3e9d55aa46f60f75402f8f651b77"
   },
   {
     "id": "elit-prohrom-talas-x-80l-kombi",
@@ -87,11 +138,24 @@
     "capacity_liters": 80,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/f8c669209b753e238cf0b1ac748eade40d38e42f73b2ba9d2456d9f24e179796.jpg"
+    ],
+    "image_url": "/uploads/cms-media/f8c669209b753e238cf0b1ac748eade40d38e42f73b2ba9d2456d9f24e179796.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:46.628Z",
+    "price_fingerprint": "cbb84aa690f5374c9834486302c776eb0c2c5a128f21e2748e0812f454dbaa6f",
+    "source_images": [
       "https://www.aqualand.rs/images/2745/1300/elit-prohrom-talas-x-80l-kombi-0.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/2745/1300/elit-prohrom-talas-x-80l-kombi-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:14.811Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/2745/1300/elit-prohrom-talas-x-80l-kombi-0.jpg",
+        "blob_url": "/uploads/cms-media/f8c669209b753e238cf0b1ac748eade40d38e42f73b2ba9d2456d9f24e179796.jpg",
+        "sha256": "f8c669209b753e238cf0b1ac748eade40d38e42f73b2ba9d2456d9f24e179796"
+      }
+    ],
+    "image_fingerprint": "d2447171112d98692bbc7919c43aa95e083fcaa45eac42d9f231ddb74f958801",
+    "content_hash": "d47a0e2ca0bf6f6521fe4d0ce287f8120997a3cc26b51590ec69d72ffe6001ef"
   },
   {
     "id": "elit-prohrom-talas-xx-100l-kom",
@@ -110,11 +174,24 @@
     "capacity_liters": 100,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/1720db311f6500035c393c9007088d149b92dcc38b51737b12296660b9477a9c.jpg"
+    ],
+    "image_url": "/uploads/cms-media/1720db311f6500035c393c9007088d149b92dcc38b51737b12296660b9477a9c.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:47.452Z",
+    "price_fingerprint": "22535dd44af99b07a920bf2acdbc4daaff4f3c27a6515bae22d166934e504595",
+    "source_images": [
       "https://www.aqualand.rs/images/2741/1300/elit-prohrom-talas-xx-100l-kom-0.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/2741/1300/elit-prohrom-talas-xx-100l-kom-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:20.980Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/2741/1300/elit-prohrom-talas-xx-100l-kom-0.jpg",
+        "blob_url": "/uploads/cms-media/1720db311f6500035c393c9007088d149b92dcc38b51737b12296660b9477a9c.jpg",
+        "sha256": "1720db311f6500035c393c9007088d149b92dcc38b51737b12296660b9477a9c"
+      }
+    ],
+    "image_fingerprint": "38e02b6340186b5d96a9282c52dfb0b17c1a08570432d656cd10ba9fc4ed4330",
+    "content_hash": "2080b42488674695d091e7f098eb3c57287fbd511c81386b38a21a7805587ac7"
   },
   {
     "id": "elit-prohrom-talas-xx-120l-kom",
@@ -133,11 +210,24 @@
     "capacity_liters": 120,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/8ca47a8aa1ea8757f5badab32ea45847c9fa982c820d097b1facfff2bd8fdf70.jpg"
+    ],
+    "image_url": "/uploads/cms-media/8ca47a8aa1ea8757f5badab32ea45847c9fa982c820d097b1facfff2bd8fdf70.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:48.679Z",
+    "price_fingerprint": "53daa57af96f10ba95d568b02eba6eb1dc68121dd2d63c70fa6275badee8df64",
+    "source_images": [
       "https://www.aqualand.rs/images/2738/1300/elit-prohrom-talas-xx-120l-kom-0.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/2738/1300/elit-prohrom-talas-xx-120l-kom-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:28.097Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/2738/1300/elit-prohrom-talas-xx-120l-kom-0.jpg",
+        "blob_url": "/uploads/cms-media/8ca47a8aa1ea8757f5badab32ea45847c9fa982c820d097b1facfff2bd8fdf70.jpg",
+        "sha256": "8ca47a8aa1ea8757f5badab32ea45847c9fa982c820d097b1facfff2bd8fdf70"
+      }
+    ],
+    "image_fingerprint": "ebf2de37fa3e7914b58508884dfc6dcd23e0b324f8f1ea98f383dfa5366a441f",
+    "content_hash": "19bb7fc1bc9e666e91e81d03185dfe42a0b126f7fcd6e866a88fac79444813cf"
   },
   {
     "id": "elit-prohrom-talas-xx-150l-kom",
@@ -156,11 +246,24 @@
     "capacity_liters": 150,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/edcb45b42c791df204637ea2bb716085751d74a98302a1235a77af738646c055.jpg"
+    ],
+    "image_url": "/uploads/cms-media/edcb45b42c791df204637ea2bb716085751d74a98302a1235a77af738646c055.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:49.443Z",
+    "price_fingerprint": "dfeefe60c8f7e1cf9a2afdc1878b27bff9fdead9b6f567560ed343e918c4d585",
+    "source_images": [
       "https://www.aqualand.rs/images/2736/1300/elit-prohrom-talas-xx-150l-kom-0.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/2736/1300/elit-prohrom-talas-xx-150l-kom-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:32.050Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/2736/1300/elit-prohrom-talas-xx-150l-kom-0.jpg",
+        "blob_url": "/uploads/cms-media/edcb45b42c791df204637ea2bb716085751d74a98302a1235a77af738646c055.jpg",
+        "sha256": "edcb45b42c791df204637ea2bb716085751d74a98302a1235a77af738646c055"
+      }
+    ],
+    "image_fingerprint": "7784cb89dec9fabce5f9304d4e710756f1180ee2fa16392fd42aaad4307bb88a",
+    "content_hash": "cd2b3ac54eb5b6b17f8fcd28c73677bdf1c57199f614c67ac384eab97ad02ff6"
   },
   {
     "id": "termorad-prohrom-kombinovani-120l-ib-l",
@@ -179,11 +282,24 @@
     "capacity_liters": 120,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/17dc87ba1e8b3f3d6d62f7e93ae1197ba1a09b1b9422ac4af305b20af9045678.jpg"
+    ],
+    "image_url": "/uploads/cms-media/17dc87ba1e8b3f3d6d62f7e93ae1197ba1a09b1b9422ac4af305b20af9045678.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:50.050Z",
+    "price_fingerprint": "0d296198543ed4d060b276c27b40c0e6a9c563fca184cb5e8dbd66027c7fe1c4",
+    "source_images": [
       "https://www.aqualand.rs/images/1062/1300/termorad-prohrom-kombinovani-120l-ib-l-0.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/1062/1300/termorad-prohrom-kombinovani-120l-ib-l-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:26.646Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/1062/1300/termorad-prohrom-kombinovani-120l-ib-l-0.jpg",
+        "blob_url": "/uploads/cms-media/17dc87ba1e8b3f3d6d62f7e93ae1197ba1a09b1b9422ac4af305b20af9045678.jpg",
+        "sha256": "17dc87ba1e8b3f3d6d62f7e93ae1197ba1a09b1b9422ac4af305b20af9045678"
+      }
+    ],
+    "image_fingerprint": "b4bbf18eefa48769d8718fb5aa4e132b8aedaa99afe120638c7f7abb48ebadb9",
+    "content_hash": "0dbe7be9003e33fcff91dfaa3ee1001d064579db48202b57070ee6f4cb2fbaf4"
   },
   {
     "id": "termorad-prohrom-s-160-ib-80",
@@ -202,11 +318,24 @@
     "capacity_liters": null,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/7b7fe13824ecec33fe81a93ac95491975f8e3d42cd4f150e63f8a570637c1aeb.jpg"
+    ],
+    "image_url": "/uploads/cms-media/7b7fe13824ecec33fe81a93ac95491975f8e3d42cd4f150e63f8a570637c1aeb.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:50.698Z",
+    "price_fingerprint": "2456582c5266654015372832835048738f9085cf8cefea19a94d33f061537276",
+    "source_images": [
       "https://www.aqualand.rs/images/2502/1300/termorad-prohrom-s-160-ib-80-0.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/2502/1300/termorad-prohrom-s-160-ib-80-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:21:04.211Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/2502/1300/termorad-prohrom-s-160-ib-80-0.jpg",
+        "blob_url": "/uploads/cms-media/7b7fe13824ecec33fe81a93ac95491975f8e3d42cd4f150e63f8a570637c1aeb.jpg",
+        "sha256": "7b7fe13824ecec33fe81a93ac95491975f8e3d42cd4f150e63f8a570637c1aeb"
+      }
+    ],
+    "image_fingerprint": "b6125fb543a2656978bc60a9f2ff181987683b1612bba060f70699f2239df864",
+    "content_hash": "f92358fe52bca4abd16793b41637712bad03b00b62be8070f2a98bb9fcb19460"
   },
   {
     "id": "termorad-prohrom-s-200l-ib-80",
@@ -225,11 +354,24 @@
     "capacity_liters": 200,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/23057938bd5dd296efd177924e38dec6dc09427e8c2413f58e73a602415a96d1.jpg"
+    ],
+    "image_url": "/uploads/cms-media/23057938bd5dd296efd177924e38dec6dc09427e8c2413f58e73a602415a96d1.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:51.309Z",
+    "price_fingerprint": "799be10bcf549532d001564f84da8e41d35ba6b99996092a68c1f7c29c7a95c3",
+    "source_images": [
       "https://www.aqualand.rs/images/1083/1300/termorad-prohrom-s-200l-ib-80-0.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/1083/1300/termorad-prohrom-s-200l-ib-80-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:21:08.627Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/1083/1300/termorad-prohrom-s-200l-ib-80-0.jpg",
+        "blob_url": "/uploads/cms-media/23057938bd5dd296efd177924e38dec6dc09427e8c2413f58e73a602415a96d1.jpg",
+        "sha256": "23057938bd5dd296efd177924e38dec6dc09427e8c2413f58e73a602415a96d1"
+      }
+    ],
+    "image_fingerprint": "b19716a55b37e11b6104bbdd4d73aa59dcf387c884ac84519eb54f6054ef7831",
+    "content_hash": "d6b7e8873e17ab6ae6f62fcff9e94be06af37a5a585a3b49e4388a783399a8fd"
   },
   {
     "id": "termorad-prohrom-s-280l",
@@ -248,11 +390,24 @@
     "capacity_liters": 280,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/7a129d70cc5685afeb6f15bf167c6c1ce6474cbce45abe5d062d4ca0b92d85f3.jpg"
+    ],
+    "image_url": "/uploads/cms-media/7a129d70cc5685afeb6f15bf167c6c1ce6474cbce45abe5d062d4ca0b92d85f3.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:51.905Z",
+    "price_fingerprint": "8dd4c002a133856e96c364c70dcfbac7740ccf8bf0f10a6333d7922eb093342f",
+    "source_images": [
       "https://www.aqualand.rs/images/1084/1300/termorad-prohrom-s-280l-0.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/1084/1300/termorad-prohrom-s-280l-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:21:15.048Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/1084/1300/termorad-prohrom-s-280l-0.jpg",
+        "blob_url": "/uploads/cms-media/7a129d70cc5685afeb6f15bf167c6c1ce6474cbce45abe5d062d4ca0b92d85f3.jpg",
+        "sha256": "7a129d70cc5685afeb6f15bf167c6c1ce6474cbce45abe5d062d4ca0b92d85f3"
+      }
+    ],
+    "image_fingerprint": "0f807b0e88f4f4e857f734652897a5d806de2d4f85befd6dae0c6edbb13ef327",
+    "content_hash": "10acd686aa764ecad910a1a3a43704bd7050c780d2f2ce64eaffe4de4c3edcd7"
   },
   {
     "id": "termorad-prohromski-kombinovani-120l-ib-d",
@@ -271,11 +426,24 @@
     "capacity_liters": 120,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/60e7b6466200ca0a30551f17ff9e5873ff15129880293c984fc0412bf4d0420c.jpg"
+    ],
+    "image_url": "/uploads/cms-media/60e7b6466200ca0a30551f17ff9e5873ff15129880293c984fc0412bf4d0420c.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:52.483Z",
+    "price_fingerprint": "0d296198543ed4d060b276c27b40c0e6a9c563fca184cb5e8dbd66027c7fe1c4",
+    "source_images": [
       "https://www.aqualand.rs/images/1061/1300/termorad-prohromski-kombinovani-120l-ib-d-0.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/1061/1300/termorad-prohromski-kombinovani-120l-ib-d-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:24.453Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/1061/1300/termorad-prohromski-kombinovani-120l-ib-d-0.jpg",
+        "blob_url": "/uploads/cms-media/60e7b6466200ca0a30551f17ff9e5873ff15129880293c984fc0412bf4d0420c.jpg",
+        "sha256": "60e7b6466200ca0a30551f17ff9e5873ff15129880293c984fc0412bf4d0420c"
+      }
+    ],
+    "image_fingerprint": "fd66b7d0bc434cb6abec7814fff7ab3806d352ccce1de68113bd6d6b305a473d",
+    "content_hash": "92c9904103bc625adc12eb8c7d950e4f7776c08b60102604ef346177a51893f6"
   },
   {
     "id": "termorad-prohromski-kombinovani-50l-ib-d",
@@ -294,11 +462,24 @@
     "capacity_liters": 50,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/60e7b6466200ca0a30551f17ff9e5873ff15129880293c984fc0412bf4d0420c.jpg"
+    ],
+    "image_url": "/uploads/cms-media/60e7b6466200ca0a30551f17ff9e5873ff15129880293c984fc0412bf4d0420c.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:53.112Z",
+    "price_fingerprint": "231c837a176323b8f322d4b0bd1784b7b8d78a253f0e8f34bbe68322a758c98e",
+    "source_images": [
       "https://www.aqualand.rs/images/1063/1300/termorad-prohromski-kombinovani-50l-ib-d-0.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/1063/1300/termorad-prohromski-kombinovani-50l-ib-d-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:28.812Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/1063/1300/termorad-prohromski-kombinovani-50l-ib-d-0.jpg",
+        "blob_url": "/uploads/cms-media/60e7b6466200ca0a30551f17ff9e5873ff15129880293c984fc0412bf4d0420c.jpg",
+        "sha256": "60e7b6466200ca0a30551f17ff9e5873ff15129880293c984fc0412bf4d0420c"
+      }
+    ],
+    "image_fingerprint": "9ba4181c0897a1d105c349072fc6fb055816cc6d978234d197a1c4b6516d7a82",
+    "content_hash": "e5feb84f1574a3c452c0445aa1c52102e3d44cabd8bda3a5165ae34522bb87d2"
   },
   {
     "id": "termorad-prohromski-kombinovani-50l-ib-l",
@@ -317,11 +498,24 @@
     "capacity_liters": 50,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/17dc87ba1e8b3f3d6d62f7e93ae1197ba1a09b1b9422ac4af305b20af9045678.jpg"
+    ],
+    "image_url": "/uploads/cms-media/17dc87ba1e8b3f3d6d62f7e93ae1197ba1a09b1b9422ac4af305b20af9045678.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:53.706Z",
+    "price_fingerprint": "231c837a176323b8f322d4b0bd1784b7b8d78a253f0e8f34bbe68322a758c98e",
+    "source_images": [
       "https://www.aqualand.rs/images/1064/1300/termorad-prohromski-kombinovani-50l-ib-l-0.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/1064/1300/termorad-prohromski-kombinovani-50l-ib-l-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:30.823Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/1064/1300/termorad-prohromski-kombinovani-50l-ib-l-0.jpg",
+        "blob_url": "/uploads/cms-media/17dc87ba1e8b3f3d6d62f7e93ae1197ba1a09b1b9422ac4af305b20af9045678.jpg",
+        "sha256": "17dc87ba1e8b3f3d6d62f7e93ae1197ba1a09b1b9422ac4af305b20af9045678"
+      }
+    ],
+    "image_fingerprint": "0fad4dce2bdb17131d98c2e32564656f0cb88330c72062cc8f967b7c825056be",
+    "content_hash": "fb1ba33597da9e71f39f5e18960cc736a7b5ffbed893dbd7e8d79027d808fe49"
   },
   {
     "id": "termorad-prohromski-kombinovani-80l-ib-d",
@@ -340,11 +534,24 @@
     "capacity_liters": 80,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/59f459cc13e85c5ec27b2333404fd4a6894d242419c97f4e4eda1766da59ef3d.jpg"
+    ],
+    "image_url": "/uploads/cms-media/59f459cc13e85c5ec27b2333404fd4a6894d242419c97f4e4eda1766da59ef3d.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:54.326Z",
+    "price_fingerprint": "cba9b6592c9f237a9fc75b1e61af8984c8767ae8b2e7d3fbf8230dcdb32d795a",
+    "source_images": [
       "https://www.aqualand.rs/images/1065/1300/termorad-prohromski-kombinovani-80l-ib-d-0.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/1065/1300/termorad-prohromski-kombinovani-80l-ib-d-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:32.975Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/1065/1300/termorad-prohromski-kombinovani-80l-ib-d-0.jpg",
+        "blob_url": "/uploads/cms-media/59f459cc13e85c5ec27b2333404fd4a6894d242419c97f4e4eda1766da59ef3d.jpg",
+        "sha256": "59f459cc13e85c5ec27b2333404fd4a6894d242419c97f4e4eda1766da59ef3d"
+      }
+    ],
+    "image_fingerprint": "c04c35c9be5ff32bd1150d75e3809dcf733668a44c9b20fb2f8bcc84902e14e7",
+    "content_hash": "0289722dbfd2969115fe34f95dc7354580a6de4a1eb83b181924c1dcae809e36"
   },
   {
     "id": "termorad-prohromski-kombinovani-80l-ib-l",
@@ -363,11 +570,24 @@
     "capacity_liters": 80,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/2f1ac32d46369d5594fa9b8931460cbded167cffad55cca215df5990b5380b95.jpg"
+    ],
+    "image_url": "/uploads/cms-media/2f1ac32d46369d5594fa9b8931460cbded167cffad55cca215df5990b5380b95.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:54.918Z",
+    "price_fingerprint": "cba9b6592c9f237a9fc75b1e61af8984c8767ae8b2e7d3fbf8230dcdb32d795a",
+    "source_images": [
       "https://www.aqualand.rs/images/1066/1300/termorad-prohromski-kombinovani-80l-ib-l-0.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/1066/1300/termorad-prohromski-kombinovani-80l-ib-l-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:35.038Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/1066/1300/termorad-prohromski-kombinovani-80l-ib-l-0.jpg",
+        "blob_url": "/uploads/cms-media/2f1ac32d46369d5594fa9b8931460cbded167cffad55cca215df5990b5380b95.jpg",
+        "sha256": "2f1ac32d46369d5594fa9b8931460cbded167cffad55cca215df5990b5380b95"
+      }
+    ],
+    "image_fingerprint": "87fec2bc39cc881ebd0b9924424e6771c33180aa3f45f4fddda8e0d7d43c501c",
+    "content_hash": "a8213fd258256c7ef8e171eaa53816d554c3c157ff5bf3be1a5358a8697184aa"
   },
   {
     "id": "ariston-10l-nm-pod-pritiskom",
@@ -386,11 +606,24 @@
     "capacity_liters": 10,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/739b221219bfeee256b181499746e3b999752486d644c9f75fc695fe36e2460c.jpg"
+    ],
+    "image_url": "/uploads/cms-media/739b221219bfeee256b181499746e3b999752486d644c9f75fc695fe36e2460c.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:55.523Z",
+    "price_fingerprint": "0c1600554899d95b9f49b92b69a414d641ec570c8e184e8d374c4413d35784f6",
+    "source_images": [
       "https://www.aqualand.rs/images/1293/1300/ariston-10l-nm-pod-pritiskom-0.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/1293/1300/ariston-10l-nm-pod-pritiskom-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:34.764Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/1293/1300/ariston-10l-nm-pod-pritiskom-0.jpg",
+        "blob_url": "/uploads/cms-media/739b221219bfeee256b181499746e3b999752486d644c9f75fc695fe36e2460c.jpg",
+        "sha256": "739b221219bfeee256b181499746e3b999752486d644c9f75fc695fe36e2460c"
+      }
+    ],
+    "image_fingerprint": "b08e2d5dcc9da7df24f145746e4fb8aecd44f4eabe16c92766155b8d98daa049",
+    "content_hash": "13b07b1434ec6df4b0c48cd5ee10845268487695d4c3460d82937b360bc46ec3"
   },
   {
     "id": "ariston-10l-vm-pod-pritiskom",
@@ -409,11 +642,24 @@
     "capacity_liters": 10,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/739b221219bfeee256b181499746e3b999752486d644c9f75fc695fe36e2460c.jpg"
+    ],
+    "image_url": "/uploads/cms-media/739b221219bfeee256b181499746e3b999752486d644c9f75fc695fe36e2460c.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:56.157Z",
+    "price_fingerprint": "7043fdef50303342ea856e4b97a4fa29ccd468760a5739c70738fb4b882fb5a1",
+    "source_images": [
       "https://www.aqualand.rs/images/1294/1300/ariston-10l-vm-pod-pritiskom-0.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/1294/1300/ariston-10l-vm-pod-pritiskom-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:36.890Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/1294/1300/ariston-10l-vm-pod-pritiskom-0.jpg",
+        "blob_url": "/uploads/cms-media/739b221219bfeee256b181499746e3b999752486d644c9f75fc695fe36e2460c.jpg",
+        "sha256": "739b221219bfeee256b181499746e3b999752486d644c9f75fc695fe36e2460c"
+      }
+    ],
+    "image_fingerprint": "cbed4f0918e5f4e4bbe1298b89a9be954ff0fa5651651601835334f1a2c3a898",
+    "content_hash": "45aa2a4bc878e23ef25942d4e4cc6c66d68d743bcbdfd7f0407ecf1e36c69a8a"
   },
   {
     "id": "ariston-30l-andris",
@@ -432,11 +678,24 @@
     "capacity_liters": 30,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/12ae86d747c590ef919a74a002cd3f15fce261d4b5d58786886489736a64647e.jpg"
+    ],
+    "image_url": "/uploads/cms-media/12ae86d747c590ef919a74a002cd3f15fce261d4b5d58786886489736a64647e.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:56.810Z",
+    "price_fingerprint": "0938ca5505ebcfc83de38883f2707eae54a6343022b35f6051c95e59a9c003e2",
+    "source_images": [
       "https://www.aqualand.rs/images/1295/1300/ariston-30l-andris-0.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/1295/1300/ariston-30l-andris-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:38.721Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/1295/1300/ariston-30l-andris-0.jpg",
+        "blob_url": "/uploads/cms-media/12ae86d747c590ef919a74a002cd3f15fce261d4b5d58786886489736a64647e.jpg",
+        "sha256": "12ae86d747c590ef919a74a002cd3f15fce261d4b5d58786886489736a64647e"
+      }
+    ],
+    "image_fingerprint": "db9901b8469cbe68da5ab64957c98f2e88ee01b18e1efc69c52cc57a5d49bf66",
+    "content_hash": "93865b4e0b78925061258399aa32cec46741db463bb9c545c6f3b18a7e50c502"
   },
   {
     "id": "ariston-6l-nm",
@@ -455,13 +714,38 @@
     "capacity_liters": 6,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/94096b75c583333b1407e728098474376eb60aef3f7cffd661ec6c5348bee390.jpg",
+      "/uploads/cms-media/fa20e98ac9d563fbba38050c695bd5ee76513799254d682cc573449cd2587900.jpg",
+      "/uploads/cms-media/b83b5084e45e3345afd3328b26d60efccd1873c652c85d6afad0e5d5cb6ca36a.jpg"
+    ],
+    "image_url": "/uploads/cms-media/94096b75c583333b1407e728098474376eb60aef3f7cffd661ec6c5348bee390.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:57.538Z",
+    "price_fingerprint": "fbfe96a8cfdb0e8017cb5b1b2eed2cb8fe9bbc4caf1bfe9d6c635e9b0f496638",
+    "source_images": [
       "https://www.aqualand.rs/images/5209/1300/ariston-6l-nm-0.jpg",
       "https://www.aqualand.rs/images/5210/1300/ariston-6l-nm-1.jpg",
       "https://www.aqualand.rs/images/5211/1300/ariston-6l-nm-2.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/5209/1300/ariston-6l-nm-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:49.012Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/5209/1300/ariston-6l-nm-0.jpg",
+        "blob_url": "/uploads/cms-media/94096b75c583333b1407e728098474376eb60aef3f7cffd661ec6c5348bee390.jpg",
+        "sha256": "94096b75c583333b1407e728098474376eb60aef3f7cffd661ec6c5348bee390"
+      },
+      {
+        "source_url": "https://www.aqualand.rs/images/5210/1300/ariston-6l-nm-1.jpg",
+        "blob_url": "/uploads/cms-media/fa20e98ac9d563fbba38050c695bd5ee76513799254d682cc573449cd2587900.jpg",
+        "sha256": "fa20e98ac9d563fbba38050c695bd5ee76513799254d682cc573449cd2587900"
+      },
+      {
+        "source_url": "https://www.aqualand.rs/images/5211/1300/ariston-6l-nm-2.jpg",
+        "blob_url": "/uploads/cms-media/b83b5084e45e3345afd3328b26d60efccd1873c652c85d6afad0e5d5cb6ca36a.jpg",
+        "sha256": "b83b5084e45e3345afd3328b26d60efccd1873c652c85d6afad0e5d5cb6ca36a"
+      }
+    ],
+    "image_fingerprint": "d21d069215f9defcc10038c25099bf31ef4e8134df38bb115df5a4b1b8ddab30",
+    "content_hash": "abee00be1bffbc89bd29e8b8daa825f5598f6f2c5d7e72d9d48861a149e1f261"
   },
   {
     "id": "elektrolux-q-o-10l-p-vm",
@@ -480,13 +764,38 @@
     "capacity_liters": 10,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/07a0272fadc8d631d724c8db99ccd3514ea8fcbac0ed41f7170293c1e05db608.jpg",
+      "/uploads/cms-media/1a4fab7419763424748b80e604dfea0e336d93043e1ad875f6b70ca9b55aab74.jpg",
+      "/uploads/cms-media/258be8c837c757c43b6d5cb99234494aaa9086a9959d7b2e311eb53dee5dd5ed.jpg"
+    ],
+    "image_url": "/uploads/cms-media/07a0272fadc8d631d724c8db99ccd3514ea8fcbac0ed41f7170293c1e05db608.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:58.141Z",
+    "price_fingerprint": "dd06d1ccd7393396ef771e4092afd6a86cf3e3e16564cce84b2a35b498973d05",
+    "source_images": [
       "https://www.aqualand.rs/images/11011/1300/elektrolux-q-o-10l-p-vm-0.jpg",
       "https://www.aqualand.rs/images/11012/1300/elektrolux-q-o-10l-p-vm-1.jpg",
       "https://www.aqualand.rs/images/11013/1300/elektrolux-q-o-10l-p-vm-2.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/11011/1300/elektrolux-q-o-10l-p-vm-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:10.458Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/11011/1300/elektrolux-q-o-10l-p-vm-0.jpg",
+        "blob_url": "/uploads/cms-media/07a0272fadc8d631d724c8db99ccd3514ea8fcbac0ed41f7170293c1e05db608.jpg",
+        "sha256": "07a0272fadc8d631d724c8db99ccd3514ea8fcbac0ed41f7170293c1e05db608"
+      },
+      {
+        "source_url": "https://www.aqualand.rs/images/11012/1300/elektrolux-q-o-10l-p-vm-1.jpg",
+        "blob_url": "/uploads/cms-media/1a4fab7419763424748b80e604dfea0e336d93043e1ad875f6b70ca9b55aab74.jpg",
+        "sha256": "1a4fab7419763424748b80e604dfea0e336d93043e1ad875f6b70ca9b55aab74"
+      },
+      {
+        "source_url": "https://www.aqualand.rs/images/11013/1300/elektrolux-q-o-10l-p-vm-2.jpg",
+        "blob_url": "/uploads/cms-media/258be8c837c757c43b6d5cb99234494aaa9086a9959d7b2e311eb53dee5dd5ed.jpg",
+        "sha256": "258be8c837c757c43b6d5cb99234494aaa9086a9959d7b2e311eb53dee5dd5ed"
+      }
+    ],
+    "image_fingerprint": "efd066e680847cae3ab17eda2e4f95e3a1f78cf39164cf67ac097863de248579",
+    "content_hash": "f683644f46db766b25ecc1dea0e1e4991a440efec4f6571cc74477da12bfe211"
   },
   {
     "id": "elektrolux-q-o-15l-p-vm",
@@ -505,13 +814,38 @@
     "capacity_liters": 15,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/07a0272fadc8d631d724c8db99ccd3514ea8fcbac0ed41f7170293c1e05db608.jpg",
+      "/uploads/cms-media/1a4fab7419763424748b80e604dfea0e336d93043e1ad875f6b70ca9b55aab74.jpg",
+      "/uploads/cms-media/258be8c837c757c43b6d5cb99234494aaa9086a9959d7b2e311eb53dee5dd5ed.jpg"
+    ],
+    "image_url": "/uploads/cms-media/07a0272fadc8d631d724c8db99ccd3514ea8fcbac0ed41f7170293c1e05db608.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:58.802Z",
+    "price_fingerprint": "64be101a462d3d3632563f2a5bcb0fa4c8d3322a181a0cd6a460f1a590db0cbe",
+    "source_images": [
       "https://www.aqualand.rs/images/11008/1300/elektrolux-q-o-15l-p-vm-0.jpg",
       "https://www.aqualand.rs/images/11009/1300/elektrolux-q-o-15l-p-vm-1.jpg",
       "https://www.aqualand.rs/images/11010/1300/elektrolux-q-o-15l-p-vm-2.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/11008/1300/elektrolux-q-o-15l-p-vm-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:12.470Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/11008/1300/elektrolux-q-o-15l-p-vm-0.jpg",
+        "blob_url": "/uploads/cms-media/07a0272fadc8d631d724c8db99ccd3514ea8fcbac0ed41f7170293c1e05db608.jpg",
+        "sha256": "07a0272fadc8d631d724c8db99ccd3514ea8fcbac0ed41f7170293c1e05db608"
+      },
+      {
+        "source_url": "https://www.aqualand.rs/images/11009/1300/elektrolux-q-o-15l-p-vm-1.jpg",
+        "blob_url": "/uploads/cms-media/1a4fab7419763424748b80e604dfea0e336d93043e1ad875f6b70ca9b55aab74.jpg",
+        "sha256": "1a4fab7419763424748b80e604dfea0e336d93043e1ad875f6b70ca9b55aab74"
+      },
+      {
+        "source_url": "https://www.aqualand.rs/images/11010/1300/elektrolux-q-o-15l-p-vm-2.jpg",
+        "blob_url": "/uploads/cms-media/258be8c837c757c43b6d5cb99234494aaa9086a9959d7b2e311eb53dee5dd5ed.jpg",
+        "sha256": "258be8c837c757c43b6d5cb99234494aaa9086a9959d7b2e311eb53dee5dd5ed"
+      }
+    ],
+    "image_fingerprint": "22ced2dcac6fae671c7d6c6ba7212b4c29c032e83f596a28c372af2f5e8bb0f6",
+    "content_hash": "5732f36a6f83edd292f078579ad1e82ec2ca18f4fce486de590deff084b5f615"
   },
   {
     "id": "elektrolux-q-u-10l-p-nm",
@@ -530,13 +864,38 @@
     "capacity_liters": 10,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/724db42bffda8be8b032cfc27109b37c9e3c7b5e946b1dcde61d759721bdd04c.jpg",
+      "/uploads/cms-media/118d3fb24fb5f7e565e71c61ab598ee46f3da3ca7a6befdc0ecc19b0709ce941.jpg",
+      "/uploads/cms-media/7c92a5c10b78d77af4499022c18e7982b754c198562dc1bde44a511fccbad8ee.jpg"
+    ],
+    "image_url": "/uploads/cms-media/724db42bffda8be8b032cfc27109b37c9e3c7b5e946b1dcde61d759721bdd04c.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:17:59.435Z",
+    "price_fingerprint": "dd06d1ccd7393396ef771e4092afd6a86cf3e3e16564cce84b2a35b498973d05",
+    "source_images": [
       "https://www.aqualand.rs/images/11001/1300/elektrolux-q-u-10l-p-nm-0.jpg",
       "https://www.aqualand.rs/images/11002/1300/elektrolux-q-u-10l-p-nm-1.jpg",
       "https://www.aqualand.rs/images/11003/1300/elektrolux-q-u-10l-p-nm-2.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/11001/1300/elektrolux-q-u-10l-p-nm-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:14.655Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/11001/1300/elektrolux-q-u-10l-p-nm-0.jpg",
+        "blob_url": "/uploads/cms-media/724db42bffda8be8b032cfc27109b37c9e3c7b5e946b1dcde61d759721bdd04c.jpg",
+        "sha256": "724db42bffda8be8b032cfc27109b37c9e3c7b5e946b1dcde61d759721bdd04c"
+      },
+      {
+        "source_url": "https://www.aqualand.rs/images/11002/1300/elektrolux-q-u-10l-p-nm-1.jpg",
+        "blob_url": "/uploads/cms-media/118d3fb24fb5f7e565e71c61ab598ee46f3da3ca7a6befdc0ecc19b0709ce941.jpg",
+        "sha256": "118d3fb24fb5f7e565e71c61ab598ee46f3da3ca7a6befdc0ecc19b0709ce941"
+      },
+      {
+        "source_url": "https://www.aqualand.rs/images/11003/1300/elektrolux-q-u-10l-p-nm-2.jpg",
+        "blob_url": "/uploads/cms-media/7c92a5c10b78d77af4499022c18e7982b754c198562dc1bde44a511fccbad8ee.jpg",
+        "sha256": "7c92a5c10b78d77af4499022c18e7982b754c198562dc1bde44a511fccbad8ee"
+      }
+    ],
+    "image_fingerprint": "c5657f105559b6f767677ae40c008e4388d5e4f24d21bb7000526448761096cb",
+    "content_hash": "e3bf5b59dbaa62abb4a98d983e3430b6d6b0d3e5f845e4a64380f9901b8a0053"
   },
   {
     "id": "elektrolux-q-u-15l-p-nm",
@@ -555,13 +914,38 @@
     "capacity_liters": 15,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/724db42bffda8be8b032cfc27109b37c9e3c7b5e946b1dcde61d759721bdd04c.jpg",
+      "/uploads/cms-media/118d3fb24fb5f7e565e71c61ab598ee46f3da3ca7a6befdc0ecc19b0709ce941.jpg",
+      "/uploads/cms-media/7c92a5c10b78d77af4499022c18e7982b754c198562dc1bde44a511fccbad8ee.jpg"
+    ],
+    "image_url": "/uploads/cms-media/724db42bffda8be8b032cfc27109b37c9e3c7b5e946b1dcde61d759721bdd04c.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:18:00.155Z",
+    "price_fingerprint": "64be101a462d3d3632563f2a5bcb0fa4c8d3322a181a0cd6a460f1a590db0cbe",
+    "source_images": [
       "https://www.aqualand.rs/images/10996/1300/elektrolux-q-u-15l-p-nm-0.jpg",
       "https://www.aqualand.rs/images/10997/1300/elektrolux-q-u-15l-p-nm-1.jpg",
       "https://www.aqualand.rs/images/10998/1300/elektrolux-q-u-15l-p-nm-2.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/10996/1300/elektrolux-q-u-15l-p-nm-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:16.811Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/10996/1300/elektrolux-q-u-15l-p-nm-0.jpg",
+        "blob_url": "/uploads/cms-media/724db42bffda8be8b032cfc27109b37c9e3c7b5e946b1dcde61d759721bdd04c.jpg",
+        "sha256": "724db42bffda8be8b032cfc27109b37c9e3c7b5e946b1dcde61d759721bdd04c"
+      },
+      {
+        "source_url": "https://www.aqualand.rs/images/10997/1300/elektrolux-q-u-15l-p-nm-1.jpg",
+        "blob_url": "/uploads/cms-media/118d3fb24fb5f7e565e71c61ab598ee46f3da3ca7a6befdc0ecc19b0709ce941.jpg",
+        "sha256": "118d3fb24fb5f7e565e71c61ab598ee46f3da3ca7a6befdc0ecc19b0709ce941"
+      },
+      {
+        "source_url": "https://www.aqualand.rs/images/10998/1300/elektrolux-q-u-15l-p-nm-2.jpg",
+        "blob_url": "/uploads/cms-media/7c92a5c10b78d77af4499022c18e7982b754c198562dc1bde44a511fccbad8ee.jpg",
+        "sha256": "7c92a5c10b78d77af4499022c18e7982b754c198562dc1bde44a511fccbad8ee"
+      }
+    ],
+    "image_fingerprint": "568433d1bbc2e15c46db5a71154c862acc3aa50af0a6cdfd535a0021fd158fa8",
+    "content_hash": "e7bc657162a128603e5d0cc0703a0a966862761236be294fc0cdff410e1288e6"
   },
   {
     "id": "elit-prohrom-talas-10l-p-nm",
@@ -580,12 +964,31 @@
     "capacity_liters": 10,
     "specifications": {},
     "images": [
+      "/uploads/cms-media/61a9a51dd857f562b1b32bb7aef643714ae64d34c92be8350f69ad81aaf3fda8.jpg",
+      "/uploads/cms-media/42d70009541a08128e68b1e60e07012f44590d0039fc3b6374400edc352b4161.jpg"
+    ],
+    "image_url": "/uploads/cms-media/61a9a51dd857f562b1b32bb7aef643714ae64d34c92be8350f69ad81aaf3fda8.jpg",
+    "scraped_at": "2026-06-25",
+    "price_updated_at": "2026-07-07T08:18:00.801Z",
+    "price_fingerprint": "fc2922a4771c3174ca1331dc1efe810b5875fdd727398982ed51c9b6ecb0c994",
+    "source_images": [
       "https://www.aqualand.rs/images/5212/1300/elit-prohrom-talas-10l-p-nm-0.jpg",
       "https://www.aqualand.rs/images/5213/1300/elit-prohrom-talas-10l-p-nm-1.jpg"
     ],
-    "image_url": "https://www.aqualand.rs/images/5212/1300/elit-prohrom-talas-10l-p-nm-0.jpg",
-    "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:27.123Z"
+    "image_cache": [
+      {
+        "source_url": "https://www.aqualand.rs/images/5212/1300/elit-prohrom-talas-10l-p-nm-0.jpg",
+        "blob_url": "/uploads/cms-media/61a9a51dd857f562b1b32bb7aef643714ae64d34c92be8350f69ad81aaf3fda8.jpg",
+        "sha256": "61a9a51dd857f562b1b32bb7aef643714ae64d34c92be8350f69ad81aaf3fda8"
+      },
+      {
+        "source_url": "https://www.aqualand.rs/images/5213/1300/elit-prohrom-talas-10l-p-nm-1.jpg",
+        "blob_url": "/uploads/cms-media/42d70009541a08128e68b1e60e07012f44590d0039fc3b6374400edc352b4161.jpg",
+        "sha256": "42d70009541a08128e68b1e60e07012f44590d0039fc3b6374400edc352b4161"
+      }
+    ],
+    "image_fingerprint": "ece6290df35f6ee75985af85443ac0f9a9228d137baecc2fd5112261926ca8b7",
+    "content_hash": "42befb9602ed2c430841ed2bee2c29b65de06b1ff94bb984f09a8a40e18b0338"
   },
   {
     "id": "elit-prohrom-talas-10l-p-vm",
@@ -609,7 +1012,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/2647/1300/elit-prohrom-talas-10l-p-vm-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:29.675Z"
+    "price_updated_at": "2026-07-07T08:18:01.477Z",
+    "price_fingerprint": "fc2922a4771c3174ca1331dc1efe810b5875fdd727398982ed51c9b6ecb0c994"
   },
   {
     "id": "elit-prohrom-talas-8l-nm",
@@ -632,7 +1036,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/2646/1300/elit-prohrom-talas-8l-nm-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:31.873Z"
+    "price_updated_at": "2026-07-07T08:18:02.061Z",
+    "price_fingerprint": "f96d17c9aeefa5769b5d60538b3f7290576f8f1e41aac98082baca6cf490a0d1"
   },
   {
     "id": "elit-prohrom-talas-8l-vm",
@@ -655,7 +1060,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/2645/1300/elit-prohrom-talas-8l-vm-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:33.984Z"
+    "price_updated_at": "2026-07-07T08:18:02.665Z",
+    "price_fingerprint": "f96d17c9aeefa5769b5d60538b3f7290576f8f1e41aac98082baca6cf490a0d1"
   },
   {
     "id": "metalac-mini-bojler-5l-nm-pvc",
@@ -678,7 +1084,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/4049/1300/metalac-mini-bojler-5l-nm-pvc-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:44.348Z"
+    "price_updated_at": "2026-07-07T08:18:03.271Z",
+    "price_fingerprint": "8b6237a13fccb856ab37472a75ce27d3d7c195b75eeb003c5a87f750f7dc3b62"
   },
   {
     "id": "metalac-mini-bojler-5l-vm-pvc",
@@ -701,7 +1108,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/4048/1300/metalac-mini-bojler-5l-vm-pvc-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:46.650Z"
+    "price_updated_at": "2026-07-07T08:18:03.854Z",
+    "price_fingerprint": "8b6237a13fccb856ab37472a75ce27d3d7c195b75eeb003c5a87f750f7dc3b62"
   },
   {
     "id": "metalac-prohrom-mini-bojer-8l-vm",
@@ -724,7 +1132,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/4044/1300/metalac-prohrom-mini-bojer-8l-vm-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:54.886Z"
+    "price_updated_at": "2026-07-07T08:18:04.447Z",
+    "price_fingerprint": "ab71c50738290076e49e16ce905804e8477c139d7d8b0e949f936c8fc1693046"
   },
   {
     "id": "metalac-prohrom-mini-bojler-8l-nm",
@@ -747,7 +1156,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/4045/1300/metalac-prohrom-mini-bojler-8l-nm-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:52.737Z"
+    "price_updated_at": "2026-07-07T08:18:05.025Z",
+    "price_fingerprint": "ab71c50738290076e49e16ce905804e8477c139d7d8b0e949f936c8fc1693046"
   },
   {
     "id": "termorad-prohrom-10l-nm",
@@ -770,7 +1180,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/3597/1300/termorad-prohrom-10l-nm-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:37.211Z"
+    "price_updated_at": "2026-07-07T08:18:05.654Z",
+    "price_fingerprint": "f4570637581c0216e63bb7c7a127b11b96ff4aea2c146e46cb53944f6f5e7ca6"
   },
   {
     "id": "termorad-prohrom-10l-potocni-vm",
@@ -793,7 +1204,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/3596/1300/termorad-prohrom-10l-poto-ni-vm-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:41.750Z"
+    "price_updated_at": "2026-07-07T08:18:06.242Z",
+    "price_fingerprint": "a4961beacca802e045f4abb25daaea1e10e2fbf1a475236bd26b697721dbfdd3"
   },
   {
     "id": "termorad-prohrom-10l-protocni-nm",
@@ -816,7 +1228,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/8037/1300/termorad-prohrom-10l-proto-ni-nm-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:39.366Z"
+    "price_updated_at": "2026-07-07T08:18:06.880Z",
+    "price_fingerprint": "a4961beacca802e045f4abb25daaea1e10e2fbf1a475236bd26b697721dbfdd3"
   },
   {
     "id": "termorad-prohrom-10l-vm",
@@ -839,7 +1252,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1070/1300/termorad-prohrom-10l-vm-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:43.915Z"
+    "price_updated_at": "2026-07-07T08:18:07.462Z",
+    "price_fingerprint": "f4570637581c0216e63bb7c7a127b11b96ff4aea2c146e46cb53944f6f5e7ca6"
   },
   {
     "id": "ariston-velis-evo-100l-inox",
@@ -864,7 +1278,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10949/1300/ariston-velis-evo-100l-inox-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:01.953Z"
+    "price_updated_at": "2026-07-07T08:18:08.087Z",
+    "price_fingerprint": "0278b350bcad52e1a672d5aeeaed3c46c4b09800b9a87b255605991b2e5d8e7c"
   },
   {
     "id": "ariston-80l-velis-pro",
@@ -889,7 +1304,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/7572/1300/ariston-80l-velis-pro-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:57.756Z"
+    "price_updated_at": "2026-07-07T08:18:08.699Z",
+    "price_fingerprint": "d5914b622f26484734af1b3f65541b250a074fde7619814e0070895f18203f1a"
   },
   {
     "id": "ariston-80l-velis-pro-wifi",
@@ -914,7 +1330,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/7575/1300/ariston-80l-velis-pro-wifi-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:55.888Z"
+    "price_updated_at": "2026-07-07T08:18:09.286Z",
+    "price_fingerprint": "b565f9b84202f4abb3027ea8a88764c5140dac5be6f81fee40d73e9e80e2c79b"
   },
   {
     "id": "ariston-80l-velis-tech-wifi",
@@ -939,7 +1356,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/7883/1300/ariston-80l-velis-tech-wifi-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:59.611Z"
+    "price_updated_at": "2026-07-07T08:18:09.885Z",
+    "price_fingerprint": "05d4e75397d3cc5640c71877ff3e27f285e9693c7dd629bac40e6ee856e0441e"
   },
   {
     "id": "elektrolux-azr-80l-eec",
@@ -964,7 +1382,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10969/1300/elektrolux-azr-80l-eec-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:52.435Z"
+    "price_updated_at": "2026-07-07T08:18:10.480Z",
+    "price_fingerprint": "e0bf3b55570c07b9ac65c6bd733abb9a3cfcf559f2fd8b5d66c08a8990ea0e48"
   },
   {
     "id": "elektrolux-gld-100l-eec",
@@ -989,7 +1408,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/11039/1300/elektrolux-gld-100l-eec-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:54.732Z"
+    "price_updated_at": "2026-07-07T08:20:06.976Z",
+    "price_fingerprint": "72dcce2001ad742dc385b716f29af35970b321d8214bde43fc7ba1f70f6f11a6"
   },
   {
     "id": "elektrolux-gld-30l-eec",
@@ -1014,7 +1434,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/11034/1300/elektrolux-gld-30l-eec-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:59.463Z"
+    "price_updated_at": "2026-07-07T08:18:11.676Z",
+    "price_fingerprint": "fe536c7787fc1d88ede532d0a319ae14b4f8170797556a7114a0fa377f46b8cb"
   },
   {
     "id": "elektrolux-gld-50l-eec",
@@ -1039,7 +1460,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/11029/1300/elektrolux-gld-50l-eec-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:01.792Z"
+    "price_updated_at": "2026-07-07T08:18:12.263Z",
+    "price_fingerprint": "08c609f3de4f26796b829ed18bfcbb7f063ebd1695ac0c2015856dcbdfd4e2a8"
   },
   {
     "id": "elektrolux-gld-80l-eco-eec",
@@ -1064,7 +1486,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/11024/1300/elektrolux-gld-80l-eco-eec-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:03.959Z"
+    "price_updated_at": "2026-07-07T08:18:12.838Z",
+    "price_fingerprint": "5459f85eed3056d0c30c327d6ac12ae6344d20a6aa009430ff9e1fbcd69389fc"
   },
   {
     "id": "elektrolux-gld-80l-eec",
@@ -1089,7 +1512,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/11019/1300/elektrolux-gld-80l-eec-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:06.052Z"
+    "price_updated_at": "2026-07-07T08:18:13.434Z",
+    "price_fingerprint": "726b54acfc678f0d23a6cc787613b8d3fac58c6511d8b0987a5bbad468b883fe"
   },
   {
     "id": "elektrolux-gld-80l-grafit-eec",
@@ -1114,7 +1538,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/11015/1300/elektrolux-gld-80l-grafit-eec-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:08.159Z"
+    "price_updated_at": "2026-07-07T08:18:14.031Z",
+    "price_fingerprint": "16acff2e725fd4db98ec027784657c9ee11721007a123cc35fa8363243914d31"
   },
   {
     "id": "elektrolux-si-100l-eec-wifi",
@@ -1139,7 +1564,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10990/1300/elektrolux-si-100l-eec-wifi-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:18.786Z"
+    "price_updated_at": "2026-07-07T08:18:14.615Z",
+    "price_fingerprint": "9cccb202b8824bbc50cd24674f73b15fcf75fb1996f5f1e147f7edbdee1d15e4"
   },
   {
     "id": "elektrolux-si-30l-eec-wifi",
@@ -1164,7 +1590,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10985/1300/elektrolux-si-30l-eec-wifi-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:20.732Z"
+    "price_updated_at": "2026-07-07T08:18:15.217Z",
+    "price_fingerprint": "dbbd9f00f44ded7e01a8d30bd2017bb0662c8322ac30c321f4790068dc704d3b"
   },
   {
     "id": "elektrolux-si-50l-eec-wifi",
@@ -1189,7 +1616,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10978/1300/elektrolux-si-50l-eec-wifi-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:22.710Z"
+    "price_updated_at": "2026-07-07T08:18:15.802Z",
+    "price_fingerprint": "742ccea6456f04d9c165eea9f1649199a5d80173bd1b6a8174415d3778477949"
   },
   {
     "id": "elektrolux-si-80l-eec-wifi",
@@ -1214,7 +1642,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10974/1300/elektrolux-si-80l-eec-wifi-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:24.853Z"
+    "price_updated_at": "2026-07-07T08:18:16.411Z",
+    "price_fingerprint": "e0dfb8a110055edb20ecd6e7f6a8f72aa1155cf5aa52bf9d3cb828bef8908b0e"
   },
   {
     "id": "elit-prohrom-talas-m-50l-horizontalni",
@@ -1238,7 +1667,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/2643/1300/elit-prohrom-talas-m-50l-horizontalni-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:38.720Z"
+    "price_updated_at": "2026-07-07T08:18:17.002Z",
+    "price_fingerprint": "b761c66391f844dce19199b350e0af24b2a29b498f3ef44411968a89fcaa5a05"
   },
   {
     "id": "elit-prohrom-talas-m-60l-horiz",
@@ -1261,7 +1691,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/2760/1300/elit-prohrom-talas-m-60l-horiz-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:44.998Z"
+    "price_updated_at": "2026-07-07T08:18:17.593Z",
+    "price_fingerprint": "effd7a6c012a43f166e39d9ec6f7dfab236236b2195a05093b73f1a019dfd9a6"
   },
   {
     "id": "elit-prohrom-talas-s-50l-horizontalni",
@@ -1285,7 +1716,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/2751/1300/elit-prohrom-talas-s-50l-horizontalni-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:56.149Z"
+    "price_updated_at": "2026-07-07T08:18:18.231Z",
+    "price_fingerprint": "b761c66391f844dce19199b350e0af24b2a29b498f3ef44411968a89fcaa5a05"
   },
   {
     "id": "elit-prohrom-talas-s-60l-horiz",
@@ -1308,7 +1740,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/2750/1300/elit-prohrom-talas-s-60l-horiz-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:00.394Z"
+    "price_updated_at": "2026-07-07T08:18:18.864Z",
+    "price_fingerprint": "effd7a6c012a43f166e39d9ec6f7dfab236236b2195a05093b73f1a019dfd9a6"
   },
   {
     "id": "elit-prohrom-talas-s-80l-horiz",
@@ -1331,7 +1764,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/2749/1300/elit-prohrom-talas-s-80l-horiz-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:04.450Z"
+    "price_updated_at": "2026-07-07T08:18:19.503Z",
+    "price_fingerprint": "54e9179fb176282966f3f7af9ae6c9406c1144f4702a42af054cc2178b4e3e56"
   },
   {
     "id": "elit-prohrom-talas-x-80l-horizontalni",
@@ -1355,7 +1789,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/2744/1300/elit-prohrom-talas-x-80l-horizontalni-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:12.996Z"
+    "price_updated_at": "2026-07-07T08:18:20.102Z",
+    "price_fingerprint": "54e9179fb176282966f3f7af9ae6c9406c1144f4702a42af054cc2178b4e3e56"
   },
   {
     "id": "elit-prohrom-talas-xx-100l-hor",
@@ -1378,7 +1813,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/2743/1300/elit-prohrom-talas-xx-100l-hor-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:18.871Z"
+    "price_updated_at": "2026-07-07T08:18:20.730Z",
+    "price_fingerprint": "cf957453574106fe3ee1bb7238b782046553bedfb4a1c20871d88578dcb30b42"
   },
   {
     "id": "elit-prohrom-talas-xx-120l-hor",
@@ -1401,7 +1837,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/2739/1300/elit-prohrom-talas-xx-120l-hor-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:25.725Z"
+    "price_updated_at": "2026-07-07T08:18:21.368Z",
+    "price_fingerprint": "08bd547b1a2f44f3a25863adfc127e4d44fc7a158f9bb1e61f23182f97ea69ac"
   },
   {
     "id": "elit-prohrom-talas-xx-80l-hori",
@@ -1425,7 +1862,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/2732/1300/elit-prohrom-talas-xx-80l-hori-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:36.041Z"
+    "price_updated_at": "2026-07-07T08:18:21.963Z",
+    "price_fingerprint": "77452a287868f3e9cfd34ffdef65ae771a0ce56727351ce1ca274c504f8bab87"
   },
   {
     "id": "termorad-klasik-50l-horizontalni",
@@ -1449,7 +1887,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1056/1300/termorad-klasik-50l-horizontalni-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:13.756Z"
+    "price_updated_at": "2026-07-07T08:18:22.582Z",
+    "price_fingerprint": "6008486252c79a1efe9e6ad71d3732420db1c72f6fc57a510507a49db7805027"
   },
   {
     "id": "termorad-klasik-80l-horizontal",
@@ -1473,7 +1912,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/7876/1300/termorad-klasik-80l-horizontal-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:20.558Z"
+    "price_updated_at": "2026-07-07T08:18:23.193Z",
+    "price_fingerprint": "6ee8bd1196da07d26d022859dddda5fd3a470bb38b542fc4e8e3f33dfd914dbe"
   },
   {
     "id": "termorad-prohrom-50l-horizontalni",
@@ -1497,7 +1937,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1076/1300/termorad-prohrom-50l-horizontalni-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:50.275Z"
+    "price_updated_at": "2026-07-07T08:18:23.805Z",
+    "price_fingerprint": "a936d9c1e8360964b09983a04e43fea0c1bc894219fda36e32f5924a2b4391a8"
   },
   {
     "id": "termorad-prohrom-60l-horizonta",
@@ -1521,7 +1962,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1078/1300/termorad-prohrom-60l-horizonta-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:54.747Z"
+    "price_updated_at": "2026-07-07T08:18:24.383Z",
+    "price_fingerprint": "fe50e637967c59f05d7d6085752c976ff285b68620bb1d99f206fc47a827ed11"
   },
   {
     "id": "termorad-prohrom-80l-horizontalni-desni",
@@ -1545,7 +1987,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1079/1300/termorad-prohrom-80l-horizontalni-desni-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:59.216Z"
+    "price_updated_at": "2026-07-07T08:18:24.984Z",
+    "price_fingerprint": "11be268bb236fb81812bc5b69482d06f72af0d00c775073326ccb9fc640be2b5"
   },
   {
     "id": "anoda-fi-22x300",
@@ -1568,7 +2011,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10821/1300/anoda-fi-22x300-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:21.574Z"
+    "price_updated_at": "2026-07-07T08:18:25.595Z",
+    "price_fingerprint": "58bf3c9a2b3e58c5d0fd2b79d4be48557d6caa33ff9ae817f177b82b8cdaac5e"
   },
   {
     "id": "anoda-magnezijumska-m6-ariston",
@@ -1591,7 +2035,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10538/1300/anoda-magnezijumska-m6-ariston-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:24.145Z"
+    "price_updated_at": "2026-07-07T08:18:26.225Z",
+    "price_fingerprint": "ad8b7e62e9fc9d21fe80c4436b98cf1110266316fabc32304f928be387998579"
   },
   {
     "id": "anoda-za-ariston",
@@ -1614,7 +2059,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10820/1300/anoda-za-ariston-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:26.323Z"
+    "price_updated_at": "2026-07-07T08:18:26.838Z",
+    "price_fingerprint": "7da279da9994b2c9a2fe92ca0ddb3fdec611641d7cbf01f43e63c6752af1fb50"
   },
   {
     "id": "dihtung-bojlera-metalac-elipsa",
@@ -1637,7 +2083,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10819/1300/dihtung-bojlera-metalac-elipsa-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:35.844Z"
+    "price_updated_at": "2026-07-07T08:18:27.514Z",
+    "price_fingerprint": "80c9923404510390b1a0d07048f7f0e1742cb19a6dfc50ddf6fa1cb35a39e095"
   },
   {
     "id": "dihtung-guma-liko-isea-5-4",
@@ -1660,7 +2107,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10818/1300/dihtung-guma-liko-isea-5-4-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:37.873Z"
+    "price_updated_at": "2026-07-07T08:18:28.135Z",
+    "price_fingerprint": "49f72f583cdf6fc9814333f4c592bd7e891c38ca35b49b80476a518c9513090d"
   },
   {
     "id": "dihtung-guma-mala-za-ariston",
@@ -1683,7 +2131,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10817/1300/dihtung-guma-mala-za-ariston-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:39.735Z"
+    "price_updated_at": "2026-07-07T08:18:28.777Z",
+    "price_fingerprint": "a2412aaded95d08226200c8f8dfa45864dfbb962ddd5486fadc9bd28bf7a9f07"
   },
   {
     "id": "dihtung-guma-uza",
@@ -1706,7 +2155,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10816/1300/dihtung-guma-u-a-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:41.543Z"
+    "price_updated_at": "2026-07-07T08:18:29.360Z",
+    "price_fingerprint": "e85dd625de7491d631a149d9ff5d90446720231ee25ec80837d59477544ca427"
   },
   {
     "id": "dihtung-guma-za-gb-gorenje-nt",
@@ -1729,7 +2179,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10839/1300/dihtung-guma-za-gb-gorenje-nt-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:43.681Z"
+    "price_updated_at": "2026-07-07T08:18:30.030Z",
+    "price_fingerprint": "e85dd625de7491d631a149d9ff5d90446720231ee25ec80837d59477544ca427"
   },
   {
     "id": "dihtung-guma-za-gpb-gorenje-metalac",
@@ -1752,7 +2203,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10811/1300/dihtung-guma-za-gpb-gorenje-metalac-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:45.994Z"
+    "price_updated_at": "2026-07-07T08:18:30.625Z",
+    "price_fingerprint": "66361863d11bbcf5389a26b60f53ea09ecd589b4a3599095d85db05daddd588a"
   },
   {
     "id": "dihtung-guma-za-termorad",
@@ -1776,7 +2228,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10813/1300/dihtung-guma-za-termorad-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:48.179Z"
+    "price_updated_at": "2026-07-07T08:18:31.218Z",
+    "price_fingerprint": "021b05a4c5cbf6f3e9ce021b081c0c4c4c299a7d8b86d819bd0c0daeafc778b1"
   },
   {
     "id": "dihtung-klingerit-5-4",
@@ -1799,7 +2252,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10808/1300/dihtung-klingerit-5-4-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:50.304Z"
+    "price_updated_at": "2026-07-07T08:18:31.816Z",
+    "price_fingerprint": "f5a9e21f93b0539d6ba9d61dc3f1120d2e987af8766deea840141c264886ed8f"
   },
   {
     "id": "grejac-2kw-ariston",
@@ -1823,7 +2277,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10711/1300/greja-2kw-ariston-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:42.186Z"
+    "price_updated_at": "2026-07-07T08:18:32.415Z",
+    "price_fingerprint": "d17e8ee0874c4068e3adc09fc7d6e3f9bd20f9d94c121f2dd8ef3b02e4cb28b6"
   },
   {
     "id": "grejac-2kw-prohrom-komplet",
@@ -1846,7 +2301,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10316/1300/greja-2kw-prohrom-komplet-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:44.281Z"
+    "price_updated_at": "2026-07-07T08:18:33.006Z",
+    "price_fingerprint": "589416ffda9b92575c085a25bde9a9cec503cc55876fb1302d74bae373ce18cc"
   },
   {
     "id": "grejac-bojlera-nm-bt10-komplet",
@@ -1871,7 +2327,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10825/1300/greja-bojlera-nm-bt10-komplet-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:46.643Z"
+    "price_updated_at": "2026-07-07T08:18:33.602Z",
+    "price_fingerprint": "3fb9eef01ba9863777a8c3a76de3d1a798f9258db3dafd10d8a0a5ae88529efa"
   },
   {
     "id": "grejac-bojlera-vm-bt10-komplet",
@@ -1896,7 +2353,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10822/1300/grejac-bojlera-vm-bt10-komplet-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:48.575Z"
+    "price_updated_at": "2026-07-07T08:18:34.200Z",
+    "price_fingerprint": "3fb9eef01ba9863777a8c3a76de3d1a798f9258db3dafd10d8a0a5ae88529efa"
   },
   {
     "id": "grejac-cg-1100-1100w-230v-beko",
@@ -1920,7 +2378,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10803/1300/greja-cg-1100-1100w-230v-beko-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:50.780Z"
+    "price_updated_at": "2026-07-07T08:18:34.792Z",
+    "price_fingerprint": "b570ff3b1de29af38adb65ab1f4446ddf3b1aff9538aa122df75c695ab460972"
   },
   {
     "id": "grejac-cg-1100w-230v-p-gorenje",
@@ -1949,7 +2408,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10802/1300/greja-cg-1100w-230v-p-gorenje-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:52.814Z"
+    "price_updated_at": "2026-07-07T08:18:35.412Z",
+    "price_fingerprint": "3b0ebd23f316afa9a8576adb1ccba4a3c01e391ce32c652299f5aab22856f800"
   },
   {
     "id": "grejac-cg-1100w-gor-novi-tip-d",
@@ -1973,7 +2433,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10800/1300/grejac-cg-1100w-gor-novi-tip-d-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:55.076Z"
+    "price_updated_at": "2026-07-07T08:18:36.018Z",
+    "price_fingerprint": "a09cb4f59ffaf4109558a40b1cbe813843b71512e2a22ca88a39ad458e82c324"
   },
   {
     "id": "grejac-cg-1150w-230v-alfa-plam",
@@ -1997,7 +2458,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10798/1300/greja-cg-1150w-230v-alfa-plam-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:57.906Z"
+    "price_updated_at": "2026-07-07T08:18:36.643Z",
+    "price_fingerprint": "a09cb4f59ffaf4109558a40b1cbe813843b71512e2a22ca88a39ad458e82c324"
   },
   {
     "id": "grejac-cg-1200w-230v-quadro",
@@ -2020,7 +2482,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10797/1300/greja-cg-1200w-230v-quadro-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:00.205Z"
+    "price_updated_at": "2026-07-07T08:18:37.272Z",
+    "price_fingerprint": "f54b753123af15494278427606ceb648e21f822203df37da86e86ca4e38d237f"
   },
   {
     "id": "grejac-cg-1300w-230v-beko-m",
@@ -2044,7 +2507,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10795/1300/greja-cg-1300w-230v-beko-m-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:02.458Z"
+    "price_updated_at": "2026-07-07T08:18:37.885Z",
+    "price_fingerprint": "c0f4af599b4a46b15164f72699f5d06a10919efae39a16c2df6f28033e7a7f76"
   },
   {
     "id": "grejac-cg-1400w-230v-koncar-nt",
@@ -2068,7 +2532,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10793/1300/greja-cg-1400w-230v-kon-ar-nt-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:04.688Z"
+    "price_updated_at": "2026-07-07T08:18:38.494Z",
+    "price_fingerprint": "a09cb4f59ffaf4109558a40b1cbe813843b71512e2a22ca88a39ad458e82c324"
   },
   {
     "id": "grejac-cg-900-2000w-230v-gorenje",
@@ -2092,7 +2557,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10791/1300/greja-cg-900-2000w-230v-gorenje-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:06.870Z"
+    "price_updated_at": "2026-07-07T08:18:39.102Z",
+    "price_fingerprint": "2f6d7ef0cadb7b0eadc8f70fc0032449b76add82605910cd902c7e62ff7faf09"
   },
   {
     "id": "grejac-gb-2000w-230v-5-4-ital",
@@ -2118,7 +2584,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10789/1300/greja-gb-2000w-230v-5-4-ital-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:08.877Z"
+    "price_updated_at": "2026-07-07T08:18:39.698Z",
+    "price_fingerprint": "30bf1c825998f808064e7ec52b1cda4a792dc97cf14fbb3de1fac9618cb5b6d9"
   },
   {
     "id": "grejac-gb-2000w-230v-8-1-prohrom",
@@ -2141,7 +2608,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10788/1300/greja-gb-2000w-230v-8-1-prohrom-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:11.107Z"
+    "price_updated_at": "2026-07-07T08:18:40.285Z",
+    "price_fingerprint": "c176472a744799656453502b4162c3360d7a2f0e07f739e41c1f0e99fe9f1f55"
   },
   {
     "id": "grejac-gb-2000w-230v-duzi-kal",
@@ -2165,7 +2633,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10785/1300/greja-gb-2000w-230v-du-i-kal-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:13.741Z"
+    "price_updated_at": "2026-07-07T08:18:40.903Z",
+    "price_fingerprint": "a723cf8be8409e3fbd3a6aca90993a34e6e47da626d8b389b162c999be67a827"
   },
   {
     "id": "grejac-gb-2000w-230v-gorenje-metalac-koncar",
@@ -2189,7 +2658,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10805/1300/greja-gb-2000w-230v-gorenje-metalac-kon-ar-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:40.182Z"
+    "price_updated_at": "2026-07-07T08:18:41.507Z",
+    "price_fingerprint": "ea49e7a2973658fe90d62c24bcfcdd3ff537b08f4ea9716d44d77b5b5ff44469"
   },
   {
     "id": "grejac-gb-2000w-230v-rankom",
@@ -2213,7 +2683,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10783/1300/greja-gb-2000w-230v-rankom-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:16.237Z"
+    "price_updated_at": "2026-07-07T08:18:42.147Z",
+    "price_fingerprint": "b570ff3b1de29af38adb65ab1f4446ddf3b1aff9538aa122df75c695ab460972"
   },
   {
     "id": "grejac-gb-2000w-fi8-1-izmenjivac-toplote",
@@ -2236,7 +2707,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10782/1300/greja-gb-2000w-fi8-1-izmenjiva-toplote-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:18.276Z"
+    "price_updated_at": "2026-07-07T08:18:42.789Z",
+    "price_fingerprint": "ea49e7a2973658fe90d62c24bcfcdd3ff537b08f4ea9716d44d77b5b5ff44469"
   },
   {
     "id": "grejac-gb-2000w-kifla",
@@ -2260,7 +2732,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10780/1300/greja-gb-2000w-kifla-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:20.580Z"
+    "price_updated_at": "2026-07-07T08:18:43.427Z",
+    "price_fingerprint": "ac55ee9bb53135695dcbadbdbebd6d58f36a839719c2635053f14820e09d1cfa"
   },
   {
     "id": "grejac-gb-2000w-komplet",
@@ -2284,7 +2757,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10778/1300/greja-gb-2000w-komplet-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:22.535Z"
+    "price_updated_at": "2026-07-07T08:18:44.051Z",
+    "price_fingerprint": "1ffdfcf140d709645beb6d62e012fb504ce9dd40b44c2c93d43495b8f3d030cd"
   },
   {
     "id": "grejac-gpb-1500w-230v-nm-fi8-1",
@@ -2308,7 +2782,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10776/1300/greja-gpb-1500w-230v-nm-fi8-1-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:24.593Z"
+    "price_updated_at": "2026-07-07T08:18:44.684Z",
+    "price_fingerprint": "b570ff3b1de29af38adb65ab1f4446ddf3b1aff9538aa122df75c695ab460972"
   },
   {
     "id": "grejac-gpb-1500w-230v-vm-fi8-1",
@@ -2332,7 +2807,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10774/1300/greja-gpb-1500w-230v-vm-fi8-1-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:27.001Z"
+    "price_updated_at": "2026-07-07T08:18:45.277Z",
+    "price_fingerprint": "ea49e7a2973658fe90d62c24bcfcdd3ff537b08f4ea9716d44d77b5b5ff44469"
   },
   {
     "id": "grejac-gpb-2000w-230v-gorenje-metalac",
@@ -2356,7 +2832,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10772/1300/greja-gpb-2000w-230v-gorenje-metalac-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:29.289Z"
+    "price_updated_at": "2026-07-07T08:18:45.896Z",
+    "price_fingerprint": "bc1168150a1504bcb3bc5669cb5c22e814f29b96ff44cd3caf5ca50074eb3105"
   },
   {
     "id": "grejac-gpb-2000w-230v-nm-termorad",
@@ -2380,7 +2857,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10770/1300/greja-gpb-2000w-230v-nm-termorad-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:31.684Z"
+    "price_updated_at": "2026-07-07T08:18:46.489Z",
+    "price_fingerprint": "b570ff3b1de29af38adb65ab1f4446ddf3b1aff9538aa122df75c695ab460972"
   },
   {
     "id": "grejac-gpb-2000w-230v-vm-termorad",
@@ -2404,7 +2882,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10768/1300/greja-gpb-2000w-230v-vm-termorad-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:33.887Z"
+    "price_updated_at": "2026-07-07T08:18:47.101Z",
+    "price_fingerprint": "30bf1c825998f808064e7ec52b1cda4a792dc97cf14fbb3de1fac9618cb5b6d9"
   },
   {
     "id": "grejac-gvm-1700w-230v-sa-rupom",
@@ -2428,7 +2907,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10766/1300/greja-gvm-1700w-230v-sa-rupom-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:36.040Z"
+    "price_updated_at": "2026-07-07T08:18:47.676Z",
+    "price_fingerprint": "ac55ee9bb53135695dcbadbdbebd6d58f36a839719c2635053f14820e09d1cfa"
   },
   {
     "id": "grejac-gvm-2000w-230v-kria-gorenje",
@@ -2452,7 +2932,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10734/1300/greja-gvm-2000w-230v-kria-gorenje-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:38.122Z"
+    "price_updated_at": "2026-07-07T08:18:48.312Z",
+    "price_fingerprint": "1a708a7b3ec07fce1756cf75d7e671558df00725f7ae4c1335788751cff5d37c"
   },
   {
     "id": "grejac-gvm-2000w-230v-sa-rupom",
@@ -2475,7 +2956,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10732/1300/greja-gvm-2000w-230v-sa-rupom-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:40.297Z"
+    "price_updated_at": "2026-07-07T08:18:48.944Z",
+    "price_fingerprint": "ac55ee9bb53135695dcbadbdbebd6d58f36a839719c2635053f14820e09d1cfa"
   },
   {
     "id": "grejac-ta-833w-230v-mk",
@@ -2498,7 +2980,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10729/1300/greja-ta-833w-230v-mk-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:42.225Z"
+    "price_updated_at": "2026-07-07T08:18:49.541Z",
+    "price_fingerprint": "9a1b235c788e911f6e8c92c58876b1d06f523ff6c1f29ed7d59486b4916beac9"
   },
   {
     "id": "nosac",
@@ -2521,7 +3004,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10728/1300/nosa-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:57.044Z"
+    "price_updated_at": "2026-07-07T08:18:50.188Z",
+    "price_fingerprint": "81c7a8d81b78001d9dfd56404e04e029f7c93472f0e79bde8be14d7be145a6be"
   },
   {
     "id": "pocinkovana-prirubnica",
@@ -2544,7 +3028,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10727/1300/pocinkovana-prirubnica-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:59.373Z"
+    "price_updated_at": "2026-07-07T08:18:50.822Z",
+    "price_fingerprint": "a6c8eece1de209a888a222e4b005eb52347d0e229be40895a8a6aacbe2c4b198"
   },
   {
     "id": "prohrom-prirubnica",
@@ -2567,7 +3052,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10726/1300/prohrom-prirubnica-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:01.933Z"
+    "price_updated_at": "2026-07-07T08:18:51.409Z",
+    "price_fingerprint": "4f47005c6361f23a2688d349111c38d49bfca459b630827cc48c6188e00618c6"
   },
   {
     "id": "sonda",
@@ -2590,7 +3076,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10725/1300/sonda-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:05.788Z"
+    "price_updated_at": "2026-07-07T08:18:52.007Z",
+    "price_fingerprint": "ca4f58ee410d7778cdf5fbd8e41cba7d346c1951f6154f9d944e126d48738cb5"
   },
   {
     "id": "sonda-kalajisana",
@@ -2613,7 +3100,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/10724/1300/sonda-kalajisana-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:04.022Z"
+    "price_updated_at": "2026-07-07T08:18:52.644Z",
+    "price_fingerprint": "2b7b5fd3a37f3f764ede99f143cdac0591ffd406904250b539047aa85b8524ca"
   },
   {
     "id": "bosch-bojler-15-18-21-tr7001",
@@ -2637,7 +3125,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/5610/1300/bosch-bojler-15-18-21-tr7001-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:04.128Z"
+    "price_updated_at": "2026-07-07T08:18:53.241Z",
+    "price_fingerprint": "ac709ef02ef2d6744f1efae8b0f70da651d521087331d81a4a1aee8d62edb34e"
   },
   {
     "id": "bosch-bojler-21-24-27-tr7001",
@@ -2661,7 +3150,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/5607/1300/bosch-bojler-21-24-27-tr7001-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:06.228Z"
+    "price_updated_at": "2026-07-07T08:18:53.834Z",
+    "price_fingerprint": "c4f5aa0b4c20fd76055e7a910888a7ced826718a301aefb22911194e8c6cfc7d"
   },
   {
     "id": "bosch-bojler-4-5kw-tr4000-5set",
@@ -2686,7 +3176,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/5762/1300/bosch-bojler-4-5kw-tr4000-5set-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:08.188Z"
+    "price_updated_at": "2026-07-07T08:18:54.466Z",
+    "price_fingerprint": "86fe14fe0ba08f724d5c97be47f2c9cd99788ce6349e249dd9b28bf8f062770a"
   },
   {
     "id": "bosch-bojler-6kw-tr4000-6set",
@@ -2711,7 +3202,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/5764/1300/bosch-bojler-6kw-tr4000-6set-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:10.321Z"
+    "price_updated_at": "2026-07-07T08:18:55.082Z",
+    "price_fingerprint": "8c817b60fc21a82ce8cf8f75693b67a9bc6bedc5ad39edeb4c70e715184c7dd7"
   },
   {
     "id": "clage-cex-11-13kw",
@@ -2735,7 +3227,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/3133/1300/clage-cex-11-13kw-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:12.177Z"
+    "price_updated_at": "2026-07-07T08:18:55.703Z",
+    "price_fingerprint": "46d83d53e8cb55f2d4349849ab8823162a5a447c367374a7d019c63072d7e3cb"
   },
   {
     "id": "clage-dbx-electron-18kw",
@@ -2758,7 +3251,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/2791/1300/clage-dbx-electron-18kw-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:14.336Z"
+    "price_updated_at": "2026-07-07T08:18:56.321Z",
+    "price_fingerprint": "b2ba3694713257b28b0909c523d5d3ebeb2aa9a3da31a39e5cf958f66be69218"
   },
   {
     "id": "clage-dcx-next-18-27kw",
@@ -2781,7 +3275,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/9122/1300/clage-dcx-next-18-27kw-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:16.594Z"
+    "price_updated_at": "2026-07-07T08:18:56.907Z",
+    "price_fingerprint": "fb0fa7d4e5c8c0815a51caa92ddd33e3d8217d51d29f475b21d3e05adc915c58"
   },
   {
     "id": "clage-dex-next-18-27kw",
@@ -2804,7 +3299,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1357/1300/clage-dex-next-18-27kw-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:18.616Z"
+    "price_updated_at": "2026-07-07T08:18:57.554Z",
+    "price_fingerprint": "1cd6e2c7194612c23fdaf5447fed9f2108a699d71566cb9190b57a43aa2a9acf"
   },
   {
     "id": "clage-dsx-touch-18-27kw",
@@ -2829,7 +3325,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1646/1300/clage-dsx-touch-18-27kw-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:20.797Z"
+    "price_updated_at": "2026-07-07T08:18:58.139Z",
+    "price_fingerprint": "7e916655ebf7aaf72b71e78f9b76ac589b60ab039b98552dfd82b98f051f62f6"
   },
   {
     "id": "clage-m4-4-4kw-230v-nm",
@@ -2853,7 +3350,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/37/1300/clage-m4-4-4kw-230v-nm-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:22.981Z"
+    "price_updated_at": "2026-07-07T08:18:58.773Z",
+    "price_fingerprint": "3d2304dada1790b0e3da750e9ab28d6e5464f13935b67992403ce7cf56a70299"
   },
   {
     "id": "clage-m4-o-4-4kw-230v-vm",
@@ -2878,7 +3376,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/2710/1300/clage-m4-o-4-4kw-230v-vm-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:24.930Z"
+    "price_updated_at": "2026-07-07T08:18:59.372Z",
+    "price_fingerprint": "3d2304dada1790b0e3da750e9ab28d6e5464f13935b67992403ce7cf56a70299"
   },
   {
     "id": "clage-mbh4-4-4kw-230v",
@@ -2901,7 +3400,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/2627/1300/clage-mbh4-4-4kw-230v-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:26.787Z"
+    "price_updated_at": "2026-07-07T08:18:59.970Z",
+    "price_fingerprint": "3d2304dada1790b0e3da750e9ab28d6e5464f13935b67992403ce7cf56a70299"
   },
   {
     "id": "clage-mbh7-6-5kw-400v",
@@ -2924,7 +3424,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1615/1300/clage-mbh7-6-5kw-400v-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:28.966Z"
+    "price_updated_at": "2026-07-07T08:19:00.573Z",
+    "price_fingerprint": "113961738c74a2ce489833ab8a0ae107e1fc1f657bb3ba70671805d464d60306"
   },
   {
     "id": "clage-mcx4-4-4kw-230v",
@@ -2948,7 +3449,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/39/1300/clage-mcx4-4-4kw-230v-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:31.136Z"
+    "price_updated_at": "2026-07-07T08:19:01.160Z",
+    "price_fingerprint": "8b6d620ba88f749a880e972d095eaf53c0ad50d5abc4b3aba2997734d30550ec"
   },
   {
     "id": "clage-mcx7-6-5kw-400",
@@ -2971,7 +3473,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/2626/1300/clage-mcx7-6-5kw-400-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:16:33.513Z"
+    "price_updated_at": "2026-07-07T08:19:01.734Z",
+    "price_fingerprint": "a0d5ab46b85dada5764a95e2864086c0cd5e7b90cf22debc2539a1c20d052dc9"
   },
   {
     "id": "ariston-100l-pro-r1",
@@ -2995,7 +3498,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1290/1300/ariston-100l-pro-r1-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:28.486Z"
+    "price_updated_at": "2026-07-07T08:19:02.305Z",
+    "price_fingerprint": "dcc26986d9a35d3ad07f37b0c5f54b1e10d97a22eea5aca9c3ae36b3acd3311d"
   },
   {
     "id": "ariston-100l-velis-pro",
@@ -3020,7 +3524,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/9271/1300/ariston-100l-velis-pro-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:32.705Z"
+    "price_updated_at": "2026-07-07T08:19:02.912Z",
+    "price_fingerprint": "92fe8c0fd99793d2e18fc795b1d9bd521da50e9108e4f1c224e2f6619a60a76d"
   },
   {
     "id": "ariston-100l-velis-pro-wifi",
@@ -3045,7 +3550,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/7578/1300/ariston-100l-velis-pro-wifi-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:30.674Z"
+    "price_updated_at": "2026-07-07T08:19:03.529Z",
+    "price_fingerprint": "bf8d186b064635346ab429484add355a4bc585d24fa97d1cd3b095cddd1888e7"
   },
   {
     "id": "ariston-50l-lydos",
@@ -3069,7 +3575,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/5840/1300/ariston-50l-lydos-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:40.942Z"
+    "price_updated_at": "2026-07-07T08:19:04.125Z",
+    "price_fingerprint": "2a918105a24f2b175df5309044842fd138ca52e691557d51a9f109d849634cdc"
   },
   {
     "id": "ariston-50l-pro-r1",
@@ -3093,7 +3600,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1297/1300/ariston-50l-pro-r1-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:43.106Z"
+    "price_updated_at": "2026-07-07T08:19:04.735Z",
+    "price_fingerprint": "51412b3d89f07109504380a1d0c86c3d048f6f52d1fae1793231dea50d59d712"
   },
   {
     "id": "ariston-50l-velis-pro-wifi",
@@ -3118,7 +3626,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/9268/1300/ariston-50l-velis-pro-wifi-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:45.369Z"
+    "price_updated_at": "2026-07-07T08:19:05.328Z",
+    "price_fingerprint": "c127aaa043db7020f1fc2d5fb35ba0f4db59ed62940e1e6794ff1e0f28a971bc"
   },
   {
     "id": "ariston-50l-velis-tech-wifi",
@@ -3143,7 +3652,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/7888/1300/ariston-50l-velis-tech-wifi-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:47.304Z"
+    "price_updated_at": "2026-07-07T08:19:06.785Z",
+    "price_fingerprint": "3d421e113d02d04a0b0fd7c6a316025b2a976f180f2e8e07558a61f9b9bcb246"
   },
   {
     "id": "ariston-80l-lydos",
@@ -3168,7 +3678,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/7879/1300/ariston-80l-lydos-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:52.417Z"
+    "price_updated_at": "2026-07-07T08:19:08.336Z",
+    "price_fingerprint": "83e42ce3fa2b21080ce543695dff279fb030f91b8acc5fff12f11fb942312c93"
   },
   {
     "id": "ariston-80l-lydos-wifi",
@@ -3191,7 +3702,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1302/1300/ariston-80l-lydos-wifi-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:50.738Z"
+    "price_updated_at": "2026-07-07T08:19:08.973Z",
+    "price_fingerprint": "731847b8bec2b4a20992ba973015e8253e535eb05af440f300954b36c61d60a8"
   },
   {
     "id": "ariston-80l-pro-r1",
@@ -3215,7 +3727,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1303/1300/ariston-80l-pro-r1-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:15:54.118Z"
+    "price_updated_at": "2026-07-07T08:19:09.599Z",
+    "price_fingerprint": "af31762342261c25a4befbf031b1b5713ff68484b6e500b489c48f0e435de836"
   },
   {
     "id": "elit-prohrom-talas-m-30l",
@@ -3239,7 +3752,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/2644/1300/elit-prohrom-talas-m-30l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:36.182Z"
+    "price_updated_at": "2026-07-07T08:19:10.196Z",
+    "price_fingerprint": "37a2ed3b2ab00e3c96de020f8e9229dcfc3b226bfc3fb2c4755b0a20e10b7617"
   },
   {
     "id": "elit-prohrom-talas-m-50l",
@@ -3263,7 +3777,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/85/1300/elit-prohrom-talas-m-50l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:43.049Z"
+    "price_updated_at": "2026-07-07T08:19:10.813Z",
+    "price_fingerprint": "36c7b42a012c77755c3b459d717a44a48c55207408b64d52771c85cfaf39741a"
   },
   {
     "id": "elit-prohrom-talas-m-60l",
@@ -3287,7 +3802,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/3270/1300/elit-prohrom-talas-m-60l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:49.374Z"
+    "price_updated_at": "2026-07-07T08:19:11.606Z",
+    "price_fingerprint": "31aee7dab9214ed3522ccbb082b6b60048faa7c3822a3657b07d0080e5eefd6b"
   },
   {
     "id": "elit-prohrom-talas-m-80l",
@@ -3311,7 +3827,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/82/1300/elit-prohrom-talas-m-80l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:51.496Z"
+    "price_updated_at": "2026-07-07T08:19:12.214Z",
+    "price_fingerprint": "b761c66391f844dce19199b350e0af24b2a29b498f3ef44411968a89fcaa5a05"
   },
   {
     "id": "elit-prohrom-talas-s-30l",
@@ -3335,7 +3852,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/3114/1300/elit-prohrom-talas-s-30l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:53.567Z"
+    "price_updated_at": "2026-07-07T08:19:12.871Z",
+    "price_fingerprint": "37a2ed3b2ab00e3c96de020f8e9229dcfc3b226bfc3fb2c4755b0a20e10b7617"
   },
   {
     "id": "elit-prohrom-talas-s-50l",
@@ -3359,7 +3877,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/3117/1300/elit-prohrom-talas-s-50l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:17:58.174Z"
+    "price_updated_at": "2026-07-07T08:19:13.528Z",
+    "price_fingerprint": "36c7b42a012c77755c3b459d717a44a48c55207408b64d52771c85cfaf39741a"
   },
   {
     "id": "elit-prohrom-talas-s-60l",
@@ -3391,7 +3910,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/3119/1300/elit-prohrom-talas-s-60l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:02.565Z"
+    "price_updated_at": "2026-07-07T08:19:14.281Z",
+    "price_fingerprint": "2b2dc2af3675b5b18b0aa9934ff47d1290623b081e0241705f402eab3998b98b"
   },
   {
     "id": "elit-prohrom-talas-s-80l",
@@ -3414,7 +3934,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/3121/1300/elit-prohrom-talas-s-80l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:06.782Z"
+    "price_updated_at": "2026-07-07T08:19:15.178Z",
+    "price_fingerprint": "effd7a6c012a43f166e39d9ec6f7dfab236236b2195a05093b73f1a019dfd9a6"
   },
   {
     "id": "elit-prohrom-talas-x-50l",
@@ -3438,7 +3959,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/83/1300/elit-prohrom-talas-x-50l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:10.930Z"
+    "price_updated_at": "2026-07-07T08:19:15.872Z",
+    "price_fingerprint": "36c7b42a012c77755c3b459d717a44a48c55207408b64d52771c85cfaf39741a"
   },
   {
     "id": "elit-prohrom-talas-x-80l",
@@ -3461,7 +3983,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/84/1300/elit-prohrom-talas-x-80l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:16.885Z"
+    "price_updated_at": "2026-07-07T08:19:16.500Z",
+    "price_fingerprint": "a1fc2b6f21ffb5cc7fd1b25f9d31c67bb1ae35f94722485cefbc4c685e811c00"
   },
   {
     "id": "elit-prohrom-talas-xx-100l",
@@ -3485,7 +4008,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/9120/1300/elit-prohrom-talas-xx-100l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:23.245Z"
+    "price_updated_at": "2026-07-07T08:19:17.491Z",
+    "price_fingerprint": "e27572b8430483d456dd9d01f955c8f6500f3c0d345cdbc1c5302262610c5a53"
   },
   {
     "id": "elit-prohrom-talas-xx-120l",
@@ -3508,7 +4032,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/3130/1300/elit-prohrom-talas-xx-120l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:30.256Z"
+    "price_updated_at": "2026-07-07T08:19:18.119Z",
+    "price_fingerprint": "fac8a55bea5fef928b34f4680986b902d0fdfc6808433ac092ad7d9ce538ea3f"
   },
   {
     "id": "elit-prohrom-talas-xx-150l",
@@ -3531,7 +4056,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/2737/1300/elit-prohrom-talas-xx-150l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:33.940Z"
+    "price_updated_at": "2026-07-07T08:19:18.726Z",
+    "price_fingerprint": "8c052a78e44dba31622e84f154b33788d3ebcbf725906b31562f8937ed763fc4"
   },
   {
     "id": "elit-prohrom-talas-xx-80l",
@@ -3555,7 +4081,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/2734/1300/elit-prohrom-talas-xx-80l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:18:38.018Z"
+    "price_updated_at": "2026-07-07T08:19:19.324Z",
+    "price_fingerprint": "effd7a6c012a43f166e39d9ec6f7dfab236236b2195a05093b73f1a019dfd9a6"
   },
   {
     "id": "metalac-prohrom-50l-hydra-mb-e2i",
@@ -3578,7 +4105,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/4047/1300/metalac-prohrom-50l-hydra-mb-e2i-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:48.877Z"
+    "price_updated_at": "2026-07-07T08:19:19.920Z",
+    "price_fingerprint": "1d4f62b896ed5160c8aa5fb826e10dd3e8083b31988cc42dc6e40cd5e88648bb"
   },
   {
     "id": "metalac-prohrom-80l-hydra-mb-e2i",
@@ -3603,7 +4131,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/4046/1300/metalac-prohrom-80l-hydra-mb-e2i-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:19:50.774Z"
+    "price_updated_at": "2026-07-07T08:19:20.545Z",
+    "price_fingerprint": "c72bcb4db19987bed7709f8d0a8fafedbf6133a7841abe06ca0995c2ce6c59be"
   },
   {
     "id": "termorad-klasik-120l-btcr",
@@ -3627,7 +4156,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1053/1300/termorad-klasik-120l-btcr-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:07.841Z"
+    "price_updated_at": "2026-07-07T08:19:21.133Z",
+    "price_fingerprint": "06244125cd54830c533f0dbc8205342f682fcf9a7ebe623569b2b7ed21dcf483"
   },
   {
     "id": "termorad-klasik-30l-btcr",
@@ -3650,7 +4180,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1054/1300/termorad-klasik-30l-btcr-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:09.754Z"
+    "price_updated_at": "2026-07-07T08:19:21.734Z",
+    "price_fingerprint": "ace4200ae5425e0751ef7b199d75b5849bf25939fb00f9aa813b53ea3eb1e472"
   },
   {
     "id": "termorad-klasik-50l-btcr",
@@ -3674,7 +4205,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1055/1300/termorad-klasik-50l-btcr-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:11.691Z"
+    "price_updated_at": "2026-07-07T08:19:22.371Z",
+    "price_fingerprint": "417b04af21e4928f8ee16793e6d7b3e70f9073be777a4f22726c2048c5d52850"
   },
   {
     "id": "termorad-klasik-60l-btcr",
@@ -3698,7 +4230,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1057/1300/termorad-klasik-60l-btcr-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:16.176Z"
+    "price_updated_at": "2026-07-07T08:19:22.951Z",
+    "price_fingerprint": "b250e9685e2170491a268e7b377c964ef0fb579ffc0cdcc89121c906ad261e6a"
   },
   {
     "id": "termorad-klasik-80l-btcr",
@@ -3722,7 +4255,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1058/1300/termorad-klasik-80l-btcr-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:18.435Z"
+    "price_updated_at": "2026-07-07T08:19:23.540Z",
+    "price_fingerprint": "e58989765173079b608863aa054c4343ad7e9fbbf3d40066018814fdb972e19b"
   },
   {
     "id": "termorad-klasik-slim-50l-btcr",
@@ -3746,7 +4280,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1060/1300/termorad-klasik-slim-50l-btcr-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:22.397Z"
+    "price_updated_at": "2026-07-07T08:19:24.128Z",
+    "price_fingerprint": "ea1776d8f1312563342ca1505a1ef12afcce7774dc29cfd1c6f6d56236b848ba"
   },
   {
     "id": "termorad-prohrom-120l",
@@ -3769,7 +4304,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1071/1300/termorad-prohrom-120l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:45.994Z"
+    "price_updated_at": "2026-07-07T08:19:24.740Z",
+    "price_fingerprint": "1ead1c595ffac282c621d6830f730ce48d08cc52e48112fbe4c66295cec3b6fd"
   },
   {
     "id": "termorad-prohrom-30l",
@@ -3793,7 +4329,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1074/1300/termorad-prohrom-30l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:48.018Z"
+    "price_updated_at": "2026-07-07T08:19:25.351Z",
+    "price_fingerprint": "5fdca3eb00fa708bfba359602fa8a5500b2c47a03fa1bc6c7f651d97850e562a"
   },
   {
     "id": "termorad-prohrom-50l",
@@ -3817,7 +4354,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1075/1300/termorad-prohrom-50l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:52.397Z"
+    "price_updated_at": "2026-07-07T08:19:25.936Z",
+    "price_fingerprint": "693294f147134cc4bc109cd733b5f38c29c028d2ec800cd3e23f4db6d84a923e"
   },
   {
     "id": "termorad-prohrom-60l",
@@ -3841,7 +4379,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1077/1300/termorad-prohrom-60l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:20:56.878Z"
+    "price_updated_at": "2026-07-07T08:19:26.536Z",
+    "price_fingerprint": "58dca8df73fef6ef0b191772dbdc5a9b7d28332c7cb86567d8264adf8b8c916d"
   },
   {
     "id": "termorad-prohrom-80l",
@@ -3866,7 +4405,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/8585/1300/termorad-prohrom-80l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:21:01.884Z"
+    "price_updated_at": "2026-07-07T08:19:27.127Z",
+    "price_fingerprint": "ae17ce81412f7dddbd961cbe47528773ceb0612110fd247a3765562fd053c31d"
   },
   {
     "id": "termorad-prohrom-s-160l",
@@ -3889,7 +4429,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1081/1300/termorad-prohrom-s-160l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:21:06.393Z"
+    "price_updated_at": "2026-07-07T08:19:27.772Z",
+    "price_fingerprint": "fa8d4336b5f96017f5e602eae66af72133a6fbb5e1b7055190e21bf3a003876c"
   },
   {
     "id": "termorad-prohrom-s-200l",
@@ -3912,7 +4453,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1082/1300/termorad-prohrom-s-200l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:21:10.769Z"
+    "price_updated_at": "2026-07-07T08:19:28.371Z",
+    "price_fingerprint": "921117a7a9bcc5fb4dfbe6d270d71274bed5816fa731a97f7c49d1cb05185759"
   },
   {
     "id": "termorad-prohrom-s-280l-ib-80",
@@ -3935,7 +4477,8 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1085/1300/termorad-prohrom-s-280l-ib-80-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:21:12.736Z"
+    "price_updated_at": "2026-07-07T08:19:28.967Z",
+    "price_fingerprint": "486b360a0efad0bde997d6339e93e255604dfbc7909db8f7da00a83bf67d8e3e"
   },
   {
     "id": "termorad-prohrom-slim-50l",
@@ -3959,6 +4502,7 @@
     ],
     "image_url": "https://www.aqualand.rs/images/1086/1300/termorad-prohrom-slim-50l-0.jpg",
     "scraped_at": "2026-06-25",
-    "price_updated_at": "2026-06-25T23:21:17.235Z"
+    "price_updated_at": "2026-07-07T08:19:29.567Z",
+    "price_fingerprint": "68f120d3231aac34672ec3130bbacf0ef2bd7585db0687f24f286f022b33a177"
   }
 ]
