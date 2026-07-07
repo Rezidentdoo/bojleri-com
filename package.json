@@ -8,6 +8,8 @@
     "refresh-prices": "node scraper/refresh-prices.mjs",
     "fix-images": "node scraper/fix-images.mjs",
     "scrape": "node scraper/scrape.mjs && node scripts/sync-products.mjs",
+    "export-blob": "node scripts/export-vercel-blob.mjs",
+    "verify-production": "node scripts/verify-local-vs-production.mjs",
     "prebuild": "node scripts/sync-products.mjs && node scripts/sync-blob-products.mjs",
     "build": "next build",
     "start": "next start",
