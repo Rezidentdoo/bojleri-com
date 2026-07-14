@@ -1,7 +1,5 @@
 import { NextResponse } from "next/server";
 import { createSessionToken, SESSION_COOKIE, verifyPassword } from "@/lib/cms/auth";
-import { seedBlobIfNeeded } from "@/lib/cms/store";
-
 export async function POST(req: Request) {
   const body = await req.json().catch(() => ({}));
   const password = typeof body.password === "string" ? body.password : "";
@@ -9,8 +7,6 @@ export async function POST(req: Request) {
   if (!verifyPassword(password)) {
     return NextResponse.json({ error: "Pogrešna lozinka" }, { status: 401 });
   }
-
-  await seedBlobIfNeeded();
 
   const res = NextResponse.json({ ok: true });
   res.cookies.set(SESSION_COOKIE, await createSessionToken(), {

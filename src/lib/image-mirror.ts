@@ -1,11 +1,10 @@
 import "server-only";
 
-import { hashContent, writeBlobBinaryIfMissing } from "@/lib/cms/blob-client";
-import { isBlobStorageEnabled, writeLocalMediaIfMissing } from "@/lib/cms/local-storage";
+import { hashContent } from "@/lib/disk-utils";
+import { writeLocalMediaIfMissing } from "@/lib/cms/local-storage";
 import {
   extensionFromUrl,
   fetchWithConditionals,
-  mimeFromExtension,
   type RemoteCacheHeaders,
 } from "@/lib/conditional-fetch";
 
@@ -23,15 +22,15 @@ export interface ImageMirrorCache {
   last_modified?: string;
 }
 
-export function isBlobCdnUrl(url: string): boolean {
-  return url.includes("blob.vercel-storage.com") || url.startsWith("/uploads/");
+export function isLocalOrMirroredUrl(url: string): boolean {
+  return url.startsWith("/uploads/");
 }
 
 export async function mirrorImageToCdn(
   sourceUrl: string,
   cache?: ImageMirrorCache,
 ): Promise<ImageMirrorCache | null> {
-  if (isBlobCdnUrl(sourceUrl)) {
+  if (isLocalOrMirroredUrl(sourceUrl)) {
     return {
       source_url: sourceUrl,
       blob_url: sourceUrl,
@@ -68,16 +67,11 @@ export async function mirrorImageToCdn(
   const sha256 = hashContent(bytes);
   const ext = extensionFromUrl(sourceUrl);
   const filename = `${sha256}${ext}`;
-
-  const blobUrl = isBlobStorageEnabled()
-    ? (
-        await writeBlobBinaryIfMissing(`cms/media/${filename}`, bytes, mimeFromExtension(ext))
-      ).url
-    : (await writeLocalMediaIfMissing(filename, bytes)).url;
+  const local = await writeLocalMediaIfMissing(filename, bytes);
 
   return {
     source_url: sourceUrl,
-    blob_url: blobUrl,
+    blob_url: local.url,
     sha256,
     etag: response.headers.get("etag") || undefined,
     last_modified: response.headers.get("last-modified") || undefined,
@@ -105,3 +99,6 @@ export async function mirrorImageList(
 
   return { images, cache, downloaded };
 }
+
+/** @deprecated use isLocalOrMirroredUrl */
+export const isBlobCdnUrl = isLocalOrMirroredUrl;

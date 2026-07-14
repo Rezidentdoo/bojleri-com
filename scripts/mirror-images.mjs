@@ -49,7 +49,7 @@ function localUrl(filename) {
 function isRemoteUrl(url) {
   return (
     typeof url === "string" &&
-    (url.includes("aqualand.rs") || url.includes("blob.vercel-storage.com"))
+    (url.includes("aqualand.rs") || url.startsWith("/uploads/"))
   );
 }
 

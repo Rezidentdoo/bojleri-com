@@ -32,7 +32,7 @@ if (onlyLive.length) {
 }
 
 const blobImages = products.filter((p) =>
-  [...(p.images || []), p.image_url].some((u) => u && String(u).includes("blob.vercel-storage")),
+  [...(p.images || []), p.image_url].some((u) => u && String(u).startsWith("/uploads/")),
 ).length;
 
 console.log(`\n  Proizvodi sa Blob slikama: ${blobImages}`);

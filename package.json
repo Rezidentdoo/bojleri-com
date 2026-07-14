@@ -8,7 +8,6 @@
     "refresh-prices": "node scraper/refresh-prices.mjs",
     "fix-images": "node scraper/fix-images.mjs",
     "scrape": "node scraper/scrape.mjs && node scripts/sync-products.mjs",
-    "export-blob": "node scripts/export-vercel-blob.mjs",
     "verify-production": "node scripts/verify-local-vs-production.mjs",
     "test:selfhosted": "node scripts/test-selfhosted.mjs",
     "test:smtp": "node scripts/test-smtp.mjs",
@@ -34,7 +33,6 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@vercel/blob": "^2.4.1",
     "cheerio": "^1.2.0",
     "next": "16.2.9",
     "nodemailer": "^9.0.1",

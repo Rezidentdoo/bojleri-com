@@ -1,18 +1,13 @@
 import "server-only";
 
-import { hashContent, readBlobJson, stableJson, writeBlobJsonIfChanged } from "@/lib/cms/blob-client";
+import { hashContent, stableJson } from "@/lib/disk-utils";
 import { readFile, writeFile } from "fs/promises";
 import path from "path";
 import type { Order } from "@/types/order";
 
-const ORDERS_BLOB = "cms/orders.json";
 const ordersPath = path.join(process.cwd(), "src/data/orders.json");
 
 let localHash = "";
-
-function useBlob(): boolean {
-  return Boolean(process.env.BLOB_READ_WRITE_TOKEN);
-}
 
 async function readOrdersLocal(): Promise<Order[]> {
   try {
@@ -33,36 +28,21 @@ async function writeOrdersLocal(orders: Order[]): Promise<boolean> {
   return true;
 }
 
-async function readOrders(): Promise<Order[]> {
-  if (useBlob()) {
-    const blob = await readBlobJson<Order[]>(ORDERS_BLOB);
-    if (blob.data) return blob.data;
-  }
-  return readOrdersLocal();
-}
-
-async function writeOrders(orders: Order[]): Promise<boolean> {
-  if (useBlob()) {
-    return writeBlobJsonIfChanged(ORDERS_BLOB, orders, { cacheControlMaxAge: 300 });
-  }
-  return writeOrdersLocal(orders);
-}
-
 export async function appendOrder(order: Order): Promise<void> {
-  const orders = await readOrders();
+  const orders = await readOrdersLocal();
   orders.unshift(order);
-  await writeOrders(orders);
+  await writeOrdersLocal(orders);
 }
 
 export async function getAllOrders(): Promise<Order[]> {
-  return readOrders();
+  return readOrdersLocal();
 }
 
 export async function deleteOrder(id: string): Promise<boolean> {
-  const orders = await readOrders();
+  const orders = await readOrdersLocal();
   const index = orders.findIndex((o) => o.id === id);
   if (index === -1) return false;
   orders.splice(index, 1);
-  await writeOrders(orders);
+  await writeOrdersLocal(orders);
   return true;
 }

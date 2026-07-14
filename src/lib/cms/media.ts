@@ -1,7 +1,7 @@
 import "server-only";
 
-import { hashContent, writeBlobBinaryIfMissing } from "@/lib/cms/blob-client";
-import { isBlobStorageEnabled, writeLocalMediaIfMissing } from "@/lib/cms/local-storage";
+import { hashContent } from "@/lib/disk-utils";
+import { writeLocalMediaIfMissing } from "@/lib/cms/local-storage";
 import { slugifyProductId } from "@/lib/cms/product-admin";
 
 const MAX_BYTES = 5 * 1024 * 1024;
@@ -43,13 +43,6 @@ export async function uploadProductImage(
   const bytes = Buffer.from(await file.arrayBuffer());
   const sha256 = hashContent(bytes);
   const ext = extensionForMime(file.type);
-
-  if (isBlobStorageEnabled()) {
-    const contentPath = `cms/media/${sha256}${ext}`;
-    const { url, wrote } = await writeBlobBinaryIfMissing(contentPath, bytes, file.type);
-    return { url, path: contentPath, deduplicated: !wrote };
-  }
-
   const sharedFilename = `${sha256}${ext}`;
   const shared = await writeLocalMediaIfMissing(sharedFilename, bytes);
   return { url: shared.url, path: shared.path, deduplicated: !shared.wrote };

@@ -6,10 +6,6 @@ import path from "path";
 
 const CMS_MEDIA_DIR = "cms-media";
 
-export function isBlobStorageEnabled(): boolean {
-  return Boolean(process.env.BLOB_READ_WRITE_TOKEN);
-}
-
 export function localMediaPublicUrl(filename: string): string {
   return `/uploads/${CMS_MEDIA_DIR}/${filename}`;
 }

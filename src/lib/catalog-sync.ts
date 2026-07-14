@@ -1,7 +1,7 @@
 import "server-only";
 
 import { PRICE_SYNC_DISABLED_MESSAGE, isAutoPriceSyncEnabled } from "@/lib/cms/price-sync-config";
-import { hashContent, stableJson } from "@/lib/cms/blob-client";
+import { hashContent, stableJson } from "@/lib/disk-utils";
 import { readAllProducts, writeAllProducts } from "@/lib/cms/store";
 import { syncPriceFormatted } from "@/lib/product-utils";
 import {
@@ -11,7 +11,7 @@ import {
 } from "@/lib/aqualand-content";
 import { extractLivePrice } from "@/lib/scraper";
 import { fetchWithConditionals } from "@/lib/conditional-fetch";
-import { isBlobCdnUrl, mirrorImageList } from "@/lib/image-mirror";
+import { isLocalOrMirroredUrl, mirrorImageList } from "@/lib/image-mirror";
 import type { Product } from "@/types/product";
 
 const SYNC_DELAY_MS = Number(process.env.SYNC_DELAY_MS || 400);
@@ -150,7 +150,7 @@ export async function syncCatalogContent(): Promise<CatalogSyncResult> {
         const sourceHash = hashContent(stableJson([...sourceImages].sort()));
         const needsMirror =
           merged.image_fingerprint !== sourceHash ||
-          !merged.images?.every(isBlobCdnUrl);
+          !merged.images?.every(isLocalOrMirroredUrl);
 
         if (needsMirror) {
           const result = await mirrorImageList(sourceImages, product.image_cache || []);

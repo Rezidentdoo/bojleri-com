@@ -36,11 +36,6 @@ for (const [key, value] of Object.entries(selfhostedEnv)) {
   if (process.env[key] === undefined) process.env[key] = value;
 }
 
-if (process.env.BLOB_READ_WRITE_TOKEN) {
-  console.error("\n❌ BLOB_READ_WRITE_TOKEN je podešen — self-hosted test zahteva disk mod.\n");
-  process.exit(1);
-}
-
 const required = [
   "src/data/products.json",
   "src/data/site-settings.json",
@@ -62,7 +57,7 @@ for (const rel of required) {
 
 const products = JSON.parse(readFileSync(join(root, "src/data/products.json"), "utf-8"));
 const blobImages = products.filter((p) =>
-  [...(p.images || []), p.image_url].some((u) => u && String(u).includes("blob.vercel-storage")),
+  [...(p.images || []), p.image_url].some((u) => u && String(u).startsWith("/uploads/")),
 ).length;
 
 console.log(`  ✓ Blob slike u katalogu: ${blobImages}`);
