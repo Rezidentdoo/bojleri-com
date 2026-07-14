@@ -5,17 +5,40 @@ import { getProducts } from "@/lib/products";
 import { getSiteSettings } from "@/lib/cms/settings";
 import ProductGrid from "@/components/ProductGrid";
 import HeroCarousel from "@/components/HeroCarousel";
+import type { Product } from "@/types/product";
+import type { SiteSettings } from "@/types/site-settings";
+
+function getFeaturedProducts(products: Product[], settings: SiteSettings): Product[] {
+  const manualIds = settings.homepage.featuredProductIds ?? [];
+  const ordered: Product[] = [];
+  const seen = new Set<string>();
+
+  for (const id of manualIds) {
+    const product = products.find((p) => p.id === id);
+    if (product && !seen.has(product.id)) {
+      ordered.push(product);
+      seen.add(product.id);
+    }
+  }
+
+  for (const product of products) {
+    if (product.featured && !seen.has(product.id)) {
+      ordered.push(product);
+      seen.add(product.id);
+    }
+  }
+
+  if (ordered.length > 0) return ordered;
+
+  return products
+    .filter((p) => p.price > 1000)
+    .sort((a, b) => b.price - a.price)
+    .slice(0, 8);
+}
 
 export default async function HomePage() {
   const [products, settings] = await Promise.all([getProducts(), getSiteSettings()]);
-
-  const featuredIds = new Set(settings.homepage.featuredProductIds);
-  const featured = featuredIds.size
-    ? products.filter((p) => featuredIds.has(p.id))
-    : products
-        .filter((p) => p.featured || p.price > 1000)
-        .sort((a, b) => b.price - a.price)
-        .slice(0, 8);
+  const featured = getFeaturedProducts(products, settings);
 
   const categories = [...new Set(products.map((p) => p.category))];
 

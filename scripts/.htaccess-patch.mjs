@@ -1,0 +1,13 @@
+import fs from "fs";
+const path = "/home/aqualand/bojleri.com/.htaccess";
+const setEnv = {"CMS_PASSWORD":"bojleri2026","CMS_SECRET":"cac96e1fd671b4d53defdfd6afe11ba2b5abf0665d85c550d7f4a499b8d9f6b9","CRON_SECRET":"bd60fa0891685a379e79a1ad4ad47342e14b530881e934a9","NODE_ENV":"production","SMTP_HOST":"mail.bojleri.com","SMTP_PORT":"587","SMTP_SECURE":"false","SMTP_USER":"prodaja@bojleri.com","SMTP_PASS":"bojleri2026","SMTP_TLS_SERVERNAME":"mail.bojleri.com","ORDER_FROM_EMAIL":"prodaja@bojleri.com","ORDER_NOTIFY_EMAIL":"prodaja@bojleri.com"};
+let text = fs.readFileSync(path, "utf8");
+const begin = "# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN";
+const end = "# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END";
+const lines = Object.entries(setEnv).map(([k, v]) => "SetEnv " + k + " " + v);
+const block = begin + "\n<IfModule Litespeed>\n" + lines.join("\n") + "\n</IfModule>\n" + end;
+const i = text.indexOf(begin);
+const j = text.indexOf(end);
+if (i < 0 || j < 0) throw new Error("htaccess markers missing");
+fs.writeFileSync(path, text.slice(0, i) + block + text.slice(j + end.length));
+console.log("htaccess ok");

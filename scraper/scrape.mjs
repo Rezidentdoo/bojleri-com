@@ -12,6 +12,7 @@ import {
   extractJsonLd,
   extractProductDescription,
   extractSalePrices,
+  extractSpecificationsFromHtml,
 } from "./lib/extract.mjs";
 import { isCatalogProduct } from "./lib/filter.mjs";
 
@@ -75,19 +76,6 @@ function detectBrand(name, fromPage) {
 function extractCapacity(name, desc) {
   const m = `${name} ${desc}`.match(/(\d+)\s*L\b/i);
   return m ? parseInt(m[1], 10) : null;
-}
-
-function extractSpecifications($) {
-  const specs = {};
-  $("table tr").each((_, row) => {
-    const cells = $(row).find("th, td");
-    if (cells.length >= 2) {
-      const key = $(cells[0]).text().trim();
-      const val = $(cells[1]).text().trim();
-      if (key && val) specs[key] = val;
-    }
-  });
-  return specs;
 }
 
 function extractProductLinks(html) {
@@ -164,7 +152,7 @@ async function scrapeProduct(url, category) {
   const slug = slugify(name);
   const gallery = extractGalleryImages(html, BASE);
   const remoteImages = ensureThreeImages(gallery);
-  const specifications = extractSpecifications($);
+  const specifications = extractSpecificationsFromHtml(html);
 
   const product = {
     id: slug,

@@ -33,7 +33,6 @@ export default function LivePrice({
   className?: string;
 }) {
   const [data, setData] = useState<PriceData | null>(null);
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     let cancelled = false;
@@ -42,10 +41,7 @@ export default function LivePrice({
       .then((json) => {
         if (!cancelled && json) setData(json);
       })
-      .catch(() => {})
-      .finally(() => {
-        if (!cancelled) setLoading(false);
-      });
+      .catch(() => {});
     return () => { cancelled = true; };
   }, [productId]);
 
@@ -55,7 +51,6 @@ export default function LivePrice({
   const originalFormatted = data?.original_price_formatted ?? fallbackOriginalFormatted;
   const onSale = data?.on_sale ?? fallbackOnSale;
   const availability = data?.availability ?? fallbackAvailability;
-  const updatedAt = data?.updated_at;
 
   return (
     <div className={className}>
@@ -67,19 +62,12 @@ export default function LivePrice({
         onSale={onSale}
         size="lg"
       />
-      {loading && (
-        <p className="mt-1 text-sm font-normal text-slate-400">Osvežavanje cene...</p>
-      )}
+
       <p className={`mt-2 text-sm font-medium ${
         availability === "Na lageru" ? "text-green-600" : "text-amber-600"
       }`}>
         {availability}
       </p>
-      {updatedAt && (
-        <p className="mt-1 text-xs text-slate-400">
-          Cena osvežena: {new Date(updatedAt).toLocaleString("sr-RS")}
-        </p>
-      )}
     </div>
   );
 }

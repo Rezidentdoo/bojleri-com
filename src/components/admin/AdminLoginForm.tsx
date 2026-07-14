@@ -2,10 +2,9 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 
 export default function AdminLoginForm() {
-  const router = useRouter();
   const searchParams = useSearchParams();
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -19,6 +18,7 @@ export default function AdminLoginForm() {
     const res = await fetch("/api/admin/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
+      credentials: "same-origin",
       body: JSON.stringify({ password }),
     });
 
@@ -30,8 +30,7 @@ export default function AdminLoginForm() {
     }
 
     const next = searchParams.get("next") || "/admin";
-    router.push(next);
-    router.refresh();
+    window.location.assign(next);
   };
 
   return (

@@ -5,14 +5,20 @@ import { fileURLToPath } from "url";
 import { extractPriceData } from "./lib/extract.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const PRODUCTS_PATH = join(__dirname, "products.json");
-const WEB_PATH = join(__dirname, "../src/data/products.json");
+const PRODUCTS_PATH = join(__dirname, "../src/data/products.json");
 const DELAY = 600;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const headers = { "User-Agent": "Mozilla/5.0 (compatible; BojleriBot/1.0)" };
 
 async function main() {
+  if (process.env.PRICE_SYNC_ENABLED !== "true") {
+    console.log(
+      "Automatsko ažuriranje cena je isključeno. Koristite CMS ili Excel upload (PRICE_SYNC_ENABLED=true za ručno uključivanje).",
+    );
+    process.exit(0);
+  }
+
   const products = JSON.parse(readFileSync(PRODUCTS_PATH, "utf-8"));
   console.log(`Refreshing prices for ${products.length} products...`);
 
@@ -36,10 +42,8 @@ async function main() {
     }
   }
 
-  const json = JSON.stringify(products, null, 2);
-  writeFileSync(PRODUCTS_PATH, json, "utf-8");
-  writeFileSync(WEB_PATH, json, "utf-8");
-  console.log("\nPrices updated.");
+  writeFileSync(PRODUCTS_PATH, JSON.stringify(products, null, 2), "utf-8");
+  console.log("\nPrices updated in src/data/products.json");
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

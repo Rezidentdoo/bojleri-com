@@ -139,6 +139,20 @@ export function extractSalePrices(html, jsonLdPrice = 0) {
   };
 }
 
+export function extractSpecificationsFromHtml(html) {
+  const $ = cheerio.load(html);
+  const specs = {};
+  $("table tr").each((_, row) => {
+    const cells = $(row).find("th, td");
+    if (cells.length >= 2) {
+      const key = $(cells[0]).text().trim();
+      const val = $(cells[1]).text().trim();
+      if (key && val) specs[key] = val;
+    }
+  });
+  return specs;
+}
+
 export function extractPriceData(html) {
   const ld = extractJsonLd(html);
   if (!ld) return null;

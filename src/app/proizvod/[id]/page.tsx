@@ -7,6 +7,7 @@ import { getProductById, getProducts } from "@/lib/products";
 
 export const dynamic = "force-dynamic";
 import AddToCartButton from "@/components/AddToCartButton";
+import ProductDescription from "@/components/ProductDescription";
 import ProductGallery from "@/components/ProductGallery";
 import LivePrice from "@/components/LivePrice";
 
@@ -50,7 +51,6 @@ export default async function ProductPage({
   const specEntries = Object.entries(product.specifications ?? {}).filter(
     ([, value]) => value.trim()
   );
-  const priceSource = product.url?.includes("aqualand.rs") ? "aqualand" : "manual";
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -112,30 +112,14 @@ export default async function ProductPage({
             <p className="text-sm text-slate-500">Kapacitet: {product.capacity_liters} L</p>
           )}
 
-          {priceSource === "aqualand" ? (
-            <p className="mt-2 text-xs text-slate-400">
-              Izvor cene:{" "}
-              <a
-                href={product.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#007185] hover:text-[#c7511f] hover:underline"
-              >
-                aqualand.rs
-              </a>
-            </p>
-          ) : (
-            <p className="mt-2 text-xs text-slate-400">Cena iz naše ponude</p>
-          )}
-
           <div className="mt-8">
             <AddToCartButton product={product} />
           </div>
 
           <div className="mt-10">
             <h2 className="text-lg font-semibold text-slate-900">Opis proizvoda</h2>
-            <div className="mt-4 whitespace-pre-line text-sm leading-relaxed text-slate-600">
-              {product.description || "Opis nije dostupan."}
+            <div className="mt-4">
+              <ProductDescription text={product.description} />
             </div>
           </div>
 

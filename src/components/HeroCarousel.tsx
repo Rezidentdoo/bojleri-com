@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
+import ProductImage from "@/components/ProductImage";
 import type { HeroSlide } from "@/types/site-settings";
 
 export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
@@ -28,7 +28,7 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
               i === active ? "opacity-100" : "pointer-events-none opacity-0"
             }`}
           >
-            <Image
+            <ProductImage
               src={slide.image}
               alt={slide.title}
               fill

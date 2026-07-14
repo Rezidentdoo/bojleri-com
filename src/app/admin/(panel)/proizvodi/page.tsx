@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
+import CatalogExcelTools from "@/components/admin/CatalogExcelTools";
 import type { Product } from "@/types/product";
 
 export default function AdminProductsPage() {
@@ -36,6 +37,7 @@ export default function AdminProductsPage() {
           <p className="mt-1 text-sm text-gray-600">{total} proizvoda ukupno</p>
         </div>
         <div className="flex flex-wrap items-end gap-3">
+          <CatalogExcelTools onUploaded={load} />
           <Link href="/admin/proizvodi/novi" className="admin-btn admin-btn-primary">
             + Dodaj proizvod
           </Link>

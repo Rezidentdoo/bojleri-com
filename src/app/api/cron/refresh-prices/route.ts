@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { PRICE_SYNC_DISABLED_MESSAGE, isAutoPriceSyncEnabled } from "@/lib/cms/price-sync-config";
 import { getAllProductsCached } from "@/lib/products";
 import { fetchLivePrice } from "@/lib/scraper";
 
@@ -11,6 +12,15 @@ export async function GET(req: Request) {
 
   if (cronSecret && auth !== `Bearer ${cronSecret}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
+  if (!isAutoPriceSyncEnabled()) {
+    return NextResponse.json({
+      ok: true,
+      disabled: true,
+      message: PRICE_SYNC_DISABLED_MESSAGE,
+      updated_at: new Date().toISOString(),
+    });
   }
 
   const products = await getAllProductsCached();

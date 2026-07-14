@@ -9,6 +9,7 @@ import {
   specificationsToText,
   textToSpecifications,
 } from "@/lib/cms/product-admin";
+import { formatProductDescription } from "@/lib/cms/format-product-description";
 import type { Product } from "@/types/product";
 
 const MAX_GALLERY_IMAGES = 3;
@@ -426,11 +427,38 @@ export default function ProductForm({ product, mode, onSave, onDelete }: Product
         <h2 className="text-lg font-semibold text-[#131921]">Opis i specifikacije</h2>
 
         <div>
-          <label className="admin-label">Opis proizvoda</label>
+          <div className="mb-1 flex flex-wrap items-center justify-between gap-2">
+            <label className="admin-label mb-0">Opis proizvoda</label>
+            <button
+              type="button"
+              className="rounded border border-[#ff9900] bg-orange-50 px-3 py-1.5 text-xs font-medium text-[#131921] hover:bg-orange-100 disabled:opacity-50"
+              disabled={!draft.description.trim()}
+              onClick={() => {
+                const formatted = formatProductDescription(draft.description, {
+                  specifications: draft.specifications || {},
+                  name: draft.name || "",
+                  category: draft.category || "",
+                });
+                if (!formatted) {
+                  setMessage("Unesite sirovi opis pre formatiranja.");
+                  return;
+                }
+                setDraft({ ...draft, description: formatted });
+                setMessage("Opis formatiran prema prodajnom šablonu.");
+              }}
+            >
+              Formatiraj opis
+            </button>
+          </div>
+          <p className="mb-2 text-xs text-gray-500">
+            Nalepite sirovi tekst, pa kliknite „Formatiraj opis“ — dobijate uvod, prednosti,
+            tehničke karakteristike i preporuku u istom stilu.
+          </p>
           <textarea
-            className="admin-input min-h-40"
+            className="admin-input min-h-40 font-mono text-xs leading-relaxed"
             value={draft.description}
             onChange={(e) => setDraft({ ...draft, description: e.target.value })}
+            placeholder="Nalepite sirovi opis sa Aqualand-a ili proizvođača..."
           />
         </div>
 
@@ -453,8 +481,7 @@ export default function ProductForm({ product, mode, onSave, onDelete }: Product
             placeholder="Prazno za ručno dodate proizvode"
           />
           <p className="mt-1 text-xs text-gray-500">
-            Ako je link sa aqualand.rs, cena se može automatski osvežavati. Za ručne proizvode
-            ostavite prazno.
+            Spoljni link proizvoda (opciono). Za ručno dodate proizvode ostavite prazno.
           </p>
         </div>
       </section>

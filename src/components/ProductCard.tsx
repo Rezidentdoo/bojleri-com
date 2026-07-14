@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { Product } from "@/types/product";
 import PriceDisplay from "@/components/PriceDisplay";
+import ProductImage from "@/components/ProductImage";
 
 export default function ProductCard({ product }: { product: Product }) {
   const inStock = product.availability === "Na lageru";
@@ -10,7 +10,7 @@ export default function ProductCard({ product }: { product: Product }) {
     <article className="group flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
       <Link href={`/proizvod/${product.id}`} className="relative aspect-square overflow-hidden bg-slate-50">
         {product.image_url ? (
-          <Image
+          <ProductImage
             src={product.image_url}
             alt={product.name}
             fill

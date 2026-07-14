@@ -34,6 +34,10 @@ yarn-error.log*
 .env*
 !.env.example
 !.env.*.example
+!.ssh.env.example
+
+# SSH deploy credentials
+.ssh.env
 
 # vercel
 .vercel

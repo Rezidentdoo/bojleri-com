@@ -45,7 +45,7 @@ export async function readAllProducts(): Promise<Product[]> {
     const blob = await readBlobJson<Product[]>(PRODUCTS_BLOB);
     if (blob.data) return blob.data;
   }
-  return readLocalJson<Product[]>(productsPath, productsSeed as Product[]);
+  return readLocalJson<Product[]>(productsPath, productsSeed as unknown as Product[]);
 }
 
 export async function writeAllProducts(products: Product[]): Promise<boolean> {
@@ -78,7 +78,7 @@ export async function seedBlobIfNeeded(): Promise<{ products: boolean; settings:
   const result = { products: false, settings: false };
   const existingProducts = await readBlobJson<Product[]>(PRODUCTS_BLOB);
   if (!existingProducts.data) {
-    result.products = await writeBlobJsonIfChanged(PRODUCTS_BLOB, productsSeed as Product[], {
+    result.products = await writeBlobJsonIfChanged(PRODUCTS_BLOB, productsSeed as unknown as Product[], {
       cacheControlMaxAge: 300,
     });
   }
